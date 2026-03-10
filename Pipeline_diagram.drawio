@@ -1,0 +1,59 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.6.1">
+  <diagram name="Page-1" id="dDW4TJ0ZnO2YESmxH3HG">
+    <mxGraphModel dx="1426" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="1qleiCHDPIV3fQXno9-N-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;span id=&quot;docs-internal-guid-af48f847-7fff-e8c8-bbf1-365133579ad8&quot;&gt;&lt;span style=&quot;font-size: 13pt; font-family: Oswald, sans-serif; color: rgb(232, 118, 10); background-color: transparent; font-weight: 700; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;Acquire&lt;/span&gt;&lt;/span&gt;&lt;div&gt;APIs (NewsAPI, NewsData.io, GNews)&lt;br&gt;Fetch articles, metadata&lt;span&gt;&lt;span style=&quot;font-size: 13pt; font-family: Oswald, sans-serif; color: rgb(232, 118, 10); background-color: transparent; font-weight: 700; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="115" x="367.25" as="geometry" />
+        </mxCell>
+        <mxCell id="1qleiCHDPIV3fQXno9-N-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;span id=&quot;docs-internal-guid-4c1782c0-7fff-83e0-c34a-f7fa6767e31e&quot;&gt;&lt;span style=&quot;font-size: 13pt; font-family: Oswald, sans-serif; color: rgb(14, 165, 233); background-color: transparent; font-weight: 700; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;Store&lt;/span&gt;&lt;/span&gt;&lt;div&gt;&lt;span&gt;&lt;span style=&quot;background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve; color: rgb(14, 165, 233);&quot;&gt;&lt;font face=&quot;Oswald, sans-serif&quot; style=&quot;color: light-dark(rgb(14, 165, 233), rgb(255, 255, 255));&quot;&gt;&lt;div style=&quot;&quot;&gt;MongoDB / JSON storage&lt;/div&gt;&lt;div style=&quot;&quot;&gt;Articles + metadata&lt;/div&gt;&lt;div style=&quot;&quot;&gt;Logs&lt;/div&gt;&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="127.5" x="361" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="1qleiCHDPIV3fQXno9-N-4" edge="1" parent="1" source="1qleiCHDPIV3fQXno9-N-1" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="1qleiCHDPIV3fQXno9-N-2" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="410" as="sourcePoint" />
+            <mxPoint x="450" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1qleiCHDPIV3fQXno9-N-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;span id=&quot;docs-internal-guid-c246ac35-7fff-2852-3b0a-6228bcaab697&quot;&gt;&lt;span style=&quot;font-size: 13pt; font-family: Oswald, sans-serif; color: rgb(39, 174, 96); background-color: transparent; font-weight: 700; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;Process&lt;/span&gt;&lt;/span&gt;&lt;div&gt;Clean + deduplicate text&lt;span&gt;&lt;span style=&quot;font-size: 13pt; font-family: Oswald, sans-serif; color: rgb(39, 174, 96); background-color: transparent; font-weight: 700; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="125" x="362.25" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="1qleiCHDPIV3fQXno9-N-7" edge="1" parent="1" source="1qleiCHDPIV3fQXno9-N-2" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="1qleiCHDPIV3fQXno9-N-5" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points" />
+            <mxPoint x="425" y="300" as="sourcePoint" />
+            <mxPoint x="450" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1qleiCHDPIV3fQXno9-N-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;span id=&quot;docs-internal-guid-d10b4be2-7fff-8728-84bc-12c2b1f4c88f&quot;&gt;&lt;span style=&quot;font-size: 13pt; font-family: Oswald, sans-serif; color: rgb(142, 68, 173); background-color: transparent; font-weight: 700; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;Analyze&lt;/span&gt;&lt;/span&gt;&lt;div&gt;NLP + sentiment + trends&lt;span&gt;&lt;span style=&quot;font-size: 13pt; font-family: Oswald, sans-serif; color: rgb(142, 68, 173); background-color: transparent; font-weight: 700; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="365" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="1qleiCHDPIV3fQXno9-N-9" edge="1" parent="1" source="1qleiCHDPIV3fQXno9-N-5" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="1qleiCHDPIV3fQXno9-N-8" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="410" as="sourcePoint" />
+            <mxPoint x="450" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1qleiCHDPIV3fQXno9-N-10" edge="1" parent="1" source="1qleiCHDPIV3fQXno9-N-8" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="410" as="sourcePoint" />
+            <mxPoint x="425" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1qleiCHDPIV3fQXno9-N-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;span id=&quot;docs-internal-guid-37861585-7fff-e294-7c21-cde24d7c3e1c&quot;&gt;&lt;span style=&quot;font-size: 13pt; font-family: Oswald, sans-serif; color: rgb(232, 67, 147); background-color: transparent; font-weight: 700; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;Visualize&lt;/span&gt;&lt;/span&gt;&lt;div&gt;&lt;span&gt;&lt;span style=&quot;font-size: 13pt; font-family: Oswald, sans-serif; color: rgb(232, 67, 147); background-color: transparent; font-weight: 700; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;Dashboards + charts&lt;span&gt;&lt;span style=&quot;font-size: 13pt; font-family: Oswald, sans-serif; color: rgb(232, 67, 147); background-color: transparent; font-weight: 700; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="365" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="1qleiCHDPIV3fQXno9-N-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;span id=&quot;docs-internal-guid-456bb413-7fff-5694-966b-e014771f490c&quot;&gt;&lt;span style=&quot;font-size: 13pt; font-family: Oswald, sans-serif; color: rgb(0, 58, 109); background-color: transparent; font-weight: 700; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;Deploy&lt;/span&gt;&lt;/span&gt;&lt;div&gt;&lt;span&gt;&lt;span style=&quot;font-size: 13pt; font-family: Oswald, sans-serif; color: rgb(0, 58, 109); background-color: transparent; font-weight: 700; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;Docker automation&lt;span&gt;&lt;span style=&quot;font-size: 13pt; font-family: Oswald, sans-serif; color: rgb(0, 58, 109); background-color: transparent; font-weight: 700; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="365" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="1qleiCHDPIV3fQXno9-N-13" edge="1" parent="1" source="1qleiCHDPIV3fQXno9-N-11" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="1qleiCHDPIV3fQXno9-N-12" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="410" as="sourcePoint" />
+            <mxPoint x="450" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
