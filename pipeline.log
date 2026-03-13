@@ -1,0 +1,16 @@
+2026-03-11 12:22:47,419 - ERROR - File not found: data/raw/tmdb/news_article_1.json
+2026-03-11 12:22:47,419 - ERROR - File not found: data/raw/reviews/description_1.txt
+2026-03-11 12:35:26,566 - ERROR - File not found: data/raw/tmdb/news_article_1.json
+2026-03-11 12:35:26,567 - ERROR - File not found: data/raw/reviews/description_1.txt
+2026-03-11 12:35:41,972 - ERROR - File not found: data/raw/tmdb/news_article_1.json
+2026-03-11 12:35:41,972 - ERROR - File not found: data/raw/reviews/description_1.txt
+2026-03-11 12:36:54,339 - ERROR - File not found: ../data/raw/tmdb/news_articles_1.json
+2026-03-11 12:36:54,340 - ERROR - File not found: ../data/raw/descriptions/descrtption_1.txt
+2026-03-11 12:37:44,584 - ERROR - File not found: /data/raw/tmdb/news_articles_1.json
+2026-03-11 12:37:44,584 - ERROR - File not found: /data/raw/descriptions/descrtption_1.txt
+2026-03-11 12:37:53,532 - ERROR - File not found: data/raw/tmdb/news_articles_1.json
+2026-03-11 12:37:53,532 - ERROR - File not found: data/raw/descriptions/descrtption_1.txt
+2026-03-11 12:45:23,003 - ERROR - File not found: ../data/raw/tmdb/news_articles_1.json
+2026-03-11 12:45:23,003 - ERROR - File not found: ../data/raw/descriptions/description_1.txt
+2026-03-11 12:46:52,818 - ERROR - File not found: ./data/raw/tmdb/news_articles_1.json
+2026-03-11 12:46:52,818 - INFO - Successfully read text file: ./data/raw/descriptions/description_1.txt
