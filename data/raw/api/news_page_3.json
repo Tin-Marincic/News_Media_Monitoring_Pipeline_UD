@@ -1,0 +1,71 @@
+{
+    "status": "ok",
+    "totalResults": 34363,
+    "articles": [
+        {
+            "source": {
+                "id": null,
+                "name": "BusinessLine"
+            },
+            "author": "KS Badri Narayanan",
+            "title": "17 stocks including Tata Steel, SBI, Varun Beverages, Shree Cement, Wipro, Ceigall, NHPC, Paisalo, Strides Pharma will remain in focus on Wednesday",
+            "description": "Key stocks like Tata Steel, SBI, and Varun Beverages will be in focus on Wednesday due to significant corporate developments.",
+            "url": "https://www.thehindubusinessline.com/markets/17-stocks-including-tata-steel-sbi-varun-beverages-shree-cement-wipro-ceigall-nhpc-paisalo-strides-pharma-will-remain-in-focus-on-wednesday/article70756561.ece",
+            "urlToImage": "https://bl-i.thgim.com/public/incoming/r67we6/article70753962.ece/alternates/LANDSCAPE_1200/iStock-1255683032%201.jpg",
+            "publishedAt": "2026-03-18T02:15:03Z",
+            "content": "The board of Tata Steel has approved the merger of Neelachal Ispat Nigam Limited (NINL) with itself and an investment of up to US $2 billion in its wholly-owned subsidiary T Steel Holdings Pte Ltd. T… [+6800 chars]"
+        },
+        {
+            "source": {
+                "id": "the-times-of-india",
+                "name": "The Times of India"
+            },
+            "author": "Reuters",
+            "title": "Nvidia preparing Groq chips that can be sold in Chinese market, sources say",
+            "description": "Nvidia licensed technology from Groq, an AI chip startup, late last year in ‌a $17 billion deal ⁠and ⁠showed a new lineup of products based around its chips at its annual developer conference in San ​Jose, California, this week.",
+            "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/nvidia-preparing-groq-chips-that-can-be-sold-in-chinese-market-sources-say/articleshow/129645442.cms",
+            "urlToImage": "https://img.etimg.com/thumb/width-1200,height-900,imgsize-328572,resizemode-75,msid-129645442/tech/artificial-intelligence/nvidia-preparing-groq-chips-that-can-be-sold-in-chinese-market-sources-say.jpg",
+            "publishedAt": "2026-03-18T02:14:50Z",
+            "content": "Nvidia is preparing a version of its Groq artificial-intelligence chips that can be sold to the Chinese market, two sources familiar with the matter told Reuters on Tuesday.Nvidia licensed technology… [+1876 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Rlsbb.to"
+            },
+            "author": "OMEGA",
+            "title": "Heroes of Science and Fiction-TENOKE",
+            "description": "Release Description:Explore what's left on the planets and secure important resources. Use them to upgrade your bases with advanced technology and to hire massive armies. Play as several different factions, recruit skilled commanders, teach them new skills an…",
+            "url": "https://post.rlsbb.to/heroes-of-science-and-fiction-tenoke/",
+            "urlToImage": null,
+            "publishedAt": "2026-03-18T02:14:48Z",
+            "content": "Release Description:Explore what's left on the planets and secure important resources. Use them to upgrade your bases with advanced technology and to hire massive armies. Play as several different fa… [+721 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Thechronicle.com.gh"
+            },
+            "author": "JENNIFER AMBOLLEY",
+            "title": "Ghana’s Mining Investment Ranking Tumbles …Jinapor Expresses Concern",
+            "description": "Ghana’s standing as a preferred destination for mining investment has come under renewed scrutiny, following a significant drop in the latest Global Mining Investment Attractiveness Index, prompting concern from the country’s immediate past Minister for Lands…",
+            "url": "https://thechronicle.com.gh/ghanas-mining-investment-ranking-tumbles-jinapor-expresses-concern/",
+            "urlToImage": "https://thechronicle.com.gh/wp-content/uploads/2026/03/Mr-Samuel-Abu-Jinapor.jpeg",
+            "publishedAt": "2026-03-18T02:12:35Z",
+            "content": "Ghanas standing as a preferred destination for mining investment has come under renewed scrutiny, following a significant drop in the latest Global Mining Investment Attractiveness Index, prompting c… [+7244 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Thechronicle.com.gh"
+            },
+            "author": "JOHN BEDIAKO",
+            "title": "I’ll Model Ghana Police After Scotland Yard, NYPD –IGP",
+            "description": "The Inspector General of Police (IGP), Mr Christian Tetteh Yohuno, has revealed his vision to transform the Ghana Police Service into a world class institution, drawing inspiration from the New York Police Department (NYPD) and Scotland Yard. In an exclusive …",
+            "url": "https://thechronicle.com.gh/ill-model-ghana-police-after-scotland-yard-nypd-igp/",
+            "urlToImage": "https://thechronicle.com.gh/wp-content/uploads/2026/03/IGP-Tetteh-Yohuno.jpg",
+            "publishedAt": "2026-03-18T02:10:22Z",
+            "content": "The Inspector General of Police (IGP), Mr Christian Tetteh Yohuno, has revealed his vision to transform the Ghana Police Service into a world class institution, drawing inspiration from the New York … [+2554 chars]"
+        }
+    ]
+}

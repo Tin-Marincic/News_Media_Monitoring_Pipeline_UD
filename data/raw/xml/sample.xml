@@ -1,0 +1,12 @@
+<articles>
+    <article>
+        <id>1</id>
+        <title>AI in Healthcare</title>
+        <category>technology</category>
+    </article>
+    <article>
+        <id>2</id>
+        <title>Climate News</title>
+        <category>environment</category>
+    </article>
+</articles>

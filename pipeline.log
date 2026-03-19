@@ -14,3 +14,39 @@
 2026-03-11 12:45:23,003 - ERROR - File not found: ../data/raw/descriptions/description_1.txt
 2026-03-11 12:46:52,818 - ERROR - File not found: ./data/raw/tmdb/news_articles_1.json
 2026-03-11 12:46:52,818 - INFO - Successfully read text file: ./data/raw/descriptions/description_1.txt
+2026-03-18 02:50:41,634 - ERROR - File not found: ./data/raw/tmdb/news_articles_1.json
+2026-03-18 02:50:41,634 - INFO - Successfully read text file: ./data/raw/descriptions/description_1.txt
+2026-03-18 17:32:49,231 - INFO - Fetching page 1
+2026-03-18 17:32:49,231 - ERROR - API request failed
+2026-03-18 17:32:49,589 - INFO - Started uploading news_page_1.json to S3 bucket movie-pipeline-bucket
+2026-03-18 17:32:51,636 - INFO - Successfully uploaded news_page_1.json to movie-pipeline-bucket
+2026-03-18 17:32:51,640 - INFO - Started uploading news_page_2.json to S3 bucket movie-pipeline-bucket
+2026-03-18 17:32:53,702 - INFO - Successfully uploaded news_page_2.json to movie-pipeline-bucket
+2026-03-18 17:32:53,706 - INFO - Started uploading news_page_3.json to S3 bucket movie-pipeline-bucket
+2026-03-18 17:32:55,748 - INFO - Successfully uploaded news_page_3.json to movie-pipeline-bucket
+2026-03-19 03:20:48,807 - INFO - Started uploading news_page_1.json to S3 bucket movie-pipeline-bucket
+2026-03-19 03:20:51,025 - INFO - Successfully uploaded news_page_1.json to movie-pipeline-bucket
+2026-03-19 03:20:51,031 - INFO - Started uploading news_page_2.json to S3 bucket movie-pipeline-bucket
+2026-03-19 03:20:53,058 - INFO - Successfully uploaded news_page_2.json to movie-pipeline-bucket
+2026-03-19 03:20:53,062 - INFO - Started uploading news_page_3.json to S3 bucket movie-pipeline-bucket
+2026-03-19 03:20:55,100 - INFO - Successfully uploaded news_page_3.json to movie-pipeline-bucket
+2026-03-19 03:41:38,931 - INFO - Pipeline started
+2026-03-19 03:41:41,893 - INFO - Fetched 15 total articles from API
+2026-03-19 03:41:41,935 - INFO - Parsed and stored 15 articles to MongoDB
+2026-03-19 03:41:42,204 - INFO - Started uploading news_page_1.json to S3 bucket news-pipeline-bucket
+2026-03-19 03:41:44,269 - INFO - Successfully uploaded news_page_1.json to news-pipeline-bucket
+2026-03-19 03:41:44,273 - INFO - Started uploading news_page_2.json to S3 bucket news-pipeline-bucket
+2026-03-19 03:41:46,345 - INFO - Successfully uploaded news_page_2.json to news-pipeline-bucket
+2026-03-19 03:41:46,353 - INFO - Started uploading news_page_3.json to S3 bucket news-pipeline-bucket
+2026-03-19 03:41:48,401 - INFO - Successfully uploaded news_page_3.json to news-pipeline-bucket
+2026-03-19 03:41:48,402 - INFO - Pipeline finished successfully
+2026-03-19 03:52:28,475 - INFO - Pipeline started
+2026-03-19 03:52:31,198 - INFO - Fetched 15 total articles from API
+2026-03-19 03:52:31,210 - INFO - Parsed and stored 15 articles to MongoDB
+2026-03-19 03:52:31,456 - INFO - Started uploading news_page_1.json to S3 bucket news-pipeline-bucket
+2026-03-19 03:52:31,476 - INFO - Successfully uploaded news_page_1.json to news-pipeline-bucket
+2026-03-19 03:52:31,483 - INFO - Started uploading news_page_2.json to S3 bucket news-pipeline-bucket
+2026-03-19 03:52:31,498 - INFO - Successfully uploaded news_page_2.json to news-pipeline-bucket
+2026-03-19 03:52:31,503 - INFO - Started uploading news_page_3.json to S3 bucket news-pipeline-bucket
+2026-03-19 03:52:31,517 - INFO - Successfully uploaded news_page_3.json to news-pipeline-bucket
+2026-03-19 03:52:31,518 - INFO - Pipeline finished successfully
