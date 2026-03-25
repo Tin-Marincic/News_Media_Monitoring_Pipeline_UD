@@ -1,0 +1,71 @@
+{
+    "status": "ok",
+    "totalResults": 34363,
+    "articles": [
+        {
+            "source": {
+                "id": null,
+                "name": "Paul Tan's Automotive News"
+            },
+            "author": "Gerard Lye",
+            "title": "Tesla sued for USD1 million after Cybertruck nearly drives off Houston overpass while FSD mode engaged",
+            "description": "A woman from Houston, Texas is suing Tesla for USD1 million after a terrifying incident which she claimed put her and her one-year-old child’s lives in danger, KHOU reports. The incident, which happened in August […]\nThe post Tesla sued for USD1 million after…",
+            "url": "https://paultan.org/2026/03/18/tesla-gets-sued-for-fsd-crash-in-texas/",
+            "urlToImage": "https://paultan.org/image/2026/03/Tesla-Cybertruck-crash-owner-sues-company-1-1200x628.jpg",
+            "publishedAt": "2026-03-18T02:50:13Z",
+            "content": "A woman from Houston, Texas is suing Tesla for USD1 million after a terrifying incident which she claimed put her and her one-year-old childs lives in danger, KHOU reports. \r\nThe incident, which happ… [+2086 chars]"
+        },
+        {
+            "source": {
+                "id": "the-times-of-india",
+                "name": "The Times of India"
+            },
+            "author": "Reuters",
+            "title": "Global Market | Nikkei jumps nearly 2% as AI, chip stocks rally",
+            "description": "Japan's Nikkei index surged on Wednesday, driven by technology stocks. Investors eased worries about rising oil prices, boosting market sentiment. Advantest and SoftBank Group saw significant gains. Shipping firm Mitsui OSK Lines and Mitsubishi Materials also…",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-nikkei-jumps-nearly-2-as-ai-chip-stocks-rally/articleshow/129645867.cms",
+            "urlToImage": "https://img.etimg.com/thumb/msid-129645901,width-1200,height-630,imgsize-193914,overlay-etmarkets/articleshow.jpg",
+            "publishedAt": "2026-03-18T02:48:36Z",
+            "content": "Japan's Nikkei share average climbed nearly 2% on Wednesday, led by chip and artificial intelligence-related stocks, as concerns over the economic impact of surging oil prices subsided.The Nikkei was… [+1848 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "GlobeNewswire"
+            },
+            "author": "SAB Biotherapeutics, Inc.",
+            "title": "SAB BIO Announces Pricing of $85 Million Public Offering of Common Stock and Pre-Funded Warrants",
+            "description": "MIAMI, March 17, 2026 (GLOBE NEWSWIRE) -- SAB Biotherapeutics, Inc. (Nasdaq: SABS), a clinical-stage biopharmaceutical company developing a fully human anti-thymocyte immunoglobulin (hATG) for type 1 diabetes (T1D) and other autoimmune diseases, today announc…",
+            "url": "https://www.globenewswire.com/news-release/2026/03/18/3257861/0/en/SAB-BIO-Announces-Pricing-of-85-Million-Public-Offering-of-Common-Stock-and-Pre-Funded-Warrants.html",
+            "urlToImage": "https://ml.globenewswire.com/Resource/Download/6d99a771-f2c9-4d05-bf57-4f6c070df032",
+            "publishedAt": "2026-03-18T02:46:00Z",
+            "content": "MIAMI, March 17, 2026 (GLOBE NEWSWIRE) -- SAB Biotherapeutics, Inc. (Nasdaq: SABS), a clinical-stage biopharmaceutical company developing a fully human anti-thymocyte immunoglobulin (hATG) for type 1… [+7135 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Motley Fool Australia"
+            },
+            "author": "James Mickleboro",
+            "title": "Why EOS, Humm, New Hope, and Sims shares are storming higher today",
+            "description": "These shares are having a good session on hump day. But why?\nThe post Why EOS, Humm, New Hope, and Sims shares are storming higher today appeared first on The Motley Fool Australia.",
+            "url": "https://www.fool.com.au/2026/03/18/why-eos-humm-new-hope-and-sims-shares-are-storming-higher-today/",
+            "urlToImage": "https://www.fool.com.au/wp-content/uploads/2024/12/happy-news-16.9-1200x675.jpg",
+            "publishedAt": "2026-03-18T02:40:46Z",
+            "content": "The S&amp;P/ASX 200 Index (ASX: XJO) is on track to record a small gain on Wednesday. In afternoon trade, the benchmark index is up 0.2% to 8,629.7 points.\r\nFour ASX shares that are rising more than … [+2345 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "The Punch"
+            },
+            "author": "Punch Newspapers",
+            "title": "SWDC partners FTID to boost S’West rural devt",
+            "description": "The South-West Development Commission (SWDC) and FTID partner to boost South-West rural development, focusing on food production and infrastructure.\n\nRead More: https://punchng.com/swdc-partners-ftid-to-boost-swest-rural-devt/",
+            "url": "https://punchng.com/swdc-partners-ftid-to-boost-swest-rural-devt/",
+            "urlToImage": "https://cdn.punchng.com/wp-content/uploads/2024/06/14143900/WhatsApp-Image-2024-06-14-at-14.37.09_8e51e2c7.jpg",
+            "publishedAt": "2026-03-18T02:34:47Z",
+            "content": "The South-West Development Commission has partnered with the Technology Innovation and Sustainable Development for a project that will boost food production and improve infrastructural development in… [+2716 chars]"
+        }
+    ]
+}
