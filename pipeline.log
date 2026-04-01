@@ -50,3 +50,37 @@
 2026-03-19 03:52:31,503 - INFO - Started uploading news_page_3.json to S3 bucket news-pipeline-bucket
 2026-03-19 03:52:31,517 - INFO - Successfully uploaded news_page_3.json to news-pipeline-bucket
 2026-03-19 03:52:31,518 - INFO - Pipeline finished successfully
+2026-04-01 04:25:55,264 - INFO - Pipeline started
+2026-04-01 04:26:18,660 - INFO - Fetched 0 total articles from API
+2026-04-01 04:26:18,680 - INFO - Parsed and stored 15 JSON articles to MongoDB
+2026-04-01 04:26:18,756 - INFO - Processed normal PDF: data/raw/pdf/news_normal.pdf
+2026-04-01 04:26:18,810 - INFO - Processed two-column PDF: data/raw/pdf/news_two_column.pdf
+2026-04-01 04:26:18,825 - INFO - Processed normal Word file: data/raw/word/news_normal.docx
+2026-04-01 04:26:18,835 - INFO - Processed two-column Word file: data/raw/word/news_two_column.docx
+2026-04-01 04:26:18,853 - INFO - Processed Word runs for file: data/raw/word/news_normal.docx
+2026-04-01 04:26:18,876 - INFO - Processed Excel file: data/raw/excel/news_data.xlsx
+2026-04-01 04:26:18,899 - INFO - Encoding test processed for: data/raw/api/news_page_1.json
+2026-04-01 04:26:19,380 - INFO - Started uploading news_page_1.json to S3 bucket news-pipeline-bucket
+2026-04-01 04:26:44,651 - ERROR - Unexpected error uploading news_page_1.json: Could not connect to the endpoint URL: "http://localhost:4566/news-pipeline-bucket/news_page_1.json"
+2026-04-01 04:26:44,661 - INFO - Started uploading news_page_2.json to S3 bucket news-pipeline-bucket
+2026-04-01 04:27:10,657 - ERROR - Unexpected error uploading news_page_2.json: Could not connect to the endpoint URL: "http://localhost:4566/news-pipeline-bucket/news_page_2.json"
+2026-04-01 04:27:10,662 - INFO - Started uploading news_page_3.json to S3 bucket news-pipeline-bucket
+2026-04-01 04:27:38,794 - ERROR - Unexpected error uploading news_page_3.json: Could not connect to the endpoint URL: "http://localhost:4566/news-pipeline-bucket/news_page_3.json"
+2026-04-01 04:27:38,795 - INFO - Pipeline finished successfully
+2026-04-01 04:31:16,333 - INFO - Pipeline started
+2026-04-01 04:31:18,160 - INFO - Fetched 14 total articles from API
+2026-04-01 04:31:18,181 - INFO - Parsed and stored 14 JSON articles to MongoDB
+2026-04-01 04:31:18,231 - INFO - Processed normal PDF: data/raw/pdf/news_normal.pdf
+2026-04-01 04:31:18,283 - INFO - Processed two-column PDF: data/raw/pdf/news_two_column.pdf
+2026-04-01 04:31:18,295 - INFO - Processed normal Word file: data/raw/word/news_normal.docx
+2026-04-01 04:31:18,305 - INFO - Processed two-column Word file: data/raw/word/news_two_column.docx
+2026-04-01 04:31:18,322 - INFO - Processed Word runs for file: data/raw/word/news_normal.docx
+2026-04-01 04:31:18,357 - INFO - Processed Excel file: data/raw/excel/news_data.xlsx
+2026-04-01 04:31:18,392 - INFO - Encoding test processed for: data/raw/api/news_page_1.json
+2026-04-01 04:31:18,542 - INFO - Started uploading news_page_1.json to S3 bucket news-pipeline-bucket
+2026-04-01 04:31:47,959 - ERROR - Unexpected error uploading news_page_1.json: Could not connect to the endpoint URL: "http://localhost:4566/news-pipeline-bucket/news_page_1.json"
+2026-04-01 04:31:47,971 - INFO - Started uploading news_page_2.json to S3 bucket news-pipeline-bucket
+2026-04-01 04:32:17,559 - ERROR - Unexpected error uploading news_page_2.json: Could not connect to the endpoint URL: "http://localhost:4566/news-pipeline-bucket/news_page_2.json"
+2026-04-01 04:32:17,562 - INFO - Started uploading news_page_3.json to S3 bucket news-pipeline-bucket
+2026-04-01 04:32:48,956 - ERROR - Unexpected error uploading news_page_3.json: Could not connect to the endpoint URL: "http://localhost:4566/news-pipeline-bucket/news_page_3.json"
+2026-04-01 04:32:48,956 - INFO - Pipeline finished successfully
