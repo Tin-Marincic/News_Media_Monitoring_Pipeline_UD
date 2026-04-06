@@ -1,71 +1,58 @@
 {
     "status": "ok",
-    "totalResults": 34363,
+    "totalResults": 34844,
     "articles": [
         {
             "source": {
                 "id": null,
-                "name": "BusinessLine"
+                "name": "Wordpress.org"
             },
-            "author": "KS Badri Narayanan",
-            "title": "17 stocks including Tata Steel, SBI, Varun Beverages, Shree Cement, Wipro, Ceigall, NHPC, Paisalo, Strides Pharma will remain in focus on Wednesday",
-            "description": "Key stocks like Tata Steel, SBI, and Varun Beverages will be in focus on Wednesday due to significant corporate developments.",
-            "url": "https://www.thehindubusinessline.com/markets/17-stocks-including-tata-steel-sbi-varun-beverages-shree-cement-wipro-ceigall-nhpc-paisalo-strides-pharma-will-remain-in-focus-on-wednesday/article70756561.ece",
-            "urlToImage": "https://bl-i.thgim.com/public/incoming/r67we6/article70753962.ece/alternates/LANDSCAPE_1200/iStock-1255683032%201.jpg",
-            "publishedAt": "2026-03-18T02:15:03Z",
-            "content": "The board of Tata Steel has approved the merger of Neelachal Ispat Nigam Limited (NINL) with itself and an investment of up to US $2 billion in its wholly-owned subsidiary T Steel Holdings Pte Ltd. T… [+6800 chars]"
-        },
-        {
-            "source": {
-                "id": "the-times-of-india",
-                "name": "The Times of India"
-            },
-            "author": "Reuters",
-            "title": "Nvidia preparing Groq chips that can be sold in Chinese market, sources say",
-            "description": "Nvidia licensed technology from Groq, an AI chip startup, late last year in ‌a $17 billion deal ⁠and ⁠showed a new lineup of products based around its chips at its annual developer conference in San ​Jose, California, this week.",
-            "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/nvidia-preparing-groq-chips-that-can-be-sold-in-chinese-market-sources-say/articleshow/129645442.cms",
-            "urlToImage": "https://img.etimg.com/thumb/width-1200,height-900,imgsize-328572,resizemode-75,msid-129645442/tech/artificial-intelligence/nvidia-preparing-groq-chips-that-can-be-sold-in-chinese-market-sources-say.jpg",
-            "publishedAt": "2026-03-18T02:14:50Z",
-            "content": "Nvidia is preparing a version of its Groq artificial-intelligence chips that can be sold to the Chinese market, two sources familiar with the matter told Reuters on Tuesday.Nvidia licensed technology… [+1876 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Rlsbb.to"
-            },
-            "author": "OMEGA",
-            "title": "Heroes of Science and Fiction-TENOKE",
-            "description": "Release Description:Explore what's left on the planets and secure important resources. Use them to upgrade your bases with advanced technology and to hire massive armies. Play as several different factions, recruit skilled commanders, teach them new skills an…",
-            "url": "https://post.rlsbb.to/heroes-of-science-and-fiction-tenoke/",
+            "author": "dmsnell",
+            "title": "Ticket #64996 (Allow non-ASCII (Unicode) usernames) created",
+            "description": "WordPress currently transforms usernames and potential usernames into a restricted set of ASCII characters. It attempts to remove HTML, diacritics, and transform other characters to ASCII equivalents, stripping away anything that remains.\n\n\nThis prevents stor…",
+            "url": "https://core.trac.wordpress.org/ticket/64996",
             "urlToImage": null,
-            "publishedAt": "2026-03-18T02:14:48Z",
-            "content": "Release Description:Explore what's left on the planets and secure important resources. Use them to upgrade your bases with advanced technology and to hire massive armies. Play as several different fa… [+721 chars]"
+            "publishedAt": "2026-03-31T01:52:42Z",
+            "content": "WordPress currently transforms usernames and potential usernames into a restricted set of ASCII characters. It attempts to remove HTML, diacritics, and transform other characters to ASCII equivalents… [+1865 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Thechronicle.com.gh"
+                "name": "Yanko Design"
             },
-            "author": "JENNIFER AMBOLLEY",
-            "title": "Ghana’s Mining Investment Ranking Tumbles …Jinapor Expresses Concern",
-            "description": "Ghana’s standing as a preferred destination for mining investment has come under renewed scrutiny, following a significant drop in the latest Global Mining Investment Attractiveness Index, prompting concern from the country’s immediate past Minister for Lands…",
-            "url": "https://thechronicle.com.gh/ghanas-mining-investment-ranking-tumbles-jinapor-expresses-concern/",
-            "urlToImage": "https://thechronicle.com.gh/wp-content/uploads/2026/03/Mr-Samuel-Abu-Jinapor.jpeg",
-            "publishedAt": "2026-03-18T02:12:35Z",
-            "content": "Ghanas standing as a preferred destination for mining investment has come under renewed scrutiny, following a significant drop in the latest Global Mining Investment Attractiveness Index, prompting c… [+7244 chars]"
+            "author": "JC Torres",
+            "title": "Your Next Sleep Tracker Isn’t a Watch, It’s Your Bedside Lamp",
+            "description": "Your Next Sleep Tracker Isn’t a Watch, It’s Your Bedside LampSleep has quietly become one of the most closely watched aspects of personal health. Around one in three people struggle with it, and roughly half...",
+            "url": "https://www.yankodesign.com/2026/03/30/your-next-sleep-tracker-isnt-a-watch-its-your-bedside-lamp/",
+            "urlToImage": "https://www.yankodesign.com/images/design_news/2026/03/your-next-sleep-tracker-isnt-a-watch-its-your-bedside-lamp/Sleepal_AI_Lamp_layout.jpg",
+            "publishedAt": "2026-03-31T01:45:47Z",
+            "content": "Sleep has quietly become one of the most closely watched aspects of personal health. Around one in three people struggle with it, and roughly half of Americans already use a wearable device to track … [+3891 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Thechronicle.com.gh"
+                "name": "Digitimes"
             },
-            "author": "JOHN BEDIAKO",
-            "title": "I’ll Model Ghana Police After Scotland Yard, NYPD –IGP",
-            "description": "The Inspector General of Police (IGP), Mr Christian Tetteh Yohuno, has revealed his vision to transform the Ghana Police Service into a world class institution, drawing inspiration from the New York Police Department (NYPD) and Scotland Yard. In an exclusive …",
-            "url": "https://thechronicle.com.gh/ill-model-ghana-police-after-scotland-yard-nypd-igp/",
-            "urlToImage": "https://thechronicle.com.gh/wp-content/uploads/2026/03/IGP-Tetteh-Yohuno.jpg",
-            "publishedAt": "2026-03-18T02:10:22Z",
-            "content": "The Inspector General of Police (IGP), Mr Christian Tetteh Yohuno, has revealed his vision to transform the Ghana Police Service into a world class institution, drawing inspiration from the New York … [+2554 chars]"
+            "author": "Levi Li",
+            "title": "Commentary: AI drives global tech layoffs, but Intel, QNAP, and Realtek tell different stories",
+            "description": "Generative AI is moving from concept to commercial deployment, reshaping the global technology supply chain. It is shifting from a productivity tool to a core enterprise infrastructure. At the same time, layoffs are accelerating across Silicon Valley tech fir…",
+            "url": "https://www.digitimes.com/news/a20260331PD204/genai-layoffs-intel-qnap-realtek.html",
+            "urlToImage": "https://img.digitimes.com/newsshow/20260331pd204_files/1_b.jpg",
+            "publishedAt": "2026-03-31T01:44:20Z",
+            "content": "Keep me signed in\r\nSome subscribers prefer to save their log-in information so they do not have to enter their User ID and Password each time they visit the site. To activate this function, check the… [+285 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "GlobeNewswire"
+            },
+            "author": "Hume Health",
+            "title": "Hume Health Hume Band Claims Evaluated: Does It Work or Just Another AI-Powered Fitness Activity Tracker",
+            "description": "Hume Health Hume Band claims evaluated — Metabolic Momentum, biological age tracking, AI longevity metrics, pricing, and what to verify in 2026....",
+            "url": "https://www.globenewswire.com/news-release/2026/03/31/3265123/0/en/Hume-Health-Hume-Band-Claims-Evaluated-Does-It-Work-or-Just-Another-AI-Powered-Fitness-Activity-Tracker.html",
+            "urlToImage": "https://ml.globenewswire.com/Resource/Download/27d777de-651a-4506-8b67-b4ca3fbcc8a2",
+            "publishedAt": "2026-03-31T01:36:00Z",
+            "content": "Wilmington, DE, March 30, 2026 (GLOBE NEWSWIRE) -- The following is an informational overview and does not constitute medical, health, or fitness advice. All product details described below are prese… [+18311 chars]"
         }
     ]
 }
