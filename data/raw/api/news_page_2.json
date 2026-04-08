@@ -1,71 +1,71 @@
 {
     "status": "ok",
-    "totalResults": 34844,
+    "totalResults": 34669,
     "articles": [
         {
             "source": {
                 "id": null,
-                "name": "Growag.com"
+                "name": "GlobeNewswire"
             },
-            "author": "Casey Dunn",
-            "title": "Soil Health: How Deep It Goes & How to Improve It | growᴬᴳ",
-            "description": "Explore soil health in agriculture, why it matters, how to measure it, and practical ways to restore and improve soil health long term.",
-            "url": "https://www.growag.com/article/soil-health-foundation-every-productive-farm",
-            "urlToImage": "https://admin.growag.com/sites/default/files/2026-03/iStock-1007175900-web.jpg",
-            "publishedAt": "2026-03-31T02:14:38Z",
-            "content": "Soil is the primary production asset in agriculture. Its physical structure, chemical composition, and biological activity determine how effectively crops and pastures access water, nutrients, and ox… [+11561 chars]"
+            "author": "RAKIA",
+            "title": "RAKIA Achieves CMMC Level 1 Compliance, Expanding Access to U.S. Defense Contracts and Accelerating Federal Growth Strategy",
+            "description": "CMMS opens new opportunities in U.S. defense contracts and accelerates federal expansion....",
+            "url": "https://www.globenewswire.com/news-release/2026/04/04/3268218/0/en/RAKIA-Achieves-CMMC-Level-1-Compliance-Expanding-Access-to-U-S-Defense-Contracts-and-Accelerating-Federal-Growth-Strategy.html",
+            "urlToImage": "https://ml.globenewswire.com/Resource/Download/aba75d2b-aa2e-483c-80ed-b285b94e5360",
+            "publishedAt": "2026-04-04T23:39:00Z",
+            "content": "RAKIA Logo\r\nWASHINGTON, April 04, 2026 (GLOBE NEWSWIRE) -- RAKIA\r\n, a provider of advanced AI-powered data fusion intelligence and real-time decision support systems, today announced it has achieved … [+3165 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Goodereader"
+                "name": "newsBTC"
             },
-            "author": "Michael Kozlowski",
-            "title": "Kobo Libra 2 has better Kobo Remote connectivity",
-            "description": "The Rakuten Kobo Libra 2 just received a software update to fix the dropped connection issue with the Kobo Remote.\nThe post Kobo Libra 2 has better Kobo Remote connectivity first appeared on Good e-Reader.",
-            "url": "https://goodereader.com/blog/kobo-ereader-news/kobo-libra-2-has-better-kobo-remote-connectivity",
-            "urlToImage": "https://media.goodereader.com/blog/uploads/images/2026/03/30215840/15-BlackLanyard-1080x1080_830x830png.webp",
-            "publishedAt": "2026-03-31T02:07:49Z",
-            "content": "Some readers said Kobo Libra 2 was dropping its connection to Kobo Remote. To get the connectivity fix for your Libra 2, just update your e-reader to pick up the latest firmware (4.38.23648)*. It sho… [+1162 chars]"
+            "author": "Godspower Owie",
+            "title": "Bitcoin And Ethereum Adoption Gets A Boost From Schwab Launch",
+            "description": "Adoption of Bitcoin and Ethereum is poised to take a significant step forward as Charles Schwab introduces direct trading for both assets on its platform. As one of the largest financial institutions in the world, managing trillions in client assets, Schwab’s…",
+            "url": "http://www.newsbtc.com/news/bitcoin-eth-adoption-boosts/",
+            "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Bitcoin-and-Ethereum-from-Pexels.jpeg?fit=3301%2C2201",
+            "publishedAt": "2026-04-04T23:30:52Z",
+            "content": "My name is Godspower Owie, and I was born and brought up in Edo State, Nigeria. I grew up with my three siblings who have always been my idols and mentors, helping me to grow and understand the way o… [+2495 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Yahoo Entertainment"
+                "name": "Headtopics.com"
             },
-            "author": "Steven GRIFFITHS",
-            "title": "Mind games: How football stars are fuelling chess boom",
-            "description": "Erling Haaland and Mohamed Salah are among the Premier League stars \"addicted\" to chess, helping to spark a surge in the game's popularity among younger people.\"I'm addicted to chess.",
-            "url": "https://sports.yahoo.com/articles/mind-games-football-stars-fuelling-020746903.html",
-            "urlToImage": "https://s.yimg.com/os/en/afp.com/5e5f3efd925460bbabf4091a7152aae8",
-            "publishedAt": "2026-03-31T02:07:46Z",
-            "content": "Erling Haaland and Mohamed Salah are among the Premier League stars \"addicted\" to chess, helping to spark a surge in the game's popularity among younger people.\r\nManchester City striker Haaland is so… [+3642 chars]"
+            "author": "Ctvnewsvi",
+            "title": "Canadian and Global News Roundup: Space Missions, Scams, Health Alerts, and More",
+            "description": "This news summary covers a broad spectrum of events, including advancements in space exploration with Canadian contributions to the Artemis II mission, growing concerns about scams, health recalls in",
+            "url": "https://ca.headtopics.com/news/canadian-and-global-news-roundup-space-missions-scams-81839155",
+            "urlToImage": "https://i.headtopics.com/images/2026/4/4/ctvnewsvi/canadian-and-global-news-roundup-space-missions-sc-canadian-and-global-news-roundup-space-missions-sc-02FE6EBC4B609AD078E0AA6F935D2DAB.webp",
+            "publishedAt": "2026-04-04T23:30:23Z",
+            "content": "This news summary covers a broad spectrum of events, including advancements in space exploration with Canadian contributions to the Artemis II mission, growing concerns about scams, health recalls in… [+6648 chars]"
         },
         {
             "source": {
-                "id": "financial-post",
-                "name": "Financial Post"
+                "id": null,
+                "name": "Futurism"
             },
-            "author": "Business Wire",
-            "title": "Blackline Safety Announces 2026 Voting Results from Shareholders Meeting",
-            "description": "CALGARY, Canada — Blackline Safety Corp. (“Blackline” or the “Company“) (TSX: BLN) a global leader in connected safety technology held its annual meeting (the “Meeting“) of shareholders on March 30, 2026. Full results for all resolutions are set forth below. …",
-            "url": "https://financialpost.com/pmn/business-wire-news-releases-pmn/blackline-safety-announces-2026-voting-results-from-shareholders-meeting",
-            "urlToImage": null,
-            "publishedAt": "2026-03-31T02:02:01Z",
-            "content": "CALGARY, Canada Blackline Safety Corp. (Blackline or the Company) (TSX: BLN) a global leader in connected safety technology held its annual meeting (the Meeting) of shareholders on March 30, 2026. Fu… [+5341 chars]"
+            "author": "Frank Landymore",
+            "title": "Chinese Scientists Bioengineering Plants With Firefly Genes to Glow, in Effort to Light Cities at Night",
+            "description": "Night lighting may be due for a plant-based glow-up.\nThe post Chinese Scientists Bioengineering Plants With Firefly Genes to Glow, in Effort to Light Cities at Night appeared first on Futurism.",
+            "url": "http://futurism.com/science-energy/bioengineering-plants-glow-light-cities",
+            "urlToImage": "https://futurism.com/wp-content/uploads/2026/04/bioengineering-plants-glow-light-cities.jpg?quality=85&w=1200",
+            "publishedAt": "2026-04-04T23:30:00Z",
+            "content": "Can’t-miss innovations from the bleeding edge of science and tech\r\nA shortcut to sprucing up any dreary urban locale is by throwing in some beautiful greenery. Now, Chinese scientists have unveiled n… [+2688 chars]"
         },
         {
             "source": {
-                "id": "financial-post",
-                "name": "Financial Post"
+                "id": null,
+                "name": "Israelnationalnews.com"
             },
-            "author": "Business Wire",
-            "title": "Toshiba Begins Sampling of 30-34 TB SMR Nearline Hard Disk Drives",
-            "description": "KAWASAKI, Japan — Toshiba Electronic Devices & Storage Corporation (“Toshiba”) has announced the M12 Series of 3.5-inch[1] nearline hard disk drives (HDDs) for hyperscale and cloud service providers. The new M12 HDDs employ Shingled Magnetic Recording (SMR) t…",
-            "url": "https://financialpost.com/pmn/business-wire-news-releases-pmn/toshiba-begins-sampling-of-30-34-tb-smr-nearline-hard-disk-drives",
-            "urlToImage": null,
-            "publishedAt": "2026-03-31T02:01:53Z",
-            "content": "KAWASAKI, Japan Toshiba Electronic Devices &amp; Storage Corporation (Toshiba) has announced the M12 Series of 3.5-inch[1] nearline hard disk drives (HDDs) for hyperscale and cloud service providers.… [+6838 chars]"
+            "author": "Amine Ayoub",
+            "title": "Erdogan's digital Iron Curtain",
+            "description": "With its new ruling, Turkey can be called 'a consolidated autocracy utilizing 21st-century technology to enforce a level of societal control reminiscent of medieval absolutism.' Opinion.",
+            "url": "https://www.israelnationalnews.com/news/425023",
+            "urlToImage": "https://2.a7.org/files/pictures/000/1043655.jpg",
+            "publishedAt": "2026-04-04T23:23:29Z",
+            "content": "As the escalating conflict between Iran and Israel captivates the attention of the international community, opportunistic powers on the periphery are quietly tightening their grip at home. In Ankara,… [+5576 chars]"
         }
     ]
 }

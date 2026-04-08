@@ -20,6 +20,10 @@ from src.parsing.parsers import (
 from src.storage.mongo import save_to_mongo
 from src.storage.s3 import upload_file_to_s3
 
+from src.scraping.scraper import scrape_hockey_teams, scrape_hockey_teams_multi_page
+from src.scraping.dynamic_scraper import scrape_ajax_movies_api
+from src.ocr.ocr_utils import ocr_image, ocr_scanned_pdf
+
 
 def run_pipeline():
     try:
@@ -158,7 +162,108 @@ def run_pipeline():
             )
             logging.info(f"Encoding test processed for: {encoding_file}")
 
-        # Step 10: Upload raw JSON files to S3
+        # Step 10: Single-page web scraping
+        hockey_url = "https://www.scrapethissite.com/pages/forms/"
+        single_scraped = scrape_hockey_teams(hockey_url)
+        for record in single_scraped:
+            save_to_mongo(
+                {
+                    "name": record["name"],
+                    "year": record["year"],
+                    "wins": record["wins"],
+                    "losses": record["losses"]
+                },
+                record["source"],
+                {
+                    "file_name": "hockey_results.json",
+                    "document_type": "scraped_html",
+                    "extraction_library": "requests_bs4"
+                }
+            )
+        logging.info(f"Processed single-page scraping: {len(single_scraped)} records")
+
+        # Step 11: Multi-page web scraping
+        multi_scraped = scrape_hockey_teams_multi_page(hockey_url, start_page=1, end_page=4)
+        for record in multi_scraped:
+            save_to_mongo(
+                {
+                    "name": record["name"],
+                    "year": record["year"],
+                    "wins": record["wins"],
+                    "losses": record["losses"]
+                },
+                record["source"],
+                {
+                    "file_name": "hockey_multi_page_results.json",
+                    "document_type": "scraped_html_paginated",
+                    "page_number": record.get("page"),
+                    "extraction_library": "requests_bs4"
+                }
+            )
+        logging.info(f"Processed multi-page scraping: {len(multi_scraped)} records")
+
+        # Step 12: Dynamic JSON API scraping
+        ajax_scraped = scrape_ajax_movies_api()
+        for record in ajax_scraped:
+            save_to_mongo(
+                {
+                    "title": record["title"],
+                    "nominations": record["nominations"],
+                    "awards": record["awards"],
+                    "best_picture": record["best_picture"],
+                    "year": record["year"]
+                },
+                record["source"],
+                {
+                    "file_name": "ajax_movies_api_results.json",
+                    "document_type": "scraped_json_api",
+                    "extraction_timestamp": record["extraction_timestamp"],
+                    "extraction_library": "requests"
+                }
+            )
+        logging.info(f"Processed dynamic JSON scraping: {len(ajax_scraped)} records")
+
+        # Step 13: OCR on scanned image
+        image_path = "data/raw/images/test_scan.png"
+        if Path(image_path).exists():
+            image_ocr = ocr_image(image_path)
+            save_to_mongo(
+                {
+                    "raw_text": image_ocr["raw_text"],
+                    "processed_text": image_ocr["processed_text"]
+                },
+                image_ocr["source"],
+                {
+                    "file_name": image_ocr["file_name"],
+                    "document_type": image_ocr["type"],
+                    "extraction_timestamp": image_ocr["extraction_timestamp"],
+                    "extraction_library": "pytesseract"
+                }
+            )
+            logging.info("Processed OCR image")
+
+        # Step 14: OCR on scanned PDF
+        scanned_pdf = "data/raw/scanned/test_scan.pdf"
+        if Path(scanned_pdf).exists():
+            pdf_ocr_results = ocr_scanned_pdf(scanned_pdf)
+            for page in pdf_ocr_results:
+                save_to_mongo(
+                    {
+                        "raw_text": page["raw_text"],
+                        "processed_text": page["processed_text"]
+                    },
+                    page["source"],
+                    {
+                        "file_name": page["file_name"],
+                        "document_type": page["type"],
+                        "page_number": page["page_number"],
+                        "extraction_timestamp": page["extraction_timestamp"],
+                        "extraction_library": "pytesseract_pdf2image"
+                    }
+                )
+            logging.info(f"Processed OCR scanned PDF: {len(pdf_ocr_results)} pages")
+
+        # Step 15: Upload raw JSON files to S3
         raw_api_dir = Path("data/raw/api")
         for file_path in raw_api_dir.glob("*.json"):
             upload_file_to_s3(str(file_path), file_path.name)

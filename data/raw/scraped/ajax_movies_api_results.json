@@ -1,0 +1,872 @@
+[
+    {
+        "title": "The King's Speech",
+        "nominations": 12,
+        "awards": 4,
+        "best_picture": true,
+        "year": 2010,
+        "source": "https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2010",
+        "type": "scraped_json_api",
+        "extraction_timestamp": "2026-04-06T00:28:26.651949"
+    },
+    {
+        "title": "Inception",
+        "nominations": 8,
+        "awards": 4,
+        "best_picture": false,
+        "year": 2010,
+        "source": "https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2010",
+        "type": "scraped_json_api",
+        "extraction_timestamp": "2026-04-06T00:28:26.651973"
+    },
+    {
+        "title": "The Social Network",
+        "nominations": 8,
+        "awards": 3,
+        "best_picture": false,
+        "year": 2010,
+        "source": "https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2010",
+        "type": "scraped_json_api",
+        "extraction_timestamp": "2026-04-06T00:28:26.651981"
+    },
+    {
+        "title": "The Fighter",
+        "nominations": 7,
+        "awards": 2,
+        "best_picture": false,
+        "year": 2010,
+        "source": "https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2010",
+        "type": "scraped_json_api",
+        "extraction_timestamp": "2026-04-06T00:28:26.651987"
+    },
+    {
+        "title": "Toy Story 3",
+        "nominations": 5,
+        "awards": 2,
+        "best_picture": false,
+        "year": 2010,
+        "source": "https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2010",
+        "type": "scraped_json_api",
+        "extraction_timestamp": "2026-04-06T00:28:26.651992"
+    },
+    {
+        "title": "Alice in Wonderland",
+        "nominations": 3,
+        "awards": 2,
+        "best_picture": false,
+        "year": 2010,
+        "source": "https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2010",
+        "type": "scraped_json_api",
+        "extraction_timestamp": "2026-04-06T00:28:26.651997"
+    },
+    {
+        "title": "Black Swan",
+        "nominations": 5,
+        "awards": 1,
+        "best_picture": false,
+        "year": 2010,
+        "source": "https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2010",
+        "type": "scraped_json_api",
+        "extraction_timestamp": "2026-04-06T00:28:26.652002"
+    },
+    {
+        "title": "In a Better World",
+        "nominations": 1,
+        "awards": 1,
+        "best_picture": false,
+        "year": 2010,
+        "source": "https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2010",
+        "type": "scraped_json_api",
+        "extraction_timestamp": "2026-04-06T00:28:26.652007"
+    },
+    {
+        "title": "The Lost Thing",
+        "nominations": 1,
+        "awards": 1,
+        "best_picture": false,
+        "year": 2010,
+        "source": "https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2010",
+        "type": "scraped_json_api",
+        "extraction_timestamp": "2026-04-06T00:28:26.652014"
+    },
+    {
+        "title": "God of Love",
+        "nominations": 1,
+        "awards": 1,
+        "best_picture": false,
+        "year": 2010,
+        "source": "https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2010",
+        "type": "scraped_json_api",
+        "extraction_timestamp": "2026-04-06T00:28:26.652022"
+    },
+    {
+        "title": "The Wolfman",
+        "nominations": 1,
+        "awards": 1,
+        "best_picture": false,
+        "year": 2010,
+        "source": "https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2010",
+        "type": "scraped_json_api",
+        "extraction_timestamp": "2026-04-06T00:28:26.652029"
+    },
+    {
+        "title": "Strangers No More",
+        "nominations": 1,
+        "awards": 1,
+        "best_picture": false,
+        "year": 2010,
+        "source": "https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2010",
+        "type": "scraped_json_api",
+        "extraction_timestamp": "2026-04-06T00:28:26.652036"
+    },
+    {
+        "title": "Inside Job",
+        "nominations": 1,
+        "awards": 1,
+        "best_picture": false,
+        "year": 2010,
+        "source": "https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2010",
+        "type": "scraped_json_api",
+        "extraction_timestamp": "2026-04-06T00:28:26.652045"
+    },
+    {
+        "title": "The Artist",
+        "nominations": 10,
+        "awards": 5,
+        "best_picture": true,
+        "year": 2011,
+        "source": "https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2011",
+        "type": "scraped_json_api",
+        "extraction_timestamp": "2026-04-06T00:28:29.112841"
+    },
+    {
+        "title": "Hugo",
+        "nominations": 11,
+        "awards": 5,
+        "best_picture": false,
+        "year": 2011,
+        "source": "https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2011",
+        "type": "scraped_json_api",
+        "extraction_timestamp": "2026-04-06T00:28:29.112862"
+    },
+    {
+        "title": "The Iron Lady",
+        "nominations": 2,
+        "awards": 2,
+        "best_picture": false,
+        "year": 2011,
+        "source": "https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2011",
+        "type": "scraped_json_api",
+        "extraction_timestamp": "2026-04-06T00:28:29.112869"
+    },
+    {
+        "title": "The Descendants",
+        "nominations": 5,
+        "awards": 1,
+        "best_picture": false,
+        "year": 2011,
+        "source": "https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2011",
+        "type": "scraped_json_api",
+        "extraction_timestamp": "2026-04-06T00:28:29.112875"
+    },
+    {
+        "title": "The Girl with the Dragon Tattoo",
+        "nominations": 5,
+        "awards": 1,
+        "best_picture": false,
+        "year": 2011,
+        "source": "https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2011",
+        "type": "scraped_json_api",
+        "extraction_timestamp": "2026-04-06T00:28:29.112882"
+    },
+    {
+        "title": "Midnight in Paris",
+        "nominations": 4,
+        "awards": 1,
+        "best_picture": false,
+        "year": 2011,
+        "source": "https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2011",
+        "type": "scraped_json_api",
+        "extraction_timestamp": "2026-04-06T00:28:29.112887"
+    },
+    {
+        "title": "The Help",
+        "nominations": 4,
+        "awards": 1,
+        "best_picture": false,
+        "year": 2011,
+        "source": "https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2011",
+        "type": "scraped_json_api",
+        "extraction_timestamp": "2026-04-06T00:28:29.112893"
+    },
+    {
+        "title": "A Separation",
+        "nominations": 2,
+        "awards": 1,
+        "best_picture": false,
+        "year": 2011,
+        "source": "https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2011",
+        "type": "scraped_json_api",
+        "extraction_timestamp": "2026-04-06T00:28:29.112899"
+    },
+    {
+        "title": "The Fantastic Flying Books of Mr. Morris Lessmore",
+        "nominations": 1,
+        "awards": 1,
+        "best_picture": false,
+        "year": 2011,
+        "source": "https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2011",
+        "type": "scraped_json_api",
+        "extraction_timestamp": "2026-04-06T00:28:29.112905"
+    },
+    {
+        "title": "The Shore",
+        "nominations": 1,
+        "awards": 1,
+        "best_picture": false,
+        "year": 2011,
+        "source": "https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2011",
+        "type": "scraped_json_api",
+        "extraction_timestamp": "2026-04-06T00:28:29.112911"
+    },
+    {
+        "title": "Undefeated",
+        "nominations": 1,
+        "awards": 1,
+        "best_picture": false,
+        "year": 2011,
+        "source": "https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2011",
+        "type": "scraped_json_api",
+        "extraction_timestamp": "2026-04-06T00:28:29.112917"
+    },
+    {
+        "title": "The Muppets",
+        "nominations": 1,
+        "awards": 1,
+        "best_picture": false,
+        "year": 2011,
+        "source": "https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2011",
+        "type": "scraped_json_api",
+        "extraction_timestamp": "2026-04-06T00:28:29.112922"
+    },
+    {
+        "title": "Saving Face",
+        "nominations": 1,
+        "awards": 1,
+        "best_picture": false,
+        "year": 2011,
+        "source": "https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2011",
+        "type": "scraped_json_api",
+        "extraction_timestamp": "2026-04-06T00:28:29.112928"
+    },
+    {
+        "title": "Beginners",
+        "nominations": 1,
+        "awards": 1,
+        "best_picture": false,
+        "year": 2011,
+        "source": "https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2011",
+        "type": "scraped_json_api",
+        "extraction_timestamp": "2026-04-06T00:28:29.112935"
+    },
+    {
+        "title": "Rango",
+        "nominations": 1,
+        "awards": 1,
+        "best_picture": false,
+        "year": 2011,
+        "source": "https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2011",
+        "type": "scraped_json_api",
+        "extraction_timestamp": "2026-04-06T00:28:29.112941"
+    },
+    {
+        "title": "Argo",
+        "nominations": 7,
+        "awards": 3,
+        "best_picture": true,
+        "year": 2012,
+        "source": "https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2012",
+        "type": "scraped_json_api",
+        "extraction_timestamp": "2026-04-06T00:28:31.571848"
+    },
+    {
+        "title": "Life of Pi",
+        "nominations": 11,
+        "awards": 4,
+        "best_picture": false,
+        "year": 2012,
+        "source": "https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2012",
+        "type": "scraped_json_api",
+        "extraction_timestamp": "2026-04-06T00:28:31.571865"
+    },
+    {
+        "title": "Les Misérables",
+        "nominations": 8,
+        "awards": 3,
+        "best_picture": false,
+        "year": 2012,
+        "source": "https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2012",
+        "type": "scraped_json_api",
+        "extraction_timestamp": "2026-04-06T00:28:31.571870"
+    },
+    {
+        "title": "Lincoln",
+        "nominations": 12,
+        "awards": 2,
+        "best_picture": false,
+        "year": 2012,
+        "source": "https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2012",
+        "type": "scraped_json_api",
+        "extraction_timestamp": "2026-04-06T00:28:31.571875"
+    },
+    {
+        "title": "Django Unchained",
+        "nominations": 5,
+        "awards": 2,
+        "best_picture": false,
+        "year": 2012,
+        "source": "https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2012",
+        "type": "scraped_json_api",
+        "extraction_timestamp": "2026-04-06T00:28:31.571880"
+    },
+    {
+        "title": "Skyfall",
+        "nominations": 5,
+        "awards": 2,
+        "best_picture": false,
+        "year": 2012,
+        "source": "https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2012",
+        "type": "scraped_json_api",
+        "extraction_timestamp": "2026-04-06T00:28:31.571885"
+    },
+    {
+        "title": "Silver Linings Playbook",
+        "nominations": 8,
+        "awards": 1,
+        "best_picture": false,
+        "year": 2012,
+        "source": "https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2012",
+        "type": "scraped_json_api",
+        "extraction_timestamp": "2026-04-06T00:28:31.571890"
+    },
+    {
+        "title": "Zero Dark Thirty",
+        "nominations": 5,
+        "awards": 1,
+        "best_picture": false,
+        "year": 2012,
+        "source": "https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2012",
+        "type": "scraped_json_api",
+        "extraction_timestamp": "2026-04-06T00:28:31.571894"
+    },
+    {
+        "title": "Amour",
+        "nominations": 5,
+        "awards": 1,
+        "best_picture": false,
+        "year": 2012,
+        "source": "https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2012",
+        "type": "scraped_json_api",
+        "extraction_timestamp": "2026-04-06T00:28:31.571899"
+    },
+    {
+        "title": "Anna Karenina",
+        "nominations": 4,
+        "awards": 1,
+        "best_picture": false,
+        "year": 2012,
+        "source": "https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2012",
+        "type": "scraped_json_api",
+        "extraction_timestamp": "2026-04-06T00:28:31.571904"
+    },
+    {
+        "title": "Paperman",
+        "nominations": 1,
+        "awards": 1,
+        "best_picture": false,
+        "year": 2012,
+        "source": "https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2012",
+        "type": "scraped_json_api",
+        "extraction_timestamp": "2026-04-06T00:28:31.571908"
+    },
+    {
+        "title": "Brave",
+        "nominations": 1,
+        "awards": 1,
+        "best_picture": false,
+        "year": 2012,
+        "source": "https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2012",
+        "type": "scraped_json_api",
+        "extraction_timestamp": "2026-04-06T00:28:31.571913"
+    },
+    {
+        "title": "Searching for Sugar Man",
+        "nominations": 1,
+        "awards": 1,
+        "best_picture": false,
+        "year": 2012,
+        "source": "https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2012",
+        "type": "scraped_json_api",
+        "extraction_timestamp": "2026-04-06T00:28:31.571917"
+    },
+    {
+        "title": "Inocente",
+        "nominations": 1,
+        "awards": 1,
+        "best_picture": false,
+        "year": 2012,
+        "source": "https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2012",
+        "type": "scraped_json_api",
+        "extraction_timestamp": "2026-04-06T00:28:31.571924"
+    },
+    {
+        "title": "Curfew",
+        "nominations": 1,
+        "awards": 1,
+        "best_picture": false,
+        "year": 2012,
+        "source": "https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2012",
+        "type": "scraped_json_api",
+        "extraction_timestamp": "2026-04-06T00:28:31.571928"
+    },
+    {
+        "title": "12 Years a Slave",
+        "nominations": 9,
+        "awards": 3,
+        "best_picture": true,
+        "year": 2013,
+        "source": "https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2013",
+        "type": "scraped_json_api",
+        "extraction_timestamp": "2026-04-06T00:28:34.144146"
+    },
+    {
+        "title": "Gravity",
+        "nominations": 10,
+        "awards": 7,
+        "best_picture": false,
+        "year": 2013,
+        "source": "https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2013",
+        "type": "scraped_json_api",
+        "extraction_timestamp": "2026-04-06T00:28:34.144167"
+    },
+    {
+        "title": "Dallas Buyers Club",
+        "nominations": 6,
+        "awards": 3,
+        "best_picture": false,
+        "year": 2013,
+        "source": "https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2013",
+        "type": "scraped_json_api",
+        "extraction_timestamp": "2026-04-06T00:28:34.144173"
+    },
+    {
+        "title": "Frozen",
+        "nominations": 2,
+        "awards": 2,
+        "best_picture": false,
+        "year": 2013,
+        "source": "https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2013",
+        "type": "scraped_json_api",
+        "extraction_timestamp": "2026-04-06T00:28:34.144179"
+    },
+    {
+        "title": "The Great Gatsby",
+        "nominations": 2,
+        "awards": 2,
+        "best_picture": false,
+        "year": 2013,
+        "source": "https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2013",
+        "type": "scraped_json_api",
+        "extraction_timestamp": "2026-04-06T00:28:34.144185"
+    },
+    {
+        "title": "Her",
+        "nominations": 5,
+        "awards": 1,
+        "best_picture": false,
+        "year": 2013,
+        "source": "https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2013",
+        "type": "scraped_json_api",
+        "extraction_timestamp": "2026-04-06T00:28:34.144190"
+    },
+    {
+        "title": "Blue Jasmine",
+        "nominations": 3,
+        "awards": 1,
+        "best_picture": false,
+        "year": 2013,
+        "source": "https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2013",
+        "type": "scraped_json_api",
+        "extraction_timestamp": "2026-04-06T00:28:34.144196"
+    },
+    {
+        "title": "Mr Hublot",
+        "nominations": 1,
+        "awards": 1,
+        "best_picture": false,
+        "year": 2013,
+        "source": "https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2013",
+        "type": "scraped_json_api",
+        "extraction_timestamp": "2026-04-06T00:28:34.144202"
+    },
+    {
+        "title": "The Lady in Number 6: Music Saved My Life",
+        "nominations": 1,
+        "awards": 1,
+        "best_picture": false,
+        "year": 2013,
+        "source": "https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2013",
+        "type": "scraped_json_api",
+        "extraction_timestamp": "2026-04-06T00:28:34.144216"
+    },
+    {
+        "title": "Helium",
+        "nominations": 1,
+        "awards": 1,
+        "best_picture": false,
+        "year": 2013,
+        "source": "https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2013",
+        "type": "scraped_json_api",
+        "extraction_timestamp": "2026-04-06T00:28:34.144221"
+    },
+    {
+        "title": "The Great Beauty",
+        "nominations": 1,
+        "awards": 1,
+        "best_picture": false,
+        "year": 2013,
+        "source": "https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2013",
+        "type": "scraped_json_api",
+        "extraction_timestamp": "2026-04-06T00:28:34.144228"
+    },
+    {
+        "title": "20 Feet from Stardom",
+        "nominations": 1,
+        "awards": 1,
+        "best_picture": false,
+        "year": 2013,
+        "source": "https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2013",
+        "type": "scraped_json_api",
+        "extraction_timestamp": "2026-04-06T00:28:34.144233"
+    },
+    {
+        "title": "Birdman",
+        "nominations": 9,
+        "awards": 4,
+        "best_picture": true,
+        "year": 2014,
+        "source": "https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2014",
+        "type": "scraped_json_api",
+        "extraction_timestamp": "2026-04-06T00:28:36.492897"
+    },
+    {
+        "title": "The Grand Budapest Hotel",
+        "nominations": 9,
+        "awards": 4,
+        "best_picture": false,
+        "year": 2014,
+        "source": "https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2014",
+        "type": "scraped_json_api",
+        "extraction_timestamp": "2026-04-06T00:28:36.492917"
+    },
+    {
+        "title": "Whiplash",
+        "nominations": 5,
+        "awards": 3,
+        "best_picture": false,
+        "year": 2014,
+        "source": "https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2014",
+        "type": "scraped_json_api",
+        "extraction_timestamp": "2026-04-06T00:28:36.492925"
+    },
+    {
+        "title": "The Imitation Game",
+        "nominations": 8,
+        "awards": 1,
+        "best_picture": false,
+        "year": 2014,
+        "source": "https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2014",
+        "type": "scraped_json_api",
+        "extraction_timestamp": "2026-04-06T00:28:36.492932"
+    },
+    {
+        "title": "American Sniper",
+        "nominations": 6,
+        "awards": 1,
+        "best_picture": false,
+        "year": 2014,
+        "source": "https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2014",
+        "type": "scraped_json_api",
+        "extraction_timestamp": "2026-04-06T00:28:36.492937"
+    },
+    {
+        "title": "Boyhood",
+        "nominations": 6,
+        "awards": 1,
+        "best_picture": false,
+        "year": 2014,
+        "source": "https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2014",
+        "type": "scraped_json_api",
+        "extraction_timestamp": "2026-04-06T00:28:36.492943"
+    },
+    {
+        "title": "Interstellar",
+        "nominations": 5,
+        "awards": 1,
+        "best_picture": false,
+        "year": 2014,
+        "source": "https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2014",
+        "type": "scraped_json_api",
+        "extraction_timestamp": "2026-04-06T00:28:36.492948"
+    },
+    {
+        "title": "The Theory of Everything",
+        "nominations": 5,
+        "awards": 1,
+        "best_picture": false,
+        "year": 2014,
+        "source": "https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2014",
+        "type": "scraped_json_api",
+        "extraction_timestamp": "2026-04-06T00:28:36.492954"
+    },
+    {
+        "title": "Ida",
+        "nominations": 2,
+        "awards": 1,
+        "best_picture": false,
+        "year": 2014,
+        "source": "https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2014",
+        "type": "scraped_json_api",
+        "extraction_timestamp": "2026-04-06T00:28:36.492959"
+    },
+    {
+        "title": "Selma",
+        "nominations": 2,
+        "awards": 1,
+        "best_picture": false,
+        "year": 2014,
+        "source": "https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2014",
+        "type": "scraped_json_api",
+        "extraction_timestamp": "2026-04-06T00:28:36.492965"
+    },
+    {
+        "title": "Citizenfour",
+        "nominations": 1,
+        "awards": 1,
+        "best_picture": false,
+        "year": 2014,
+        "source": "https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2014",
+        "type": "scraped_json_api",
+        "extraction_timestamp": "2026-04-06T00:28:36.492972"
+    },
+    {
+        "title": "Big Hero 6",
+        "nominations": 1,
+        "awards": 1,
+        "best_picture": false,
+        "year": 2014,
+        "source": "https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2014",
+        "type": "scraped_json_api",
+        "extraction_timestamp": "2026-04-06T00:28:36.492977"
+    },
+    {
+        "title": "Crisis Hotline: Veterans Press 1",
+        "nominations": 1,
+        "awards": 1,
+        "best_picture": false,
+        "year": 2014,
+        "source": "https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2014",
+        "type": "scraped_json_api",
+        "extraction_timestamp": "2026-04-06T00:28:36.492983"
+    },
+    {
+        "title": "The Phone Call",
+        "nominations": 1,
+        "awards": 1,
+        "best_picture": false,
+        "year": 2014,
+        "source": "https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2014",
+        "type": "scraped_json_api",
+        "extraction_timestamp": "2026-04-06T00:28:36.492989"
+    },
+    {
+        "title": "Still Alice",
+        "nominations": 1,
+        "awards": 1,
+        "best_picture": false,
+        "year": 2014,
+        "source": "https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2014",
+        "type": "scraped_json_api",
+        "extraction_timestamp": "2026-04-06T00:28:36.492994"
+    },
+    {
+        "title": "Feast",
+        "nominations": 1,
+        "awards": 1,
+        "best_picture": false,
+        "year": 2014,
+        "source": "https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2014",
+        "type": "scraped_json_api",
+        "extraction_timestamp": "2026-04-06T00:28:36.493000"
+    },
+    {
+        "title": "Spotlight  ",
+        "nominations": 6,
+        "awards": 2,
+        "best_picture": true,
+        "year": 2015,
+        "source": "https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2015",
+        "type": "scraped_json_api",
+        "extraction_timestamp": "2026-04-06T00:28:38.861383"
+    },
+    {
+        "title": "Mad Max: Fury Road ",
+        "nominations": 10,
+        "awards": 6,
+        "best_picture": false,
+        "year": 2015,
+        "source": "https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2015",
+        "type": "scraped_json_api",
+        "extraction_timestamp": "2026-04-06T00:28:38.861392"
+    },
+    {
+        "title": "The Revenant   ",
+        "nominations": 12,
+        "awards": 3,
+        "best_picture": false,
+        "year": 2015,
+        "source": "https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2015",
+        "type": "scraped_json_api",
+        "extraction_timestamp": "2026-04-06T00:28:38.861394"
+    },
+    {
+        "title": "Bridge of Spies",
+        "nominations": 6,
+        "awards": 1,
+        "best_picture": false,
+        "year": 2015,
+        "source": "https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2015",
+        "type": "scraped_json_api",
+        "extraction_timestamp": "2026-04-06T00:28:38.861396"
+    },
+    {
+        "title": "The Big Short  ",
+        "nominations": 5,
+        "awards": 1,
+        "best_picture": false,
+        "year": 2015,
+        "source": "https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2015",
+        "type": "scraped_json_api",
+        "extraction_timestamp": "2026-04-06T00:28:38.861398"
+    },
+    {
+        "title": "The Danish Girl",
+        "nominations": 4,
+        "awards": 1,
+        "best_picture": false,
+        "year": 2015,
+        "source": "https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2015",
+        "type": "scraped_json_api",
+        "extraction_timestamp": "2026-04-06T00:28:38.861400"
+    },
+    {
+        "title": "Room   ",
+        "nominations": 4,
+        "awards": 1,
+        "best_picture": false,
+        "year": 2015,
+        "source": "https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2015",
+        "type": "scraped_json_api",
+        "extraction_timestamp": "2026-04-06T00:28:38.861402"
+    },
+    {
+        "title": "Ex Machina ",
+        "nominations": 2,
+        "awards": 1,
+        "best_picture": false,
+        "year": 2015,
+        "source": "https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2015",
+        "type": "scraped_json_api",
+        "extraction_timestamp": "2026-04-06T00:28:38.861404"
+    },
+    {
+        "title": "The Hateful Eight  ",
+        "nominations": 2,
+        "awards": 1,
+        "best_picture": false,
+        "year": 2015,
+        "source": "https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2015",
+        "type": "scraped_json_api",
+        "extraction_timestamp": "2026-04-06T00:28:38.861406"
+    },
+    {
+        "title": "Inside Out ",
+        "nominations": 2,
+        "awards": 1,
+        "best_picture": false,
+        "year": 2015,
+        "source": "https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2015",
+        "type": "scraped_json_api",
+        "extraction_timestamp": "2026-04-06T00:28:38.861408"
+    },
+    {
+        "title": "Amy",
+        "nominations": 1,
+        "awards": 1,
+        "best_picture": false,
+        "year": 2015,
+        "source": "https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2015",
+        "type": "scraped_json_api",
+        "extraction_timestamp": "2026-04-06T00:28:38.861410"
+    },
+    {
+        "title": "Bear Story ",
+        "nominations": 1,
+        "awards": 1,
+        "best_picture": false,
+        "year": 2015,
+        "source": "https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2015",
+        "type": "scraped_json_api",
+        "extraction_timestamp": "2026-04-06T00:28:38.861412"
+    },
+    {
+        "title": "A Girl in the River: The Price of Forgiveness  ",
+        "nominations": 1,
+        "awards": 1,
+        "best_picture": false,
+        "year": 2015,
+        "source": "https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2015",
+        "type": "scraped_json_api",
+        "extraction_timestamp": "2026-04-06T00:28:38.861414"
+    },
+    {
+        "title": "Son of Saul",
+        "nominations": 1,
+        "awards": 1,
+        "best_picture": false,
+        "year": 2015,
+        "source": "https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2015",
+        "type": "scraped_json_api",
+        "extraction_timestamp": "2026-04-06T00:28:38.861416"
+    },
+    {
+        "title": "Spectre",
+        "nominations": 1,
+        "awards": 1,
+        "best_picture": false,
+        "year": 2015,
+        "source": "https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2015",
+        "type": "scraped_json_api",
+        "extraction_timestamp": "2026-04-06T00:28:38.861418"
+    },
+    {
+        "title": "Stutterer  ",
+        "nominations": 1,
+        "awards": 1,
+        "best_picture": false,
+        "year": 2015,
+        "source": "https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2015",
+        "type": "scraped_json_api",
+        "extraction_timestamp": "2026-04-06T00:28:38.861419"
+    }
+]
