@@ -54,9 +54,3 @@ Text processing techniques are applied to clean and analyze the article content.
 The pipeline can identify basic trends or patterns in news coverage.
 
 The results are visualized using charts or dashboards to provide insights about the collected data.
-
-the output to show the exif metadata of photos: 
-![alt text](image-2.png)
-
-link to google drive:
-https://drive.google.com/drive/folders/1D_usaqkZVhbzYzMvf3rFbVmM7ukWJk4i?usp=drive_link

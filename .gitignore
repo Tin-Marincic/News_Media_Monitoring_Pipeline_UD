@@ -1,5 +1,2 @@
 .venv
 .env
-.google_drive
-token.json
-google_drive/credentials.json
