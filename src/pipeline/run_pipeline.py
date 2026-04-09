@@ -17,12 +17,14 @@ from src.parsing.parsers import (
     extract_summary_from_excel,
     read_file_with_encoding
 )
-from src.storage.mongo import save_to_mongo
-from src.storage.s3 import upload_file_to_s3
+from src.storage.mongo import save_to_mongo, save_batch_results_to_mongo
 
 from src.scraping.scraper import scrape_hockey_teams, scrape_hockey_teams_multi_page
 from src.scraping.dynamic_scraper import scrape_ajax_movies_api
 from src.ocr.ocr_utils import ocr_image, ocr_scanned_pdf
+
+from src.image_processing.downloader import load_articles_from_json, download_article_images
+from src.image_processing.batch import batch_process_images
 
 
 def run_pipeline():
@@ -263,10 +265,30 @@ def run_pipeline():
                 )
             logging.info(f"Processed OCR scanned PDF: {len(pdf_ocr_results)} pages")
 
-        # Step 15: Upload raw JSON files to S3
-        raw_api_dir = Path("data/raw/api")
-        for file_path in raw_api_dir.glob("*.json"):
-            upload_file_to_s3(str(file_path), file_path.name)
+        # Step 15: Load article metadata from saved JSON and download article images
+        image_articles = load_articles_from_json("data/raw/api")
+        downloaded_images = download_article_images(
+            image_articles,
+            dest_dir="data/raw/images",
+            limit=10
+        )
+        logging.info(f"Downloaded {len(downloaded_images)} article images")
+
+        # Step 16: Batch process images and upload processed files to Google Drive
+        image_results, image_errors = batch_process_images(
+            input_dir="data/raw/images",
+            output_dir="data/processed",
+            max_width=500,
+            thumb_size=(128, 128),
+            convert_webp=True,
+            extract_metadata=True,
+            upload_to_drive=True
+        )
+        logging.info(f"Batch processed {len(image_results)} images with {len(image_errors)} errors")
+
+        # Step 17: Save image metadata to MongoDB
+        save_batch_results_to_mongo(image_results)
+        logging.info(f"Saved {len(image_results)} image metadata records to MongoDB")
 
         logging.info("Pipeline finished successfully")
 
