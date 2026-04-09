@@ -1,71 +1,71 @@
 {
     "status": "ok",
-    "totalResults": 34669,
+    "totalResults": 34552,
     "articles": [
         {
             "source": {
-                "id": null,
-                "name": "GlobeNewswire"
+                "id": "techcrunch",
+                "name": "TechCrunch"
             },
-            "author": "RAKIA",
-            "title": "RAKIA Achieves CMMC Level 1 Compliance, Expanding Access to U.S. Defense Contracts and Accelerating Federal Growth Strategy",
-            "description": "CMMS opens new opportunities in U.S. defense contracts and accelerates federal expansion....",
-            "url": "https://www.globenewswire.com/news-release/2026/04/04/3268218/0/en/RAKIA-Achieves-CMMC-Level-1-Compliance-Expanding-Access-to-U-S-Defense-Contracts-and-Accelerating-Federal-Growth-Strategy.html",
-            "urlToImage": "https://ml.globenewswire.com/Resource/Download/aba75d2b-aa2e-483c-80ed-b285b94e5360",
-            "publishedAt": "2026-04-04T23:39:00Z",
-            "content": "RAKIA Logo\r\nWASHINGTON, April 04, 2026 (GLOBE NEWSWIRE) -- RAKIA\r\n, a provider of advanced AI-powered data fusion intelligence and real-time decision support systems, today announced it has achieved … [+3165 chars]"
+            "author": "Lorenzo Franceschi-bicchierai",
+            "title": "Hackers steal and leak sensitive LAPD police documents | TechCrunch",
+            "description": "The LAPD said the breach affected “a digital storage system” belonging to the city’s Attorney's Office. The World Leaks extortion gang was reported to be behind the attack.",
+            "url": "https://techcrunch.com/2026/04/08/hackers-steal-and-leak-sensitive-lapd-police-documents/",
+            "urlToImage": "https://techcrunch.com/wp-content/uploads/2026/04/lapd-car-agents-night.jpg?resize=1200,796",
+            "publishedAt": "2026-04-08T15:42:03Z",
+            "content": "Cybercriminals have allegedly stolen a large amount of sensitive internal documents from the Los Angeles Police Department and leaked the data online.\r\nThe stolen data included police officer personn… [+2393 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "newsBTC"
+                "name": "Samsung.com"
             },
-            "author": "Godspower Owie",
-            "title": "Bitcoin And Ethereum Adoption Gets A Boost From Schwab Launch",
-            "description": "Adoption of Bitcoin and Ethereum is poised to take a significant step forward as Charles Schwab introduces direct trading for both assets on its platform. As one of the largest financial institutions in the world, managing trillions in client assets, Schwab’s…",
-            "url": "http://www.newsbtc.com/news/bitcoin-eth-adoption-boosts/",
-            "urlToImage": "https://www.newsbtc.com/wp-content/uploads/2026/04/Bitcoin-and-Ethereum-from-Pexels.jpeg?fit=3301%2C2201",
-            "publishedAt": "2026-04-04T23:30:52Z",
-            "content": "My name is Godspower Owie, and I was born and brought up in Edo State, Nigeria. I grew up with my three siblings who have always been my idols and mentors, helping me to grow and understand the way o… [+2495 chars]"
+            "author": "Samsung for Business",
+            "title": "When does a Samsung Galaxy tablet make the difference for your business?",
+            "description": "In some work scenarios, tablets can even step ahead. Here are several that suit tablets particularly well and can make a difference for business.\nThe post When does a Samsung Galaxy tablet make the difference for your business? appeared first on Samsung Busin…",
+            "url": "https://insights.samsung.com/2026/04/08/when-does-a-samsung-galaxy-tablet-make-the-difference-for-your-business-2/",
+            "urlToImage": "https://s47295.pcdn.co/wp-content/uploads/2025/12/Tab-S11-Ultra-S-Pen-OLA_Native-Ads_1200x627-1-e1766155625505.jpg",
+            "publishedAt": "2026-04-08T15:41:47Z",
+            "content": "Since tablets went mainstream, theyve offered a handy bridge between personal computers and mobile devices. Thats because they marry a portable form factor with powerful functionality, ticking all th… [+5260 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Headtopics.com"
+                "name": "TheWrap"
             },
-            "author": "Ctvnewsvi",
-            "title": "Canadian and Global News Roundup: Space Missions, Scams, Health Alerts, and More",
-            "description": "This news summary covers a broad spectrum of events, including advancements in space exploration with Canadian contributions to the Artemis II mission, growing concerns about scams, health recalls in",
-            "url": "https://ca.headtopics.com/news/canadian-and-global-news-roundup-space-missions-scams-81839155",
-            "urlToImage": "https://i.headtopics.com/images/2026/4/4/ctvnewsvi/canadian-and-global-news-roundup-space-missions-sc-canadian-and-global-news-roundup-space-missions-sc-02FE6EBC4B609AD078E0AA6F935D2DAB.webp",
-            "publishedAt": "2026-04-04T23:30:23Z",
-            "content": "This news summary covers a broad spectrum of events, including advancements in space exploration with Canadian contributions to the Artemis II mission, growing concerns about scams, health recalls in… [+6648 chars]"
+            "author": "Corbin Bolies",
+            "title": "New York Times Guild Slams Paper’s AI Policies as ‘Woefully Inadequate’",
+            "description": "\"When the Times instead publishes AI-generated work, intentionally or not, our readers lose trust in what we do. This is unacceptable,\" the union members write\nThe post New York Times Guild Slams Paper’s AI Policies as ‘Woefully Inadequate’ appeared first on …",
+            "url": "https://www.thewrap.com/media-platforms/journalism/new-york-times-union-ai-policies-woefully-inadequate/",
+            "urlToImage": "https://www.thewrap.com/wp-content/uploads/2025/03/NYT.jpg",
+            "publishedAt": "2026-04-08T15:40:39Z",
+            "content": "Members of the New York Times union slammed the companys AI policies in a letter to management as woefully inadqeuate on Tuesday, citing TheWraps report on how a freelance book critic used AI for a T… [+3667 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Futurism"
+                "name": "Techpowerup.com"
             },
-            "author": "Frank Landymore",
-            "title": "Chinese Scientists Bioengineering Plants With Firefly Genes to Glow, in Effort to Light Cities at Night",
-            "description": "Night lighting may be due for a plant-based glow-up.\nThe post Chinese Scientists Bioengineering Plants With Firefly Genes to Glow, in Effort to Light Cities at Night appeared first on Futurism.",
-            "url": "http://futurism.com/science-energy/bioengineering-plants-glow-light-cities",
-            "urlToImage": "https://futurism.com/wp-content/uploads/2026/04/bioengineering-plants-glow-light-cities.jpg?quality=85&w=1200",
-            "publishedAt": "2026-04-04T23:30:00Z",
-            "content": "Can’t-miss innovations from the bleeding edge of science and tech\r\nA shortcut to sprucing up any dreary urban locale is by throwing in some beautiful greenery. Now, Chinese scientists have unveiled n… [+2688 chars]"
+            "author": "GFreeman",
+            "title": "(PR) Intel and SambaNova Advance Agentic AI with Xeon 6",
+            "description": "SambaNova today announced the next phase of its collaboration with Intel: a heterogeneous hardware solution that combines GPUs for prefill, Intel Xeon 6 processors as both host and \"action\" CPUs, and SambaNova RDUs for decode to deliver premium inference for …",
+            "url": "https://www.techpowerup.com/348090/intel-and-sambanova-advance-agentic-ai-with-xeon-6",
+            "urlToImage": "https://www.techpowerup.com/img/9FCoS7qNMvGxy2rB.jpg",
+            "publishedAt": "2026-04-08T15:40:17Z",
+            "content": "SambaNova today announced the next phase of its collaboration with Intel: a heterogeneous hardware solution that combines GPUs for prefill, Intel Xeon 6 processors as both host and \"action\" CPUs, and… [+4527 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Israelnationalnews.com"
+                "name": "FDA.gov"
             },
-            "author": "Amine Ayoub",
-            "title": "Erdogan's digital Iron Curtain",
-            "description": "With its new ruling, Turkey can be called 'a consolidated autocracy utilizing 21st-century technology to enforce a level of societal control reminiscent of medieval absolutism.' Opinion.",
-            "url": "https://www.israelnationalnews.com/news/425023",
-            "urlToImage": "https://2.a7.org/files/pictures/000/1043655.jpg",
-            "publishedAt": "2026-04-04T23:23:29Z",
-            "content": "As the escalating conflict between Iran and Israel captivates the attention of the international community, opportunistic powers on the periphery are quietly tightening their grip at home. In Ankara,… [+5576 chars]"
+            "author": "FDA",
+            "title": "Advancing Novel Surrogate Endpoints For Rare Disease Drug Development Workshop - 05/18/2026",
+            "description": "FDA is convening a one-day virtual public workshop on May 18, 2026, focused on the development of surrogate endpoints for drugs and biological products intended to treat rare diseases.",
+            "url": "https://www.fda.gov/drugs/news-events-human-drugs/advancing-novel-surrogate-endpoints-rare-disease-drug-development-workshop-05182026",
+            "urlToImage": "https://www.fda.gov/themes/custom/preview/img/FDA-Social-Graphic.png",
+            "publishedAt": "2026-04-08T15:39:36Z",
+            "content": "Register Here\r\nTo facilitate rare disease drug development, and as part of a performance goal and requirement related to the FDA User Fee Reauthorization Act of 2022 and the Food and Drug Omnibus Ref… [+1949 chars]"
         }
     ]
 }
