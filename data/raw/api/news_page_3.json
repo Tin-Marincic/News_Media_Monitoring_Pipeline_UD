@@ -1,71 +1,71 @@
 {
     "status": "ok",
-    "totalResults": 34552,
+    "totalResults": 34669,
     "articles": [
         {
             "source": {
                 "id": null,
-                "name": "Chicago Reader"
+                "name": "MakeUseOf"
             },
-            "author": "Leor Galil",
-            "title": "The Chicago underground rock community grieves engineer Simon Small",
-            "description": "Around a year into the pandemic, Into It. Over It. main man Evan Weiss got a message from UK musician and recording engineer Simon Small. Weiss knew Small casually. They’d met in the 2010s at Fest, an annual multiday punk gathering in Gainesville, Florida, wh…",
-            "url": "http://chicagoreader.com/music/music-feature/simon-small-obituary-recording-engineer-type-one-sarah-bogosh/",
-            "urlToImage": "https://chicagoreader.com/wp-content/uploads/2026/04/Simon-Small-courtesy-Sarah-Bogosh_social.jpg",
-            "publishedAt": "2026-04-08T15:38:37Z",
-            "content": "Simon Small and Dobby Credit: Courtesy Sarah Bogosh\r\nAround a year into the pandemic, Into It. Over It. main man Evan Weiss got a message from UK musician and recording engineer Simon Small. Weiss kn… [+13571 chars]"
+            "author": "Dan Selcke",
+            "title": "I didn’t realize how much of Amazon's Fallout set was actually real",
+            "description": "The folks behind Fallout went to incredible lengths to keep the effects and sets grounded in the real world.",
+            "url": "https://www.makeuseof.com/fallout-set-actually-real-prime-video/",
+            "urlToImage": "https://static0.makeuseofimages.com/wordpress/wp-content/uploads/2026/03/fallouts2tbimage8_3000.jpg?w=1600&h=900&fit=crop",
+            "publishedAt": "2026-04-04T23:00:17Z",
+            "content": "Fallout, a TV show based on the post-apocalyptic video game series, has been running on Prime Video for two seasons now, and people are lapping it up. The show is set in the ruins of what used to be … [+6360 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "pymnts.com"
+                "name": "Hackaday"
             },
-            "author": "PYMNTS",
-            "title": "Fiserv Hires JPMorgan Executive Adam Hyde to Lead Merchant Operations",
-            "description": "Fiserv has named JPMorganChase veteran Adam Hyde as chief operations officer for merchant solutions. “The opportunity ahead is incredibly compelling,” Hyde said in a post on LinkedIn announcing the appointment. “I look forward to partnering with talented team…",
-            "url": "https://www.pymnts.com/personnel/2026/fiserv-hires-jpmorgan-executive-adam-hyde-to-lead-merchant-operations/",
-            "urlToImage": "https://www.pymnts.com/wp-content/uploads/2025/09/Fiserv-data-center.jpg",
-            "publishedAt": "2026-04-08T15:38:26Z",
-            "content": "The opportunity ahead is incredibly compelling, Hyde said in a post on LinkedIn announcing the appointment. I look forward to partnering with talented teams and clients to accelerate Fiservs transfor… [+2202 chars]"
+            "author": "Maya Posch",
+            "title": "Exposing a Radiation-Hardened 2.4 GHz Wi-Fi Receiver to 500 Kilograys",
+            "description": "From outer space to down here on Earth, there are many places where ionizing radiation levels are high enough that they effectively bar access for humans, but also make life miserable for anything …",
+            "url": "https://hackaday.com/2026/04/04/exposing-a-radiation-hardened-2-4-ghz-wi-fi-receiver-to-500-kilograys/",
+            "urlToImage": "https://hackaday.com/wp-content/uploads/2026/04/close-up-of-a-receiver-chip.webp",
+            "publishedAt": "2026-04-04T23:00:17Z",
+            "content": "Exposing the Wi-Fi chip to gamma radiation. (Credit: Yasuto Narukiyo et al, 2026)\r\nFrom outer space to down here on Earth, there are many places where ionizing radiation levels are high enough that t… [+1943 chars]"
+        },
+        {
+            "source": {
+                "id": "fox-news",
+                "name": "Fox News"
+            },
+            "author": null,
+            "title": "AI-Driven school expanding to major US cities despite union pushback",
+            "description": "Alpha Schools is expanding its AI-driven model nationwide this fall, but researchers say the approach is untested and Pennsylvania rejected its charter school application.",
+            "url": "https://www.foxnews.com/media/ai-driven-school-expanding-major-us-cities-despite-union-pushback",
+            "urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2025/11/students-classroom.jpg",
+            "publishedAt": "2026-04-04T23:00:06Z",
+            "content": "An unconventional private school model that replaces traditional classroom lectures with artificial intelligence is gearing up for a massive nationwide expansion this fall, even as critics and powerf… [+4016 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "FDA.gov"
+                "name": "Twistedsifter.com"
             },
-            "author": "FDA",
-            "title": "CDER and CBER accept first submission to ISTAND Pilot Program",
-            "description": "FDA’s Center for Drug Evaluation and Research (CDER) and Center for Biologics Evaluation and Research (CBER) have accepted the agency’s first submission into the Innovative Science and Technology Approaches for New Drugs (ISTAND) Pilot Program.",
-            "url": "https://www.fda.gov/drugs/drug-safety-communications/cder-and-cber-accept-first-submission-istand-pilot-program",
-            "urlToImage": "https://www.fda.gov/themes/custom/preview/img/FDA-Social-Graphic.png",
-            "publishedAt": "2026-04-08T15:34:22Z",
-            "content": "[9/7/2022] FDAs Center for Drug Evaluation and Research (CDER) and Center for Biologics Evaluation and Research (CBER) have accepted the agencys first submission into the Innovative Science and Techn… [+2050 chars]"
+            "author": "Benjamin Cottrell",
+            "title": "Student Asked His Tech Savvy Friend To Permanently Disable A School Chromebook Before Teachers Could Inspect It, So The Friend Used The Opportunity To Settle An Old Score And Fried The Laptop Completely",
+            "description": "Revenge is a dish best served fried.",
+            "url": "http://twistedsifter.com/2026/04/student-asked-his-tech-savvy-friend-to-permanently-disable-a-school-chromebook-before-teachers-could-inspect-it-so-the-friend-used-the-opportunity-to-settle-an-old-score-and-fried-the-laptop-complete/",
+            "urlToImage": "https://twistedsifter.com/wp-content/uploads/2026/03/students-gathered-around-a-laptp.png",
+            "publishedAt": "2026-04-04T22:35:34Z",
+            "content": "Pexels/Reddit\r\nRevenge sometimes arrives disguised as a favor.\r\nWhen one student begged his tech-savvy friend to permanently disable a school Chromebook before teachers could inspect it, the request … [+3622 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Iasbaba.com"
+                "name": "Raw Story"
             },
-            "author": "IASbaba",
-            "title": "UPSC Quiz – 2026 : IASbaba’s Daily Current Affairs Quiz 8th April 2026",
-            "description": "For Previous Daily Quiz (ARCHIVES) – CLICK HERE The Current Affairs questions are based on sources like ‘The Hindu’, ‘Indian Express’ and ‘PIB’, which are very important sources for UPSC Prelims Exam. The questions are focused on both the concepts and facts. …",
-            "url": "https://iasbaba.com/2026/04/upsc-quiz-2026-iasbabas-daily-current-affairs-quiz-8th-april-2026/",
-            "urlToImage": "https://iasbaba.com/wp-content/uploads/2025/06/Daily-Current-Affairs-Quiz-2025.jpeg",
-            "publishedAt": "2026-04-08T15:34:20Z",
-            "content": "For Previous Daily Quiz (ARCHIVES) – CLICK HERE\r\nThe Current Affairs questions are based on sources like The Hindu, Indian Express and PIB, which are very important sources for UPSC Prelims Exam. The… [+8379 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "GlobeNewswire"
-            },
-            "author": "SNS Insider pvt ltd",
-            "title": "Flow Cytometry Market Set to Surpass USD 12.19 Billion by 2035, Driven by Rising Demand for Precision Diagnostics – SNS Insider",
-            "description": "Austin, United States, April 08, 2026 (GLOBE NEWSWIRE) -- SNS Insider reported that global Flow Cytometry Market was valued at USD 5.75 billion in 2025 and is expected to reach USD 12.19 billion by 2035, growing at a CAGR of 7.8% over the forecast period of 2…",
-            "url": "https://www.globenewswire.com/news-release/2026/04/08/3270347/0/en/Flow-Cytometry-Market-Set-to-Surpass-USD-12-19-Billion-by-2035-Driven-by-Rising-Demand-for-Precision-Diagnostics-SNS-Insider.html",
-            "urlToImage": "https://ml.globenewswire.com/Resource/Download/d6272c2e-d204-41b8-b545-a6e2e24f85c2",
-            "publishedAt": "2026-04-08T15:33:00Z",
-            "content": "Austin, United States, April 08, 2026 (GLOBE NEWSWIRE) -- SNS Insider reported that global Flow Cytometry Market was valued at USD 5.75 billion in 2025 and is expected to reach USD 12.19 billion by 2… [+9921 chars]"
+            "author": "Daniel Hampton",
+            "title": "Red state city piles on charges for grandma arrested for crude costume at Trump protest",
+            "description": "An Alabama city is plowing ahead with prosecuting a 62-year-old grandmother who was thrown to the ground and arrested at an anti-Trump rally last fall for wearing an inflatable costume shaped like a male reproductive organ.Renea Gamble was arrested Oct. 18 at…",
+            "url": "https://www.rawstory.com/renea-gamble/",
+            "urlToImage": "https://www.rawstory.com/media-library/demonstrators-attend-a-no-kings-protest-against-u-s-president-donald-trump-s-administration-policies-in-washington-d-c-u.jpg?id=65471170&width=1200&height=600&coordinates=0%2C166%2C0%2C167",
+            "publishedAt": "2026-04-04T22:19:00Z",
+            "content": "President Donald Trumps executive order restricting mail ballots faced a fresh challenge on Friday, as a coalition of Democratic states filed a lawsuit seeking to block an order that experts say is a… [+5643 chars]"
         }
     ]
 }
