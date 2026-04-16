@@ -1,0 +1,32 @@
+1
+00:00:00,000 --> 00:00:05,259
+Welcome to the Voice of America's Newswords.
+
+2
+00:00:05,980 --> 00:00:13,580
+A museum in Miami, Florida specializes in works of art that stretch the imagination.
+
+3
+00:00:15,220 --> 00:00:15,740
+Illusion.
+
+4
+00:00:18,000 --> 00:00:24,920
+The Miami Paradox Museum is one of several paradox museums across the world.
+
+5
+00:00:25,920 --> 00:00:32,719
+More than 70 of its displays produce optical illusions worthy of a photograph.
+
+6
+00:00:33,920 --> 00:00:39,399
+The museum explains the math and science behind each illusion.
+
+7
+00:00:40,920 --> 00:00:47,359
+An illusion is anything that is false or not real but that seems to be true or real.
+
+8
+00:00:47,359 --> 00:00:57,240
+An optical illusion tricks your eyes to make you think you see something that is not present or that looks different in reality.
+

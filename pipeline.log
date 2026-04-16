@@ -602,3 +602,625 @@
 2026-04-09 17:54:44,116 - INFO - Batch processed 26 images with 0 errors
 2026-04-09 17:54:44,153 - INFO - Saved 26 image metadata records to MongoDB
 2026-04-09 17:54:44,153 - INFO - Pipeline finished successfully
+2026-04-16 02:33:44,973 - INFO - Pipeline started
+2026-04-16 02:33:48,343 - INFO - Fetched 15 total articles from API
+2026-04-16 02:33:48,352 - INFO - Inserted raw article document from source: news_page_1.json
+2026-04-16 02:33:48,354 - INFO - Inserted raw article document from source: news_page_1.json
+2026-04-16 02:33:48,356 - INFO - Inserted raw article document from source: news_page_1.json
+2026-04-16 02:33:48,359 - INFO - Inserted raw article document from source: news_page_1.json
+2026-04-16 02:33:48,361 - INFO - Inserted raw article document from source: news_page_1.json
+2026-04-16 02:33:48,371 - INFO - Inserted raw article document from source: news_page_2.json
+2026-04-16 02:33:48,385 - INFO - Inserted raw article document from source: news_page_2.json
+2026-04-16 02:33:48,415 - INFO - Inserted raw article document from source: news_page_2.json
+2026-04-16 02:33:48,420 - INFO - Inserted raw article document from source: news_page_2.json
+2026-04-16 02:33:48,425 - INFO - Inserted raw article document from source: news_page_2.json
+2026-04-16 02:33:48,429 - INFO - Inserted raw article document from source: news_page_3.json
+2026-04-16 02:33:48,432 - INFO - Inserted raw article document from source: news_page_3.json
+2026-04-16 02:33:48,435 - INFO - Inserted raw article document from source: news_page_3.json
+2026-04-16 02:33:48,437 - INFO - Inserted raw article document from source: news_page_3.json
+2026-04-16 02:33:48,438 - INFO - Inserted raw article document from source: news_page_3.json
+2026-04-16 02:33:48,439 - INFO - Parsed and stored 15 JSON articles to MongoDB
+2026-04-16 02:33:48,543 - INFO - Inserted raw article document from source: data/raw/pdf/news_normal.pdf
+2026-04-16 02:33:48,545 - INFO - Inserted raw article document from source: data/raw/pdf/news_normal.pdf
+2026-04-16 02:33:48,546 - INFO - Processed normal PDF: data/raw/pdf/news_normal.pdf
+2026-04-16 02:33:48,653 - INFO - Inserted raw article document from source: data/raw/pdf/news_two_column.pdf
+2026-04-16 02:33:48,654 - INFO - Inserted raw article document from source: data/raw/pdf/news_two_column.pdf
+2026-04-16 02:33:48,654 - INFO - Processed two-column PDF: data/raw/pdf/news_two_column.pdf
+2026-04-16 02:33:48,690 - INFO - Inserted raw article document from source: data/raw/word/news_normal.docx
+2026-04-16 02:33:48,691 - INFO - Processed normal Word file: data/raw/word/news_normal.docx
+2026-04-16 02:33:48,724 - INFO - Inserted raw article document from source: data/raw/word/news_two_column.docx
+2026-04-16 02:33:48,725 - INFO - Processed two-column Word file: data/raw/word/news_two_column.docx
+2026-04-16 02:33:48,741 - INFO - Inserted raw article document from source: data/raw/word/news_normal.docx
+2026-04-16 02:33:48,743 - INFO - Inserted raw article document from source: data/raw/word/news_normal.docx
+2026-04-16 02:33:48,743 - INFO - Inserted raw article document from source: data/raw/word/news_normal.docx
+2026-04-16 02:33:48,744 - INFO - Inserted raw article document from source: data/raw/word/news_normal.docx
+2026-04-16 02:33:48,745 - INFO - Inserted raw article document from source: data/raw/word/news_normal.docx
+2026-04-16 02:33:48,746 - INFO - Inserted raw article document from source: data/raw/word/news_normal.docx
+2026-04-16 02:33:48,747 - INFO - Inserted raw article document from source: data/raw/word/news_normal.docx
+2026-04-16 02:33:48,748 - INFO - Inserted raw article document from source: data/raw/word/news_normal.docx
+2026-04-16 02:33:48,749 - INFO - Processed Word runs for file: data/raw/word/news_normal.docx
+2026-04-16 02:33:48,776 - INFO - Inserted raw article document from source: data/raw/excel/news_data.xlsx
+2026-04-16 02:33:48,777 - INFO - Inserted raw article document from source: data/raw/excel/news_data.xlsx
+2026-04-16 02:33:48,778 - INFO - Inserted raw article document from source: data/raw/excel/news_data.xlsx
+2026-04-16 02:33:48,779 - INFO - Inserted raw article document from source: data/raw/excel/news_data.xlsx
+2026-04-16 02:33:48,780 - INFO - Inserted raw article document from source: data/raw/excel/news_data.xlsx
+2026-04-16 02:33:48,782 - INFO - Inserted raw article document from source: data/raw/excel/news_data.xlsx
+2026-04-16 02:33:48,784 - INFO - Inserted raw article document from source: data/raw/excel/news_data.xlsx
+2026-04-16 02:33:48,785 - INFO - Inserted raw article document from source: data/raw/excel/news_data.xlsx
+2026-04-16 02:33:48,785 - INFO - Inserted raw article document from source: data/raw/excel/news_data.xlsx
+2026-04-16 02:33:48,786 - INFO - Inserted raw article document from source: data/raw/excel/news_data.xlsx
+2026-04-16 02:33:48,796 - INFO - Inserted raw article document from source: data/raw/excel/news_data.xlsx
+2026-04-16 02:33:48,796 - INFO - Processed Excel file: data/raw/excel/news_data.xlsx
+2026-04-16 02:33:48,832 - INFO - Inserted raw article document from source: data/raw/api/news_page_1.json
+2026-04-16 02:33:48,833 - INFO - Encoding test processed for: data/raw/api/news_page_1.json
+2026-04-16 02:33:53,237 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/forms/
+2026-04-16 02:33:53,238 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/forms/
+2026-04-16 02:33:53,239 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/forms/
+2026-04-16 02:33:53,239 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/forms/
+2026-04-16 02:33:53,240 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/forms/
+2026-04-16 02:33:53,241 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/forms/
+2026-04-16 02:33:53,242 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/forms/
+2026-04-16 02:33:53,242 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/forms/
+2026-04-16 02:33:53,244 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/forms/
+2026-04-16 02:33:53,246 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/forms/
+2026-04-16 02:33:53,247 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/forms/
+2026-04-16 02:33:53,249 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/forms/
+2026-04-16 02:33:53,251 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/forms/
+2026-04-16 02:33:53,252 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/forms/
+2026-04-16 02:33:53,253 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/forms/
+2026-04-16 02:33:53,259 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/forms/
+2026-04-16 02:33:53,262 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/forms/
+2026-04-16 02:33:53,263 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/forms/
+2026-04-16 02:33:53,264 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/forms/
+2026-04-16 02:33:53,265 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/forms/
+2026-04-16 02:33:53,267 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/forms/
+2026-04-16 02:33:53,269 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/forms/
+2026-04-16 02:33:53,270 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/forms/
+2026-04-16 02:33:53,271 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/forms/
+2026-04-16 02:33:53,275 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/forms/
+2026-04-16 02:33:53,276 - INFO - Processed single-page scraping: 25 records
+2026-04-16 02:34:04,431 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/forms/?page_num=1
+2026-04-16 02:34:04,433 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/forms/?page_num=1
+2026-04-16 02:34:04,434 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/forms/?page_num=1
+2026-04-16 02:34:04,435 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/forms/?page_num=1
+2026-04-16 02:34:04,436 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/forms/?page_num=1
+2026-04-16 02:34:04,436 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/forms/?page_num=1
+2026-04-16 02:34:04,437 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/forms/?page_num=1
+2026-04-16 02:34:04,438 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/forms/?page_num=1
+2026-04-16 02:34:04,439 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/forms/?page_num=1
+2026-04-16 02:34:04,439 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/forms/?page_num=1
+2026-04-16 02:34:04,440 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/forms/?page_num=1
+2026-04-16 02:34:04,441 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/forms/?page_num=1
+2026-04-16 02:34:04,442 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/forms/?page_num=1
+2026-04-16 02:34:04,442 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/forms/?page_num=1
+2026-04-16 02:34:04,443 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/forms/?page_num=1
+2026-04-16 02:34:04,443 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/forms/?page_num=1
+2026-04-16 02:34:04,444 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/forms/?page_num=1
+2026-04-16 02:34:04,444 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/forms/?page_num=1
+2026-04-16 02:34:04,445 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/forms/?page_num=1
+2026-04-16 02:34:04,446 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/forms/?page_num=1
+2026-04-16 02:34:04,446 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/forms/?page_num=1
+2026-04-16 02:34:04,447 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/forms/?page_num=1
+2026-04-16 02:34:04,448 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/forms/?page_num=1
+2026-04-16 02:34:04,448 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/forms/?page_num=1
+2026-04-16 02:34:04,449 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/forms/?page_num=1
+2026-04-16 02:34:04,452 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/forms/?page_num=2
+2026-04-16 02:34:04,460 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/forms/?page_num=2
+2026-04-16 02:34:04,463 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/forms/?page_num=2
+2026-04-16 02:34:04,472 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/forms/?page_num=2
+2026-04-16 02:34:04,479 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/forms/?page_num=2
+2026-04-16 02:34:04,488 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/forms/?page_num=2
+2026-04-16 02:34:04,499 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/forms/?page_num=2
+2026-04-16 02:34:04,503 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/forms/?page_num=2
+2026-04-16 02:34:04,505 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/forms/?page_num=2
+2026-04-16 02:34:04,506 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/forms/?page_num=2
+2026-04-16 02:34:04,512 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/forms/?page_num=2
+2026-04-16 02:34:04,513 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/forms/?page_num=2
+2026-04-16 02:34:04,515 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/forms/?page_num=2
+2026-04-16 02:34:04,517 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/forms/?page_num=2
+2026-04-16 02:34:04,518 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/forms/?page_num=2
+2026-04-16 02:34:04,519 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/forms/?page_num=2
+2026-04-16 02:34:04,520 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/forms/?page_num=2
+2026-04-16 02:34:04,521 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/forms/?page_num=2
+2026-04-16 02:34:04,522 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/forms/?page_num=2
+2026-04-16 02:34:04,523 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/forms/?page_num=2
+2026-04-16 02:34:04,524 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/forms/?page_num=2
+2026-04-16 02:34:04,527 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/forms/?page_num=2
+2026-04-16 02:34:04,528 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/forms/?page_num=2
+2026-04-16 02:34:04,530 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/forms/?page_num=2
+2026-04-16 02:34:04,531 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/forms/?page_num=2
+2026-04-16 02:34:04,532 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/forms/?page_num=3
+2026-04-16 02:34:04,533 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/forms/?page_num=3
+2026-04-16 02:34:04,534 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/forms/?page_num=3
+2026-04-16 02:34:04,535 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/forms/?page_num=3
+2026-04-16 02:34:04,536 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/forms/?page_num=3
+2026-04-16 02:34:04,537 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/forms/?page_num=3
+2026-04-16 02:34:04,539 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/forms/?page_num=3
+2026-04-16 02:34:04,541 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/forms/?page_num=3
+2026-04-16 02:34:04,542 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/forms/?page_num=3
+2026-04-16 02:34:04,543 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/forms/?page_num=3
+2026-04-16 02:34:04,544 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/forms/?page_num=3
+2026-04-16 02:34:04,545 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/forms/?page_num=3
+2026-04-16 02:34:04,547 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/forms/?page_num=3
+2026-04-16 02:34:04,548 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/forms/?page_num=3
+2026-04-16 02:34:04,549 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/forms/?page_num=3
+2026-04-16 02:34:04,550 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/forms/?page_num=3
+2026-04-16 02:34:04,550 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/forms/?page_num=3
+2026-04-16 02:34:04,552 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/forms/?page_num=3
+2026-04-16 02:34:04,553 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/forms/?page_num=3
+2026-04-16 02:34:04,554 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/forms/?page_num=3
+2026-04-16 02:34:04,555 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/forms/?page_num=3
+2026-04-16 02:34:04,556 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/forms/?page_num=3
+2026-04-16 02:34:04,557 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/forms/?page_num=3
+2026-04-16 02:34:04,558 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/forms/?page_num=3
+2026-04-16 02:34:04,559 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/forms/?page_num=3
+2026-04-16 02:34:04,561 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/forms/?page_num=4
+2026-04-16 02:34:04,562 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/forms/?page_num=4
+2026-04-16 02:34:04,564 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/forms/?page_num=4
+2026-04-16 02:34:04,566 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/forms/?page_num=4
+2026-04-16 02:34:04,567 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/forms/?page_num=4
+2026-04-16 02:34:04,568 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/forms/?page_num=4
+2026-04-16 02:34:04,569 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/forms/?page_num=4
+2026-04-16 02:34:04,570 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/forms/?page_num=4
+2026-04-16 02:34:04,571 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/forms/?page_num=4
+2026-04-16 02:34:04,572 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/forms/?page_num=4
+2026-04-16 02:34:04,573 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/forms/?page_num=4
+2026-04-16 02:34:04,574 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/forms/?page_num=4
+2026-04-16 02:34:04,575 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/forms/?page_num=4
+2026-04-16 02:34:04,576 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/forms/?page_num=4
+2026-04-16 02:34:04,577 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/forms/?page_num=4
+2026-04-16 02:34:04,578 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/forms/?page_num=4
+2026-04-16 02:34:04,579 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/forms/?page_num=4
+2026-04-16 02:34:04,579 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/forms/?page_num=4
+2026-04-16 02:34:04,580 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/forms/?page_num=4
+2026-04-16 02:34:04,581 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/forms/?page_num=4
+2026-04-16 02:34:04,582 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/forms/?page_num=4
+2026-04-16 02:34:04,583 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/forms/?page_num=4
+2026-04-16 02:34:04,584 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/forms/?page_num=4
+2026-04-16 02:34:04,585 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/forms/?page_num=4
+2026-04-16 02:34:04,586 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/forms/?page_num=4
+2026-04-16 02:34:04,586 - INFO - Processed multi-page scraping: 100 records
+2026-04-16 02:34:19,414 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2010
+2026-04-16 02:34:19,416 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2010
+2026-04-16 02:34:19,418 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2010
+2026-04-16 02:34:19,419 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2010
+2026-04-16 02:34:19,421 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2010
+2026-04-16 02:34:19,424 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2010
+2026-04-16 02:34:19,425 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2010
+2026-04-16 02:34:19,426 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2010
+2026-04-16 02:34:19,427 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2010
+2026-04-16 02:34:19,428 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2010
+2026-04-16 02:34:19,429 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2010
+2026-04-16 02:34:19,430 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2010
+2026-04-16 02:34:19,431 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2010
+2026-04-16 02:34:19,433 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2011
+2026-04-16 02:34:19,435 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2011
+2026-04-16 02:34:19,435 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2011
+2026-04-16 02:34:19,436 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2011
+2026-04-16 02:34:19,437 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2011
+2026-04-16 02:34:19,437 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2011
+2026-04-16 02:34:19,438 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2011
+2026-04-16 02:34:19,440 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2011
+2026-04-16 02:34:19,440 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2011
+2026-04-16 02:34:19,441 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2011
+2026-04-16 02:34:19,444 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2011
+2026-04-16 02:34:19,446 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2011
+2026-04-16 02:34:19,449 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2011
+2026-04-16 02:34:19,450 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2011
+2026-04-16 02:34:19,451 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2011
+2026-04-16 02:34:19,451 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2012
+2026-04-16 02:34:19,452 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2012
+2026-04-16 02:34:19,453 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2012
+2026-04-16 02:34:19,456 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2012
+2026-04-16 02:34:19,460 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2012
+2026-04-16 02:34:19,461 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2012
+2026-04-16 02:34:19,462 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2012
+2026-04-16 02:34:19,463 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2012
+2026-04-16 02:34:19,464 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2012
+2026-04-16 02:34:19,465 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2012
+2026-04-16 02:34:19,465 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2012
+2026-04-16 02:34:19,466 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2012
+2026-04-16 02:34:19,468 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2012
+2026-04-16 02:34:19,469 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2012
+2026-04-16 02:34:19,469 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2012
+2026-04-16 02:34:19,470 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2013
+2026-04-16 02:34:19,471 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2013
+2026-04-16 02:34:19,473 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2013
+2026-04-16 02:34:19,474 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2013
+2026-04-16 02:34:19,476 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2013
+2026-04-16 02:34:19,477 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2013
+2026-04-16 02:34:19,479 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2013
+2026-04-16 02:34:19,479 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2013
+2026-04-16 02:34:19,480 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2013
+2026-04-16 02:34:19,481 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2013
+2026-04-16 02:34:19,482 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2013
+2026-04-16 02:34:19,482 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2013
+2026-04-16 02:34:19,483 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2014
+2026-04-16 02:34:19,484 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2014
+2026-04-16 02:34:19,484 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2014
+2026-04-16 02:34:19,485 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2014
+2026-04-16 02:34:19,486 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2014
+2026-04-16 02:34:19,487 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2014
+2026-04-16 02:34:19,487 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2014
+2026-04-16 02:34:19,488 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2014
+2026-04-16 02:34:19,489 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2014
+2026-04-16 02:34:19,489 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2014
+2026-04-16 02:34:19,490 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2014
+2026-04-16 02:34:19,491 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2014
+2026-04-16 02:34:19,491 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2014
+2026-04-16 02:34:19,492 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2014
+2026-04-16 02:34:19,493 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2014
+2026-04-16 02:34:19,497 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2014
+2026-04-16 02:34:19,500 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2015
+2026-04-16 02:34:19,503 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2015
+2026-04-16 02:34:19,504 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2015
+2026-04-16 02:34:19,505 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2015
+2026-04-16 02:34:19,506 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2015
+2026-04-16 02:34:19,507 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2015
+2026-04-16 02:34:19,508 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2015
+2026-04-16 02:34:19,509 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2015
+2026-04-16 02:34:19,510 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2015
+2026-04-16 02:34:19,510 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2015
+2026-04-16 02:34:19,511 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2015
+2026-04-16 02:34:19,512 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2015
+2026-04-16 02:34:19,513 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2015
+2026-04-16 02:34:19,513 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2015
+2026-04-16 02:34:19,514 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2015
+2026-04-16 02:34:19,516 - INFO - Inserted raw article document from source: https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2015
+2026-04-16 02:34:19,520 - INFO - Processed dynamic JSON scraping: 87 records
+2026-04-16 02:34:20,820 - INFO - Inserted raw article document from source: data/raw/images/test_scan.png
+2026-04-16 02:34:20,820 - INFO - Processed OCR image
+2026-04-16 02:34:26,812 - INFO - Inserted raw article document from source: data/raw/scanned/test_scan.pdf
+2026-04-16 02:34:26,813 - INFO - Inserted raw article document from source: data/raw/scanned/test_scan.pdf
+2026-04-16 02:34:26,813 - INFO - Processed OCR scanned PDF: 2 pages
+2026-04-16 02:34:26,814 - INFO - Loaded 5 articles from news_page_1.json
+2026-04-16 02:34:26,815 - INFO - Loaded 5 articles from news_page_2.json
+2026-04-16 02:34:26,815 - INFO - Loaded 5 articles from news_page_3.json
+2026-04-16 02:34:26,815 - INFO - Total loaded articles: 15
+2026-04-16 02:34:28,276 - INFO - Downloaded: data\raw\images\fccd0ffc-44f8-471e-abf0-517e47603450.jpg
+2026-04-16 02:34:29,571 - INFO - Downloaded: data\raw\images\WhatsApp_1696595068276_1776157187775.jpg
+2026-04-16 02:34:30,838 - INFO - Downloaded: data\raw\images\3-0-134102337-EV1-0_1679831240005_1776171122653.jpg
+2026-04-16 02:34:32,564 - INFO - Downloaded: data\raw\images\nhrc-member-defends-notice-to-meity-says-child-safety-concerns-override-pending-dpdp-enforcement.jpg
+2026-04-16 02:34:33,693 - INFO - Downloaded: data\raw\images\central-government-yet-to-notify-selection-panels-for-data-protection-board.jpg
+2026-04-16 02:34:34,984 - INFO - Downloaded: data\raw\images\startups-spot-a-cool-opening-as-acs-become-everyday-need.jpg
+2026-04-16 02:34:36,314 - INFO - Downloaded: data\raw\images\brain-health-startup-ivory-develops-treadmill-test-for-brain-focusses-on-cognitive-health-in-india.jpg
+2026-04-16 02:34:37,986 - INFO - Downloaded: data\raw\images\moving-up-the-value-chain-proves-costly-as-tech-majors-and-gccs-slash-jobs.jpg
+2026-04-16 02:34:39,442 - INFO - Downloaded: data\raw\images\file-20260413-57-7x4esa.jpg
+2026-04-16 02:34:41,220 - INFO - Downloaded: data\raw\images\MCS_Gatchaman_017_JPG_04-scaled-1-2000x1125.jpg
+2026-04-16 02:34:41,222 - INFO - Downloaded 10 images.
+2026-04-16 02:34:41,222 - INFO - Downloaded 10 article images
+2026-04-16 02:34:41,226 - INFO - Batch processing 36 images from data\raw\images
+2026-04-16 02:34:41,338 - INFO - Resized proportionally: 2133x1200 -> 500x281
+2026-04-16 02:34:41,373 - INFO - Thumbnail saved: data\processed\thumbnails\16x9_2133x1200_highres-true-rgb_thumb.jpg (128, 72)
+2026-04-16 02:34:41,843 - INFO - WebP: 173KB -> 123KB (28.6% saving)
+2026-04-16 02:34:41,845 - WARNING - No EXIF data found in data\raw\images\16x9_2133x1200_highres-true-rgb.jpg
+2026-04-16 02:34:41,878 - INFO - Resized proportionally: 1600x900 -> 500x281
+2026-04-16 02:34:41,891 - INFO - Thumbnail saved: data\processed\thumbnails\3-0-134102337-EV1-0_1679831240005_1776171122653_thumb.jpg (128, 72)
+2026-04-16 02:34:42,162 - INFO - WebP: 163KB -> 113KB (30.8% saving)
+2026-04-16 02:34:42,163 - WARNING - No EXIF data found in data\raw\images\3-0-134102337-EV1-0_1679831240005_1776171122653.jpg
+2026-04-16 02:34:42,188 - INFO - Resized proportionally: 960x540 -> 500x281
+2026-04-16 02:34:42,196 - INFO - Thumbnail saved: data\processed\thumbnails\3df2450bd86ac04a6913743726db7297c9ac4482-5994x3372_thumb.jpg (128, 72)
+2026-04-16 02:34:42,294 - INFO - WebP: 48KB -> 37KB (24.0% saving)
+2026-04-16 02:34:42,295 - WARNING - No EXIF data found in data\raw\images\3df2450bd86ac04a6913743726db7297c9ac4482-5994x3372.jpg
+2026-04-16 02:34:42,324 - INFO - Resized proportionally: 300x431 -> 500x718
+2026-04-16 02:34:42,330 - INFO - Thumbnail saved: data\processed\thumbnails\53482dc1-f464-4851-bec3-5d1cef091e39_thumb.jpg (89, 128)
+2026-04-16 02:34:42,347 - INFO - WebP: 40KB -> 3KB (90.2% saving)
+2026-04-16 02:34:42,368 - INFO - Resized proportionally: 1280x640 -> 500x250
+2026-04-16 02:34:42,379 - INFO - Thumbnail saved: data\processed\thumbnails\59a204a5-c40e-4168-bd8c-c8b8bd7138af_thumb.jpg (128, 64)
+2026-04-16 02:34:42,468 - INFO - WebP: 31KB -> 17KB (44.2% saving)
+2026-04-16 02:34:42,469 - WARNING - No EXIF data found in data\raw\images\59a204a5-c40e-4168-bd8c-c8b8bd7138af.jpg
+2026-04-16 02:34:42,500 - INFO - Resized proportionally: 1200x600 -> 500x250
+2026-04-16 02:34:42,512 - INFO - Thumbnail saved: data\processed\thumbnails\69d65c20f36fd1a78c051d65_thumb.jpg (128, 64)
+2026-04-16 02:34:42,633 - INFO - WebP: 51KB -> 40KB (21.9% saving)
+2026-04-16 02:34:42,634 - WARNING - No EXIF data found in data\raw\images\69d65c20f36fd1a78c051d65.jpg
+2026-04-16 02:34:42,680 - INFO - Resized proportionally: 2000x1333 -> 500x333
+2026-04-16 02:34:42,697 - INFO - Thumbnail saved: data\processed\thumbnails\74c8728a-700f-45c7-abd4-d62cbf48c10e_thumb.jpg (128, 85)
+2026-04-16 02:34:42,962 - INFO - WebP: 105KB -> 31KB (70.5% saving)
+2026-04-16 02:34:42,964 - WARNING - No EXIF data found in data\raw\images\74c8728a-700f-45c7-abd4-d62cbf48c10e.jpg
+2026-04-16 02:34:42,979 - INFO - Resized proportionally: 1024x576 -> 500x281
+2026-04-16 02:34:42,987 - INFO - Thumbnail saved: data\processed\thumbnails\9FCoS7qNMvGxy2rB_thumb.jpg (128, 72)
+2026-04-16 02:34:43,054 - INFO - WebP: 28KB -> 10KB (64.7% saving)
+2026-04-16 02:34:43,054 - WARNING - No EXIF data found in data\raw\images\9FCoS7qNMvGxy2rB.jpg
+2026-04-16 02:34:43,121 - INFO - Resized proportionally: 2048x566 -> 500x138
+2026-04-16 02:34:43,169 - INFO - Thumbnail saved: data\processed\thumbnails\aba75d2b-aa2e-483c-80ed-b285b94e5360_thumb.jpg (128, 35)
+2026-04-16 02:34:43,386 - INFO - WebP: 1989KB -> 44KB (97.8% saving)
+2026-04-16 02:34:43,415 - WARNING - No EXIF data found in data\raw\images\aba75d2b-aa2e-483c-80ed-b285b94e5360.jpg
+2026-04-16 02:34:43,458 - INFO - Resized proportionally: 912x630 -> 500x345
+2026-04-16 02:34:43,467 - INFO - Thumbnail saved: data\processed\thumbnails\Abraham-Akpan-912x630_thumb.jpg (128, 88)
+2026-04-16 02:34:43,553 - INFO - WebP: 38KB -> 23KB (38.6% saving)
+2026-04-16 02:34:43,553 - WARNING - No EXIF data found in data\raw\images\Abraham-Akpan-912x630.jpeg
+2026-04-16 02:34:43,598 - INFO - Resized proportionally: 1600x840 -> 500x262
+2026-04-16 02:34:43,614 - INFO - Thumbnail saved: data\processed\thumbnails\aerial-images-home_thumb.jpg (128, 67)
+2026-04-16 02:34:43,870 - INFO - WebP: 103KB -> 153KB (-47.5% saving)
+2026-04-16 02:34:43,871 - WARNING - No EXIF data found in data\raw\images\aerial-images-home.jpg
+2026-04-16 02:34:43,898 - INFO - Resized proportionally: 1200x675 -> 500x281
+2026-04-16 02:34:43,913 - INFO - Thumbnail saved: data\processed\thumbnails\amazon-dod-4-8_thumb.jpg (128, 72)
+2026-04-16 02:34:44,064 - INFO - WebP: 60KB -> 49KB (18.0% saving)
+2026-04-16 02:34:44,065 - WARNING - No EXIF data found in data\raw\images\amazon-dod-4-8.png
+2026-04-16 02:34:44,088 - INFO - Resized proportionally: 1200x630 -> 500x262
+2026-04-16 02:34:44,097 - INFO - Thumbnail saved: data\processed\thumbnails\article_1_thumb.jpg (128, 67)
+2026-04-16 02:34:44,243 - INFO - WebP: 145KB -> 84KB (42.1% saving)
+2026-04-16 02:34:44,244 - WARNING - No EXIF data found in data\raw\images\article_1.jpg
+2026-04-16 02:34:44,399 - INFO - Resized proportionally: 3301x2201 -> 500x333
+2026-04-16 02:34:44,497 - INFO - Thumbnail saved: data\processed\thumbnails\Bitcoin-and-Ethereum-from-Pexels_thumb.jpg (128, 85)
+2026-04-16 02:34:46,323 - INFO - WebP: 779KB -> 870KB (-11.7% saving)
+2026-04-16 02:34:46,326 - WARNING - No EXIF data found in data\raw\images\Bitcoin-and-Ethereum-from-Pexels.jpeg
+2026-04-16 02:34:46,376 - INFO - Resized proportionally: 1200x900 -> 500x375
+2026-04-16 02:34:46,406 - INFO - Thumbnail saved: data\processed\thumbnails\brain-health-startup-ivory-develops-treadmill-test-for-brain-focusses-on-cognitive-health-in-india_thumb.jpg (128, 96)
+2026-04-16 02:34:46,612 - INFO - WebP: 43KB -> 55KB (-28.2% saving)
+2026-04-16 02:34:46,613 - WARNING - No EXIF data found in data\raw\images\brain-health-startup-ivory-develops-treadmill-test-for-brain-focusses-on-cognitive-health-in-india.jpg
+2026-04-16 02:34:46,665 - INFO - Resized proportionally: 1200x899 -> 500x374
+2026-04-16 02:34:46,693 - INFO - Thumbnail saved: data\processed\thumbnails\central-government-yet-to-notify-selection-panels-for-data-protection-board_thumb.jpg (128, 96)
+2026-04-16 02:34:46,877 - INFO - WebP: 23KB -> 33KB (-37.9% saving)
+2026-04-16 02:34:46,878 - WARNING - No EXIF data found in data\raw\images\central-government-yet-to-notify-selection-panels-for-data-protection-board.jpg
+2026-04-16 02:34:46,905 - INFO - Resized proportionally: 1200x630 -> 500x262
+2026-04-16 02:34:46,926 - INFO - Thumbnail saved: data\processed\thumbnails\default_thumb.jpg (128, 67)
+2026-04-16 02:34:47,016 - INFO - WebP: 48KB -> 20KB (57.5% saving)
+2026-04-16 02:34:47,019 - WARNING - No EXIF data found in data\raw\images\default.jpg
+2026-04-16 02:34:47,034 - INFO - Resized proportionally: 1500x700 -> 500x233
+2026-04-16 02:34:47,040 - INFO - Thumbnail saved: data\processed\thumbnails\fccd0ffc-44f8-471e-abf0-517e47603450_thumb.jpg (128, 60)
+2026-04-16 02:34:47,149 - INFO - WebP: 59KB -> 17KB (71.0% saving)
+2026-04-16 02:34:47,151 - WARNING - No EXIF data found in data\raw\images\fccd0ffc-44f8-471e-abf0-517e47603450.jpg
+2026-04-16 02:34:47,192 - INFO - Resized proportionally: 1356x668 -> 500x246
+2026-04-16 02:34:47,207 - INFO - Thumbnail saved: data\processed\thumbnails\file-20260413-57-7x4esa_thumb.jpg (128, 63)
+2026-04-16 02:34:47,425 - INFO - WebP: 125KB -> 122KB (2.6% saving)
+2026-04-16 02:34:47,427 - WARNING - No EXIF data found in data\raw\images\file-20260413-57-7x4esa.jpg
+2026-04-16 02:34:47,455 - INFO - Resized proportionally: 1200x600 -> 500x250
+2026-04-16 02:34:47,472 - INFO - Thumbnail saved: data\processed\thumbnails\GettyImages-2203399905-e1775661971259_thumb.jpg (128, 64)
+2026-04-16 02:34:47,796 - INFO - WebP: 110KB -> 89KB (18.6% saving)
+2026-04-16 02:34:47,797 - WARNING - No EXIF data found in data\raw\images\GettyImages-2203399905-e1775661971259.jpg
+2026-04-16 02:34:47,805 - INFO - Resized proportionally: 200x200 -> 500x500
+2026-04-16 02:34:47,807 - INFO - Thumbnail saved: data\processed\thumbnails\gilda%201-thumb-200x200-103413_thumb.jpg (128, 128)
+2026-04-16 02:34:47,817 - INFO - WebP: 3KB -> 5KB (-30.1% saving)
+2026-04-16 02:34:47,817 - WARNING - No EXIF data found in data\raw\images\gilda%201-thumb-200x200-103413.jpg
+2026-04-16 02:34:47,849 - INFO - Resized proportionally: 1600x900 -> 500x281
+2026-04-16 02:34:47,864 - INFO - Thumbnail saved: data\processed\thumbnails\IE-Image-26_thumb.jpg (128, 72)
+2026-04-16 02:34:48,057 - INFO - WebP: 58KB -> 49KB (15.3% saving)
+2026-04-16 02:34:48,058 - WARNING - No EXIF data found in data\raw\images\IE-Image-26.jpg
+2026-04-16 02:34:48,082 - INFO - Resized proportionally: 1000x563 -> 500x281
+2026-04-16 02:34:48,098 - INFO - Thumbnail saved: data\processed\thumbnails\IMG_3946_thumb.jpg (128, 72)
+2026-04-16 02:34:48,215 - INFO - WebP: 125KB -> 79KB (37.0% saving)
+2026-04-16 02:34:48,216 - WARNING - No EXIF data found in data\raw\images\IMG_3946.jpeg
+2026-04-16 02:34:48,241 - INFO - Resized proportionally: 1200x675 -> 500x281
+2026-04-16 02:34:48,250 - INFO - Thumbnail saved: data\processed\thumbnails\IMG_Building_a_network_t_2_1_E4DRQ1N5_thumb.jpg (128, 72)
+2026-04-16 02:34:48,399 - INFO - WebP: 63KB -> 45KB (28.1% saving)
+2026-04-16 02:34:48,400 - WARNING - No EXIF data found in data\raw\images\IMG_Building_a_network_t_2_1_E4DRQ1N5.jpg
+2026-04-16 02:34:48,428 - INFO - Resized proportionally: 1200x796 -> 500x331
+2026-04-16 02:34:48,445 - INFO - Thumbnail saved: data\processed\thumbnails\lapd-car-agents-night_thumb.jpg (128, 85)
+2026-04-16 02:34:48,588 - INFO - WebP: 69KB -> 30KB (55.7% saving)
+2026-04-16 02:34:48,590 - WARNING - No EXIF data found in data\raw\images\lapd-car-agents-night.jpg
+2026-04-16 02:34:48,631 - INFO - Resized proportionally: 2000x1125 -> 500x281
+2026-04-16 02:34:48,651 - INFO - Thumbnail saved: data\processed\thumbnails\MCS_Gatchaman_017_JPG_04-scaled-1-2000x1125_thumb.jpg (128, 72)
+2026-04-16 02:34:49,072 - INFO - WebP: 299KB -> 189KB (36.6% saving)
+2026-04-16 02:34:49,073 - WARNING - No EXIF data found in data\raw\images\MCS_Gatchaman_017_JPG_04-scaled-1-2000x1125.jpg
+2026-04-16 02:34:49,124 - INFO - Resized proportionally: 1200x900 -> 500x375
+2026-04-16 02:34:49,156 - INFO - Thumbnail saved: data\processed\thumbnails\moving-up-the-value-chain-proves-costly-as-tech-majors-and-gccs-slash-jobs_thumb.jpg (128, 96)
+2026-04-16 02:34:49,421 - INFO - WebP: 88KB -> 110KB (-25.9% saving)
+2026-04-16 02:34:49,422 - WARNING - No EXIF data found in data\raw\images\moving-up-the-value-chain-proves-costly-as-tech-majors-and-gccs-slash-jobs.jpg
+2026-04-16 02:34:49,506 - INFO - Resized proportionally: 1200x900 -> 500x375
+2026-04-16 02:34:49,553 - INFO - Thumbnail saved: data\processed\thumbnails\nhrc-member-defends-notice-to-meity-says-child-safety-concerns-override-pending-dpdp-enforcement_thumb.jpg (128, 96)
+2026-04-16 02:34:49,905 - INFO - WebP: 199KB -> 229KB (-14.8% saving)
+2026-04-16 02:34:49,906 - WARNING - No EXIF data found in data\raw\images\nhrc-member-defends-notice-to-meity-says-child-safety-concerns-override-pending-dpdp-enforcement.jpg
+2026-04-16 02:34:49,926 - INFO - Resized proportionally: 1200x675 -> 500x281
+2026-04-16 02:34:49,936 - INFO - Thumbnail saved: data\processed\thumbnails\NYT_thumb.jpg (128, 72)
+2026-04-16 02:34:50,144 - INFO - WebP: 225KB -> 207KB (8.0% saving)
+2026-04-16 02:34:50,145 - WARNING - No EXIF data found in data\raw\images\NYT.jpg
+2026-04-16 02:34:50,177 - INFO - Resized proportionally: 1200x675 -> 500x281
+2026-04-16 02:34:50,192 - INFO - Thumbnail saved: data\processed\thumbnails\Simon-Small-courtesy-Sarah-Bogosh_social_thumb.jpg (128, 72)
+2026-04-16 02:34:50,307 - INFO - WebP: 203KB -> 36KB (82.2% saving)
+2026-04-16 02:34:50,362 - INFO - Resized proportionally: 1200x900 -> 500x375
+2026-04-16 02:34:50,416 - INFO - Thumbnail saved: data\processed\thumbnails\startups-spot-a-cool-opening-as-acs-become-everyday-need_thumb.jpg (128, 96)
+2026-04-16 02:34:50,694 - INFO - WebP: 84KB -> 98KB (-16.6% saving)
+2026-04-16 02:34:50,696 - WARNING - No EXIF data found in data\raw\images\startups-spot-a-cool-opening-as-acs-become-everyday-need.jpg
+2026-04-16 02:34:50,725 - INFO - Resized proportionally: 898x450 -> 500x250
+2026-04-16 02:34:50,732 - INFO - Thumbnail saved: data\processed\thumbnails\Tab-S11-Ultra-S-Pen-OLA_Native-Ads_1200x627-1-e1766155625505_thumb.jpg (128, 64)
+2026-04-16 02:34:50,830 - INFO - WebP: 51KB -> 33KB (34.9% saving)
+2026-04-16 02:34:50,867 - INFO - Resized proportionally: 662x737 -> 500x556
+2026-04-16 02:34:50,887 - INFO - Thumbnail saved: data\processed\thumbnails\test_scan_thumb.jpg (115, 128)
+2026-04-16 02:34:50,992 - INFO - WebP: 127KB -> 58KB (53.9% saving)
+2026-04-16 02:34:50,996 - WARNING - No EXIF data found in data\raw\images\test_scan.png
+2026-04-16 02:34:51,036 - INFO - Resized proportionally: 1599x900 -> 500x281
+2026-04-16 02:34:51,049 - INFO - Thumbnail saved: data\processed\thumbnails\WhatsApp_1696595068276_1776157187775_thumb.jpg (128, 72)
+2026-04-16 02:34:51,312 - INFO - WebP: 127KB -> 86KB (32.3% saving)
+2026-04-16 02:34:51,313 - WARNING - No EXIF data found in data\raw\images\WhatsApp_1696595068276_1776157187775.jpg
+2026-04-16 02:34:51,326 - INFO - Resized proportionally: 768x512 -> 500x333
+2026-04-16 02:34:51,332 - INFO - Thumbnail saved: data\processed\thumbnails\while-amazons-aws-cloud-computing-unit-investing-ai-infused-future-tech-titan-still-under_thumb.jpg (128, 85)
+2026-04-16 02:34:51,412 - INFO - WebP: 89KB -> 30KB (65.6% saving)
+2026-04-16 02:34:51,413 - WARNING - No EXIF data found in data\raw\images\while-amazons-aws-cloud-computing-unit-investing-ai-infused-future-tech-titan-still-under.jpg
+2026-04-16 02:34:51,431 - INFO - Resized proportionally: 1024x576 -> 500x281
+2026-04-16 02:34:51,437 - INFO - Thumbnail saved: data\processed\thumbnails\Windows-11-Start-menu-option-consolidated_thumb.jpg (128, 72)
+2026-04-16 02:34:51,536 - INFO - WebP: 162KB -> 31KB (80.5% saving)
+2026-04-16 02:34:51,538 - WARNING - No EXIF data found in data\raw\images\Windows-11-Start-menu-option-consolidated.png
+2026-04-16 02:34:52,665 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-04-16 02:34:55,199 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-04-16 02:34:57,960 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-04-16 02:35:00,284 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-04-16 02:35:02,875 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-04-16 02:35:05,538 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-04-16 02:35:08,400 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-04-16 02:35:10,964 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-04-16 02:35:13,473 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-04-16 02:35:15,982 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-04-16 02:35:19,158 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-04-16 02:35:21,512 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-04-16 02:35:24,282 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-04-16 02:35:26,663 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-04-16 02:35:29,300 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-04-16 02:35:31,958 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-04-16 02:35:34,209 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-04-16 02:35:36,465 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-04-16 02:35:39,258 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-04-16 02:35:41,812 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-04-16 02:35:44,757 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-04-16 02:35:47,124 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-04-16 02:35:50,085 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-04-16 02:35:52,336 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-04-16 02:35:54,798 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-04-16 02:35:57,241 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-04-16 02:36:00,076 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-04-16 02:36:02,687 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-04-16 02:36:05,753 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-04-16 02:36:08,203 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-04-16 02:36:11,076 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-04-16 02:36:13,738 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-04-16 02:36:16,473 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-04-16 02:36:19,301 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-04-16 02:36:22,134 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-04-16 02:36:25,316 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-04-16 02:36:28,495 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-04-16 02:36:31,453 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-04-16 02:36:34,422 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-04-16 02:36:36,879 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-04-16 02:36:39,643 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-04-16 02:36:41,903 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-04-16 02:36:44,350 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-04-16 02:36:46,710 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-04-16 02:36:49,167 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-04-16 02:36:51,426 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-04-16 02:36:54,082 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-04-16 02:36:56,641 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-04-16 02:36:59,203 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-04-16 02:37:02,173 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-04-16 02:37:04,531 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-04-16 02:37:06,893 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-04-16 02:37:09,561 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-04-16 02:37:11,905 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-04-16 02:37:14,435 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-04-16 02:37:17,019 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-04-16 02:37:19,396 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-04-16 02:37:21,557 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-04-16 02:37:24,394 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-04-16 02:37:27,065 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-04-16 02:37:29,610 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-04-16 02:37:32,175 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-04-16 02:37:34,940 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-04-16 02:37:37,304 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-04-16 02:37:39,754 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-04-16 02:37:42,008 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-04-16 02:37:44,464 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-04-16 02:37:46,825 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-04-16 02:37:49,380 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-04-16 02:37:51,733 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-04-16 02:37:54,296 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-04-16 02:37:56,552 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-04-16 02:37:58,897 - INFO - Google Drive upload completed.
+2026-04-16 02:37:58,897 - INFO - Batch complete. Success: 36, Errors: 0
+2026-04-16 02:37:58,897 - INFO - Batch processed 36 images with 0 errors
+2026-04-16 02:37:58,955 - INFO - Saved 36 image metadata records to MongoDB
+2026-04-16 02:37:58,956 - INFO - Saved 36 image metadata records to MongoDB
+2026-04-16 02:37:58,956 - INFO - === Audio/Video Processing Stage Started ===
+2026-04-16 02:37:58,957 - INFO - Processing audio file: news1.mp3
+2026-04-16 02:37:59,670 - INFO - Loaded audio: news1.mp3 (MP3)
+2026-04-16 02:37:59,670 - INFO - Loaded audio news1.mp3: duration=448.21s, channels=1, frame_rate=44100
+2026-04-16 02:37:59,671 - INFO - Trimmed audio: 0ms -> 30000ms (was 448211ms, now 30000ms)
+2026-04-16 02:37:59,685 - INFO - Applied fade-in 1000ms / fade-out 2000ms
+2026-04-16 02:37:59,980 - INFO - Exported audio -> data\processed\audio\news1_clip.mp3 (704.7 KB)
+2026-04-16 02:37:59,980 - INFO - Saved processed audio clip: data\processed\audio\news1_clip.mp3
+2026-04-16 02:37:59,980 - INFO - Using chunked transcription for long audio: news1.mp3
+2026-04-16 02:38:00,717 - INFO - Loaded audio: news1.mp3 (MP3)
+2026-04-16 02:38:00,717 - INFO - Long audio: 448s -> 2 chunks of 5.0min
+2026-04-16 02:38:00,798 - INFO - Saved transcript JSON -> data\processed\transcripts\news1_chunks\combined_transcript.json
+2026-04-16 02:38:00,805 - INFO - Saved transcript TXT -> data\processed\transcripts\news1_chunks\combined_transcript.txt
+2026-04-16 02:38:00,813 - INFO - Saved SRT -> data\processed\transcripts\news1_chunks\combined_transcript.srt
+2026-04-16 02:38:00,813 - INFO - Long transcription complete: 59 segments total
+2026-04-16 02:38:00,830 - INFO - Saved transcript to MongoDB: news1.mp3 (id=69e02f68858fe0c03a2b6c93)
+2026-04-16 02:38:00,830 - INFO - Finished audio stage for: news1.mp3
+2026-04-16 02:38:00,830 - INFO - Processing audio file: news2.mp3
+2026-04-16 02:38:01,427 - INFO - Loaded audio: news2.mp3 (MP3)
+2026-04-16 02:38:01,431 - INFO - Loaded audio news2.mp3: duration=381.77s, channels=1, frame_rate=44100
+2026-04-16 02:38:01,432 - INFO - Trimmed audio: 0ms -> 30000ms (was 381769ms, now 30000ms)
+2026-04-16 02:38:01,446 - INFO - Applied fade-in 1000ms / fade-out 2000ms
+2026-04-16 02:38:01,746 - INFO - Exported audio -> data\processed\audio\news2_clip.mp3 (704.7 KB)
+2026-04-16 02:38:01,746 - INFO - Saved processed audio clip: data\processed\audio\news2_clip.mp3
+2026-04-16 02:38:01,746 - INFO - Using chunked transcription for long audio: news2.mp3
+2026-04-16 02:38:02,348 - INFO - Loaded audio: news2.mp3 (MP3)
+2026-04-16 02:38:02,348 - INFO - Long audio: 382s -> 2 chunks of 5.0min
+2026-04-16 02:38:02,388 - INFO - Loading Whisper model: base on cpu
+2026-04-16 02:38:04,079 - INFO - HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-base/revision/main "HTTP/1.1 200 OK"
+2026-04-16 02:38:04,674 - INFO - Whisper model loaded.
+2026-04-16 02:38:04,674 - INFO - Transcribing: chunk_0000.wav
+2026-04-16 02:38:04,937 - INFO - Processing audio with duration 05:00.000
+2026-04-16 02:38:06,230 - INFO - Detected language 'en' with probability 1.00
+2026-04-16 02:38:37,173 - INFO - Transcription complete: 40 segments, language=en (100%)
+2026-04-16 02:38:37,196 - INFO - Saved transcript JSON -> data\processed\transcripts\news2_chunks\chunk_0000.json
+2026-04-16 02:38:37,224 - INFO - Transcribing: chunk_0001.wav
+2026-04-16 02:38:37,391 - INFO - Processing audio with duration 01:21.769
+2026-04-16 02:38:38,569 - INFO - Detected language 'en' with probability 1.00
+2026-04-16 02:38:46,587 - INFO - Transcription complete: 16 segments, language=en (100%)
+2026-04-16 02:38:46,598 - INFO - Saved transcript JSON -> data\processed\transcripts\news2_chunks\chunk_0001.json
+2026-04-16 02:38:46,624 - INFO - Saved transcript JSON -> data\processed\transcripts\news2_chunks\combined_transcript.json
+2026-04-16 02:38:46,626 - INFO - Saved transcript TXT -> data\processed\transcripts\news2_chunks\combined_transcript.txt
+2026-04-16 02:38:46,628 - INFO - Saved SRT -> data\processed\transcripts\news2_chunks\combined_transcript.srt
+2026-04-16 02:38:46,628 - INFO - Long transcription complete: 56 segments total
+2026-04-16 02:38:46,639 - INFO - Saved transcript to MongoDB: news2.mp3 (id=69e02f96858fe0c03a2b6c94)
+2026-04-16 02:38:46,639 - INFO - Finished audio stage for: news2.mp3
+2026-04-16 02:38:46,640 - INFO - Processing audio file: news3.mp3
+2026-04-16 02:38:47,085 - INFO - Loaded audio: news3.mp3 (MP3)
+2026-04-16 02:38:47,087 - INFO - Loaded audio news3.mp3: duration=180.02s, channels=2, frame_rate=44100
+2026-04-16 02:38:47,089 - INFO - Trimmed audio: 0ms -> 30000ms (was 180024ms, now 30000ms)
+2026-04-16 02:38:47,106 - INFO - Applied fade-in 1000ms / fade-out 2000ms
+2026-04-16 02:38:47,631 - INFO - Exported audio -> data\processed\audio\news3_clip.mp3 (704.7 KB)
+2026-04-16 02:38:47,631 - INFO - Saved processed audio clip: data\processed\audio\news3_clip.mp3
+2026-04-16 02:38:47,631 - INFO - Using standard transcription for audio: news3.mp3
+2026-04-16 02:38:47,631 - INFO - Transcribing: news3.mp3
+2026-04-16 02:38:48,098 - INFO - Processing audio with duration 03:00.024
+2026-04-16 02:38:49,522 - INFO - Detected language 'en' with probability 0.99
+2026-04-16 02:39:06,206 - INFO - Transcription complete: 20 segments, language=en (99%)
+2026-04-16 02:39:06,221 - INFO - Saved transcript JSON -> data\processed\transcripts\news3.json
+2026-04-16 02:39:06,237 - INFO - Saved transcript TXT -> data\processed\transcripts\news3.txt
+2026-04-16 02:39:06,242 - INFO - Saved SRT -> data\processed\transcripts\news3.srt
+2026-04-16 02:39:06,246 - INFO - Saved transcript to MongoDB: news3.mp3 (id=69e02faa858fe0c03a2b6c95)
+2026-04-16 02:39:06,246 - INFO - Finished audio stage for: news3.mp3
+2026-04-16 02:39:06,246 - INFO - Processing video file: news1.mp4
+2026-04-16 02:39:06,845 - INFO - Loaded video: news1.mp4
+2026-04-16 02:39:06,888 - INFO - Video info for news1.mp4: duration=196.5s, fps=25.0, resolution=1920x1080
+2026-04-16 02:39:19,341 - INFO - Extracted 20 keyframes from news1.mp4 (every 10.0s)
+2026-04-16 02:39:19,384 - INFO - Extracted 20 keyframes for news1.mp4
+2026-04-16 02:39:20,056 - INFO - Loaded video: news1.mp4
+2026-04-16 02:39:22,185 - INFO - Extracted audio -> data\processed\audio\news1_from_video.mp3 (3071.3 KB)
+2026-04-16 02:39:22,217 - INFO - Extracted audio from video: data\processed\audio\news1_from_video.mp3
+2026-04-16 02:39:22,218 - INFO - Transcribing: news1_from_video.mp3
+2026-04-16 02:39:22,660 - INFO - Processing audio with duration 03:16.500
+2026-04-16 02:39:23,955 - INFO - Detected language 'en' with probability 0.99
+2026-04-16 02:39:50,578 - INFO - Transcription complete: 48 segments, language=en (99%)
+2026-04-16 02:39:50,598 - INFO - Saved transcript JSON -> data\processed\transcripts\news1_video_audio.json
+2026-04-16 02:39:50,615 - INFO - Saved transcript TXT -> data\processed\transcripts\news1_video_audio.txt
+2026-04-16 02:39:50,622 - INFO - Saved SRT -> data\processed\transcripts\news1_video_audio.srt
+2026-04-16 02:39:50,627 - INFO - Saved transcript to MongoDB: news1_from_video.mp3 (id=69e02fd6858fe0c03a2b6c96)
+2026-04-16 02:39:50,628 - INFO - Finished video stage for: news1.mp4
+2026-04-16 02:39:50,628 - INFO - Processing video file: news2.mp4
+2026-04-16 02:39:51,138 - INFO - Loaded video: news2.mp4
+2026-04-16 02:39:51,176 - INFO - Video info for news2.mp4: duration=60.04s, fps=25.0, resolution=1920x1080
+2026-04-16 02:39:54,851 - INFO - Extracted 7 keyframes from news2.mp4 (every 10.0s)
+2026-04-16 02:39:54,859 - INFO - Extracted 7 keyframes for news2.mp4
+2026-04-16 02:39:55,367 - INFO - Loaded video: news2.mp4
+2026-04-16 02:39:56,043 - INFO - Extracted audio -> data\processed\audio\news2_from_video.mp3 (939.0 KB)
+2026-04-16 02:39:56,067 - INFO - Extracted audio from video: data\processed\audio\news2_from_video.mp3
+2026-04-16 02:39:56,068 - INFO - Transcribing: news2_from_video.mp3
+2026-04-16 02:39:56,258 - INFO - Processing audio with duration 01:00.040
+2026-04-16 02:39:57,405 - INFO - Detected language 'en' with probability 0.99
+2026-04-16 02:40:03,194 - INFO - Transcription complete: 8 segments, language=en (99%)
+2026-04-16 02:40:03,203 - INFO - Saved transcript JSON -> data\processed\transcripts\news2_video_audio.json
+2026-04-16 02:40:03,208 - INFO - Saved transcript TXT -> data\processed\transcripts\news2_video_audio.txt
+2026-04-16 02:40:03,212 - INFO - Saved SRT -> data\processed\transcripts\news2_video_audio.srt
+2026-04-16 02:40:03,214 - INFO - Saved transcript to MongoDB: news2_from_video.mp3 (id=69e02fe3858fe0c03a2b6c97)
+2026-04-16 02:40:03,214 - INFO - Finished video stage for: news2.mp4
+2026-04-16 02:40:03,215 - INFO - Processing video file: news3.mp4
+2026-04-16 02:40:03,865 - INFO - Loaded video: news3.mp4
+2026-04-16 02:40:03,910 - INFO - Video info for news3.mp4: duration=120.84s, fps=25.0, resolution=1920x1080
+2026-04-16 02:40:11,228 - INFO - Extracted 13 keyframes from news3.mp4 (every 10.0s)
+2026-04-16 02:40:11,265 - INFO - Extracted 13 keyframes for news3.mp4
+2026-04-16 02:40:11,864 - INFO - Loaded video: news3.mp4
+2026-04-16 02:40:13,847 - INFO - Extracted audio -> data\processed\audio\news3_from_video.mp3 (1888.8 KB)
+2026-04-16 02:40:13,873 - INFO - Extracted audio from video: data\processed\audio\news3_from_video.mp3
+2026-04-16 02:40:13,873 - INFO - Transcribing: news3_from_video.mp3
+2026-04-16 02:40:14,204 - INFO - Processing audio with duration 02:00.840
+2026-04-16 02:40:15,324 - INFO - Detected language 'en' with probability 0.99
+2026-04-16 02:40:28,339 - INFO - Transcription complete: 19 segments, language=en (99%)
+2026-04-16 02:40:28,353 - INFO - Saved transcript JSON -> data\processed\transcripts\news3_video_audio.json
+2026-04-16 02:40:28,357 - INFO - Saved transcript TXT -> data\processed\transcripts\news3_video_audio.txt
+2026-04-16 02:40:28,362 - INFO - Saved SRT -> data\processed\transcripts\news3_video_audio.srt
+2026-04-16 02:40:28,365 - INFO - Saved transcript to MongoDB: news3_from_video.mp3 (id=69e02ffc858fe0c03a2b6c98)
+2026-04-16 02:40:28,365 - INFO - Finished video stage for: news3.mp4
+2026-04-16 02:40:28,365 - INFO - === Audio/Video Processing Stage Complete ===
+2026-04-16 02:40:28,368 - INFO - Pipeline finished successfully

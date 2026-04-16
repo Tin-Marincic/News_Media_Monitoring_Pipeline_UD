@@ -5,6 +5,7 @@ from pathlib import Path
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..")))
 
 from src.utils.logger import logging
+
 from src.api.client import fetch_news
 from src.parsing.parsers import (
     parse_json_files,
@@ -15,9 +16,13 @@ from src.parsing.parsers import (
     extract_word_runs,
     extract_data_from_excel,
     extract_summary_from_excel,
-    read_file_with_encoding
+    read_file_with_encoding,
 )
-from src.storage.mongo import save_to_mongo, save_batch_results_to_mongo
+from src.storage.mongo import (
+    save_to_mongo,
+    save_batch_results_to_mongo,
+    save_transcript,
+)
 
 from src.scraping.scraper import scrape_hockey_teams, scrape_hockey_teams_multi_page
 from src.scraping.dynamic_scraper import scrape_ajax_movies_api
@@ -25,6 +30,164 @@ from src.ocr.ocr_utils import ocr_image, ocr_scanned_pdf
 
 from src.image_processing.downloader import load_articles_from_json, download_article_images
 from src.image_processing.batch import batch_process_images
+
+from src.audio_processing.loader import load_audio
+from src.audio_processing.processor import trim_audio, apply_fades, export_audio
+from src.audio_processing.transcriber import (
+    transcribe_audio,
+    transcribe_long_audio,
+    save_transcript_json,
+    save_transcript_txt,
+    save_transcript_srt,
+)
+from src.video_processing.loader import inspect_video, extract_audio_from_video
+from src.video_processing.frame_extractor import extract_keyframes
+
+
+def save_standard_transcript_outputs(result: dict, base_output_path: str) -> tuple[str, str, str]:
+    """
+    Save transcript as JSON, TXT, and SRT using a shared base path.
+    Example base_output_path: data/processed/transcripts/news3
+    """
+    json_path = f"{base_output_path}.json"
+    txt_path = f"{base_output_path}.txt"
+    srt_path = f"{base_output_path}.srt"
+
+    save_transcript_json(result, json_path)
+    save_transcript_txt(result, txt_path)
+    save_transcript_srt(result, srt_path)
+
+    return json_path, txt_path, srt_path
+
+
+def run_audio_video_stage():
+    logging.info("=== Audio/Video Processing Stage Started ===")
+
+    raw_audio_dir = Path("data/raw/audio")
+    raw_video_dir = Path("data/raw/video")
+    processed_audio_dir = Path("data/processed/audio")
+    processed_frames_dir = Path("data/processed/frames")
+    processed_transcripts_dir = Path("data/processed/transcripts")
+
+    processed_audio_dir.mkdir(parents=True, exist_ok=True)
+    processed_frames_dir.mkdir(parents=True, exist_ok=True)
+    processed_transcripts_dir.mkdir(parents=True, exist_ok=True)
+
+    # AUDIO STAGE
+    if raw_audio_dir.exists():
+        for audio_file in raw_audio_dir.glob("*.mp3"):
+            try:
+                logging.info(f"Processing audio file: {audio_file.name}")
+
+                audio = load_audio(str(audio_file))
+                logging.info(
+                    f"Loaded audio {audio_file.name}: duration={len(audio)/1000:.2f}s, "
+                    f"channels={audio.channels}, frame_rate={audio.frame_rate}"
+                )
+
+                trimmed = trim_audio(audio, 0, min(30000, len(audio)))
+                faded = apply_fades(trimmed, fade_in_ms=1000, fade_out_ms=2000)
+
+                processed_clip_path = processed_audio_dir / f"{audio_file.stem}_clip.mp3"
+                export_audio(faded, str(processed_clip_path), fmt="mp3", bitrate="192k")
+                logging.info(f"Saved processed audio clip: {processed_clip_path}")
+
+                # Use chunked transcription for longer audio, standard transcription for shorter
+                if len(audio) > 5 * 60 * 1000:
+                    logging.info(f"Using chunked transcription for long audio: {audio_file.name}")
+                    chunk_output_dir = processed_transcripts_dir / f"{audio_file.stem}_chunks"
+
+                    result = transcribe_long_audio(
+                        audio_path=str(audio_file),
+                        output_dir=str(chunk_output_dir),
+                        model_size="base",
+                        chunk_minutes=5.0,
+                    )
+
+                    json_path = str(chunk_output_dir / "combined_transcript.json")
+                    txt_path = str(chunk_output_dir / "combined_transcript.txt")
+                    srt_path = str(chunk_output_dir / "combined_transcript.srt")
+                else:
+                    logging.info(f"Using standard transcription for audio: {audio_file.name}")
+                    result = transcribe_audio(
+                        audio_path=str(audio_file),
+                        model_size="base",
+                        word_timestamps=True,
+                    )
+
+                    base_output = processed_transcripts_dir / audio_file.stem
+                    json_path, txt_path, srt_path = save_standard_transcript_outputs(
+                        result,
+                        str(base_output),
+                    )
+
+                save_transcript(
+                    transcript_result=result,
+                    source_path=str(audio_file),
+                    source_type="audio",
+                    json_path=json_path,
+                    txt_path=txt_path,
+                    srt_path=srt_path,
+                )
+
+                logging.info(f"Finished audio stage for: {audio_file.name}")
+
+            except Exception as e:
+                logging.error(f"Audio processing failed for {audio_file.name}: {e}")
+
+    # VIDEO STAGE
+    if raw_video_dir.exists():
+        for video_file in raw_video_dir.glob("*.mp4"):
+            try:
+                logging.info(f"Processing video file: {video_file.name}")
+
+                video_info = inspect_video(str(video_file))
+                logging.info(
+                    f"Video info for {video_file.name}: "
+                    f"duration={video_info['duration_s']}s, "
+                    f"fps={video_info['fps']}, "
+                    f"resolution={video_info['resolution']}"
+                )
+
+                video_frames_dir = processed_frames_dir / video_file.stem
+                frames = extract_keyframes(
+                    str(video_file),
+                    str(video_frames_dir),
+                    interval_seconds=10.0,
+                )
+                logging.info(f"Extracted {len(frames)} keyframes for {video_file.name}")
+
+                extracted_audio_path = processed_audio_dir / f"{video_file.stem}_from_video.mp3"
+                extract_audio_from_video(str(video_file), str(extracted_audio_path))
+                logging.info(f"Extracted audio from video: {extracted_audio_path}")
+
+                result = transcribe_audio(
+                    str(extracted_audio_path),
+                    model_size="base",
+                    word_timestamps=True,
+                )
+
+                base_output = processed_transcripts_dir / f"{video_file.stem}_video_audio"
+                json_path, txt_path, srt_path = save_standard_transcript_outputs(
+                    result,
+                    str(base_output),
+                )
+
+                save_transcript(
+                    transcript_result=result,
+                    source_path=str(extracted_audio_path),
+                    source_type="video_audio",
+                    json_path=json_path,
+                    txt_path=txt_path,
+                    srt_path=srt_path,
+                )
+
+                logging.info(f"Finished video stage for: {video_file.name}")
+
+            except Exception as e:
+                logging.error(f"Video processing failed for {video_file.name}: {e}")
+
+    logging.info("=== Audio/Video Processing Stage Complete ===")
 
 
 def run_pipeline():
@@ -52,8 +215,8 @@ def run_pipeline():
                         "document_type": page["document_type"],
                         "page_number": page["page_number"],
                         "extraction_timestamp": page["extraction_timestamp"],
-                        "extraction_library": page["extraction_library"]
-                    }
+                        "extraction_library": page["extraction_library"],
+                    },
                 )
             logging.info(f"Processed normal PDF: {normal_pdf}")
 
@@ -70,8 +233,8 @@ def run_pipeline():
                         "document_type": page["document_type"],
                         "page_number": page["page_number"],
                         "extraction_timestamp": page["extraction_timestamp"],
-                        "extraction_library": page["extraction_library"]
-                    }
+                        "extraction_library": page["extraction_library"],
+                    },
                 )
             logging.info(f"Processed two-column PDF: {two_column_pdf}")
 
@@ -86,8 +249,8 @@ def run_pipeline():
                     "file_name": word_data["file_name"],
                     "document_type": word_data["document_type"],
                     "extraction_timestamp": word_data["extraction_timestamp"],
-                    "extraction_library": word_data["extraction_library"]
-                }
+                    "extraction_library": word_data["extraction_library"],
+                },
             )
             logging.info(f"Processed normal Word file: {normal_word}")
 
@@ -102,8 +265,8 @@ def run_pipeline():
                     "file_name": word_data["file_name"],
                     "document_type": word_data["document_type"],
                     "extraction_timestamp": word_data["extraction_timestamp"],
-                    "extraction_library": word_data["extraction_library"]
-                }
+                    "extraction_library": word_data["extraction_library"],
+                },
             )
             logging.info(f"Processed two-column Word file: {two_column_word}")
 
@@ -117,8 +280,8 @@ def run_pipeline():
                     {
                         "file_name": Path(normal_word).name,
                         "document_type": "word_run",
-                        "extraction_library": "python-docx"
-                    }
+                        "extraction_library": "python-docx",
+                    },
                 )
             logging.info(f"Processed Word runs for file: {normal_word}")
 
@@ -133,8 +296,8 @@ def run_pipeline():
                     {
                         "file_name": "news_data.xlsx",
                         "document_type": "excel",
-                        "extraction_library": "openpyxl"
-                    }
+                        "extraction_library": "openpyxl",
+                    },
                 )
 
             excel_summary = extract_summary_from_excel(excel_path)
@@ -144,8 +307,8 @@ def run_pipeline():
                 {
                     "file_name": "news_data.xlsx",
                     "document_type": "excel_summary",
-                    "extraction_library": "openpyxl"
-                }
+                    "extraction_library": "openpyxl",
+                },
             )
             logging.info(f"Processed Excel file: {excel_path}")
 
@@ -159,8 +322,8 @@ def run_pipeline():
                 {
                     "file_name": "news_page_1.json",
                     "document_type": "encoding_test",
-                    "extraction_library": "chardet"
-                }
+                    "extraction_library": "chardet",
+                },
             )
             logging.info(f"Encoding test processed for: {encoding_file}")
 
@@ -173,14 +336,14 @@ def run_pipeline():
                     "name": record["name"],
                     "year": record["year"],
                     "wins": record["wins"],
-                    "losses": record["losses"]
+                    "losses": record["losses"],
                 },
                 record["source"],
                 {
                     "file_name": "hockey_results.json",
                     "document_type": "scraped_html",
-                    "extraction_library": "requests_bs4"
-                }
+                    "extraction_library": "requests_bs4",
+                },
             )
         logging.info(f"Processed single-page scraping: {len(single_scraped)} records")
 
@@ -192,15 +355,15 @@ def run_pipeline():
                     "name": record["name"],
                     "year": record["year"],
                     "wins": record["wins"],
-                    "losses": record["losses"]
+                    "losses": record["losses"],
                 },
                 record["source"],
                 {
                     "file_name": "hockey_multi_page_results.json",
                     "document_type": "scraped_html_paginated",
                     "page_number": record.get("page"),
-                    "extraction_library": "requests_bs4"
-                }
+                    "extraction_library": "requests_bs4",
+                },
             )
         logging.info(f"Processed multi-page scraping: {len(multi_scraped)} records")
 
@@ -213,15 +376,15 @@ def run_pipeline():
                     "nominations": record["nominations"],
                     "awards": record["awards"],
                     "best_picture": record["best_picture"],
-                    "year": record["year"]
+                    "year": record["year"],
                 },
                 record["source"],
                 {
                     "file_name": "ajax_movies_api_results.json",
                     "document_type": "scraped_json_api",
                     "extraction_timestamp": record["extraction_timestamp"],
-                    "extraction_library": "requests"
-                }
+                    "extraction_library": "requests",
+                },
             )
         logging.info(f"Processed dynamic JSON scraping: {len(ajax_scraped)} records")
 
@@ -232,15 +395,15 @@ def run_pipeline():
             save_to_mongo(
                 {
                     "raw_text": image_ocr["raw_text"],
-                    "processed_text": image_ocr["processed_text"]
+                    "processed_text": image_ocr["processed_text"],
                 },
                 image_ocr["source"],
                 {
                     "file_name": image_ocr["file_name"],
                     "document_type": image_ocr["type"],
                     "extraction_timestamp": image_ocr["extraction_timestamp"],
-                    "extraction_library": "pytesseract"
-                }
+                    "extraction_library": "pytesseract",
+                },
             )
             logging.info("Processed OCR image")
 
@@ -252,7 +415,7 @@ def run_pipeline():
                 save_to_mongo(
                     {
                         "raw_text": page["raw_text"],
-                        "processed_text": page["processed_text"]
+                        "processed_text": page["processed_text"],
                     },
                     page["source"],
                     {
@@ -260,8 +423,8 @@ def run_pipeline():
                         "document_type": page["type"],
                         "page_number": page["page_number"],
                         "extraction_timestamp": page["extraction_timestamp"],
-                        "extraction_library": "pytesseract_pdf2image"
-                    }
+                        "extraction_library": "pytesseract_pdf2image",
+                    },
                 )
             logging.info(f"Processed OCR scanned PDF: {len(pdf_ocr_results)} pages")
 
@@ -270,11 +433,11 @@ def run_pipeline():
         downloaded_images = download_article_images(
             image_articles,
             dest_dir="data/raw/images",
-            limit=10
+            limit=10,
         )
         logging.info(f"Downloaded {len(downloaded_images)} article images")
 
-        # Step 16: Batch process images and upload processed files to Google Drive
+        # Step 16: Batch process images
         image_results, image_errors = batch_process_images(
             input_dir="data/raw/images",
             output_dir="data/processed",
@@ -282,13 +445,16 @@ def run_pipeline():
             thumb_size=(128, 128),
             convert_webp=True,
             extract_metadata=True,
-            upload_to_drive=True
+            upload_to_drive=True,
         )
         logging.info(f"Batch processed {len(image_results)} images with {len(image_errors)} errors")
 
         # Step 17: Save image metadata to MongoDB
         save_batch_results_to_mongo(image_results)
         logging.info(f"Saved {len(image_results)} image metadata records to MongoDB")
+
+        # Step 18: Audio/Video stage
+        run_audio_video_stage()
 
         logging.info("Pipeline finished successfully")
 

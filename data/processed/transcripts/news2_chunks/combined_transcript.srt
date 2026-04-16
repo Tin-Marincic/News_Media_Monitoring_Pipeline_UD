@@ -1,0 +1,224 @@
+1
+00:00:00,000 --> 00:00:07,639
+European Union lawmakers gave final approval to the 27 nation groups artificial intelligence
+
+2
+00:00:07,639 --> 00:00:13,519
+law Wednesday. The rules are expected to take effect later this year.
+
+3
+00:00:15,339 --> 00:00:21,600
+Lawmakers in the European Parliament voted in favor of the Artificial Intelligence Act
+
+4
+00:00:21,600 --> 00:00:29,399
+five years after regulations were first proposed. Major technology companies have generally
+
+5
+00:00:29,399 --> 00:00:36,179
+supported the idea. But they want to make sure new AI requirements work in their favor.
+
+6
+00:00:37,439 --> 00:00:44,020
+Open AI Chief Sam Altman suggested the maker of ChatGPT might pull out of Europe
+
+7
+00:00:44,600 --> 00:00:51,380
+if it cannot comply with the AI Act. He later said his company had no plans to leave.
+
+8
+00:00:52,340 --> 00:01:00,420
+Here are some details about Europe's new AI rules. Like many EU regulations, the AI Act
+
+9
+00:01:00,420 --> 00:01:08,120
+started as consumer safety legislation. The EU took a risk-based approach to products or services
+
+10
+00:01:08,120 --> 00:01:17,599
+that use artificial intelligence or AI. If an AI application is risky, then more rules cover it.
+
+11
+00:01:18,319 --> 00:01:24,340
+Most AI systems are expected to be low-risk like content's recommendation systems
+
+12
+00:01:24,340 --> 00:01:31,680
+or filters that block spam or unwanted email. Companies can choose to follow voluntary
+
+13
+00:01:31,680 --> 00:01:40,480
+requirements and codes of conduct. High-risk uses of AI include tools used in medical devices
+
+14
+00:01:40,480 --> 00:01:45,140
+or important infrastructure like water or electrical networks.
+
+15
+00:01:45,680 --> 00:01:52,200
+Those face additional requirements like using what the legislation calls high-quality data
+
+16
+00:01:52,719 --> 00:02:00,379
+and providing clear information to users. Some AI uses are banned because they are considered
+
+17
+00:02:00,379 --> 00:02:08,020
+to present an unacceptable risk. Those include things like social scoring systems that are meant
+
+18
+00:02:08,020 --> 00:02:15,580
+to govern how people behave. Some sorts of predictive policing and emotion recognition systems
+
+19
+00:02:16,099 --> 00:02:25,120
+also are reportedly banned in schools and workplaces. Other banned uses include ones that police use
+
+20
+00:02:25,120 --> 00:02:32,139
+to scan faces in public places using AI-powered remote biometric identification systems.
+
+21
+00:02:32,939 --> 00:02:37,960
+There is an exception for use in serious crimes like kidnapping or terrorism.
+
+22
+00:02:40,219 --> 00:02:46,740
+The laws early versions centered on AI systems that carry out limited tasks like
+
+23
+00:02:46,740 --> 00:02:55,580
+reviewing employment information and job applications. But general AI models like open AI's
+
+24
+00:02:55,580 --> 00:03:04,560
+chat GPT forced EU officials to add rules for generative AI models. AI chatbot systems that can
+
+25
+00:03:04,560 --> 00:03:11,680
+produce life-like responses, images and more are examples of generative AI models.
+
+26
+00:03:13,060 --> 00:03:20,080
+Developers of general-purpose AI models will have to provide detailed descriptions of the writings,
+
+27
+00:03:20,639 --> 00:03:26,960
+pictures, video and other data on the internet that was used to train the systems.
+
+28
+00:03:27,479 --> 00:03:31,020
+They must also follow EU copyright law.
+
+29
+00:03:32,840 --> 00:03:40,719
+AI-generated pictures, video or audio of existing people, places or events must be labeled as
+
+30
+00:03:40,719 --> 00:03:48,439
+artificially produced. These sorts of media are known as deepfakes because they appear to show
+
+31
+00:03:48,439 --> 00:03:56,340
+real people doing or saying things that are not real. There are reportedly extra rules
+
+32
+00:03:56,340 --> 00:04:06,020
+for the biggest and most powerful AI models that carry systemic risks. Those include open AI's GPT-4
+
+33
+00:04:06,020 --> 00:04:14,520
+and Google's Gemini. The EU first suggested AI regulations in 2019.
+
+34
+00:04:14,520 --> 00:04:20,699
+Europe was quick to propose rules for the new and developing industry.
+
+35
+00:04:22,360 --> 00:04:28,300
+In the US, President Joe Biden signed an executive order on AI in October.
+
+36
+00:04:29,439 --> 00:04:32,920
+The US Congress is likely to propose legislation.
+
+37
+00:04:34,040 --> 00:04:39,720
+Lawmakers in at least seven US states are working on their own AI legislation.
+
+38
+00:04:40,439 --> 00:04:43,899
+And international agreements are possible too.
+
+39
+00:04:46,019 --> 00:04:53,519
+Chinese President Xi Jinping has proposed his global AI governance initiative for fair and safe
+
+40
+00:04:53,519 --> 00:04:59,980
+use of AI. Other major countries including Brazil and Japan are
+
+41
+00:05:00,000 --> 00:05:06,839
+are developing rules as are the United Nations and group of seven industrialized nations.
+
+42
+00:05:09,319 --> 00:05:16,040
+The AI Act is expected to officially become law by May or June, after approval from EU
+
+43
+00:05:16,040 --> 00:05:16,920
+member countries.
+
+44
+00:05:18,139 --> 00:05:20,660
+Rules will start taking effect slowly.
+
+45
+00:05:21,779 --> 00:05:28,019
+Countries will be required to ban unapproved AI systems six months after the law takes
+
+46
+00:05:28,019 --> 00:05:28,480
+effect.
+
+47
+00:05:30,139 --> 00:05:37,000
+Rules for general-purpose AI systems like chatbots will start going into effect in one year.
+
+48
+00:05:37,939 --> 00:05:44,480
+By the middle of 2026, the complete set of regulations, including requirements for high-risk
+
+49
+00:05:44,480 --> 00:05:46,339
+systems, will be in effect.
+
+50
+00:05:47,939 --> 00:05:52,439
+Each EU country will set up their own AI enforcement agency.
+
+51
+00:05:52,439 --> 00:05:59,100
+Citizens can make a complaint if they think they have been the victim of a violation of
+
+52
+00:05:59,100 --> 00:05:59,639
+the rules.
+
+53
+00:06:00,740 --> 00:06:08,199
+And the EU will create an AI office that will oversee the law for general-purpose AI systems.
+
+54
+00:06:09,759 --> 00:06:18,120
+Violations of the AI Act could be punished with a fine of up to $38 million, or 7% of
+
+55
+00:06:18,120 --> 00:06:20,000
+a company's worldwide revenue.
+
+56
+00:06:20,000 --> 00:06:21,660
+I'm Dan Novak.
+

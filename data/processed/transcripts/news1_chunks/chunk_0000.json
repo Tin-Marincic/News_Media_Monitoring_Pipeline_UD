@@ -1,0 +1,3229 @@
+{
+  "source_file": "chunk_0000.wav",
+  "source_path": "C:\\Users\\38760\\AppData\\Local\\Temp\\tmp4ioh9o6c\\chunk_0000.wav",
+  "language": "en",
+  "language_probability": 0.9997,
+  "duration_s": 300.0,
+  "model": "base",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 7.54,
+      "text": "Two private spacecraft are on their way to the moon to carry out separate missions.",
+      "avg_log_prob": -0.1675,
+      "words": [
+        {
+          "word": " Two",
+          "start": 0.0,
+          "end": 0.28,
+          "probability": 0.5822
+        },
+        {
+          "word": " private",
+          "start": 0.28,
+          "end": 1.02,
+          "probability": 0.9771
+        },
+        {
+          "word": " spacecraft",
+          "start": 1.02,
+          "end": 1.98,
+          "probability": 0.9527
+        },
+        {
+          "word": " are",
+          "start": 1.98,
+          "end": 2.6,
+          "probability": 0.9403
+        },
+        {
+          "word": " on",
+          "start": 2.6,
+          "end": 2.94,
+          "probability": 0.9971
+        },
+        {
+          "word": " their",
+          "start": 2.94,
+          "end": 3.22,
+          "probability": 0.994
+        },
+        {
+          "word": " way",
+          "start": 3.22,
+          "end": 3.6,
+          "probability": 0.9997
+        },
+        {
+          "word": " to",
+          "start": 3.6,
+          "end": 3.92,
+          "probability": 0.9976
+        },
+        {
+          "word": " the",
+          "start": 3.92,
+          "end": 4.1,
+          "probability": 0.9884
+        },
+        {
+          "word": " moon",
+          "start": 4.1,
+          "end": 4.48,
+          "probability": 0.3757
+        },
+        {
+          "word": " to",
+          "start": 4.48,
+          "end": 5.18,
+          "probability": 0.9648
+        },
+        {
+          "word": " carry",
+          "start": 5.18,
+          "end": 5.58,
+          "probability": 0.9965
+        },
+        {
+          "word": " out",
+          "start": 5.58,
+          "end": 6.08,
+          "probability": 0.9971
+        },
+        {
+          "word": " separate",
+          "start": 6.08,
+          "end": 6.8,
+          "probability": 0.9426
+        },
+        {
+          "word": " missions.",
+          "start": 6.8,
+          "end": 7.54,
+          "probability": 0.9969
+        }
+      ]
+    },
+    {
+      "start": 8.54,
+      "end": 17.3,
+      "text": "The landers launched January 15 from the American government's Kennedy Space Center in Florida.",
+      "avg_log_prob": -0.1675,
+      "words": [
+        {
+          "word": " The",
+          "start": 8.54,
+          "end": 8.82,
+          "probability": 0.9907
+        },
+        {
+          "word": " landers",
+          "start": 8.82,
+          "end": 9.56,
+          "probability": 0.8908
+        },
+        {
+          "word": " launched",
+          "start": 9.56,
+          "end": 10.32,
+          "probability": 0.9847
+        },
+        {
+          "word": " January",
+          "start": 10.32,
+          "end": 11.1,
+          "probability": 0.9747
+        },
+        {
+          "word": " 15",
+          "start": 11.1,
+          "end": 11.96,
+          "probability": 0.9552
+        },
+        {
+          "word": " from",
+          "start": 11.96,
+          "end": 12.54,
+          "probability": 0.25
+        },
+        {
+          "word": " the",
+          "start": 12.54,
+          "end": 12.78,
+          "probability": 0.9949
+        },
+        {
+          "word": " American",
+          "start": 12.78,
+          "end": 13.26,
+          "probability": 0.9909
+        },
+        {
+          "word": " government's",
+          "start": 13.26,
+          "end": 14.46,
+          "probability": 0.7989
+        },
+        {
+          "word": " Kennedy",
+          "start": 14.46,
+          "end": 15.06,
+          "probability": 0.9902
+        },
+        {
+          "word": " Space",
+          "start": 15.06,
+          "end": 15.56,
+          "probability": 0.9922
+        },
+        {
+          "word": " Center",
+          "start": 15.56,
+          "end": 16.16,
+          "probability": 0.9692
+        },
+        {
+          "word": " in",
+          "start": 16.16,
+          "end": 16.74,
+          "probability": 0.986
+        },
+        {
+          "word": " Florida.",
+          "start": 16.74,
+          "end": 17.3,
+          "probability": 0.9954
+        }
+      ]
+    },
+    {
+      "start": 18.64,
+      "end": 27.62,
+      "text": "The private company SpaceX used its Falcon 9 launch vehicle to fly the landers into space.",
+      "avg_log_prob": -0.1675,
+      "words": [
+        {
+          "word": " The",
+          "start": 18.16,
+          "end": 18.74,
+          "probability": 0.9926
+        },
+        {
+          "word": " private",
+          "start": 18.74,
+          "end": 19.3,
+          "probability": 0.9476
+        },
+        {
+          "word": " company",
+          "start": 19.3,
+          "end": 19.94,
+          "probability": 0.9544
+        },
+        {
+          "word": " SpaceX",
+          "start": 19.94,
+          "end": 20.74,
+          "probability": 0.844
+        },
+        {
+          "word": " used",
+          "start": 20.74,
+          "end": 21.88,
+          "probability": 0.9846
+        },
+        {
+          "word": " its",
+          "start": 21.88,
+          "end": 22.2,
+          "probability": 0.9779
+        },
+        {
+          "word": " Falcon",
+          "start": 22.2,
+          "end": 22.66,
+          "probability": 0.9472
+        },
+        {
+          "word": " 9",
+          "start": 22.66,
+          "end": 23.2,
+          "probability": 0.9502
+        },
+        {
+          "word": " launch",
+          "start": 23.2,
+          "end": 23.96,
+          "probability": 0.9747
+        },
+        {
+          "word": " vehicle",
+          "start": 23.96,
+          "end": 24.52,
+          "probability": 0.9946
+        },
+        {
+          "word": " to",
+          "start": 24.52,
+          "end": 25.24,
+          "probability": 0.9953
+        },
+        {
+          "word": " fly",
+          "start": 25.24,
+          "end": 25.64,
+          "probability": 0.996
+        },
+        {
+          "word": " the",
+          "start": 25.64,
+          "end": 25.92,
+          "probability": 0.9956
+        },
+        {
+          "word": " landers",
+          "start": 25.92,
+          "end": 26.56,
+          "probability": 0.9861
+        },
+        {
+          "word": " into",
+          "start": 26.56,
+          "end": 27.08,
+          "probability": 0.9901
+        },
+        {
+          "word": " space.",
+          "start": 27.08,
+          "end": 27.62,
+          "probability": 0.9946
+        }
+      ]
+    },
+    {
+      "start": 27.62,
+      "end": 34.4,
+      "text": "The two separated from Falcon 9 about one hour into the flight.",
+      "avg_log_prob": -0.1724,
+      "words": [
+        {
+          "word": " The",
+          "start": 27.62,
+          "end": 29.04,
+          "probability": 0.2631
+        },
+        {
+          "word": " two",
+          "start": 29.04,
+          "end": 29.36,
+          "probability": 0.9855
+        },
+        {
+          "word": " separated",
+          "start": 29.36,
+          "end": 30.34,
+          "probability": 0.9939
+        },
+        {
+          "word": " from",
+          "start": 30.34,
+          "end": 30.82,
+          "probability": 0.9891
+        },
+        {
+          "word": " Falcon",
+          "start": 30.82,
+          "end": 31.32,
+          "probability": 0.8706
+        },
+        {
+          "word": " 9",
+          "start": 31.32,
+          "end": 31.74,
+          "probability": 0.6422
+        },
+        {
+          "word": " about",
+          "start": 31.74,
+          "end": 32.22,
+          "probability": 0.9853
+        },
+        {
+          "word": " one",
+          "start": 32.22,
+          "end": 32.72,
+          "probability": 0.8517
+        },
+        {
+          "word": " hour",
+          "start": 32.72,
+          "end": 33.12,
+          "probability": 0.9968
+        },
+        {
+          "word": " into",
+          "start": 33.12,
+          "end": 33.64,
+          "probability": 0.9591
+        },
+        {
+          "word": " the",
+          "start": 33.64,
+          "end": 34.0,
+          "probability": 0.9955
+        },
+        {
+          "word": " flight.",
+          "start": 34.0,
+          "end": 34.4,
+          "probability": 0.9908
+        }
+      ]
+    },
+    {
+      "start": 35.52,
+      "end": 42.72,
+      "text": "Mission leaders said the launch went exactly as planned with no problems reported.",
+      "avg_log_prob": -0.1724,
+      "words": [
+        {
+          "word": " Mission",
+          "start": 35.52,
+          "end": 36.04,
+          "probability": 0.9246
+        },
+        {
+          "word": " leaders",
+          "start": 36.04,
+          "end": 36.52,
+          "probability": 0.9524
+        },
+        {
+          "word": " said",
+          "start": 36.52,
+          "end": 37.28,
+          "probability": 0.9909
+        },
+        {
+          "word": " the",
+          "start": 37.28,
+          "end": 37.56,
+          "probability": 0.9867
+        },
+        {
+          "word": " launch",
+          "start": 37.56,
+          "end": 37.88,
+          "probability": 0.9875
+        },
+        {
+          "word": " went",
+          "start": 37.88,
+          "end": 38.3,
+          "probability": 0.9928
+        },
+        {
+          "word": " exactly",
+          "start": 38.3,
+          "end": 39.14,
+          "probability": 0.9868
+        },
+        {
+          "word": " as",
+          "start": 39.14,
+          "end": 39.54,
+          "probability": 0.9947
+        },
+        {
+          "word": " planned",
+          "start": 39.54,
+          "end": 40.28,
+          "probability": 0.9997
+        },
+        {
+          "word": " with",
+          "start": 40.28,
+          "end": 40.9,
+          "probability": 0.299
+        },
+        {
+          "word": " no",
+          "start": 40.9,
+          "end": 41.28,
+          "probability": 0.9943
+        },
+        {
+          "word": " problems",
+          "start": 41.28,
+          "end": 41.98,
+          "probability": 0.9963
+        },
+        {
+          "word": " reported.",
+          "start": 41.98,
+          "end": 42.72,
+          "probability": 0.9959
+        }
+      ]
+    },
+    {
+      "start": 43.82,
+      "end": 46.72,
+      "text": "The trip to the moon will take some time.",
+      "avg_log_prob": -0.1724,
+      "words": [
+        {
+          "word": " The",
+          "start": 43.82,
+          "end": 44.08,
+          "probability": 0.959
+        },
+        {
+          "word": " trip",
+          "start": 44.08,
+          "end": 44.36,
+          "probability": 0.9962
+        },
+        {
+          "word": " to",
+          "start": 44.36,
+          "end": 44.66,
+          "probability": 0.9971
+        },
+        {
+          "word": " the",
+          "start": 44.66,
+          "end": 44.8,
+          "probability": 0.9927
+        },
+        {
+          "word": " moon",
+          "start": 44.8,
+          "end": 45.16,
+          "probability": 0.6366
+        },
+        {
+          "word": " will",
+          "start": 45.16,
+          "end": 45.46,
+          "probability": 0.9982
+        },
+        {
+          "word": " take",
+          "start": 45.46,
+          "end": 45.82,
+          "probability": 0.9972
+        },
+        {
+          "word": " some",
+          "start": 45.82,
+          "end": 46.18,
+          "probability": 0.9938
+        },
+        {
+          "word": " time.",
+          "start": 46.18,
+          "end": 46.72,
+          "probability": 0.9996
+        }
+      ]
+    },
+    {
+      "start": 47.38,
+      "end": 53.2,
+      "text": "One spacecraft is expected to land on the lunar surface in early March,",
+      "avg_log_prob": -0.1724,
+      "words": [
+        {
+          "word": " One",
+          "start": 47.38,
+          "end": 47.62,
+          "probability": 0.9937
+        },
+        {
+          "word": " spacecraft",
+          "start": 47.62,
+          "end": 48.32,
+          "probability": 0.9723
+        },
+        {
+          "word": " is",
+          "start": 48.32,
+          "end": 48.9,
+          "probability": 0.9986
+        },
+        {
+          "word": " expected",
+          "start": 48.9,
+          "end": 49.54,
+          "probability": 0.9983
+        },
+        {
+          "word": " to",
+          "start": 49.54,
+          "end": 49.84,
+          "probability": 0.9971
+        },
+        {
+          "word": " land",
+          "start": 49.84,
+          "end": 50.2,
+          "probability": 0.9995
+        },
+        {
+          "word": " on",
+          "start": 50.2,
+          "end": 50.52,
+          "probability": 0.9991
+        },
+        {
+          "word": " the",
+          "start": 50.52,
+          "end": 50.72,
+          "probability": 0.998
+        },
+        {
+          "word": " lunar",
+          "start": 50.72,
+          "end": 50.98,
+          "probability": 0.959
+        },
+        {
+          "word": " surface",
+          "start": 50.98,
+          "end": 51.54,
+          "probability": 0.9824
+        },
+        {
+          "word": " in",
+          "start": 51.54,
+          "end": 52.08,
+          "probability": 0.9923
+        },
+        {
+          "word": " early",
+          "start": 52.08,
+          "end": 52.52,
+          "probability": 0.9909
+        },
+        {
+          "word": " March,",
+          "start": 52.52,
+          "end": 53.2,
+          "probability": 0.9707
+        }
+      ]
+    },
+    {
+      "start": 53.2,
+      "end": 59.08,
+      "text": "while the other should touch down in late May or early June.",
+      "avg_log_prob": -0.1249,
+      "words": [
+        {
+          "word": " while",
+          "start": 53.2,
+          "end": 53.92,
+          "probability": 0.5276
+        },
+        {
+          "word": " the",
+          "start": 53.92,
+          "end": 54.18,
+          "probability": 0.9934
+        },
+        {
+          "word": " other",
+          "start": 54.18,
+          "end": 54.62,
+          "probability": 0.5528
+        },
+        {
+          "word": " should",
+          "start": 54.62,
+          "end": 55.02,
+          "probability": 0.9828
+        },
+        {
+          "word": " touch",
+          "start": 55.02,
+          "end": 55.5,
+          "probability": 0.9306
+        },
+        {
+          "word": " down",
+          "start": 55.5,
+          "end": 55.94,
+          "probability": 0.9924
+        },
+        {
+          "word": " in",
+          "start": 55.94,
+          "end": 56.34,
+          "probability": 0.9949
+        },
+        {
+          "word": " late",
+          "start": 56.34,
+          "end": 56.7,
+          "probability": 0.9524
+        },
+        {
+          "word": " May",
+          "start": 56.7,
+          "end": 57.12,
+          "probability": 0.9868
+        },
+        {
+          "word": " or",
+          "start": 57.12,
+          "end": 57.9,
+          "probability": 0.8627
+        },
+        {
+          "word": " early",
+          "start": 57.9,
+          "end": 58.38,
+          "probability": 0.9977
+        },
+        {
+          "word": " June.",
+          "start": 58.38,
+          "end": 59.08,
+          "probability": 0.9976
+        }
+      ]
+    },
+    {
+      "start": 59.5,
+      "end": 69.54,
+      "text": "In February 2024, the first private spacecraft completed the first US moon landing in more than",
+      "avg_log_prob": -0.1249,
+      "words": [
+        {
+          "word": " In",
+          "start": 59.5,
+          "end": 60.2,
+          "probability": 0.9893
+        },
+        {
+          "word": " February",
+          "start": 60.2,
+          "end": 60.72,
+          "probability": 0.9936
+        },
+        {
+          "word": " 2024,",
+          "start": 60.72,
+          "end": 62.2,
+          "probability": 0.8469
+        },
+        {
+          "word": " the",
+          "start": 62.92,
+          "end": 62.98,
+          "probability": 0.9895
+        },
+        {
+          "word": " first",
+          "start": 62.98,
+          "end": 63.5,
+          "probability": 0.9336
+        },
+        {
+          "word": " private",
+          "start": 63.5,
+          "end": 64.1,
+          "probability": 0.9725
+        },
+        {
+          "word": " spacecraft",
+          "start": 64.1,
+          "end": 64.86,
+          "probability": 0.9725
+        },
+        {
+          "word": " completed",
+          "start": 64.86,
+          "end": 65.82,
+          "probability": 0.9895
+        },
+        {
+          "word": " the",
+          "start": 65.82,
+          "end": 66.34,
+          "probability": 0.9954
+        },
+        {
+          "word": " first",
+          "start": 66.34,
+          "end": 66.86,
+          "probability": 0.9769
+        },
+        {
+          "word": " US",
+          "start": 66.86,
+          "end": 67.3,
+          "probability": 0.3935
+        },
+        {
+          "word": " moon",
+          "start": 67.3,
+          "end": 67.72,
+          "probability": 0.8296
+        },
+        {
+          "word": " landing",
+          "start": 67.72,
+          "end": 68.26,
+          "probability": 0.9923
+        },
+        {
+          "word": " in",
+          "start": 68.26,
+          "end": 69.02,
+          "probability": 0.983
+        },
+        {
+          "word": " more",
+          "start": 69.02,
+          "end": 69.3,
+          "probability": 0.9852
+        },
+        {
+          "word": " than",
+          "start": 69.3,
+          "end": 69.54,
+          "probability": 0.9978
+        }
+      ]
+    },
+    {
+      "start": 69.54,
+      "end": 80.44,
+      "text": "50 years. The lander, called Odysseus, was developed by the Texas-based company Intuitive Machines.",
+      "avg_log_prob": -0.1249,
+      "words": [
+        {
+          "word": " 50",
+          "start": 69.54,
+          "end": 70.1,
+          "probability": 0.6374
+        },
+        {
+          "word": " years.",
+          "start": 70.1,
+          "end": 70.9,
+          "probability": 0.9986
+        },
+        {
+          "word": " The",
+          "start": 71.82,
+          "end": 72.16,
+          "probability": 0.9907
+        },
+        {
+          "word": " lander,",
+          "start": 72.16,
+          "end": 72.88,
+          "probability": 0.9181
+        },
+        {
+          "word": " called",
+          "start": 73.3,
+          "end": 73.68,
+          "probability": 0.9895
+        },
+        {
+          "word": " Odysseus,",
+          "start": 73.68,
+          "end": 74.78,
+          "probability": 0.9803
+        },
+        {
+          "word": " was",
+          "start": 75.22,
+          "end": 75.32,
+          "probability": 0.9982
+        },
+        {
+          "word": " developed",
+          "start": 75.32,
+          "end": 76.16,
+          "probability": 0.9958
+        },
+        {
+          "word": " by",
+          "start": 76.16,
+          "end": 76.42,
+          "probability": 0.9979
+        },
+        {
+          "word": " the",
+          "start": 76.42,
+          "end": 76.64,
+          "probability": 0.9946
+        },
+        {
+          "word": " Texas",
+          "start": 76.64,
+          "end": 77.14,
+          "probability": 0.9906
+        },
+        {
+          "word": "-based",
+          "start": 77.14,
+          "end": 77.6,
+          "probability": 0.86
+        },
+        {
+          "word": " company",
+          "start": 77.6,
+          "end": 78.36,
+          "probability": 0.8603
+        },
+        {
+          "word": " Intuitive",
+          "start": 78.36,
+          "end": 79.46,
+          "probability": 0.9546
+        },
+        {
+          "word": " Machines.",
+          "start": 79.46,
+          "end": 80.44,
+          "probability": 0.9929
+        }
+      ]
+    },
+    {
+      "start": 81.32,
+      "end": 89.04,
+      "text": "The spacecraft experienced some technical problems, but was able to carry out several science",
+      "avg_log_prob": -0.1066,
+      "words": [
+        {
+          "word": " The",
+          "start": 80.98,
+          "end": 81.54,
+          "probability": 0.22
+        },
+        {
+          "word": " spacecraft",
+          "start": 81.54,
+          "end": 82.24,
+          "probability": 0.9318
+        },
+        {
+          "word": " experienced",
+          "start": 82.24,
+          "end": 83.34,
+          "probability": 0.9918
+        },
+        {
+          "word": " some",
+          "start": 83.34,
+          "end": 84.02,
+          "probability": 0.9927
+        },
+        {
+          "word": " technical",
+          "start": 84.02,
+          "end": 84.6,
+          "probability": 0.9964
+        },
+        {
+          "word": " problems,",
+          "start": 84.6,
+          "end": 85.56,
+          "probability": 0.9974
+        },
+        {
+          "word": " but",
+          "start": 85.96,
+          "end": 86.26,
+          "probability": 0.9966
+        },
+        {
+          "word": " was",
+          "start": 86.26,
+          "end": 86.52,
+          "probability": 0.9986
+        },
+        {
+          "word": " able",
+          "start": 86.52,
+          "end": 86.84,
+          "probability": 0.9994
+        },
+        {
+          "word": " to",
+          "start": 86.84,
+          "end": 87.08,
+          "probability": 0.9993
+        },
+        {
+          "word": " carry",
+          "start": 87.08,
+          "end": 87.46,
+          "probability": 0.998
+        },
+        {
+          "word": " out",
+          "start": 87.46,
+          "end": 87.8,
+          "probability": 0.9992
+        },
+        {
+          "word": " several",
+          "start": 87.8,
+          "end": 88.38,
+          "probability": 0.9963
+        },
+        {
+          "word": " science",
+          "start": 88.38,
+          "end": 89.04,
+          "probability": 0.9911
+        }
+      ]
+    },
+    {
+      "start": 89.04,
+      "end": 95.58,
+      "text": "experiments before powering down permanently on the moon in late March.",
+      "avg_log_prob": -0.1066,
+      "words": [
+        {
+          "word": " experiments",
+          "start": 89.04,
+          "end": 89.9,
+          "probability": 0.9932
+        },
+        {
+          "word": " before",
+          "start": 89.9,
+          "end": 90.98,
+          "probability": 0.6861
+        },
+        {
+          "word": " powering",
+          "start": 90.98,
+          "end": 91.78,
+          "probability": 0.9779
+        },
+        {
+          "word": " down",
+          "start": 91.78,
+          "end": 92.02,
+          "probability": 0.9966
+        },
+        {
+          "word": " permanently",
+          "start": 92.02,
+          "end": 92.82,
+          "probability": 0.9745
+        },
+        {
+          "word": " on",
+          "start": 92.82,
+          "end": 93.46,
+          "probability": 0.9918
+        },
+        {
+          "word": " the",
+          "start": 93.46,
+          "end": 93.68,
+          "probability": 0.9968
+        },
+        {
+          "word": " moon",
+          "start": 93.68,
+          "end": 94.06,
+          "probability": 0.5028
+        },
+        {
+          "word": " in",
+          "start": 94.06,
+          "end": 94.66,
+          "probability": 0.9484
+        },
+        {
+          "word": " late",
+          "start": 94.66,
+          "end": 95.0,
+          "probability": 0.988
+        },
+        {
+          "word": " March.",
+          "start": 95.0,
+          "end": 95.58,
+          "probability": 0.991
+        }
+      ]
+    },
+    {
+      "start": 96.3,
+      "end": 105.86,
+      "text": "For this current mission, Texas-based Firefly Aerospace developed Blue Ghost, one of the two",
+      "avg_log_prob": -0.1066,
+      "words": [
+        {
+          "word": " For",
+          "start": 96.3,
+          "end": 97.0,
+          "probability": 0.9737
+        },
+        {
+          "word": " this",
+          "start": 97.0,
+          "end": 97.3,
+          "probability": 0.9912
+        },
+        {
+          "word": " current",
+          "start": 97.3,
+          "end": 97.78,
+          "probability": 0.9823
+        },
+        {
+          "word": " mission,",
+          "start": 97.78,
+          "end": 98.34,
+          "probability": 0.9877
+        },
+        {
+          "word": " Texas",
+          "start": 98.9,
+          "end": 99.18,
+          "probability": 0.994
+        },
+        {
+          "word": "-based",
+          "start": 99.18,
+          "end": 99.66,
+          "probability": 0.9642
+        },
+        {
+          "word": " Firefly",
+          "start": 99.66,
+          "end": 100.86,
+          "probability": 0.9526
+        },
+        {
+          "word": " Aerospace",
+          "start": 100.86,
+          "end": 101.8,
+          "probability": 0.8927
+        },
+        {
+          "word": " developed",
+          "start": 101.8,
+          "end": 103.22,
+          "probability": 0.9525
+        },
+        {
+          "word": " Blue",
+          "start": 103.22,
+          "end": 103.72,
+          "probability": 0.8847
+        },
+        {
+          "word": " Ghost,",
+          "start": 103.72,
+          "end": 104.1,
+          "probability": 0.9168
+        },
+        {
+          "word": " one",
+          "start": 104.76,
+          "end": 105.08,
+          "probability": 0.9762
+        },
+        {
+          "word": " of",
+          "start": 105.08,
+          "end": 105.18,
+          "probability": 0.9946
+        },
+        {
+          "word": " the",
+          "start": 105.18,
+          "end": 105.38,
+          "probability": 0.9833
+        },
+        {
+          "word": " two",
+          "start": 105.38,
+          "end": 105.86,
+          "probability": 0.9955
+        }
+      ]
+    },
+    {
+      "start": 105.86,
+      "end": 114.32,
+      "text": "landers launched. The other, named Resilience, belongs to Japanese company Ice Space.",
+      "avg_log_prob": -0.1737,
+      "words": [
+        {
+          "word": " landers",
+          "start": 105.86,
+          "end": 106.6,
+          "probability": 0.6173
+        },
+        {
+          "word": " launched.",
+          "start": 106.6,
+          "end": 107.4,
+          "probability": 0.9714
+        },
+        {
+          "word": " The",
+          "start": 108.46,
+          "end": 108.68,
+          "probability": 0.972
+        },
+        {
+          "word": " other,",
+          "start": 108.68,
+          "end": 109.14,
+          "probability": 0.9669
+        },
+        {
+          "word": " named",
+          "start": 109.48,
+          "end": 109.94,
+          "probability": 0.9916
+        },
+        {
+          "word": " Resilience,",
+          "start": 109.94,
+          "end": 111.12,
+          "probability": 0.7839
+        },
+        {
+          "word": " belongs",
+          "start": 111.4,
+          "end": 111.64,
+          "probability": 0.9817
+        },
+        {
+          "word": " to",
+          "start": 111.64,
+          "end": 112.12,
+          "probability": 0.9994
+        },
+        {
+          "word": " Japanese",
+          "start": 112.12,
+          "end": 112.64,
+          "probability": 0.8588
+        },
+        {
+          "word": " company",
+          "start": 112.64,
+          "end": 113.46,
+          "probability": 0.891
+        },
+        {
+          "word": " Ice",
+          "start": 113.46,
+          "end": 113.92,
+          "probability": 0.2615
+        },
+        {
+          "word": " Space.",
+          "start": 113.92,
+          "end": 114.32,
+          "probability": 0.1358
+        }
+      ]
+    },
+    {
+      "start": 115.24,
+      "end": 122.88,
+      "text": "Both are designed to collect data and materials to support several planned moon missions,",
+      "avg_log_prob": -0.1737,
+      "words": [
+        {
+          "word": " Both",
+          "start": 115.24,
+          "end": 115.76,
+          "probability": 0.9954
+        },
+        {
+          "word": " are",
+          "start": 115.76,
+          "end": 116.1,
+          "probability": 0.9976
+        },
+        {
+          "word": " designed",
+          "start": 116.1,
+          "end": 116.78,
+          "probability": 0.9981
+        },
+        {
+          "word": " to",
+          "start": 116.78,
+          "end": 117.14,
+          "probability": 0.9986
+        },
+        {
+          "word": " collect",
+          "start": 117.14,
+          "end": 117.58,
+          "probability": 0.9986
+        },
+        {
+          "word": " data",
+          "start": 117.58,
+          "end": 118.16,
+          "probability": 0.9986
+        },
+        {
+          "word": " and",
+          "start": 118.16,
+          "end": 118.54,
+          "probability": 0.995
+        },
+        {
+          "word": " materials",
+          "start": 118.54,
+          "end": 119.24,
+          "probability": 0.9959
+        },
+        {
+          "word": " to",
+          "start": 119.24,
+          "end": 120.0,
+          "probability": 0.9712
+        },
+        {
+          "word": " support",
+          "start": 120.0,
+          "end": 120.58,
+          "probability": 0.9985
+        },
+        {
+          "word": " several",
+          "start": 120.58,
+          "end": 121.3,
+          "probability": 0.998
+        },
+        {
+          "word": " planned",
+          "start": 121.3,
+          "end": 121.98,
+          "probability": 0.9938
+        },
+        {
+          "word": " moon",
+          "start": 121.98,
+          "end": 122.4,
+          "probability": 0.8279
+        },
+        {
+          "word": " missions,",
+          "start": 122.4,
+          "end": 122.88,
+          "probability": 0.9908
+        }
+      ]
+    },
+    {
+      "start": 123.56,
+      "end": 133.0,
+      "text": "some including astronauts in coming years. The Blue Ghost lander is targeting a landing site",
+      "avg_log_prob": -0.1737,
+      "words": [
+        {
+          "word": " some",
+          "start": 123.56,
+          "end": 123.94,
+          "probability": 0.9807
+        },
+        {
+          "word": " including",
+          "start": 123.94,
+          "end": 124.58,
+          "probability": 0.9569
+        },
+        {
+          "word": " astronauts",
+          "start": 124.58,
+          "end": 125.4,
+          "probability": 0.986
+        },
+        {
+          "word": " in",
+          "start": 125.4,
+          "end": 126.28,
+          "probability": 0.3895
+        },
+        {
+          "word": " coming",
+          "start": 126.28,
+          "end": 126.68,
+          "probability": 0.9905
+        },
+        {
+          "word": " years.",
+          "start": 126.68,
+          "end": 127.24,
+          "probability": 0.9927
+        },
+        {
+          "word": " The",
+          "start": 128.54,
+          "end": 128.82,
+          "probability": 0.9907
+        },
+        {
+          "word": " Blue",
+          "start": 128.82,
+          "end": 129.16,
+          "probability": 0.8305
+        },
+        {
+          "word": " Ghost",
+          "start": 129.16,
+          "end": 129.44,
+          "probability": 0.8846
+        },
+        {
+          "word": " lander",
+          "start": 129.44,
+          "end": 130.62,
+          "probability": 0.6646
+        },
+        {
+          "word": " is",
+          "start": 130.62,
+          "end": 130.92,
+          "probability": 0.9975
+        },
+        {
+          "word": " targeting",
+          "start": 130.92,
+          "end": 131.66,
+          "probability": 0.9972
+        },
+        {
+          "word": " a",
+          "start": 131.66,
+          "end": 132.02,
+          "probability": 0.9942
+        },
+        {
+          "word": " landing",
+          "start": 132.02,
+          "end": 132.44,
+          "probability": 0.9929
+        },
+        {
+          "word": " site",
+          "start": 132.44,
+          "end": 133.0,
+          "probability": 0.9811
+        }
+      ]
+    },
+    {
+      "start": 133.0,
+      "end": 143.96,
+      "text": "near a volcanic structure called Mons-La Trée. It is a 480 km basin that sits in the northeast",
+      "avg_log_prob": -0.2538,
+      "words": [
+        {
+          "word": " near",
+          "start": 133.0,
+          "end": 133.66,
+          "probability": 0.3215
+        },
+        {
+          "word": " a",
+          "start": 133.66,
+          "end": 133.94,
+          "probability": 0.9517
+        },
+        {
+          "word": " volcanic",
+          "start": 133.94,
+          "end": 134.5,
+          "probability": 0.9948
+        },
+        {
+          "word": " structure",
+          "start": 134.5,
+          "end": 135.28,
+          "probability": 0.9959
+        },
+        {
+          "word": " called",
+          "start": 135.28,
+          "end": 136.06,
+          "probability": 0.9416
+        },
+        {
+          "word": " Mons",
+          "start": 136.06,
+          "end": 136.8,
+          "probability": 0.4802
+        },
+        {
+          "word": "-La",
+          "start": 136.8,
+          "end": 137.0,
+          "probability": 0.3212
+        },
+        {
+          "word": " Trée.",
+          "start": 137.0,
+          "end": 137.48,
+          "probability": 0.344
+        },
+        {
+          "word": " It",
+          "start": 138.32,
+          "end": 138.68,
+          "probability": 0.9209
+        },
+        {
+          "word": " is",
+          "start": 138.68,
+          "end": 139.0,
+          "probability": 0.9937
+        },
+        {
+          "word": " a",
+          "start": 139.0,
+          "end": 139.18,
+          "probability": 0.9774
+        },
+        {
+          "word": " 480",
+          "start": 139.18,
+          "end": 140.38,
+          "probability": 0.9681
+        },
+        {
+          "word": " km",
+          "start": 140.38,
+          "end": 141.18,
+          "probability": 0.3571
+        },
+        {
+          "word": " basin",
+          "start": 141.18,
+          "end": 141.74,
+          "probability": 0.9554
+        },
+        {
+          "word": " that",
+          "start": 141.74,
+          "end": 142.46,
+          "probability": 0.9765
+        },
+        {
+          "word": " sits",
+          "start": 142.46,
+          "end": 142.94,
+          "probability": 0.9962
+        },
+        {
+          "word": " in",
+          "start": 142.94,
+          "end": 143.28,
+          "probability": 0.9911
+        },
+        {
+          "word": " the",
+          "start": 143.28,
+          "end": 143.48,
+          "probability": 0.9979
+        },
+        {
+          "word": " northeast",
+          "start": 143.48,
+          "end": 143.96,
+          "probability": 0.6885
+        }
+      ]
+    },
+    {
+      "start": 143.96,
+      "end": 154.02,
+      "text": "quarter of the near side of the moon. The American Space Agency, NASA, says the two-meter tall Blue",
+      "avg_log_prob": -0.2538,
+      "words": [
+        {
+          "word": " quarter",
+          "start": 143.96,
+          "end": 144.7,
+          "probability": 0.8569
+        },
+        {
+          "word": " of",
+          "start": 144.7,
+          "end": 145.2,
+          "probability": 0.9964
+        },
+        {
+          "word": " the",
+          "start": 145.2,
+          "end": 145.36,
+          "probability": 0.9934
+        },
+        {
+          "word": " near",
+          "start": 145.36,
+          "end": 145.64,
+          "probability": 0.7788
+        },
+        {
+          "word": " side",
+          "start": 145.64,
+          "end": 146.14,
+          "probability": 0.8941
+        },
+        {
+          "word": " of",
+          "start": 146.14,
+          "end": 146.44,
+          "probability": 0.9971
+        },
+        {
+          "word": " the",
+          "start": 146.44,
+          "end": 146.6,
+          "probability": 0.9988
+        },
+        {
+          "word": " moon.",
+          "start": 146.6,
+          "end": 146.98,
+          "probability": 0.5178
+        },
+        {
+          "word": " The",
+          "start": 147.96,
+          "end": 148.2,
+          "probability": 0.9781
+        },
+        {
+          "word": " American",
+          "start": 148.2,
+          "end": 148.78,
+          "probability": 0.9774
+        },
+        {
+          "word": " Space",
+          "start": 148.78,
+          "end": 149.3,
+          "probability": 0.6835
+        },
+        {
+          "word": " Agency,",
+          "start": 149.3,
+          "end": 150.14,
+          "probability": 0.9918
+        },
+        {
+          "word": " NASA,",
+          "start": 150.56,
+          "end": 150.98,
+          "probability": 0.9838
+        },
+        {
+          "word": " says",
+          "start": 151.94,
+          "end": 151.94,
+          "probability": 0.995
+        },
+        {
+          "word": " the",
+          "start": 151.94,
+          "end": 152.28,
+          "probability": 0.9408
+        },
+        {
+          "word": " two",
+          "start": 152.28,
+          "end": 152.62,
+          "probability": 0.7691
+        },
+        {
+          "word": "-meter",
+          "start": 152.62,
+          "end": 152.96,
+          "probability": 0.7067
+        },
+        {
+          "word": " tall",
+          "start": 152.96,
+          "end": 153.5,
+          "probability": 0.7678
+        },
+        {
+          "word": " Blue",
+          "start": 153.5,
+          "end": 154.02,
+          "probability": 0.1345
+        }
+      ]
+    },
+    {
+      "start": 154.02,
+      "end": 164.48,
+      "text": "Ghost, is carrying ten NASA science and technology instruments. They aim to gather valuable scientific",
+      "avg_log_prob": -0.1302,
+      "words": [
+        {
+          "word": " Ghost,",
+          "start": 154.02,
+          "end": 154.46,
+          "probability": 0.2609
+        },
+        {
+          "word": " is",
+          "start": 155.08,
+          "end": 155.36,
+          "probability": 0.9884
+        },
+        {
+          "word": " carrying",
+          "start": 155.36,
+          "end": 155.84,
+          "probability": 0.982
+        },
+        {
+          "word": " ten",
+          "start": 155.84,
+          "end": 156.48,
+          "probability": 0.706
+        },
+        {
+          "word": " NASA",
+          "start": 156.48,
+          "end": 157.22,
+          "probability": 0.9964
+        },
+        {
+          "word": " science",
+          "start": 157.22,
+          "end": 157.9,
+          "probability": 0.7824
+        },
+        {
+          "word": " and",
+          "start": 157.9,
+          "end": 158.34,
+          "probability": 0.9866
+        },
+        {
+          "word": " technology",
+          "start": 158.34,
+          "end": 159.22,
+          "probability": 0.9932
+        },
+        {
+          "word": " instruments.",
+          "start": 159.22,
+          "end": 160.08,
+          "probability": 0.9917
+        },
+        {
+          "word": " They",
+          "start": 160.76,
+          "end": 161.76,
+          "probability": 0.6472
+        },
+        {
+          "word": " aim",
+          "start": 161.76,
+          "end": 162.18,
+          "probability": 0.7754
+        },
+        {
+          "word": " to",
+          "start": 162.18,
+          "end": 162.52,
+          "probability": 0.9667
+        },
+        {
+          "word": " gather",
+          "start": 162.52,
+          "end": 162.96,
+          "probability": 0.9863
+        },
+        {
+          "word": " valuable",
+          "start": 162.96,
+          "end": 163.6,
+          "probability": 0.9879
+        },
+        {
+          "word": " scientific",
+          "start": 163.6,
+          "end": 164.48,
+          "probability": 0.986
+        }
+      ]
+    },
+    {
+      "start": 164.48,
+      "end": 175.22,
+      "text": "data studying Earth's nearest neighbor. The agency said, NASA's Artemis program aims to send",
+      "avg_log_prob": -0.1302,
+      "words": [
+        {
+          "word": " data",
+          "start": 164.48,
+          "end": 165.24,
+          "probability": 0.9992
+        },
+        {
+          "word": " studying",
+          "start": 165.24,
+          "end": 166.4,
+          "probability": 0.6284
+        },
+        {
+          "word": " Earth's",
+          "start": 166.4,
+          "end": 167.24,
+          "probability": 0.9625
+        },
+        {
+          "word": " nearest",
+          "start": 167.24,
+          "end": 167.66,
+          "probability": 0.9944
+        },
+        {
+          "word": " neighbor.",
+          "start": 167.66,
+          "end": 168.28,
+          "probability": 0.858
+        },
+        {
+          "word": " The",
+          "start": 169.18,
+          "end": 169.4,
+          "probability": 0.9701
+        },
+        {
+          "word": " agency",
+          "start": 169.4,
+          "end": 170.0,
+          "probability": 0.9085
+        },
+        {
+          "word": " said,",
+          "start": 170.0,
+          "end": 170.74,
+          "probability": 0.9951
+        },
+        {
+          "word": " NASA's",
+          "start": 171.58,
+          "end": 172.4,
+          "probability": 0.6613
+        },
+        {
+          "word": " Artemis",
+          "start": 172.4,
+          "end": 173.08,
+          "probability": 0.9628
+        },
+        {
+          "word": " program",
+          "start": 173.08,
+          "end": 173.66,
+          "probability": 0.7556
+        },
+        {
+          "word": " aims",
+          "start": 173.66,
+          "end": 174.52,
+          "probability": 0.9766
+        },
+        {
+          "word": " to",
+          "start": 174.52,
+          "end": 174.82,
+          "probability": 0.9936
+        },
+        {
+          "word": " send",
+          "start": 174.82,
+          "end": 175.5,
+          "probability": 0.9983
+        }
+      ]
+    },
+    {
+      "start": 175.5,
+      "end": 183.02,
+      "text": "astronauts to the moon for the first time since the Apollo 17 mission in 1972.",
+      "avg_log_prob": -0.136,
+      "words": [
+        {
+          "word": " astronauts",
+          "start": 175.5,
+          "end": 175.92,
+          "probability": 0.1766
+        },
+        {
+          "word": " to",
+          "start": 175.92,
+          "end": 176.38,
+          "probability": 0.9753
+        },
+        {
+          "word": " the",
+          "start": 176.38,
+          "end": 176.54,
+          "probability": 0.9895
+        },
+        {
+          "word": " moon",
+          "start": 176.54,
+          "end": 176.84,
+          "probability": 0.4016
+        },
+        {
+          "word": " for",
+          "start": 176.84,
+          "end": 177.2,
+          "probability": 0.9741
+        },
+        {
+          "word": " the",
+          "start": 177.2,
+          "end": 177.38,
+          "probability": 0.9926
+        },
+        {
+          "word": " first",
+          "start": 177.38,
+          "end": 177.72,
+          "probability": 0.9961
+        },
+        {
+          "word": " time",
+          "start": 177.72,
+          "end": 178.34,
+          "probability": 0.9991
+        },
+        {
+          "word": " since",
+          "start": 178.34,
+          "end": 179.02,
+          "probability": 0.9315
+        },
+        {
+          "word": " the",
+          "start": 179.02,
+          "end": 179.4,
+          "probability": 0.9868
+        },
+        {
+          "word": " Apollo",
+          "start": 179.4,
+          "end": 179.68,
+          "probability": 0.9971
+        },
+        {
+          "word": " 17",
+          "start": 179.68,
+          "end": 180.5,
+          "probability": 0.9296
+        },
+        {
+          "word": " mission",
+          "start": 180.5,
+          "end": 181.14,
+          "probability": 0.9613
+        },
+        {
+          "word": " in",
+          "start": 181.14,
+          "end": 181.8,
+          "probability": 0.9858
+        },
+        {
+          "word": " 1972.",
+          "start": 181.8,
+          "end": 183.02,
+          "probability": 0.985
+        }
+      ]
+    },
+    {
+      "start": 184.38,
+      "end": 193.5,
+      "text": "The next planned flight in that program is Artemis II, which is set to launch in April 2026.",
+      "avg_log_prob": -0.136,
+      "words": [
+        {
+          "word": " The",
+          "start": 184.09,
+          "end": 184.62,
+          "probability": 0.9819
+        },
+        {
+          "word": " next",
+          "start": 184.62,
+          "end": 185.1,
+          "probability": 0.9685
+        },
+        {
+          "word": " planned",
+          "start": 185.1,
+          "end": 185.72,
+          "probability": 0.9697
+        },
+        {
+          "word": " flight",
+          "start": 185.72,
+          "end": 186.26,
+          "probability": 0.9851
+        },
+        {
+          "word": " in",
+          "start": 186.26,
+          "end": 186.58,
+          "probability": 0.9892
+        },
+        {
+          "word": " that",
+          "start": 186.58,
+          "end": 186.88,
+          "probability": 0.9917
+        },
+        {
+          "word": " program",
+          "start": 186.88,
+          "end": 187.52,
+          "probability": 0.9599
+        },
+        {
+          "word": " is",
+          "start": 187.52,
+          "end": 188.06,
+          "probability": 0.9946
+        },
+        {
+          "word": " Artemis",
+          "start": 188.06,
+          "end": 188.78,
+          "probability": 0.9109
+        },
+        {
+          "word": " II,",
+          "start": 188.78,
+          "end": 189.2,
+          "probability": 0.7494
+        },
+        {
+          "word": " which",
+          "start": 189.82,
+          "end": 190.08,
+          "probability": 0.9968
+        },
+        {
+          "word": " is",
+          "start": 190.08,
+          "end": 190.24,
+          "probability": 0.9974
+        },
+        {
+          "word": " set",
+          "start": 190.24,
+          "end": 190.48,
+          "probability": 0.9968
+        },
+        {
+          "word": " to",
+          "start": 190.48,
+          "end": 190.7,
+          "probability": 0.9991
+        },
+        {
+          "word": " launch",
+          "start": 190.7,
+          "end": 191.02,
+          "probability": 0.9986
+        },
+        {
+          "word": " in",
+          "start": 191.02,
+          "end": 191.46,
+          "probability": 0.9922
+        },
+        {
+          "word": " April",
+          "start": 191.46,
+          "end": 191.98,
+          "probability": 0.9984
+        },
+        {
+          "word": " 2026.",
+          "start": 191.98,
+          "end": 193.5,
+          "probability": 0.8539
+        }
+      ]
+    },
+    {
+      "start": 194.26,
+      "end": 204.06,
+      "text": "In that mission, four astronauts will fly NASA's Orion spacecraft more than 400,000 kilometers",
+      "avg_log_prob": -0.136,
+      "words": [
+        {
+          "word": " In",
+          "start": 194.26,
+          "end": 194.96,
+          "probability": 0.9876
+        },
+        {
+          "word": " that",
+          "start": 194.96,
+          "end": 195.22,
+          "probability": 0.9962
+        },
+        {
+          "word": " mission,",
+          "start": 195.22,
+          "end": 195.8,
+          "probability": 0.9949
+        },
+        {
+          "word": " four",
+          "start": 196.36,
+          "end": 196.52,
+          "probability": 0.8256
+        },
+        {
+          "word": " astronauts",
+          "start": 196.52,
+          "end": 197.28,
+          "probability": 0.9867
+        },
+        {
+          "word": " will",
+          "start": 197.28,
+          "end": 197.72,
+          "probability": 0.9941
+        },
+        {
+          "word": " fly",
+          "start": 197.72,
+          "end": 198.2,
+          "probability": 0.9987
+        },
+        {
+          "word": " NASA's",
+          "start": 198.2,
+          "end": 199.2,
+          "probability": 0.9867
+        },
+        {
+          "word": " Orion",
+          "start": 199.2,
+          "end": 199.72,
+          "probability": 0.9905
+        },
+        {
+          "word": " spacecraft",
+          "start": 199.72,
+          "end": 200.6,
+          "probability": 0.963
+        },
+        {
+          "word": " more",
+          "start": 200.6,
+          "end": 201.58,
+          "probability": 0.6888
+        },
+        {
+          "word": " than",
+          "start": 201.58,
+          "end": 201.76,
+          "probability": 0.9978
+        },
+        {
+          "word": " 400",
+          "start": 201.76,
+          "end": 202.54,
+          "probability": 0.9412
+        },
+        {
+          "word": ",000",
+          "start": 202.54,
+          "end": 203.36,
+          "probability": 0.9678
+        },
+        {
+          "word": " kilometers",
+          "start": 203.36,
+          "end": 204.06,
+          "probability": 0.6757
+        }
+      ]
+    },
+    {
+      "start": 204.78,
+      "end": 214.44,
+      "text": "on a trip around the moon. Nikola Fox is the Associate Administrator for NASA's Science Mission",
+      "avg_log_prob": -0.1122,
+      "words": [
+        {
+          "word": " on",
+          "start": 204.39,
+          "end": 204.96,
+          "probability": 0.3572
+        },
+        {
+          "word": " a",
+          "start": 204.96,
+          "end": 205.12,
+          "probability": 0.9448
+        },
+        {
+          "word": " trip",
+          "start": 205.12,
+          "end": 205.44,
+          "probability": 0.9987
+        },
+        {
+          "word": " around",
+          "start": 205.44,
+          "end": 206.24,
+          "probability": 0.9826
+        },
+        {
+          "word": " the",
+          "start": 206.24,
+          "end": 206.6,
+          "probability": 0.996
+        },
+        {
+          "word": " moon.",
+          "start": 206.6,
+          "end": 207.06,
+          "probability": 0.5494
+        },
+        {
+          "word": " Nikola",
+          "start": 208.02,
+          "end": 208.68,
+          "probability": 0.6573
+        },
+        {
+          "word": " Fox",
+          "start": 208.68,
+          "end": 209.1,
+          "probability": 0.9227
+        },
+        {
+          "word": " is",
+          "start": 209.1,
+          "end": 209.78,
+          "probability": 0.9069
+        },
+        {
+          "word": " the",
+          "start": 209.78,
+          "end": 210.02,
+          "probability": 0.9922
+        },
+        {
+          "word": " Associate",
+          "start": 210.02,
+          "end": 210.74,
+          "probability": 0.7496
+        },
+        {
+          "word": " Administrator",
+          "start": 210.74,
+          "end": 211.8,
+          "probability": 0.9881
+        },
+        {
+          "word": " for",
+          "start": 211.8,
+          "end": 212.44,
+          "probability": 0.988
+        },
+        {
+          "word": " NASA's",
+          "start": 212.44,
+          "end": 213.26,
+          "probability": 0.9692
+        },
+        {
+          "word": " Science",
+          "start": 213.26,
+          "end": 213.8,
+          "probability": 0.9527
+        },
+        {
+          "word": " Mission",
+          "start": 213.8,
+          "end": 214.44,
+          "probability": 0.8543
+        }
+      ]
+    },
+    {
+      "start": 214.44,
+      "end": 223.82,
+      "text": "Directorate in Washington, DC. She said in a statement, the agency's cooperation with private",
+      "avg_log_prob": -0.1122,
+      "words": [
+        {
+          "word": " Directorate",
+          "start": 214.44,
+          "end": 215.56,
+          "probability": 0.9844
+        },
+        {
+          "word": " in",
+          "start": 215.56,
+          "end": 216.14,
+          "probability": 0.983
+        },
+        {
+          "word": " Washington,",
+          "start": 216.14,
+          "end": 216.76,
+          "probability": 0.9993
+        },
+        {
+          "word": " DC.",
+          "start": 217.04,
+          "end": 217.44,
+          "probability": 0.5252
+        },
+        {
+          "word": " She",
+          "start": 218.42,
+          "end": 218.72,
+          "probability": 0.9672
+        },
+        {
+          "word": " said",
+          "start": 218.72,
+          "end": 219.14,
+          "probability": 0.9926
+        },
+        {
+          "word": " in",
+          "start": 219.14,
+          "end": 219.44,
+          "probability": 0.8829
+        },
+        {
+          "word": " a",
+          "start": 219.44,
+          "end": 219.6,
+          "probability": 0.9841
+        },
+        {
+          "word": " statement,",
+          "start": 219.6,
+          "end": 220.2,
+          "probability": 0.9991
+        },
+        {
+          "word": " the",
+          "start": 220.78,
+          "end": 220.78,
+          "probability": 0.2904
+        },
+        {
+          "word": " agency's",
+          "start": 220.78,
+          "end": 221.82,
+          "probability": 0.9121
+        },
+        {
+          "word": " cooperation",
+          "start": 221.82,
+          "end": 222.52,
+          "probability": 0.7577
+        },
+        {
+          "word": " with",
+          "start": 222.52,
+          "end": 223.32,
+          "probability": 0.992
+        },
+        {
+          "word": " private",
+          "start": 223.32,
+          "end": 223.82,
+          "probability": 0.9542
+        }
+      ]
+    },
+    {
+      "start": 223.82,
+      "end": 233.42,
+      "text": "companies is a critical part of bringing humanity back to the moon. Fox added that NASA",
+      "avg_log_prob": -0.1122,
+      "words": [
+        {
+          "word": " companies",
+          "start": 223.82,
+          "end": 224.54,
+          "probability": 0.9944
+        },
+        {
+          "word": " is",
+          "start": 224.54,
+          "end": 225.44,
+          "probability": 0.9858
+        },
+        {
+          "word": " a",
+          "start": 225.44,
+          "end": 225.8,
+          "probability": 0.9502
+        },
+        {
+          "word": " critical",
+          "start": 225.8,
+          "end": 226.24,
+          "probability": 0.9685
+        },
+        {
+          "word": " part",
+          "start": 226.24,
+          "end": 226.74,
+          "probability": 0.9987
+        },
+        {
+          "word": " of",
+          "start": 226.74,
+          "end": 227.24,
+          "probability": 0.9943
+        },
+        {
+          "word": " bringing",
+          "start": 227.24,
+          "end": 227.72,
+          "probability": 0.9811
+        },
+        {
+          "word": " humanity",
+          "start": 227.72,
+          "end": 228.6,
+          "probability": 0.9927
+        },
+        {
+          "word": " back",
+          "start": 228.6,
+          "end": 229.4,
+          "probability": 0.994
+        },
+        {
+          "word": " to",
+          "start": 229.4,
+          "end": 229.78,
+          "probability": 0.9945
+        },
+        {
+          "word": " the",
+          "start": 229.78,
+          "end": 229.92,
+          "probability": 0.9994
+        },
+        {
+          "word": " moon.",
+          "start": 229.92,
+          "end": 230.36,
+          "probability": 0.8831
+        },
+        {
+          "word": " Fox",
+          "start": 231.36,
+          "end": 231.72,
+          "probability": 0.9674
+        },
+        {
+          "word": " added",
+          "start": 231.72,
+          "end": 232.46,
+          "probability": 0.998
+        },
+        {
+          "word": " that",
+          "start": 232.46,
+          "end": 232.86,
+          "probability": 0.9876
+        },
+        {
+          "word": " NASA",
+          "start": 232.86,
+          "end": 233.42,
+          "probability": 0.9966
+        }
+      ]
+    },
+    {
+      "start": 233.42,
+      "end": 241.68,
+      "text": "chose the new experiments partly because of information learned from NASA's Apollo Space Program,",
+      "avg_log_prob": -0.1142,
+      "words": [
+        {
+          "word": " chose",
+          "start": 233.42,
+          "end": 233.84,
+          "probability": 0.4293
+        },
+        {
+          "word": " the",
+          "start": 233.84,
+          "end": 234.32,
+          "probability": 0.9946
+        },
+        {
+          "word": " new",
+          "start": 234.32,
+          "end": 234.5,
+          "probability": 0.9198
+        },
+        {
+          "word": " experiments",
+          "start": 234.5,
+          "end": 235.2,
+          "probability": 0.9592
+        },
+        {
+          "word": " partly",
+          "start": 235.2,
+          "end": 236.26,
+          "probability": 0.7971
+        },
+        {
+          "word": " because",
+          "start": 236.26,
+          "end": 236.84,
+          "probability": 0.9824
+        },
+        {
+          "word": " of",
+          "start": 236.84,
+          "end": 237.1,
+          "probability": 0.9851
+        },
+        {
+          "word": " information",
+          "start": 237.1,
+          "end": 237.62,
+          "probability": 0.9946
+        },
+        {
+          "word": " learned",
+          "start": 237.62,
+          "end": 238.46,
+          "probability": 0.9864
+        },
+        {
+          "word": " from",
+          "start": 238.46,
+          "end": 239.2,
+          "probability": 0.9869
+        },
+        {
+          "word": " NASA's",
+          "start": 239.2,
+          "end": 240.02,
+          "probability": 0.9838
+        },
+        {
+          "word": " Apollo",
+          "start": 240.02,
+          "end": 240.38,
+          "probability": 0.9934
+        },
+        {
+          "word": " Space",
+          "start": 240.38,
+          "end": 240.96,
+          "probability": 0.8253
+        },
+        {
+          "word": " Program,",
+          "start": 240.96,
+          "end": 241.68,
+          "probability": 0.8568
+        }
+      ]
+    },
+    {
+      "start": 242.24,
+      "end": 251.92,
+      "text": "which began in the 1960s. She said the current mission seeks to ensure the safety and health",
+      "avg_log_prob": -0.1142,
+      "words": [
+        {
+          "word": " which",
+          "start": 242.24,
+          "end": 242.56,
+          "probability": 0.9983
+        },
+        {
+          "word": " began",
+          "start": 242.56,
+          "end": 243.0,
+          "probability": 0.9984
+        },
+        {
+          "word": " in",
+          "start": 243.0,
+          "end": 243.56,
+          "probability": 0.9957
+        },
+        {
+          "word": " the",
+          "start": 243.56,
+          "end": 243.72,
+          "probability": 0.9982
+        },
+        {
+          "word": " 1960s.",
+          "start": 243.72,
+          "end": 245.32,
+          "probability": 0.9006
+        },
+        {
+          "word": " She",
+          "start": 245.7,
+          "end": 246.52,
+          "probability": 0.9331
+        },
+        {
+          "word": " said",
+          "start": 246.52,
+          "end": 246.92,
+          "probability": 0.9966
+        },
+        {
+          "word": " the",
+          "start": 246.92,
+          "end": 247.3,
+          "probability": 0.8397
+        },
+        {
+          "word": " current",
+          "start": 247.3,
+          "end": 247.7,
+          "probability": 0.9658
+        },
+        {
+          "word": " mission",
+          "start": 247.7,
+          "end": 248.22,
+          "probability": 0.9821
+        },
+        {
+          "word": " seeks",
+          "start": 248.22,
+          "end": 248.78,
+          "probability": 0.9897
+        },
+        {
+          "word": " to",
+          "start": 248.78,
+          "end": 249.14,
+          "probability": 0.9977
+        },
+        {
+          "word": " ensure",
+          "start": 249.14,
+          "end": 249.78,
+          "probability": 0.9565
+        },
+        {
+          "word": " the",
+          "start": 249.78,
+          "end": 250.4,
+          "probability": 0.9793
+        },
+        {
+          "word": " safety",
+          "start": 250.4,
+          "end": 250.92,
+          "probability": 0.9964
+        },
+        {
+          "word": " and",
+          "start": 250.92,
+          "end": 251.46,
+          "probability": 0.9897
+        },
+        {
+          "word": " health",
+          "start": 251.46,
+          "end": 251.92,
+          "probability": 0.9493
+        }
+      ]
+    },
+    {
+      "start": 251.92,
+      "end": 260.96,
+      "text": "of our future science instruments, spacecraft, and most importantly, our astronauts on the lunar",
+      "avg_log_prob": -0.1142,
+      "words": [
+        {
+          "word": " of",
+          "start": 251.92,
+          "end": 252.36,
+          "probability": 0.9981
+        },
+        {
+          "word": " our",
+          "start": 252.36,
+          "end": 252.58,
+          "probability": 0.9927
+        },
+        {
+          "word": " future",
+          "start": 252.58,
+          "end": 253.06,
+          "probability": 0.9902
+        },
+        {
+          "word": " science",
+          "start": 253.06,
+          "end": 253.88,
+          "probability": 0.9878
+        },
+        {
+          "word": " instruments,",
+          "start": 253.88,
+          "end": 254.72,
+          "probability": 0.9911
+        },
+        {
+          "word": " spacecraft,",
+          "start": 255.5,
+          "end": 256.0,
+          "probability": 0.9732
+        },
+        {
+          "word": " and",
+          "start": 256.72,
+          "end": 257.16,
+          "probability": 0.9955
+        },
+        {
+          "word": " most",
+          "start": 257.16,
+          "end": 257.44,
+          "probability": 0.6811
+        },
+        {
+          "word": " importantly,",
+          "start": 257.44,
+          "end": 258.36,
+          "probability": 0.9875
+        },
+        {
+          "word": " our",
+          "start": 258.92,
+          "end": 259.18,
+          "probability": 0.9974
+        },
+        {
+          "word": " astronauts",
+          "start": 259.18,
+          "end": 259.88,
+          "probability": 0.9909
+        },
+        {
+          "word": " on",
+          "start": 259.88,
+          "end": 260.46,
+          "probability": 0.9763
+        },
+        {
+          "word": " the",
+          "start": 260.46,
+          "end": 260.66,
+          "probability": 0.997
+        },
+        {
+          "word": " lunar",
+          "start": 260.66,
+          "end": 260.96,
+          "probability": 0.9552
+        }
+      ]
+    },
+    {
+      "start": 260.96,
+      "end": 269.72,
+      "text": "surface. Blue Ghost's equipment includes a tool to collect dirt and another to dig a hole",
+      "avg_log_prob": -0.0766,
+      "words": [
+        {
+          "word": " surface.",
+          "start": 260.96,
+          "end": 261.54,
+          "probability": 0.1461
+        },
+        {
+          "word": " Blue",
+          "start": 262.84,
+          "end": 263.16,
+          "probability": 0.9268
+        },
+        {
+          "word": " Ghost's",
+          "start": 263.16,
+          "end": 263.98,
+          "probability": 0.6891
+        },
+        {
+          "word": " equipment",
+          "start": 263.98,
+          "end": 264.52,
+          "probability": 0.9053
+        },
+        {
+          "word": " includes",
+          "start": 264.52,
+          "end": 265.28,
+          "probability": 0.9959
+        },
+        {
+          "word": " a",
+          "start": 265.28,
+          "end": 265.72,
+          "probability": 0.9948
+        },
+        {
+          "word": " tool",
+          "start": 265.72,
+          "end": 266.14,
+          "probability": 0.9983
+        },
+        {
+          "word": " to",
+          "start": 266.14,
+          "end": 266.46,
+          "probability": 0.9981
+        },
+        {
+          "word": " collect",
+          "start": 266.46,
+          "end": 266.9,
+          "probability": 0.9985
+        },
+        {
+          "word": " dirt",
+          "start": 266.9,
+          "end": 267.36,
+          "probability": 0.9984
+        },
+        {
+          "word": " and",
+          "start": 267.36,
+          "end": 268.14,
+          "probability": 0.741
+        },
+        {
+          "word": " another",
+          "start": 268.14,
+          "end": 268.62,
+          "probability": 0.9926
+        },
+        {
+          "word": " to",
+          "start": 268.62,
+          "end": 268.98,
+          "probability": 0.9951
+        },
+        {
+          "word": " dig",
+          "start": 268.98,
+          "end": 269.24,
+          "probability": 0.9874
+        },
+        {
+          "word": " a",
+          "start": 269.24,
+          "end": 269.44,
+          "probability": 0.9983
+        },
+        {
+          "word": " hole",
+          "start": 269.44,
+          "end": 269.72,
+          "probability": 0.9917
+        }
+      ]
+    },
+    {
+      "start": 269.72,
+      "end": 278.82,
+      "text": "for measuring temperatures below the lunar surface. The spacecraft is also carrying a device built",
+      "avg_log_prob": -0.0766,
+      "words": [
+        {
+          "word": " for",
+          "start": 269.72,
+          "end": 270.12,
+          "probability": 0.9899
+        },
+        {
+          "word": " measuring",
+          "start": 270.12,
+          "end": 270.62,
+          "probability": 0.9975
+        },
+        {
+          "word": " temperatures",
+          "start": 270.62,
+          "end": 271.4,
+          "probability": 0.9928
+        },
+        {
+          "word": " below",
+          "start": 271.4,
+          "end": 272.38,
+          "probability": 0.9884
+        },
+        {
+          "word": " the",
+          "start": 272.38,
+          "end": 272.76,
+          "probability": 0.9975
+        },
+        {
+          "word": " lunar",
+          "start": 272.76,
+          "end": 273.02,
+          "probability": 0.9852
+        },
+        {
+          "word": " surface.",
+          "start": 273.02,
+          "end": 273.64,
+          "probability": 0.997
+        },
+        {
+          "word": " The",
+          "start": 274.68,
+          "end": 275.02,
+          "probability": 0.9911
+        },
+        {
+          "word": " spacecraft",
+          "start": 275.02,
+          "end": 275.66,
+          "probability": 0.9947
+        },
+        {
+          "word": " is",
+          "start": 275.66,
+          "end": 276.12,
+          "probability": 0.9963
+        },
+        {
+          "word": " also",
+          "start": 276.12,
+          "end": 276.62,
+          "probability": 0.9964
+        },
+        {
+          "word": " carrying",
+          "start": 276.62,
+          "end": 277.12,
+          "probability": 0.9956
+        },
+        {
+          "word": " a",
+          "start": 277.12,
+          "end": 277.42,
+          "probability": 0.9984
+        },
+        {
+          "word": " device",
+          "start": 277.42,
+          "end": 278.0,
+          "probability": 0.9989
+        },
+        {
+          "word": " built",
+          "start": 278.0,
+          "end": 278.82,
+          "probability": 0.9686
+        }
+      ]
+    },
+    {
+      "start": 278.82,
+      "end": 286.66,
+      "text": "to measure light reflections to be used with lasers to better measure the distance between Earth",
+      "avg_log_prob": -0.0766,
+      "words": [
+        {
+          "word": " to",
+          "start": 278.82,
+          "end": 279.1,
+          "probability": 0.9923
+        },
+        {
+          "word": " measure",
+          "start": 279.1,
+          "end": 279.5,
+          "probability": 0.9958
+        },
+        {
+          "word": " light",
+          "start": 279.5,
+          "end": 279.94,
+          "probability": 0.9979
+        },
+        {
+          "word": " reflections",
+          "start": 279.94,
+          "end": 280.72,
+          "probability": 0.9802
+        },
+        {
+          "word": " to",
+          "start": 280.72,
+          "end": 281.46,
+          "probability": 0.9157
+        },
+        {
+          "word": " be",
+          "start": 281.46,
+          "end": 281.6,
+          "probability": 0.9994
+        },
+        {
+          "word": " used",
+          "start": 281.6,
+          "end": 282.02,
+          "probability": 0.9976
+        },
+        {
+          "word": " with",
+          "start": 282.02,
+          "end": 282.38,
+          "probability": 0.9953
+        },
+        {
+          "word": " lasers",
+          "start": 282.38,
+          "end": 282.84,
+          "probability": 0.9537
+        },
+        {
+          "word": " to",
+          "start": 282.84,
+          "end": 283.46,
+          "probability": 0.9972
+        },
+        {
+          "word": " better",
+          "start": 283.46,
+          "end": 283.86,
+          "probability": 0.9567
+        },
+        {
+          "word": " measure",
+          "start": 283.86,
+          "end": 284.4,
+          "probability": 0.9955
+        },
+        {
+          "word": " the",
+          "start": 284.4,
+          "end": 284.7,
+          "probability": 0.9959
+        },
+        {
+          "word": " distance",
+          "start": 284.7,
+          "end": 285.16,
+          "probability": 0.9986
+        },
+        {
+          "word": " between",
+          "start": 285.16,
+          "end": 286.04,
+          "probability": 0.9992
+        },
+        {
+          "word": " Earth",
+          "start": 286.04,
+          "end": 286.66,
+          "probability": 0.7274
+        }
+      ]
+    },
+    {
+      "start": 286.66,
+      "end": 295.36,
+      "text": "and the moon. In addition, Blue Ghost is carrying instruments to examine the structure and density",
+      "avg_log_prob": -0.1429,
+      "words": [
+        {
+          "word": " and",
+          "start": 286.66,
+          "end": 287.16,
+          "probability": 0.2341
+        },
+        {
+          "word": " the",
+          "start": 287.16,
+          "end": 287.4,
+          "probability": 0.9627
+        },
+        {
+          "word": " moon.",
+          "start": 287.4,
+          "end": 287.82,
+          "probability": 0.8024
+        },
+        {
+          "word": " In",
+          "start": 288.9,
+          "end": 289.02,
+          "probability": 0.9518
+        },
+        {
+          "word": " addition,",
+          "start": 289.02,
+          "end": 289.52,
+          "probability": 0.9973
+        },
+        {
+          "word": " Blue",
+          "start": 289.92,
+          "end": 290.08,
+          "probability": 0.7919
+        },
+        {
+          "word": " Ghost",
+          "start": 290.08,
+          "end": 290.4,
+          "probability": 0.9152
+        },
+        {
+          "word": " is",
+          "start": 290.4,
+          "end": 290.86,
+          "probability": 0.9791
+        },
+        {
+          "word": " carrying",
+          "start": 290.86,
+          "end": 291.4,
+          "probability": 0.9847
+        },
+        {
+          "word": " instruments",
+          "start": 291.4,
+          "end": 292.18,
+          "probability": 0.9898
+        },
+        {
+          "word": " to",
+          "start": 292.18,
+          "end": 292.9,
+          "probability": 0.984
+        },
+        {
+          "word": " examine",
+          "start": 292.9,
+          "end": 293.38,
+          "probability": 0.9965
+        },
+        {
+          "word": " the",
+          "start": 293.38,
+          "end": 293.66,
+          "probability": 0.9986
+        },
+        {
+          "word": " structure",
+          "start": 293.66,
+          "end": 294.24,
+          "probability": 0.9932
+        },
+        {
+          "word": " and",
+          "start": 294.24,
+          "end": 294.74,
+          "probability": 0.9917
+        },
+        {
+          "word": " density",
+          "start": 294.74,
+          "end": 295.36,
+          "probability": 0.9815
+        }
+      ]
+    },
+    {
+      "start": 295.36,
+      "end": 298.62,
+      "text": "of areas beneath the lunar surface.",
+      "avg_log_prob": -0.3918,
+      "words": [
+        {
+          "word": " of",
+          "start": 295.36,
+          "end": 296.02,
+          "probability": 0.5974
+        },
+        {
+          "word": " areas",
+          "start": 296.02,
+          "end": 296.5,
+          "probability": 0.9489
+        },
+        {
+          "word": " beneath",
+          "start": 296.5,
+          "end": 297.14,
+          "probability": 0.9968
+        },
+        {
+          "word": " the",
+          "start": 297.14,
+          "end": 297.64,
+          "probability": 0.989
+        },
+        {
+          "word": " lunar",
+          "start": 297.64,
+          "end": 297.9,
+          "probability": 0.9369
+        },
+        {
+          "word": " surface.",
+          "start": 297.9,
+          "end": 298.62,
+          "probability": 0.9889
+        }
+      ]
+    }
+  ],
+  "full_text": "Two private spacecraft are on their way to the moon to carry out separate missions. The landers launched January 15 from the American government's Kennedy Space Center in Florida. The private company SpaceX used its Falcon 9 launch vehicle to fly the landers into space. The two separated from Falcon 9 about one hour into the flight. Mission leaders said the launch went exactly as planned with no problems reported. The trip to the moon will take some time. One spacecraft is expected to land on the lunar surface in early March, while the other should touch down in late May or early June. In February 2024, the first private spacecraft completed the first US moon landing in more than 50 years. The lander, called Odysseus, was developed by the Texas-based company Intuitive Machines. The spacecraft experienced some technical problems, but was able to carry out several science experiments before powering down permanently on the moon in late March. For this current mission, Texas-based Firefly Aerospace developed Blue Ghost, one of the two landers launched. The other, named Resilience, belongs to Japanese company Ice Space. Both are designed to collect data and materials to support several planned moon missions, some including astronauts in coming years. The Blue Ghost lander is targeting a landing site near a volcanic structure called Mons-La Trée. It is a 480 km basin that sits in the northeast quarter of the near side of the moon. The American Space Agency, NASA, says the two-meter tall Blue Ghost, is carrying ten NASA science and technology instruments. They aim to gather valuable scientific data studying Earth's nearest neighbor. The agency said, NASA's Artemis program aims to send astronauts to the moon for the first time since the Apollo 17 mission in 1972. The next planned flight in that program is Artemis II, which is set to launch in April 2026. In that mission, four astronauts will fly NASA's Orion spacecraft more than 400,000 kilometers on a trip around the moon. Nikola Fox is the Associate Administrator for NASA's Science Mission Directorate in Washington, DC. She said in a statement, the agency's cooperation with private companies is a critical part of bringing humanity back to the moon. Fox added that NASA chose the new experiments partly because of information learned from NASA's Apollo Space Program, which began in the 1960s. She said the current mission seeks to ensure the safety and health of our future science instruments, spacecraft, and most importantly, our astronauts on the lunar surface. Blue Ghost's equipment includes a tool to collect dirt and another to dig a hole for measuring temperatures below the lunar surface. The spacecraft is also carrying a device built to measure light reflections to be used with lasers to better measure the distance between Earth and the moon. In addition, Blue Ghost is carrying instruments to examine the structure and density of areas beneath the lunar surface."
+}

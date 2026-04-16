@@ -1,0 +1,2067 @@
+{
+  "source_file": "news3.mp3",
+  "source_path": "data/raw/audio/news3.mp3",
+  "language": "en",
+  "language_probability": 0.9944,
+  "duration_s": 180.02,
+  "model": "base",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 11.72,
+      "text": "World Soccer's governing body, FIFA, selected Canada, Mexico, and the United States to host the 2026 World Cup.",
+      "avg_log_prob": -0.1993,
+      "words": [
+        {
+          "word": " World",
+          "start": 0.0,
+          "end": 0.52,
+          "probability": 0.6946
+        },
+        {
+          "word": " Soccer's",
+          "start": 0.52,
+          "end": 1.62,
+          "probability": 0.8745
+        },
+        {
+          "word": " governing",
+          "start": 1.62,
+          "end": 2.0,
+          "probability": 0.674
+        },
+        {
+          "word": " body,",
+          "start": 2.0,
+          "end": 2.68,
+          "probability": 0.9918
+        },
+        {
+          "word": " FIFA,",
+          "start": 3.0,
+          "end": 3.34,
+          "probability": 0.9107
+        },
+        {
+          "word": " selected",
+          "start": 4.32,
+          "end": 4.58,
+          "probability": 0.9175
+        },
+        {
+          "word": " Canada,",
+          "start": 4.58,
+          "end": 5.34,
+          "probability": 0.9769
+        },
+        {
+          "word": " Mexico,",
+          "start": 6.06,
+          "end": 6.46,
+          "probability": 0.9967
+        },
+        {
+          "word": " and",
+          "start": 6.94,
+          "end": 7.22,
+          "probability": 0.9955
+        },
+        {
+          "word": " the",
+          "start": 7.22,
+          "end": 7.36,
+          "probability": 0.9853
+        },
+        {
+          "word": " United",
+          "start": 7.36,
+          "end": 7.7,
+          "probability": 0.9893
+        },
+        {
+          "word": " States",
+          "start": 7.7,
+          "end": 8.42,
+          "probability": 0.9981
+        },
+        {
+          "word": " to",
+          "start": 8.42,
+          "end": 8.92,
+          "probability": 0.8999
+        },
+        {
+          "word": " host",
+          "start": 8.92,
+          "end": 9.3,
+          "probability": 0.9979
+        },
+        {
+          "word": " the",
+          "start": 9.3,
+          "end": 9.6,
+          "probability": 0.9879
+        },
+        {
+          "word": " 2026",
+          "start": 9.6,
+          "end": 10.68,
+          "probability": 0.9034
+        },
+        {
+          "word": " World",
+          "start": 10.68,
+          "end": 11.36,
+          "probability": 0.9425
+        },
+        {
+          "word": " Cup.",
+          "start": 11.36,
+          "end": 11.72,
+          "probability": 0.9867
+        }
+      ]
+    },
+    {
+      "start": 12.52,
+      "end": 23.64,
+      "text": "On Wednesday, FIFA Member Countries voted 134-65 for the three nations over the other candidate, Morocco.",
+      "avg_log_prob": -0.1993,
+      "words": [
+        {
+          "word": " On",
+          "start": 12.52,
+          "end": 13.52,
+          "probability": 0.9857
+        },
+        {
+          "word": " Wednesday,",
+          "start": 13.52,
+          "end": 14.02,
+          "probability": 0.9984
+        },
+        {
+          "word": " FIFA",
+          "start": 14.84,
+          "end": 15.24,
+          "probability": 0.9948
+        },
+        {
+          "word": " Member",
+          "start": 15.24,
+          "end": 15.62,
+          "probability": 0.5169
+        },
+        {
+          "word": " Countries",
+          "start": 15.62,
+          "end": 16.28,
+          "probability": 0.8577
+        },
+        {
+          "word": " voted",
+          "start": 16.28,
+          "end": 16.86,
+          "probability": 0.9912
+        },
+        {
+          "word": " 134",
+          "start": 16.86,
+          "end": 18.28,
+          "probability": 0.9715
+        },
+        {
+          "word": "-65",
+          "start": 18.28,
+          "end": 19.24,
+          "probability": 0.7143
+        },
+        {
+          "word": " for",
+          "start": 19.24,
+          "end": 19.98,
+          "probability": 0.9884
+        },
+        {
+          "word": " the",
+          "start": 19.98,
+          "end": 20.14,
+          "probability": 0.9911
+        },
+        {
+          "word": " three",
+          "start": 20.14,
+          "end": 20.4,
+          "probability": 0.8695
+        },
+        {
+          "word": " nations",
+          "start": 20.4,
+          "end": 20.82,
+          "probability": 0.9614
+        },
+        {
+          "word": " over",
+          "start": 20.82,
+          "end": 21.56,
+          "probability": 0.9941
+        },
+        {
+          "word": " the",
+          "start": 21.56,
+          "end": 21.84,
+          "probability": 0.9961
+        },
+        {
+          "word": " other",
+          "start": 21.84,
+          "end": 22.14,
+          "probability": 0.9915
+        },
+        {
+          "word": " candidate,",
+          "start": 22.14,
+          "end": 22.9,
+          "probability": 0.9886
+        },
+        {
+          "word": " Morocco.",
+          "start": 23.3,
+          "end": 23.64,
+          "probability": 0.9408
+        }
+      ]
+    },
+    {
+      "start": 24.66,
+      "end": 32.66,
+      "text": "The vote marks the first time that FIFA has accepted a three-nation bid for the soccer championship.",
+      "avg_log_prob": -0.0859,
+      "words": [
+        {
+          "word": " The",
+          "start": 24.66,
+          "end": 25.54,
+          "probability": 0.2862
+        },
+        {
+          "word": " vote",
+          "start": 25.54,
+          "end": 25.86,
+          "probability": 0.9601
+        },
+        {
+          "word": " marks",
+          "start": 25.86,
+          "end": 26.46,
+          "probability": 0.9845
+        },
+        {
+          "word": " the",
+          "start": 26.46,
+          "end": 26.88,
+          "probability": 0.9916
+        },
+        {
+          "word": " first",
+          "start": 26.88,
+          "end": 27.32,
+          "probability": 0.9963
+        },
+        {
+          "word": " time",
+          "start": 27.32,
+          "end": 27.72,
+          "probability": 0.9979
+        },
+        {
+          "word": " that",
+          "start": 27.72,
+          "end": 28.16,
+          "probability": 0.9871
+        },
+        {
+          "word": " FIFA",
+          "start": 28.16,
+          "end": 28.46,
+          "probability": 0.9278
+        },
+        {
+          "word": " has",
+          "start": 28.46,
+          "end": 28.9,
+          "probability": 0.9737
+        },
+        {
+          "word": " accepted",
+          "start": 28.9,
+          "end": 29.42,
+          "probability": 0.9966
+        },
+        {
+          "word": " a",
+          "start": 29.42,
+          "end": 29.8,
+          "probability": 0.9972
+        },
+        {
+          "word": " three",
+          "start": 29.8,
+          "end": 30.08,
+          "probability": 0.853
+        },
+        {
+          "word": "-nation",
+          "start": 30.08,
+          "end": 30.4,
+          "probability": 0.8489
+        },
+        {
+          "word": " bid",
+          "start": 30.4,
+          "end": 30.74,
+          "probability": 0.9959
+        },
+        {
+          "word": " for",
+          "start": 30.74,
+          "end": 31.36,
+          "probability": 0.9966
+        },
+        {
+          "word": " the",
+          "start": 31.36,
+          "end": 31.54,
+          "probability": 0.9848
+        },
+        {
+          "word": " soccer",
+          "start": 31.54,
+          "end": 31.84,
+          "probability": 0.6424
+        },
+        {
+          "word": " championship.",
+          "start": 31.84,
+          "end": 32.66,
+          "probability": 0.9885
+        }
+      ]
+    },
+    {
+      "start": 33.5,
+      "end": 40.92,
+      "text": "The public vote took place in Moscow, where the 2018 soccer championship begins on Thursday.",
+      "avg_log_prob": -0.0859,
+      "words": [
+        {
+          "word": " The",
+          "start": 33.5,
+          "end": 34.38,
+          "probability": 0.9941
+        },
+        {
+          "word": " public",
+          "start": 34.38,
+          "end": 34.68,
+          "probability": 0.9518
+        },
+        {
+          "word": " vote",
+          "start": 34.68,
+          "end": 35.14,
+          "probability": 0.998
+        },
+        {
+          "word": " took",
+          "start": 35.14,
+          "end": 35.48,
+          "probability": 0.9977
+        },
+        {
+          "word": " place",
+          "start": 35.48,
+          "end": 35.84,
+          "probability": 0.9998
+        },
+        {
+          "word": " in",
+          "start": 35.84,
+          "end": 36.2,
+          "probability": 0.9983
+        },
+        {
+          "word": " Moscow,",
+          "start": 36.2,
+          "end": 36.66,
+          "probability": 0.9932
+        },
+        {
+          "word": " where",
+          "start": 37.2,
+          "end": 37.28,
+          "probability": 0.9973
+        },
+        {
+          "word": " the",
+          "start": 37.28,
+          "end": 37.42,
+          "probability": 0.9976
+        },
+        {
+          "word": " 2018",
+          "start": 37.42,
+          "end": 38.08,
+          "probability": 0.9954
+        },
+        {
+          "word": " soccer",
+          "start": 38.08,
+          "end": 38.66,
+          "probability": 0.9065
+        },
+        {
+          "word": " championship",
+          "start": 38.66,
+          "end": 39.44,
+          "probability": 0.9878
+        },
+        {
+          "word": " begins",
+          "start": 39.44,
+          "end": 40.04,
+          "probability": 0.9888
+        },
+        {
+          "word": " on",
+          "start": 40.04,
+          "end": 40.46,
+          "probability": 0.9984
+        },
+        {
+          "word": " Thursday.",
+          "start": 40.46,
+          "end": 40.92,
+          "probability": 0.9907
+        }
+      ]
+    },
+    {
+      "start": 42.44,
+      "end": 46.48,
+      "text": "Football is known as soccer in the United States.",
+      "avg_log_prob": -0.0859,
+      "words": [
+        {
+          "word": " Football",
+          "start": 42.44,
+          "end": 42.86,
+          "probability": 0.9336
+        },
+        {
+          "word": " is",
+          "start": 42.86,
+          "end": 43.46,
+          "probability": 0.9979
+        },
+        {
+          "word": " known",
+          "start": 43.46,
+          "end": 43.76,
+          "probability": 0.9984
+        },
+        {
+          "word": " as",
+          "start": 43.76,
+          "end": 44.2,
+          "probability": 0.9984
+        },
+        {
+          "word": " soccer",
+          "start": 44.2,
+          "end": 44.68,
+          "probability": 0.5761
+        },
+        {
+          "word": " in",
+          "start": 44.68,
+          "end": 45.24,
+          "probability": 0.881
+        },
+        {
+          "word": " the",
+          "start": 45.24,
+          "end": 45.4,
+          "probability": 0.9976
+        },
+        {
+          "word": " United",
+          "start": 45.4,
+          "end": 45.76,
+          "probability": 0.9871
+        },
+        {
+          "word": " States.",
+          "start": 45.76,
+          "end": 46.48,
+          "probability": 0.9982
+        }
+      ]
+    },
+    {
+      "start": 47.8,
+      "end": 58.7,
+      "text": "The North American bid had to overcome concerns about the effects of policies of the administration of US President Donald Trump.",
+      "avg_log_prob": -0.0606,
+      "words": [
+        {
+          "word": " The",
+          "start": 47.8,
+          "end": 48.84,
+          "probability": 0.5921
+        },
+        {
+          "word": " North",
+          "start": 48.84,
+          "end": 49.12,
+          "probability": 0.9759
+        },
+        {
+          "word": " American",
+          "start": 49.12,
+          "end": 49.66,
+          "probability": 0.9777
+        },
+        {
+          "word": " bid",
+          "start": 49.66,
+          "end": 49.98,
+          "probability": 0.9317
+        },
+        {
+          "word": " had",
+          "start": 49.98,
+          "end": 50.56,
+          "probability": 0.9963
+        },
+        {
+          "word": " to",
+          "start": 50.56,
+          "end": 50.8,
+          "probability": 0.9627
+        },
+        {
+          "word": " overcome",
+          "start": 50.8,
+          "end": 51.22,
+          "probability": 0.9962
+        },
+        {
+          "word": " concerns",
+          "start": 51.22,
+          "end": 51.98,
+          "probability": 0.9971
+        },
+        {
+          "word": " about",
+          "start": 51.98,
+          "end": 52.62,
+          "probability": 0.9982
+        },
+        {
+          "word": " the",
+          "start": 52.62,
+          "end": 53.0,
+          "probability": 0.9914
+        },
+        {
+          "word": " effects",
+          "start": 53.0,
+          "end": 53.34,
+          "probability": 0.9777
+        },
+        {
+          "word": " of",
+          "start": 53.34,
+          "end": 53.76,
+          "probability": 0.9979
+        },
+        {
+          "word": " policies",
+          "start": 53.76,
+          "end": 54.36,
+          "probability": 0.97
+        },
+        {
+          "word": " of",
+          "start": 54.36,
+          "end": 54.94,
+          "probability": 0.9979
+        },
+        {
+          "word": " the",
+          "start": 54.94,
+          "end": 55.1,
+          "probability": 0.9917
+        },
+        {
+          "word": " administration",
+          "start": 55.1,
+          "end": 55.9,
+          "probability": 0.8703
+        },
+        {
+          "word": " of",
+          "start": 55.9,
+          "end": 56.4,
+          "probability": 0.9964
+        },
+        {
+          "word": " US",
+          "start": 56.4,
+          "end": 56.72,
+          "probability": 0.3505
+        },
+        {
+          "word": " President",
+          "start": 56.72,
+          "end": 57.38,
+          "probability": 0.8309
+        },
+        {
+          "word": " Donald",
+          "start": 57.38,
+          "end": 58.0,
+          "probability": 0.9756
+        },
+        {
+          "word": " Trump.",
+          "start": 58.0,
+          "end": 58.7,
+          "probability": 0.9984
+        }
+      ]
+    },
+    {
+      "start": 60.22,
+      "end": 67.8,
+      "text": "One such policy was a ban on travel from six majority Muslim countries for security reasons.",
+      "avg_log_prob": -0.0606,
+      "words": [
+        {
+          "word": " One",
+          "start": 60.22,
+          "end": 60.34,
+          "probability": 0.9395
+        },
+        {
+          "word": " such",
+          "start": 60.34,
+          "end": 60.74,
+          "probability": 0.9983
+        },
+        {
+          "word": " policy",
+          "start": 60.74,
+          "end": 61.28,
+          "probability": 0.9978
+        },
+        {
+          "word": " was",
+          "start": 61.28,
+          "end": 61.62,
+          "probability": 0.9984
+        },
+        {
+          "word": " a",
+          "start": 61.62,
+          "end": 61.8,
+          "probability": 0.984
+        },
+        {
+          "word": " ban",
+          "start": 61.8,
+          "end": 62.1,
+          "probability": 0.9949
+        },
+        {
+          "word": " on",
+          "start": 62.1,
+          "end": 62.44,
+          "probability": 0.9991
+        },
+        {
+          "word": " travel",
+          "start": 62.44,
+          "end": 62.96,
+          "probability": 0.9945
+        },
+        {
+          "word": " from",
+          "start": 62.96,
+          "end": 63.46,
+          "probability": 0.973
+        },
+        {
+          "word": " six",
+          "start": 63.46,
+          "end": 63.96,
+          "probability": 0.9511
+        },
+        {
+          "word": " majority",
+          "start": 63.96,
+          "end": 64.64,
+          "probability": 0.955
+        },
+        {
+          "word": " Muslim",
+          "start": 64.64,
+          "end": 65.08,
+          "probability": 0.9105
+        },
+        {
+          "word": " countries",
+          "start": 65.08,
+          "end": 65.7,
+          "probability": 0.9893
+        },
+        {
+          "word": " for",
+          "start": 65.7,
+          "end": 66.42,
+          "probability": 0.9826
+        },
+        {
+          "word": " security",
+          "start": 66.42,
+          "end": 67.04,
+          "probability": 0.9986
+        },
+        {
+          "word": " reasons.",
+          "start": 67.04,
+          "end": 67.8,
+          "probability": 0.9996
+        }
+      ]
+    },
+    {
+      "start": 69.0,
+      "end": 81.26,
+      "text": "Cameroon's representative to FIFA, Kevin Injomo, said the three-nation bid was strong, and if it was just the United States, Morocco would have beaten them.",
+      "avg_log_prob": -0.0788,
+      "words": [
+        {
+          "word": " Cameroon's",
+          "start": 69.0,
+          "end": 69.76,
+          "probability": 0.7604
+        },
+        {
+          "word": " representative",
+          "start": 69.76,
+          "end": 70.4,
+          "probability": 0.9588
+        },
+        {
+          "word": " to",
+          "start": 70.4,
+          "end": 70.74,
+          "probability": 0.292
+        },
+        {
+          "word": " FIFA,",
+          "start": 70.74,
+          "end": 71.1,
+          "probability": 0.952
+        },
+        {
+          "word": " Kevin",
+          "start": 71.7,
+          "end": 71.9,
+          "probability": 0.9777
+        },
+        {
+          "word": " Injomo,",
+          "start": 71.9,
+          "end": 72.44,
+          "probability": 0.4928
+        },
+        {
+          "word": " said",
+          "start": 73.16,
+          "end": 73.34,
+          "probability": 0.9991
+        },
+        {
+          "word": " the",
+          "start": 73.34,
+          "end": 73.64,
+          "probability": 0.9711
+        },
+        {
+          "word": " three",
+          "start": 73.64,
+          "end": 73.88,
+          "probability": 0.8654
+        },
+        {
+          "word": "-nation",
+          "start": 73.88,
+          "end": 74.2,
+          "probability": 0.8738
+        },
+        {
+          "word": " bid",
+          "start": 74.2,
+          "end": 74.52,
+          "probability": 0.9859
+        },
+        {
+          "word": " was",
+          "start": 74.52,
+          "end": 75.2,
+          "probability": 0.937
+        },
+        {
+          "word": " strong,",
+          "start": 75.2,
+          "end": 75.8,
+          "probability": 0.8447
+        },
+        {
+          "word": " and",
+          "start": 76.38,
+          "end": 76.62,
+          "probability": 0.9979
+        },
+        {
+          "word": " if",
+          "start": 76.62,
+          "end": 76.78,
+          "probability": 0.9738
+        },
+        {
+          "word": " it",
+          "start": 76.78,
+          "end": 76.88,
+          "probability": 0.9952
+        },
+        {
+          "word": " was",
+          "start": 76.88,
+          "end": 77.06,
+          "probability": 0.9894
+        },
+        {
+          "word": " just",
+          "start": 77.06,
+          "end": 77.4,
+          "probability": 0.9983
+        },
+        {
+          "word": " the",
+          "start": 77.4,
+          "end": 77.8,
+          "probability": 0.9944
+        },
+        {
+          "word": " United",
+          "start": 77.8,
+          "end": 78.12,
+          "probability": 0.9892
+        },
+        {
+          "word": " States,",
+          "start": 78.12,
+          "end": 78.84,
+          "probability": 0.9988
+        },
+        {
+          "word": " Morocco",
+          "start": 79.48,
+          "end": 79.66,
+          "probability": 0.9075
+        },
+        {
+          "word": " would",
+          "start": 79.66,
+          "end": 80.32,
+          "probability": 0.9991
+        },
+        {
+          "word": " have",
+          "start": 80.32,
+          "end": 80.52,
+          "probability": 0.9976
+        },
+        {
+          "word": " beaten",
+          "start": 80.52,
+          "end": 80.84,
+          "probability": 0.9885
+        },
+        {
+          "word": " them.",
+          "start": 80.84,
+          "end": 81.26,
+          "probability": 0.9969
+        }
+      ]
+    },
+    {
+      "start": 82.64,
+      "end": 93.02,
+      "text": "He added, people have a soft spot for Mexico, especially looking at Mexico as a little bit underdeveloped and giving them a chance.",
+      "avg_log_prob": -0.0788,
+      "words": [
+        {
+          "word": " He",
+          "start": 82.64,
+          "end": 82.98,
+          "probability": 0.9873
+        },
+        {
+          "word": " added,",
+          "start": 82.98,
+          "end": 83.26,
+          "probability": 0.9966
+        },
+        {
+          "word": " people",
+          "start": 83.96,
+          "end": 84.42,
+          "probability": 0.0172
+        },
+        {
+          "word": " have",
+          "start": 84.42,
+          "end": 84.72,
+          "probability": 0.9973
+        },
+        {
+          "word": " a",
+          "start": 84.72,
+          "end": 85.1,
+          "probability": 0.9904
+        },
+        {
+          "word": " soft",
+          "start": 85.1,
+          "end": 85.42,
+          "probability": 0.9947
+        },
+        {
+          "word": " spot",
+          "start": 85.42,
+          "end": 85.84,
+          "probability": 0.9939
+        },
+        {
+          "word": " for",
+          "start": 85.84,
+          "end": 86.22,
+          "probability": 0.9992
+        },
+        {
+          "word": " Mexico,",
+          "start": 86.22,
+          "end": 86.68,
+          "probability": 0.9926
+        },
+        {
+          "word": " especially",
+          "start": 87.42,
+          "end": 88.08,
+          "probability": 0.9978
+        },
+        {
+          "word": " looking",
+          "start": 88.08,
+          "end": 88.54,
+          "probability": 0.9973
+        },
+        {
+          "word": " at",
+          "start": 88.54,
+          "end": 88.76,
+          "probability": 0.9991
+        },
+        {
+          "word": " Mexico",
+          "start": 88.76,
+          "end": 89.24,
+          "probability": 0.9991
+        },
+        {
+          "word": " as",
+          "start": 89.24,
+          "end": 89.72,
+          "probability": 0.9962
+        },
+        {
+          "word": " a",
+          "start": 89.72,
+          "end": 89.82,
+          "probability": 0.9928
+        },
+        {
+          "word": " little",
+          "start": 89.82,
+          "end": 90.06,
+          "probability": 0.9981
+        },
+        {
+          "word": " bit",
+          "start": 90.06,
+          "end": 90.32,
+          "probability": 0.987
+        },
+        {
+          "word": " underdeveloped",
+          "start": 90.32,
+          "end": 91.42,
+          "probability": 0.9873
+        },
+        {
+          "word": " and",
+          "start": 91.42,
+          "end": 91.94,
+          "probability": 0.6521
+        },
+        {
+          "word": " giving",
+          "start": 91.94,
+          "end": 92.26,
+          "probability": 0.9981
+        },
+        {
+          "word": " them",
+          "start": 92.26,
+          "end": 92.48,
+          "probability": 0.9991
+        },
+        {
+          "word": " a",
+          "start": 92.48,
+          "end": 92.62,
+          "probability": 0.9978
+        },
+        {
+          "word": " chance.",
+          "start": 92.62,
+          "end": 93.02,
+          "probability": 0.9994
+        }
+      ]
+    },
+    {
+      "start": 94.02,
+      "end": 97.18,
+      "text": "Canada is a good tourist destination.",
+      "avg_log_prob": -0.0615,
+      "words": [
+        {
+          "word": " Canada",
+          "start": 94.02,
+          "end": 94.54,
+          "probability": 0.5395
+        },
+        {
+          "word": " is",
+          "start": 94.54,
+          "end": 95.18,
+          "probability": 0.9643
+        },
+        {
+          "word": " a",
+          "start": 95.18,
+          "end": 95.32,
+          "probability": 0.99
+        },
+        {
+          "word": " good",
+          "start": 95.32,
+          "end": 95.6,
+          "probability": 0.9859
+        },
+        {
+          "word": " tourist",
+          "start": 95.6,
+          "end": 96.16,
+          "probability": 0.8893
+        },
+        {
+          "word": " destination.",
+          "start": 96.16,
+          "end": 97.18,
+          "probability": 0.9995
+        }
+      ]
+    },
+    {
+      "start": 99.02,
+      "end": 105.04,
+      "text": "The 2026 World Cup will also be the first to include 48 teams.",
+      "avg_log_prob": -0.0615,
+      "words": [
+        {
+          "word": " The",
+          "start": 98.88,
+          "end": 99.38,
+          "probability": 0.9729
+        },
+        {
+          "word": " 2026",
+          "start": 99.38,
+          "end": 100.22,
+          "probability": 0.9295
+        },
+        {
+          "word": " World",
+          "start": 100.22,
+          "end": 100.66,
+          "probability": 0.9028
+        },
+        {
+          "word": " Cup",
+          "start": 100.66,
+          "end": 100.96,
+          "probability": 0.9806
+        },
+        {
+          "word": " will",
+          "start": 100.96,
+          "end": 101.34,
+          "probability": 0.9962
+        },
+        {
+          "word": " also",
+          "start": 101.34,
+          "end": 101.84,
+          "probability": 0.9868
+        },
+        {
+          "word": " be",
+          "start": 101.84,
+          "end": 102.16,
+          "probability": 0.9986
+        },
+        {
+          "word": " the",
+          "start": 102.16,
+          "end": 102.32,
+          "probability": 0.9944
+        },
+        {
+          "word": " first",
+          "start": 102.32,
+          "end": 102.64,
+          "probability": 0.9952
+        },
+        {
+          "word": " to",
+          "start": 102.64,
+          "end": 102.96,
+          "probability": 0.9953
+        },
+        {
+          "word": " include",
+          "start": 102.96,
+          "end": 103.46,
+          "probability": 0.9977
+        },
+        {
+          "word": " 48",
+          "start": 103.46,
+          "end": 104.26,
+          "probability": 0.966
+        },
+        {
+          "word": " teams.",
+          "start": 104.26,
+          "end": 105.04,
+          "probability": 0.9888
+        }
+      ]
+    },
+    {
+      "start": 106.58,
+      "end": 117.58,
+      "text": "The US proposed hosting 60 out of the 80 games in 2026. Canada and Mexico would then host 10 games each.",
+      "avg_log_prob": -0.0615,
+      "words": [
+        {
+          "word": " The",
+          "start": 106.58,
+          "end": 106.74,
+          "probability": 0.9882
+        },
+        {
+          "word": " US",
+          "start": 106.74,
+          "end": 107.12,
+          "probability": 0.6579
+        },
+        {
+          "word": " proposed",
+          "start": 107.12,
+          "end": 107.74,
+          "probability": 0.9918
+        },
+        {
+          "word": " hosting",
+          "start": 107.74,
+          "end": 108.52,
+          "probability": 0.9972
+        },
+        {
+          "word": " 60",
+          "start": 108.52,
+          "end": 109.22,
+          "probability": 0.9616
+        },
+        {
+          "word": " out",
+          "start": 109.22,
+          "end": 109.68,
+          "probability": 0.9902
+        },
+        {
+          "word": " of",
+          "start": 109.68,
+          "end": 109.82,
+          "probability": 0.9336
+        },
+        {
+          "word": " the",
+          "start": 109.82,
+          "end": 109.96,
+          "probability": 0.9844
+        },
+        {
+          "word": " 80",
+          "start": 109.96,
+          "end": 110.28,
+          "probability": 0.9851
+        },
+        {
+          "word": " games",
+          "start": 110.28,
+          "end": 110.78,
+          "probability": 0.9126
+        },
+        {
+          "word": " in",
+          "start": 110.78,
+          "end": 111.28,
+          "probability": 0.9954
+        },
+        {
+          "word": " 2026.",
+          "start": 111.28,
+          "end": 112.24,
+          "probability": 0.9835
+        },
+        {
+          "word": " Canada",
+          "start": 113.56,
+          "end": 113.96,
+          "probability": 0.9984
+        },
+        {
+          "word": " and",
+          "start": 113.96,
+          "end": 114.48,
+          "probability": 0.9959
+        },
+        {
+          "word": " Mexico",
+          "start": 114.48,
+          "end": 114.96,
+          "probability": 0.9974
+        },
+        {
+          "word": " would",
+          "start": 114.96,
+          "end": 115.34,
+          "probability": 0.9802
+        },
+        {
+          "word": " then",
+          "start": 115.34,
+          "end": 115.6,
+          "probability": 0.9926
+        },
+        {
+          "word": " host",
+          "start": 115.6,
+          "end": 116.04,
+          "probability": 0.9986
+        },
+        {
+          "word": " 10",
+          "start": 116.04,
+          "end": 116.46,
+          "probability": 0.9456
+        },
+        {
+          "word": " games",
+          "start": 116.46,
+          "end": 117.0,
+          "probability": 0.9784
+        },
+        {
+          "word": " each.",
+          "start": 117.0,
+          "end": 117.58,
+          "probability": 0.9984
+        }
+      ]
+    },
+    {
+      "start": 118.58,
+      "end": 125.3,
+      "text": "FIFA will have to decide how the games are divided up and which cities will be selected.",
+      "avg_log_prob": -0.0389,
+      "words": [
+        {
+          "word": " FIFA",
+          "start": 118.58,
+          "end": 119.24,
+          "probability": 0.4565
+        },
+        {
+          "word": " will",
+          "start": 119.24,
+          "end": 119.68,
+          "probability": 0.9911
+        },
+        {
+          "word": " have",
+          "start": 119.68,
+          "end": 119.96,
+          "probability": 0.9923
+        },
+        {
+          "word": " to",
+          "start": 119.96,
+          "end": 120.2,
+          "probability": 0.9985
+        },
+        {
+          "word": " decide",
+          "start": 120.2,
+          "end": 120.62,
+          "probability": 0.9981
+        },
+        {
+          "word": " how",
+          "start": 120.62,
+          "end": 121.02,
+          "probability": 0.9926
+        },
+        {
+          "word": " the",
+          "start": 121.02,
+          "end": 121.22,
+          "probability": 0.9912
+        },
+        {
+          "word": " games",
+          "start": 121.22,
+          "end": 121.54,
+          "probability": 0.9673
+        },
+        {
+          "word": " are",
+          "start": 121.54,
+          "end": 121.82,
+          "probability": 0.9984
+        },
+        {
+          "word": " divided",
+          "start": 121.82,
+          "end": 122.26,
+          "probability": 0.9966
+        },
+        {
+          "word": " up",
+          "start": 122.26,
+          "end": 122.64,
+          "probability": 0.9934
+        },
+        {
+          "word": " and",
+          "start": 122.64,
+          "end": 123.2,
+          "probability": 0.8592
+        },
+        {
+          "word": " which",
+          "start": 123.2,
+          "end": 123.54,
+          "probability": 0.9961
+        },
+        {
+          "word": " cities",
+          "start": 123.54,
+          "end": 124.02,
+          "probability": 0.985
+        },
+        {
+          "word": " will",
+          "start": 124.02,
+          "end": 124.52,
+          "probability": 0.9916
+        },
+        {
+          "word": " be",
+          "start": 124.52,
+          "end": 124.76,
+          "probability": 0.9987
+        },
+        {
+          "word": " selected.",
+          "start": 124.76,
+          "end": 125.3,
+          "probability": 0.9974
+        }
+      ]
+    },
+    {
+      "start": 126.42,
+      "end": 133.16,
+      "text": "FIFA will also decide on whether all three countries are guaranteed a place at the tournament.",
+      "avg_log_prob": -0.0389,
+      "words": [
+        {
+          "word": " FIFA",
+          "start": 126.42,
+          "end": 126.86,
+          "probability": 0.9941
+        },
+        {
+          "word": " will",
+          "start": 126.86,
+          "end": 127.18,
+          "probability": 0.9937
+        },
+        {
+          "word": " also",
+          "start": 127.18,
+          "end": 127.68,
+          "probability": 0.9973
+        },
+        {
+          "word": " decide",
+          "start": 127.68,
+          "end": 128.18,
+          "probability": 0.9984
+        },
+        {
+          "word": " on",
+          "start": 128.18,
+          "end": 128.44,
+          "probability": 0.9887
+        },
+        {
+          "word": " whether",
+          "start": 128.44,
+          "end": 128.72,
+          "probability": 0.9978
+        },
+        {
+          "word": " all",
+          "start": 128.72,
+          "end": 129.08,
+          "probability": 0.9979
+        },
+        {
+          "word": " three",
+          "start": 129.08,
+          "end": 129.42,
+          "probability": 0.9733
+        },
+        {
+          "word": " countries",
+          "start": 129.42,
+          "end": 129.98,
+          "probability": 0.9961
+        },
+        {
+          "word": " are",
+          "start": 129.98,
+          "end": 130.72,
+          "probability": 0.9972
+        },
+        {
+          "word": " guaranteed",
+          "start": 130.72,
+          "end": 131.3,
+          "probability": 0.9984
+        },
+        {
+          "word": " a",
+          "start": 131.3,
+          "end": 131.66,
+          "probability": 0.9955
+        },
+        {
+          "word": " place",
+          "start": 131.66,
+          "end": 132.06,
+          "probability": 0.9967
+        },
+        {
+          "word": " at",
+          "start": 132.06,
+          "end": 132.56,
+          "probability": 0.9968
+        },
+        {
+          "word": " the",
+          "start": 132.56,
+          "end": 132.74,
+          "probability": 0.9983
+        },
+        {
+          "word": " tournament.",
+          "start": 132.74,
+          "end": 133.16,
+          "probability": 0.9577
+        }
+      ]
+    },
+    {
+      "start": 134.58,
+      "end": 141.2,
+      "text": "Both the United States and Canada failed to qualify for this year's World Cup.",
+      "avg_log_prob": -0.0389,
+      "words": [
+        {
+          "word": " Both",
+          "start": 134.35,
+          "end": 134.78,
+          "probability": 0.995
+        },
+        {
+          "word": " the",
+          "start": 134.78,
+          "end": 135.14,
+          "probability": 0.986
+        },
+        {
+          "word": " United",
+          "start": 135.14,
+          "end": 135.44,
+          "probability": 0.9872
+        },
+        {
+          "word": " States",
+          "start": 135.44,
+          "end": 135.92,
+          "probability": 0.9984
+        },
+        {
+          "word": " and",
+          "start": 135.92,
+          "end": 136.52,
+          "probability": 0.9951
+        },
+        {
+          "word": " Canada",
+          "start": 136.52,
+          "end": 137.08,
+          "probability": 0.9996
+        },
+        {
+          "word": " failed",
+          "start": 137.08,
+          "end": 137.96,
+          "probability": 0.9802
+        },
+        {
+          "word": " to",
+          "start": 137.96,
+          "end": 138.36,
+          "probability": 0.9995
+        },
+        {
+          "word": " qualify",
+          "start": 138.36,
+          "end": 138.96,
+          "probability": 0.9952
+        },
+        {
+          "word": " for",
+          "start": 138.96,
+          "end": 139.58,
+          "probability": 0.9978
+        },
+        {
+          "word": " this",
+          "start": 139.58,
+          "end": 139.86,
+          "probability": 0.9969
+        },
+        {
+          "word": " year's",
+          "start": 139.86,
+          "end": 140.54,
+          "probability": 0.9934
+        },
+        {
+          "word": " World",
+          "start": 140.54,
+          "end": 140.88,
+          "probability": 0.9243
+        },
+        {
+          "word": " Cup.",
+          "start": 140.88,
+          "end": 141.2,
+          "probability": 0.9954
+        }
+      ]
+    },
+    {
+      "start": 142.16,
+      "end": 149.84,
+      "text": "North American officials have promised to deliver $14 billion in revenue from the event.",
+      "avg_log_prob": -0.0481,
+      "words": [
+        {
+          "word": " North",
+          "start": 142.16,
+          "end": 143.1,
+          "probability": 0.5206
+        },
+        {
+          "word": " American",
+          "start": 143.1,
+          "end": 143.68,
+          "probability": 0.964
+        },
+        {
+          "word": " officials",
+          "start": 143.68,
+          "end": 144.24,
+          "probability": 0.9764
+        },
+        {
+          "word": " have",
+          "start": 144.24,
+          "end": 144.68,
+          "probability": 0.9895
+        },
+        {
+          "word": " promised",
+          "start": 144.68,
+          "end": 145.2,
+          "probability": 0.9923
+        },
+        {
+          "word": " to",
+          "start": 145.2,
+          "end": 145.64,
+          "probability": 0.9973
+        },
+        {
+          "word": " deliver",
+          "start": 145.64,
+          "end": 146.0,
+          "probability": 0.993
+        },
+        {
+          "word": " $14",
+          "start": 146.0,
+          "end": 146.64,
+          "probability": 0.9182
+        },
+        {
+          "word": " billion",
+          "start": 146.64,
+          "end": 147.08,
+          "probability": 0.896
+        },
+        {
+          "word": " in",
+          "start": 147.08,
+          "end": 147.76,
+          "probability": 0.8691
+        },
+        {
+          "word": " revenue",
+          "start": 147.76,
+          "end": 148.26,
+          "probability": 0.9976
+        },
+        {
+          "word": " from",
+          "start": 148.26,
+          "end": 149.04,
+          "probability": 0.9702
+        },
+        {
+          "word": " the",
+          "start": 149.04,
+          "end": 149.3,
+          "probability": 0.9913
+        },
+        {
+          "word": " event.",
+          "start": 149.3,
+          "end": 149.84,
+          "probability": 0.9793
+        }
+      ]
+    },
+    {
+      "start": 151.1,
+      "end": 161.5,
+      "text": "Preparation for the World Cup will not require major construction work because the 16 stadiums where matches will be played already exist.",
+      "avg_log_prob": -0.0481,
+      "words": [
+        {
+          "word": " Preparation",
+          "start": 151.1,
+          "end": 152.04,
+          "probability": 0.9616
+        },
+        {
+          "word": " for",
+          "start": 152.04,
+          "end": 152.28,
+          "probability": 0.9971
+        },
+        {
+          "word": " the",
+          "start": 152.28,
+          "end": 152.46,
+          "probability": 0.9798
+        },
+        {
+          "word": " World",
+          "start": 152.46,
+          "end": 152.68,
+          "probability": 0.9553
+        },
+        {
+          "word": " Cup",
+          "start": 152.68,
+          "end": 152.96,
+          "probability": 0.9864
+        },
+        {
+          "word": " will",
+          "start": 152.96,
+          "end": 153.3,
+          "probability": 0.9963
+        },
+        {
+          "word": " not",
+          "start": 153.3,
+          "end": 153.52,
+          "probability": 0.9984
+        },
+        {
+          "word": " require",
+          "start": 153.52,
+          "end": 154.0,
+          "probability": 0.9971
+        },
+        {
+          "word": " major",
+          "start": 154.0,
+          "end": 154.56,
+          "probability": 0.9877
+        },
+        {
+          "word": " construction",
+          "start": 154.56,
+          "end": 155.16,
+          "probability": 0.998
+        },
+        {
+          "word": " work",
+          "start": 155.16,
+          "end": 155.68,
+          "probability": 0.9982
+        },
+        {
+          "word": " because",
+          "start": 155.68,
+          "end": 156.5,
+          "probability": 0.8575
+        },
+        {
+          "word": " the",
+          "start": 156.5,
+          "end": 156.84,
+          "probability": 0.9784
+        },
+        {
+          "word": " 16",
+          "start": 156.84,
+          "end": 157.3,
+          "probability": 0.9183
+        },
+        {
+          "word": " stadiums",
+          "start": 157.3,
+          "end": 158.24,
+          "probability": 0.9752
+        },
+        {
+          "word": " where",
+          "start": 158.24,
+          "end": 158.4,
+          "probability": 0.9652
+        },
+        {
+          "word": " matches",
+          "start": 158.4,
+          "end": 158.72,
+          "probability": 0.9943
+        },
+        {
+          "word": " will",
+          "start": 158.72,
+          "end": 159.08,
+          "probability": 0.9978
+        },
+        {
+          "word": " be",
+          "start": 159.08,
+          "end": 159.26,
+          "probability": 0.9985
+        },
+        {
+          "word": " played",
+          "start": 159.26,
+          "end": 159.68,
+          "probability": 0.9948
+        },
+        {
+          "word": " already",
+          "start": 159.68,
+          "end": 160.6,
+          "probability": 0.9833
+        },
+        {
+          "word": " exist.",
+          "start": 160.6,
+          "end": 161.5,
+          "probability": 0.9433
+        }
+      ]
+    },
+    {
+      "start": 162.54,
+      "end": 167.3,
+      "text": "Canada will host Men's World Cup matches for the first time.",
+      "avg_log_prob": -0.0481,
+      "words": [
+        {
+          "word": " Canada",
+          "start": 162.54,
+          "end": 163.12,
+          "probability": 0.994
+        },
+        {
+          "word": " will",
+          "start": 163.12,
+          "end": 163.54,
+          "probability": 0.9964
+        },
+        {
+          "word": " host",
+          "start": 163.54,
+          "end": 164.02,
+          "probability": 0.9984
+        },
+        {
+          "word": " Men's",
+          "start": 164.02,
+          "end": 164.54,
+          "probability": 0.7541
+        },
+        {
+          "word": " World",
+          "start": 164.54,
+          "end": 164.74,
+          "probability": 0.9971
+        },
+        {
+          "word": " Cup",
+          "start": 164.74,
+          "end": 165.1,
+          "probability": 0.9954
+        },
+        {
+          "word": " matches",
+          "start": 165.1,
+          "end": 165.5,
+          "probability": 0.9459
+        },
+        {
+          "word": " for",
+          "start": 165.5,
+          "end": 166.12,
+          "probability": 0.9935
+        },
+        {
+          "word": " the",
+          "start": 166.12,
+          "end": 166.28,
+          "probability": 0.9984
+        },
+        {
+          "word": " first",
+          "start": 166.28,
+          "end": 166.7,
+          "probability": 0.9955
+        },
+        {
+          "word": " time.",
+          "start": 166.7,
+          "end": 167.3,
+          "probability": 0.9991
+        }
+      ]
+    },
+    {
+      "start": 168.2,
+      "end": 176.12,
+      "text": "Mexico last held the event in 1986, while the US held the World Cup in 1994.",
+      "avg_log_prob": -0.1276,
+      "words": [
+        {
+          "word": " Mexico",
+          "start": 168.2,
+          "end": 169.0,
+          "probability": 0.7238
+        },
+        {
+          "word": " last",
+          "start": 169.0,
+          "end": 169.48,
+          "probability": 0.8542
+        },
+        {
+          "word": " held",
+          "start": 169.48,
+          "end": 169.8,
+          "probability": 0.998
+        },
+        {
+          "word": " the",
+          "start": 169.8,
+          "end": 170.0,
+          "probability": 0.9928
+        },
+        {
+          "word": " event",
+          "start": 170.0,
+          "end": 170.36,
+          "probability": 0.9766
+        },
+        {
+          "word": " in",
+          "start": 170.36,
+          "end": 170.62,
+          "probability": 0.9963
+        },
+        {
+          "word": " 1986,",
+          "start": 170.62,
+          "end": 171.6,
+          "probability": 0.9942
+        },
+        {
+          "word": " while",
+          "start": 172.48,
+          "end": 172.76,
+          "probability": 0.991
+        },
+        {
+          "word": " the",
+          "start": 172.76,
+          "end": 172.98,
+          "probability": 0.9846
+        },
+        {
+          "word": " US",
+          "start": 172.98,
+          "end": 173.34,
+          "probability": 0.7426
+        },
+        {
+          "word": " held",
+          "start": 173.34,
+          "end": 173.86,
+          "probability": 0.9986
+        },
+        {
+          "word": " the",
+          "start": 173.86,
+          "end": 174.06,
+          "probability": 0.9888
+        },
+        {
+          "word": " World",
+          "start": 174.06,
+          "end": 174.26,
+          "probability": 0.9245
+        },
+        {
+          "word": " Cup",
+          "start": 174.26,
+          "end": 174.58,
+          "probability": 0.9933
+        },
+        {
+          "word": " in",
+          "start": 174.58,
+          "end": 175.14,
+          "probability": 0.9859
+        },
+        {
+          "word": " 1994.",
+          "start": 175.14,
+          "end": 176.12,
+          "probability": 0.9928
+        }
+      ]
+    },
+    {
+      "start": 177.8,
+      "end": 179.38,
+      "text": "I'm Jonathan Evans.",
+      "avg_log_prob": -0.1276,
+      "words": [
+        {
+          "word": " I'm",
+          "start": 177.8,
+          "end": 178.6,
+          "probability": 0.9542
+        },
+        {
+          "word": " Jonathan",
+          "start": 178.6,
+          "end": 178.94,
+          "probability": 0.9378
+        },
+        {
+          "word": " Evans.",
+          "start": 178.94,
+          "end": 179.38,
+          "probability": 0.9945
+        }
+      ]
+    }
+  ],
+  "full_text": "World Soccer's governing body, FIFA, selected Canada, Mexico, and the United States to host the 2026 World Cup. On Wednesday, FIFA Member Countries voted 134-65 for the three nations over the other candidate, Morocco. The vote marks the first time that FIFA has accepted a three-nation bid for the soccer championship. The public vote took place in Moscow, where the 2018 soccer championship begins on Thursday. Football is known as soccer in the United States. The North American bid had to overcome concerns about the effects of policies of the administration of US President Donald Trump. One such policy was a ban on travel from six majority Muslim countries for security reasons. Cameroon's representative to FIFA, Kevin Injomo, said the three-nation bid was strong, and if it was just the United States, Morocco would have beaten them. He added, people have a soft spot for Mexico, especially looking at Mexico as a little bit underdeveloped and giving them a chance. Canada is a good tourist destination. The 2026 World Cup will also be the first to include 48 teams. The US proposed hosting 60 out of the 80 games in 2026. Canada and Mexico would then host 10 games each. FIFA will have to decide how the games are divided up and which cities will be selected. FIFA will also decide on whether all three countries are guaranteed a place at the tournament. Both the United States and Canada failed to qualify for this year's World Cup. North American officials have promised to deliver $14 billion in revenue from the event. Preparation for the World Cup will not require major construction work because the 16 stadiums where matches will be played already exist. Canada will host Men's World Cup matches for the first time. Mexico last held the event in 1986, while the US held the World Cup in 1994. I'm Jonathan Evans."
+}

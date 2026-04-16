@@ -1,0 +1,1663 @@
+{
+  "source_file": "chunk_0001.wav",
+  "source_path": "C:\\Users\\38760\\AppData\\Local\\Temp\\tmp4ioh9o6c\\chunk_0001.wav",
+  "language": "en",
+  "language_probability": 0.9996,
+  "duration_s": 148.21,
+  "model": "base",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 6.86,
+      "text": "equipment will seek to capture X-ray images of the edge of Earth's magnetic field.",
+      "avg_log_prob": -0.2453,
+      "words": [
+        {
+          "word": " equipment",
+          "start": 0.0,
+          "end": 0.44,
+          "probability": 0.329
+        },
+        {
+          "word": " will",
+          "start": 0.44,
+          "end": 0.86,
+          "probability": 0.9636
+        },
+        {
+          "word": " seek",
+          "start": 0.86,
+          "end": 1.22,
+          "probability": 0.996
+        },
+        {
+          "word": " to",
+          "start": 1.22,
+          "end": 1.48,
+          "probability": 0.9969
+        },
+        {
+          "word": " capture",
+          "start": 1.48,
+          "end": 1.98,
+          "probability": 0.9981
+        },
+        {
+          "word": " X",
+          "start": 1.98,
+          "end": 2.54,
+          "probability": 0.4659
+        },
+        {
+          "word": "-ray",
+          "start": 2.54,
+          "end": 2.76,
+          "probability": 0.9629
+        },
+        {
+          "word": " images",
+          "start": 2.76,
+          "end": 3.3,
+          "probability": 0.9958
+        },
+        {
+          "word": " of",
+          "start": 3.3,
+          "end": 4.0,
+          "probability": 0.9824
+        },
+        {
+          "word": " the",
+          "start": 4.0,
+          "end": 4.24,
+          "probability": 0.9936
+        },
+        {
+          "word": " edge",
+          "start": 4.24,
+          "end": 4.7,
+          "probability": 0.9875
+        },
+        {
+          "word": " of",
+          "start": 4.7,
+          "end": 4.9,
+          "probability": 0.9946
+        },
+        {
+          "word": " Earth's",
+          "start": 4.9,
+          "end": 5.54,
+          "probability": 0.9669
+        },
+        {
+          "word": " magnetic",
+          "start": 5.54,
+          "end": 6.1,
+          "probability": 0.9968
+        },
+        {
+          "word": " field.",
+          "start": 6.1,
+          "end": 6.86,
+          "probability": 0.9979
+        }
+      ]
+    },
+    {
+      "start": 7.62,
+      "end": 15.72,
+      "text": "The ice-space lander resilience is carrying an exploring vehicle called a rover to the",
+      "avg_log_prob": -0.2453,
+      "words": [
+        {
+          "word": " The",
+          "start": 7.62,
+          "end": 8.0,
+          "probability": 0.9857
+        },
+        {
+          "word": " ice",
+          "start": 8.0,
+          "end": 8.38,
+          "probability": 0.1525
+        },
+        {
+          "word": "-space",
+          "start": 8.38,
+          "end": 8.76,
+          "probability": 0.6845
+        },
+        {
+          "word": " lander",
+          "start": 8.76,
+          "end": 9.9,
+          "probability": 0.6156
+        },
+        {
+          "word": " resilience",
+          "start": 9.9,
+          "end": 10.54,
+          "probability": 0.3615
+        },
+        {
+          "word": " is",
+          "start": 10.54,
+          "end": 11.22,
+          "probability": 0.9951
+        },
+        {
+          "word": " carrying",
+          "start": 11.22,
+          "end": 11.7,
+          "probability": 0.9863
+        },
+        {
+          "word": " an",
+          "start": 11.7,
+          "end": 12.32,
+          "probability": 0.9674
+        },
+        {
+          "word": " exploring",
+          "start": 12.32,
+          "end": 13.04,
+          "probability": 0.8956
+        },
+        {
+          "word": " vehicle",
+          "start": 13.04,
+          "end": 13.66,
+          "probability": 0.9969
+        },
+        {
+          "word": " called",
+          "start": 13.66,
+          "end": 14.36,
+          "probability": 0.9599
+        },
+        {
+          "word": " a",
+          "start": 14.36,
+          "end": 14.58,
+          "probability": 0.9554
+        },
+        {
+          "word": " rover",
+          "start": 14.58,
+          "end": 14.98,
+          "probability": 0.8246
+        },
+        {
+          "word": " to",
+          "start": 14.98,
+          "end": 15.56,
+          "probability": 0.9714
+        },
+        {
+          "word": " the",
+          "start": 15.56,
+          "end": 15.72,
+          "probability": 0.9965
+        }
+      ]
+    },
+    {
+      "start": 15.72,
+      "end": 16.08,
+      "text": "moon.",
+      "avg_log_prob": -0.2453,
+      "words": [
+        {
+          "word": " moon.",
+          "start": 15.72,
+          "end": 16.08,
+          "probability": 0.5731
+        }
+      ]
+    },
+    {
+      "start": 16.96,
+      "end": 25.2,
+      "text": "The 5-kilogram rover is designed to collect lunar soil and other materials from the surface.",
+      "avg_log_prob": -0.2453,
+      "words": [
+        {
+          "word": " The",
+          "start": 16.96,
+          "end": 17.16,
+          "probability": 0.9925
+        },
+        {
+          "word": " 5",
+          "start": 17.16,
+          "end": 17.7,
+          "probability": 0.5947
+        },
+        {
+          "word": "-kilogram",
+          "start": 17.7,
+          "end": 18.32,
+          "probability": 0.7157
+        },
+        {
+          "word": " rover",
+          "start": 18.32,
+          "end": 19.02,
+          "probability": 0.9911
+        },
+        {
+          "word": " is",
+          "start": 19.02,
+          "end": 19.42,
+          "probability": 0.9983
+        },
+        {
+          "word": " designed",
+          "start": 19.42,
+          "end": 19.96,
+          "probability": 0.9989
+        },
+        {
+          "word": " to",
+          "start": 19.96,
+          "end": 20.46,
+          "probability": 0.9987
+        },
+        {
+          "word": " collect",
+          "start": 20.46,
+          "end": 20.9,
+          "probability": 0.9983
+        },
+        {
+          "word": " lunar",
+          "start": 20.9,
+          "end": 21.42,
+          "probability": 0.9889
+        },
+        {
+          "word": " soil",
+          "start": 21.42,
+          "end": 21.98,
+          "probability": 0.9973
+        },
+        {
+          "word": " and",
+          "start": 21.98,
+          "end": 22.64,
+          "probability": 0.9787
+        },
+        {
+          "word": " other",
+          "start": 22.64,
+          "end": 23.04,
+          "probability": 0.9971
+        },
+        {
+          "word": " materials",
+          "start": 23.04,
+          "end": 23.8,
+          "probability": 0.9947
+        },
+        {
+          "word": " from",
+          "start": 23.8,
+          "end": 24.42,
+          "probability": 0.9939
+        },
+        {
+          "word": " the",
+          "start": 24.42,
+          "end": 24.7,
+          "probability": 0.9962
+        },
+        {
+          "word": " surface.",
+          "start": 24.7,
+          "end": 25.2,
+          "probability": 0.9953
+        }
+      ]
+    },
+    {
+      "start": 25.2,
+      "end": 33.32,
+      "text": "Resilience is also carrying equipment and instruments to complete several experiments for",
+      "avg_log_prob": -0.2199,
+      "words": [
+        {
+          "word": " Resilience",
+          "start": 25.2,
+          "end": 27.14,
+          "probability": 0.7551
+        },
+        {
+          "word": " is",
+          "start": 27.14,
+          "end": 27.38,
+          "probability": 0.9815
+        },
+        {
+          "word": " also",
+          "start": 27.38,
+          "end": 27.86,
+          "probability": 0.9929
+        },
+        {
+          "word": " carrying",
+          "start": 27.86,
+          "end": 28.4,
+          "probability": 0.9933
+        },
+        {
+          "word": " equipment",
+          "start": 28.4,
+          "end": 29.02,
+          "probability": 0.9925
+        },
+        {
+          "word": " and",
+          "start": 29.02,
+          "end": 29.48,
+          "probability": 0.994
+        },
+        {
+          "word": " instruments",
+          "start": 29.48,
+          "end": 30.16,
+          "probability": 0.9953
+        },
+        {
+          "word": " to",
+          "start": 30.16,
+          "end": 30.92,
+          "probability": 0.9812
+        },
+        {
+          "word": " complete",
+          "start": 30.92,
+          "end": 31.44,
+          "probability": 0.9953
+        },
+        {
+          "word": " several",
+          "start": 31.44,
+          "end": 32.02,
+          "probability": 0.9883
+        },
+        {
+          "word": " experiments",
+          "start": 32.02,
+          "end": 32.84,
+          "probability": 0.9942
+        },
+        {
+          "word": " for",
+          "start": 32.84,
+          "end": 33.32,
+          "probability": 0.9801
+        }
+      ]
+    },
+    {
+      "start": 33.32,
+      "end": 37.06,
+      "text": "Japanese companies and other organizations.",
+      "avg_log_prob": -0.2199,
+      "words": [
+        {
+          "word": " Japanese",
+          "start": 33.32,
+          "end": 33.84,
+          "probability": 0.9868
+        },
+        {
+          "word": " companies",
+          "start": 33.84,
+          "end": 34.6,
+          "probability": 0.9573
+        },
+        {
+          "word": " and",
+          "start": 34.6,
+          "end": 35.48,
+          "probability": 0.9657
+        },
+        {
+          "word": " other",
+          "start": 35.48,
+          "end": 35.86,
+          "probability": 0.9968
+        },
+        {
+          "word": " organizations.",
+          "start": 35.86,
+          "end": 37.06,
+          "probability": 0.9631
+        }
+      ]
+    },
+    {
+      "start": 37.56,
+      "end": 46.34,
+      "text": "One of the experiments will test an electrolysis device designed to separate water into hydrogen",
+      "avg_log_prob": -0.2199,
+      "words": [
+        {
+          "word": " One",
+          "start": 37.56,
+          "end": 38.58,
+          "probability": 0.9782
+        },
+        {
+          "word": " of",
+          "start": 38.58,
+          "end": 38.78,
+          "probability": 0.9917
+        },
+        {
+          "word": " the",
+          "start": 38.78,
+          "end": 39.04,
+          "probability": 0.9916
+        },
+        {
+          "word": " experiments",
+          "start": 39.04,
+          "end": 39.8,
+          "probability": 0.9921
+        },
+        {
+          "word": " will",
+          "start": 39.8,
+          "end": 40.26,
+          "probability": 0.992
+        },
+        {
+          "word": " test",
+          "start": 40.26,
+          "end": 40.76,
+          "probability": 0.9981
+        },
+        {
+          "word": " an",
+          "start": 40.76,
+          "end": 41.04,
+          "probability": 0.9872
+        },
+        {
+          "word": " electrolysis",
+          "start": 41.04,
+          "end": 42.06,
+          "probability": 0.9794
+        },
+        {
+          "word": " device",
+          "start": 42.06,
+          "end": 42.6,
+          "probability": 0.9964
+        },
+        {
+          "word": " designed",
+          "start": 42.6,
+          "end": 43.64,
+          "probability": 0.9599
+        },
+        {
+          "word": " to",
+          "start": 43.64,
+          "end": 44.14,
+          "probability": 0.9987
+        },
+        {
+          "word": " separate",
+          "start": 44.14,
+          "end": 44.68,
+          "probability": 0.9908
+        },
+        {
+          "word": " water",
+          "start": 44.68,
+          "end": 45.28,
+          "probability": 0.997
+        },
+        {
+          "word": " into",
+          "start": 45.28,
+          "end": 45.84,
+          "probability": 0.9878
+        },
+        {
+          "word": " hydrogen",
+          "start": 45.84,
+          "end": 46.34,
+          "probability": 0.9776
+        }
+      ]
+    },
+    {
+      "start": 46.34,
+      "end": 47.64,
+      "text": "and oxygen.",
+      "avg_log_prob": -0.2199,
+      "words": [
+        {
+          "word": " and",
+          "start": 46.34,
+          "end": 47.08,
+          "probability": 0.9951
+        },
+        {
+          "word": " oxygen.",
+          "start": 47.08,
+          "end": 47.64,
+          "probability": 0.998
+        }
+      ]
+    },
+    {
+      "start": 48.64,
+      "end": 55.96,
+      "text": "Such a device could help future astronauts better use water resources on the moon and",
+      "avg_log_prob": -0.1974,
+      "words": [
+        {
+          "word": " Such",
+          "start": 48.3,
+          "end": 48.86,
+          "probability": 0.2146
+        },
+        {
+          "word": " a",
+          "start": 48.86,
+          "end": 49.12,
+          "probability": 0.9943
+        },
+        {
+          "word": " device",
+          "start": 49.12,
+          "end": 49.68,
+          "probability": 0.9961
+        },
+        {
+          "word": " could",
+          "start": 49.68,
+          "end": 50.04,
+          "probability": 0.991
+        },
+        {
+          "word": " help",
+          "start": 50.04,
+          "end": 50.34,
+          "probability": 0.9978
+        },
+        {
+          "word": " future",
+          "start": 50.34,
+          "end": 51.0,
+          "probability": 0.9961
+        },
+        {
+          "word": " astronauts",
+          "start": 51.0,
+          "end": 51.72,
+          "probability": 0.9847
+        },
+        {
+          "word": " better",
+          "start": 51.72,
+          "end": 52.62,
+          "probability": 0.9334
+        },
+        {
+          "word": " use",
+          "start": 52.62,
+          "end": 53.14,
+          "probability": 0.9971
+        },
+        {
+          "word": " water",
+          "start": 53.14,
+          "end": 53.6,
+          "probability": 0.9943
+        },
+        {
+          "word": " resources",
+          "start": 53.6,
+          "end": 54.36,
+          "probability": 0.9921
+        },
+        {
+          "word": " on",
+          "start": 54.36,
+          "end": 54.66,
+          "probability": 0.9949
+        },
+        {
+          "word": " the",
+          "start": 54.66,
+          "end": 54.86,
+          "probability": 0.9968
+        },
+        {
+          "word": " moon",
+          "start": 54.86,
+          "end": 55.24,
+          "probability": 0.6235
+        },
+        {
+          "word": " and",
+          "start": 55.24,
+          "end": 55.96,
+          "probability": 0.8975
+        }
+      ]
+    },
+    {
+      "start": 55.96,
+      "end": 57.78,
+      "text": "produce rocket fuel.",
+      "avg_log_prob": -0.1974,
+      "words": [
+        {
+          "word": " produce",
+          "start": 55.96,
+          "end": 56.8,
+          "probability": 0.9927
+        },
+        {
+          "word": " rocket",
+          "start": 56.8,
+          "end": 57.26,
+          "probability": 0.9887
+        },
+        {
+          "word": " fuel.",
+          "start": 57.26,
+          "end": 57.78,
+          "probability": 0.9977
+        }
+      ]
+    },
+    {
+      "start": 58.54,
+      "end": 67.0,
+      "text": "Other experiments set for the resilience mission include food production tests and the deployment",
+      "avg_log_prob": -0.1974,
+      "words": [
+        {
+          "word": " Other",
+          "start": 58.54,
+          "end": 59.04,
+          "probability": 0.9944
+        },
+        {
+          "word": " experiments",
+          "start": 59.04,
+          "end": 59.9,
+          "probability": 0.9945
+        },
+        {
+          "word": " set",
+          "start": 59.9,
+          "end": 60.6,
+          "probability": 0.9053
+        },
+        {
+          "word": " for",
+          "start": 60.6,
+          "end": 60.98,
+          "probability": 0.9973
+        },
+        {
+          "word": " the",
+          "start": 60.98,
+          "end": 61.16,
+          "probability": 0.9919
+        },
+        {
+          "word": " resilience",
+          "start": 61.16,
+          "end": 61.76,
+          "probability": 0.7962
+        },
+        {
+          "word": " mission",
+          "start": 61.76,
+          "end": 62.36,
+          "probability": 0.9923
+        },
+        {
+          "word": " include",
+          "start": 62.36,
+          "end": 63.24,
+          "probability": 0.9939
+        },
+        {
+          "word": " food",
+          "start": 63.24,
+          "end": 63.78,
+          "probability": 0.9515
+        },
+        {
+          "word": " production",
+          "start": 63.78,
+          "end": 64.44,
+          "probability": 0.9934
+        },
+        {
+          "word": " tests",
+          "start": 64.44,
+          "end": 65.18,
+          "probability": 0.9811
+        },
+        {
+          "word": " and",
+          "start": 65.18,
+          "end": 66.08,
+          "probability": 0.9012
+        },
+        {
+          "word": " the",
+          "start": 66.08,
+          "end": 66.44,
+          "probability": 0.9898
+        },
+        {
+          "word": " deployment",
+          "start": 66.44,
+          "end": 67.0,
+          "probability": 0.9945
+        }
+      ]
+    },
+    {
+      "start": 67.0,
+      "end": 70.2,
+      "text": "of a deep-space radiation probe.",
+      "avg_log_prob": -0.1974,
+      "words": [
+        {
+          "word": " of",
+          "start": 67.0,
+          "end": 67.4,
+          "probability": 0.9969
+        },
+        {
+          "word": " a",
+          "start": 67.4,
+          "end": 67.52,
+          "probability": 0.9789
+        },
+        {
+          "word": " deep",
+          "start": 67.52,
+          "end": 67.78,
+          "probability": 0.8811
+        },
+        {
+          "word": "-space",
+          "start": 67.78,
+          "end": 68.38,
+          "probability": 0.6199
+        },
+        {
+          "word": " radiation",
+          "start": 68.38,
+          "end": 69.32,
+          "probability": 0.9912
+        },
+        {
+          "word": " probe.",
+          "start": 69.32,
+          "end": 70.2,
+          "probability": 0.9964
+        }
+      ]
+    },
+    {
+      "start": 71.2,
+      "end": 79.44,
+      "text": "The instrument is designed to collect detailed measurements of ionizing radiation in space.",
+      "avg_log_prob": -0.216,
+      "words": [
+        {
+          "word": " The",
+          "start": 70.68,
+          "end": 71.24,
+          "probability": 0.4493
+        },
+        {
+          "word": " instrument",
+          "start": 71.24,
+          "end": 71.84,
+          "probability": 0.9252
+        },
+        {
+          "word": " is",
+          "start": 71.84,
+          "end": 72.34,
+          "probability": 0.992
+        },
+        {
+          "word": " designed",
+          "start": 72.34,
+          "end": 72.9,
+          "probability": 0.9981
+        },
+        {
+          "word": " to",
+          "start": 72.9,
+          "end": 73.46,
+          "probability": 0.9981
+        },
+        {
+          "word": " collect",
+          "start": 73.46,
+          "end": 73.9,
+          "probability": 0.9961
+        },
+        {
+          "word": " detailed",
+          "start": 73.9,
+          "end": 74.68,
+          "probability": 0.9965
+        },
+        {
+          "word": " measurements",
+          "start": 74.68,
+          "end": 75.42,
+          "probability": 0.9948
+        },
+        {
+          "word": " of",
+          "start": 75.42,
+          "end": 76.28,
+          "probability": 0.99
+        },
+        {
+          "word": " ionizing",
+          "start": 76.28,
+          "end": 77.26,
+          "probability": 0.9272
+        },
+        {
+          "word": " radiation",
+          "start": 77.26,
+          "end": 77.94,
+          "probability": 0.9868
+        },
+        {
+          "word": " in",
+          "start": 77.94,
+          "end": 78.74,
+          "probability": 0.995
+        },
+        {
+          "word": " space.",
+          "start": 78.74,
+          "end": 79.44,
+          "probability": 0.9899
+        }
+      ]
+    },
+    {
+      "start": 80.4,
+      "end": 90.18,
+      "text": "NASA has said it is paying $101 million to Firefly for the mission and another $44 million",
+      "avg_log_prob": -0.216,
+      "words": [
+        {
+          "word": " NASA",
+          "start": 80.4,
+          "end": 81.08,
+          "probability": 0.9854
+        },
+        {
+          "word": " has",
+          "start": 81.08,
+          "end": 81.42,
+          "probability": 0.9868
+        },
+        {
+          "word": " said",
+          "start": 81.42,
+          "end": 81.84,
+          "probability": 0.9986
+        },
+        {
+          "word": " it",
+          "start": 81.84,
+          "end": 82.18,
+          "probability": 0.9645
+        },
+        {
+          "word": " is",
+          "start": 82.18,
+          "end": 82.38,
+          "probability": 0.986
+        },
+        {
+          "word": " paying",
+          "start": 82.38,
+          "end": 82.68,
+          "probability": 0.9969
+        },
+        {
+          "word": " $101",
+          "start": 82.68,
+          "end": 83.86,
+          "probability": 0.7861
+        },
+        {
+          "word": " million",
+          "start": 83.86,
+          "end": 84.62,
+          "probability": 0.9529
+        },
+        {
+          "word": " to",
+          "start": 84.62,
+          "end": 85.6,
+          "probability": 0.9516
+        },
+        {
+          "word": " Firefly",
+          "start": 85.6,
+          "end": 86.46,
+          "probability": 0.8309
+        },
+        {
+          "word": " for",
+          "start": 86.46,
+          "end": 87.26,
+          "probability": 0.8205
+        },
+        {
+          "word": " the",
+          "start": 87.26,
+          "end": 87.44,
+          "probability": 0.9876
+        },
+        {
+          "word": " mission",
+          "start": 87.44,
+          "end": 87.82,
+          "probability": 0.9118
+        },
+        {
+          "word": " and",
+          "start": 87.82,
+          "end": 88.54,
+          "probability": 0.8038
+        },
+        {
+          "word": " another",
+          "start": 88.54,
+          "end": 88.84,
+          "probability": 0.9946
+        },
+        {
+          "word": " $44",
+          "start": 88.84,
+          "end": 89.74,
+          "probability": 0.9715
+        },
+        {
+          "word": " million",
+          "start": 89.74,
+          "end": 90.18,
+          "probability": 0.9896
+        }
+      ]
+    },
+    {
+      "start": 91.12,
+      "end": 92.22,
+      "text": "for the experiments.",
+      "avg_log_prob": -0.216,
+      "words": [
+        {
+          "word": " for",
+          "start": 90.76,
+          "end": 91.32,
+          "probability": 0.969
+        },
+        {
+          "word": " the",
+          "start": 91.32,
+          "end": 91.52,
+          "probability": 0.9912
+        },
+        {
+          "word": " experiments.",
+          "start": 91.52,
+          "end": 92.22,
+          "probability": 0.9511
+        }
+      ]
+    },
+    {
+      "start": 93.44,
+      "end": 98.9,
+      "text": "Officials from ice-space did not report how much its mission would cost.",
+      "avg_log_prob": -0.216,
+      "words": [
+        {
+          "word": " Officials",
+          "start": 93.44,
+          "end": 94.08,
+          "probability": 0.9819
+        },
+        {
+          "word": " from",
+          "start": 94.08,
+          "end": 94.5,
+          "probability": 0.9935
+        },
+        {
+          "word": " ice",
+          "start": 94.5,
+          "end": 94.78,
+          "probability": 0.13
+        },
+        {
+          "word": "-space",
+          "start": 94.78,
+          "end": 95.12,
+          "probability": 0.2726
+        },
+        {
+          "word": " did",
+          "start": 95.12,
+          "end": 95.5,
+          "probability": 0.9888
+        },
+        {
+          "word": " not",
+          "start": 95.5,
+          "end": 95.74,
+          "probability": 0.999
+        },
+        {
+          "word": " report",
+          "start": 95.74,
+          "end": 96.28,
+          "probability": 0.9977
+        },
+        {
+          "word": " how",
+          "start": 96.28,
+          "end": 96.94,
+          "probability": 0.9897
+        },
+        {
+          "word": " much",
+          "start": 96.94,
+          "end": 97.18,
+          "probability": 0.9988
+        },
+        {
+          "word": " its",
+          "start": 97.18,
+          "end": 97.66,
+          "probability": 0.9395
+        },
+        {
+          "word": " mission",
+          "start": 97.66,
+          "end": 98.12,
+          "probability": 0.9944
+        },
+        {
+          "word": " would",
+          "start": 98.12,
+          "end": 98.42,
+          "probability": 0.99
+        },
+        {
+          "word": " cost.",
+          "start": 98.42,
+          "end": 98.9,
+          "probability": 0.9964
+        }
+      ]
+    },
+    {
+      "start": 99.9,
+      "end": 102.8,
+      "text": "It is the second moon mission for ice-space.",
+      "avg_log_prob": -0.2552,
+      "words": [
+        {
+          "word": " It",
+          "start": 99.54,
+          "end": 100.02,
+          "probability": 0.2845
+        },
+        {
+          "word": " is",
+          "start": 100.02,
+          "end": 100.2,
+          "probability": 0.9341
+        },
+        {
+          "word": " the",
+          "start": 100.2,
+          "end": 100.42,
+          "probability": 0.9836
+        },
+        {
+          "word": " second",
+          "start": 100.42,
+          "end": 100.86,
+          "probability": 0.8067
+        },
+        {
+          "word": " moon",
+          "start": 100.86,
+          "end": 101.22,
+          "probability": 0.72
+        },
+        {
+          "word": " mission",
+          "start": 101.22,
+          "end": 101.66,
+          "probability": 0.9821
+        },
+        {
+          "word": " for",
+          "start": 101.66,
+          "end": 102.1,
+          "probability": 0.9882
+        },
+        {
+          "word": " ice",
+          "start": 102.1,
+          "end": 102.42,
+          "probability": 0.1073
+        },
+        {
+          "word": "-space.",
+          "start": 102.42,
+          "end": 102.8,
+          "probability": 0.4905
+        }
+      ]
+    },
+    {
+      "start": 103.54,
+      "end": 111.94,
+      "text": "During the last one, Japan's Space Agency, Jaxa, successfully launched its slim spacecraft",
+      "avg_log_prob": -0.2552,
+      "words": [
+        {
+          "word": " During",
+          "start": 103.54,
+          "end": 103.96,
+          "probability": 0.9866
+        },
+        {
+          "word": " the",
+          "start": 103.96,
+          "end": 104.2,
+          "probability": 0.9897
+        },
+        {
+          "word": " last",
+          "start": 104.2,
+          "end": 104.62,
+          "probability": 0.9951
+        },
+        {
+          "word": " one,",
+          "start": 104.62,
+          "end": 105.18,
+          "probability": 0.9537
+        },
+        {
+          "word": " Japan's",
+          "start": 105.44,
+          "end": 106.26,
+          "probability": 0.9874
+        },
+        {
+          "word": " Space",
+          "start": 106.26,
+          "end": 106.58,
+          "probability": 0.6956
+        },
+        {
+          "word": " Agency,",
+          "start": 106.58,
+          "end": 107.28,
+          "probability": 0.9845
+        },
+        {
+          "word": " Jaxa,",
+          "start": 107.64,
+          "end": 108.26,
+          "probability": 0.7201
+        },
+        {
+          "word": " successfully",
+          "start": 108.94,
+          "end": 109.24,
+          "probability": 0.9938
+        },
+        {
+          "word": " launched",
+          "start": 109.24,
+          "end": 110.06,
+          "probability": 0.9855
+        },
+        {
+          "word": " its",
+          "start": 110.06,
+          "end": 110.5,
+          "probability": 0.987
+        },
+        {
+          "word": " slim",
+          "start": 110.5,
+          "end": 111.06,
+          "probability": 0.8052
+        },
+        {
+          "word": " spacecraft",
+          "start": 111.06,
+          "end": 111.94,
+          "probability": 0.9918
+        }
+      ]
+    },
+    {
+      "start": 112.66,
+      "end": 115.7,
+      "text": "to the moon in January 2024.",
+      "avg_log_prob": -0.2552,
+      "words": [
+        {
+          "word": " to",
+          "start": 112.32,
+          "end": 112.8,
+          "probability": 0.9767
+        },
+        {
+          "word": " the",
+          "start": 112.8,
+          "end": 112.94,
+          "probability": 0.9976
+        },
+        {
+          "word": " moon",
+          "start": 112.94,
+          "end": 113.32,
+          "probability": 0.9223
+        },
+        {
+          "word": " in",
+          "start": 113.32,
+          "end": 113.82,
+          "probability": 0.9731
+        },
+        {
+          "word": " January",
+          "start": 113.82,
+          "end": 114.5,
+          "probability": 0.993
+        },
+        {
+          "word": " 2024.",
+          "start": 114.5,
+          "end": 115.7,
+          "probability": 0.8784
+        }
+      ]
+    },
+    {
+      "start": 116.52,
+      "end": 124.0,
+      "text": "But the lander touched down imperfectly, causing some communication and power problems.",
+      "avg_log_prob": -0.2552,
+      "words": [
+        {
+          "word": " But",
+          "start": 116.52,
+          "end": 116.86,
+          "probability": 0.9923
+        },
+        {
+          "word": " the",
+          "start": 116.86,
+          "end": 117.16,
+          "probability": 0.9691
+        },
+        {
+          "word": " lander",
+          "start": 117.16,
+          "end": 117.64,
+          "probability": 0.8542
+        },
+        {
+          "word": " touched",
+          "start": 117.64,
+          "end": 118.02,
+          "probability": 0.9782
+        },
+        {
+          "word": " down",
+          "start": 118.02,
+          "end": 118.54,
+          "probability": 0.9966
+        },
+        {
+          "word": " imperfectly,",
+          "start": 118.54,
+          "end": 120.04,
+          "probability": 0.9731
+        },
+        {
+          "word": " causing",
+          "start": 120.28,
+          "end": 120.8,
+          "probability": 0.9977
+        },
+        {
+          "word": " some",
+          "start": 120.8,
+          "end": 121.18,
+          "probability": 0.9971
+        },
+        {
+          "word": " communication",
+          "start": 121.18,
+          "end": 122.08,
+          "probability": 0.9954
+        },
+        {
+          "word": " and",
+          "start": 122.08,
+          "end": 122.78,
+          "probability": 0.8998
+        },
+        {
+          "word": " power",
+          "start": 122.78,
+          "end": 123.3,
+          "probability": 0.9943
+        },
+        {
+          "word": " problems.",
+          "start": 123.3,
+          "end": 124.0,
+          "probability": 0.9973
+        }
+      ]
+    },
+    {
+      "start": 125.0,
+      "end": 133.24,
+      "text": "However, Japanese space officials reported they had stayed in communication with slim through",
+      "avg_log_prob": -0.2659,
+      "words": [
+        {
+          "word": " However,",
+          "start": 124.62,
+          "end": 125.18,
+          "probability": 0.0038
+        },
+        {
+          "word": " Japanese",
+          "start": 125.74,
+          "end": 126.34,
+          "probability": 0.9867
+        },
+        {
+          "word": " space",
+          "start": 126.34,
+          "end": 127.0,
+          "probability": 0.7324
+        },
+        {
+          "word": " officials",
+          "start": 127.0,
+          "end": 127.84,
+          "probability": 0.9925
+        },
+        {
+          "word": " reported",
+          "start": 127.84,
+          "end": 128.96,
+          "probability": 0.9895
+        },
+        {
+          "word": " they",
+          "start": 128.96,
+          "end": 129.5,
+          "probability": 0.979
+        },
+        {
+          "word": " had",
+          "start": 129.5,
+          "end": 129.72,
+          "probability": 0.9955
+        },
+        {
+          "word": " stayed",
+          "start": 129.72,
+          "end": 130.06,
+          "probability": 0.9944
+        },
+        {
+          "word": " in",
+          "start": 130.06,
+          "end": 130.36,
+          "probability": 0.9996
+        },
+        {
+          "word": " communication",
+          "start": 130.36,
+          "end": 131.06,
+          "probability": 0.9929
+        },
+        {
+          "word": " with",
+          "start": 131.06,
+          "end": 131.9,
+          "probability": 0.9987
+        },
+        {
+          "word": " slim",
+          "start": 131.9,
+          "end": 132.38,
+          "probability": 0.2197
+        },
+        {
+          "word": " through",
+          "start": 132.38,
+          "end": 133.24,
+          "probability": 0.835
+        }
+      ]
+    },
+    {
+      "start": 133.24,
+      "end": 134.08,
+      "text": "late April.",
+      "avg_log_prob": -0.2659,
+      "words": [
+        {
+          "word": " late",
+          "start": 133.24,
+          "end": 133.62,
+          "probability": 0.9826
+        },
+        {
+          "word": " April.",
+          "start": 133.62,
+          "end": 134.08,
+          "probability": 0.9919
+        }
+      ]
+    },
+    {
+      "start": 135.24,
+      "end": 142.76,
+      "text": "During this time they said the spacecraft was able to collect valuable data about the landing",
+      "avg_log_prob": -0.2659,
+      "words": [
+        {
+          "word": " During",
+          "start": 135.24,
+          "end": 135.56,
+          "probability": 0.9948
+        },
+        {
+          "word": " this",
+          "start": 135.56,
+          "end": 135.92,
+          "probability": 0.9969
+        },
+        {
+          "word": " time",
+          "start": 135.92,
+          "end": 136.48,
+          "probability": 0.9988
+        },
+        {
+          "word": " they",
+          "start": 136.48,
+          "end": 136.84,
+          "probability": 0.5204
+        },
+        {
+          "word": " said",
+          "start": 136.84,
+          "end": 137.2,
+          "probability": 0.9954
+        },
+        {
+          "word": " the",
+          "start": 137.2,
+          "end": 137.48,
+          "probability": 0.9799
+        },
+        {
+          "word": " spacecraft",
+          "start": 137.48,
+          "end": 138.18,
+          "probability": 0.989
+        },
+        {
+          "word": " was",
+          "start": 138.18,
+          "end": 139.0,
+          "probability": 0.9961
+        },
+        {
+          "word": " able",
+          "start": 139.0,
+          "end": 139.34,
+          "probability": 0.9976
+        },
+        {
+          "word": " to",
+          "start": 139.34,
+          "end": 139.58,
+          "probability": 0.9989
+        },
+        {
+          "word": " collect",
+          "start": 139.58,
+          "end": 139.92,
+          "probability": 0.9988
+        },
+        {
+          "word": " valuable",
+          "start": 139.92,
+          "end": 140.46,
+          "probability": 0.9976
+        },
+        {
+          "word": " data",
+          "start": 140.46,
+          "end": 141.08,
+          "probability": 0.9995
+        },
+        {
+          "word": " about",
+          "start": 141.08,
+          "end": 141.86,
+          "probability": 0.9949
+        },
+        {
+          "word": " the",
+          "start": 141.86,
+          "end": 142.28,
+          "probability": 0.9918
+        },
+        {
+          "word": " landing",
+          "start": 142.28,
+          "end": 142.76,
+          "probability": 0.9784
+        }
+      ]
+    },
+    {
+      "start": 142.76,
+      "end": 144.9,
+      "text": "and surrounding area.",
+      "avg_log_prob": -0.2659,
+      "words": [
+        {
+          "word": " and",
+          "start": 142.76,
+          "end": 143.56,
+          "probability": 0.9917
+        },
+        {
+          "word": " surrounding",
+          "start": 143.56,
+          "end": 144.26,
+          "probability": 0.9699
+        },
+        {
+          "word": " area.",
+          "start": 144.26,
+          "end": 144.9,
+          "probability": 0.9869
+        }
+      ]
+    },
+    {
+      "start": 144.9,
+      "end": 147.88,
+      "text": "I'm Brian Lynn.",
+      "avg_log_prob": -0.657,
+      "words": [
+        {
+          "word": " I'm",
+          "start": 144.9,
+          "end": 146.78,
+          "probability": 0.6526
+        },
+        {
+          "word": " Brian",
+          "start": 146.78,
+          "end": 147.38,
+          "probability": 0.7049
+        },
+        {
+          "word": " Lynn.",
+          "start": 147.38,
+          "end": 147.88,
+          "probability": 0.5024
+        }
+      ]
+    }
+  ],
+  "full_text": "equipment will seek to capture X-ray images of the edge of Earth's magnetic field. The ice-space lander resilience is carrying an exploring vehicle called a rover to the moon. The 5-kilogram rover is designed to collect lunar soil and other materials from the surface. Resilience is also carrying equipment and instruments to complete several experiments for Japanese companies and other organizations. One of the experiments will test an electrolysis device designed to separate water into hydrogen and oxygen. Such a device could help future astronauts better use water resources on the moon and produce rocket fuel. Other experiments set for the resilience mission include food production tests and the deployment of a deep-space radiation probe. The instrument is designed to collect detailed measurements of ionizing radiation in space. NASA has said it is paying $101 million to Firefly for the mission and another $44 million for the experiments. Officials from ice-space did not report how much its mission would cost. It is the second moon mission for ice-space. During the last one, Japan's Space Agency, Jaxa, successfully launched its slim spacecraft to the moon in January 2024. But the lander touched down imperfectly, causing some communication and power problems. However, Japanese space officials reported they had stayed in communication with slim through late April. During this time they said the spacecraft was able to collect valuable data about the landing and surrounding area. I'm Brian Lynn."
+}

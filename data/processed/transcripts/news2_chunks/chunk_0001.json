@@ -1,0 +1,1135 @@
+{
+  "source_file": "chunk_0001.wav",
+  "source_path": "C:\\Users\\38760\\AppData\\Local\\Temp\\tmpzf3dy1rr\\chunk_0001.wav",
+  "language": "en",
+  "language_probability": 0.9997,
+  "duration_s": 81.77,
+  "model": "base",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 6.84,
+      "text": "are developing rules as are the United Nations and group of seven industrialized nations.",
+      "avg_log_prob": -0.1958,
+      "words": [
+        {
+          "word": " are",
+          "start": 0.0,
+          "end": 0.06,
+          "probability": 0.4066
+        },
+        {
+          "word": " developing",
+          "start": 0.06,
+          "end": 0.72,
+          "probability": 0.9941
+        },
+        {
+          "word": " rules",
+          "start": 0.72,
+          "end": 1.14,
+          "probability": 0.9868
+        },
+        {
+          "word": " as",
+          "start": 1.14,
+          "end": 1.82,
+          "probability": 0.7718
+        },
+        {
+          "word": " are",
+          "start": 1.82,
+          "end": 2.14,
+          "probability": 0.9919
+        },
+        {
+          "word": " the",
+          "start": 2.14,
+          "end": 2.44,
+          "probability": 0.9417
+        },
+        {
+          "word": " United",
+          "start": 2.44,
+          "end": 2.76,
+          "probability": 0.9797
+        },
+        {
+          "word": " Nations",
+          "start": 2.76,
+          "end": 3.26,
+          "probability": 0.9922
+        },
+        {
+          "word": " and",
+          "start": 3.26,
+          "end": 4.18,
+          "probability": 0.9394
+        },
+        {
+          "word": " group",
+          "start": 4.18,
+          "end": 4.48,
+          "probability": 0.3461
+        },
+        {
+          "word": " of",
+          "start": 4.48,
+          "end": 4.74,
+          "probability": 0.9904
+        },
+        {
+          "word": " seven",
+          "start": 4.74,
+          "end": 5.1,
+          "probability": 0.8302
+        },
+        {
+          "word": " industrialized",
+          "start": 5.1,
+          "end": 6.26,
+          "probability": 0.9738
+        },
+        {
+          "word": " nations.",
+          "start": 6.26,
+          "end": 6.84,
+          "probability": 0.9871
+        }
+      ]
+    },
+    {
+      "start": 9.32,
+      "end": 16.04,
+      "text": "The AI Act is expected to officially become law by May or June, after approval from EU",
+      "avg_log_prob": -0.1958,
+      "words": [
+        {
+          "word": " The",
+          "start": 9.0,
+          "end": 9.4,
+          "probability": 0.9725
+        },
+        {
+          "word": " AI",
+          "start": 9.4,
+          "end": 9.7,
+          "probability": 0.9008
+        },
+        {
+          "word": " Act",
+          "start": 9.7,
+          "end": 10.22,
+          "probability": 0.9268
+        },
+        {
+          "word": " is",
+          "start": 10.22,
+          "end": 10.38,
+          "probability": 0.9965
+        },
+        {
+          "word": " expected",
+          "start": 10.38,
+          "end": 10.92,
+          "probability": 0.9989
+        },
+        {
+          "word": " to",
+          "start": 10.92,
+          "end": 11.3,
+          "probability": 0.9982
+        },
+        {
+          "word": " officially",
+          "start": 11.3,
+          "end": 11.86,
+          "probability": 0.9948
+        },
+        {
+          "word": " become",
+          "start": 11.86,
+          "end": 12.36,
+          "probability": 0.9884
+        },
+        {
+          "word": " law",
+          "start": 12.36,
+          "end": 12.72,
+          "probability": 0.9937
+        },
+        {
+          "word": " by",
+          "start": 12.72,
+          "end": 13.08,
+          "probability": 0.9982
+        },
+        {
+          "word": " May",
+          "start": 13.08,
+          "end": 13.38,
+          "probability": 0.9531
+        },
+        {
+          "word": " or",
+          "start": 13.38,
+          "end": 13.66,
+          "probability": 0.9775
+        },
+        {
+          "word": " June,",
+          "start": 13.66,
+          "end": 14.16,
+          "probability": 0.9957
+        },
+        {
+          "word": " after",
+          "start": 14.62,
+          "end": 14.9,
+          "probability": 0.9966
+        },
+        {
+          "word": " approval",
+          "start": 14.9,
+          "end": 15.4,
+          "probability": 0.9961
+        },
+        {
+          "word": " from",
+          "start": 15.4,
+          "end": 15.76,
+          "probability": 0.9915
+        },
+        {
+          "word": " EU",
+          "start": 15.76,
+          "end": 16.04,
+          "probability": 0.9762
+        }
+      ]
+    },
+    {
+      "start": 16.04,
+      "end": 16.92,
+      "text": "member countries.",
+      "avg_log_prob": -0.1958,
+      "words": [
+        {
+          "word": " member",
+          "start": 16.04,
+          "end": 16.44,
+          "probability": 0.8932
+        },
+        {
+          "word": " countries.",
+          "start": 16.44,
+          "end": 16.92,
+          "probability": 0.9895
+        }
+      ]
+    },
+    {
+      "start": 18.14,
+      "end": 20.66,
+      "text": "Rules will start taking effect slowly.",
+      "avg_log_prob": -0.1958,
+      "words": [
+        {
+          "word": " Rules",
+          "start": 18.14,
+          "end": 18.6,
+          "probability": 0.9657
+        },
+        {
+          "word": " will",
+          "start": 18.6,
+          "end": 18.88,
+          "probability": 0.9961
+        },
+        {
+          "word": " start",
+          "start": 18.88,
+          "end": 19.16,
+          "probability": 0.9957
+        },
+        {
+          "word": " taking",
+          "start": 19.16,
+          "end": 19.58,
+          "probability": 0.9975
+        },
+        {
+          "word": " effect",
+          "start": 19.58,
+          "end": 19.98,
+          "probability": 0.8998
+        },
+        {
+          "word": " slowly.",
+          "start": 19.98,
+          "end": 20.66,
+          "probability": 0.9829
+        }
+      ]
+    },
+    {
+      "start": 21.78,
+      "end": 28.02,
+      "text": "Countries will be required to ban unapproved AI systems six months after the law takes",
+      "avg_log_prob": -0.1958,
+      "words": [
+        {
+          "word": " Countries",
+          "start": 21.78,
+          "end": 22.24,
+          "probability": 0.983
+        },
+        {
+          "word": " will",
+          "start": 22.24,
+          "end": 22.46,
+          "probability": 0.9984
+        },
+        {
+          "word": " be",
+          "start": 22.46,
+          "end": 22.62,
+          "probability": 0.9979
+        },
+        {
+          "word": " required",
+          "start": 22.62,
+          "end": 23.2,
+          "probability": 0.9983
+        },
+        {
+          "word": " to",
+          "start": 23.2,
+          "end": 23.58,
+          "probability": 0.9993
+        },
+        {
+          "word": " ban",
+          "start": 23.58,
+          "end": 23.86,
+          "probability": 0.9962
+        },
+        {
+          "word": " unapproved",
+          "start": 23.86,
+          "end": 24.76,
+          "probability": 0.9637
+        },
+        {
+          "word": " AI",
+          "start": 24.76,
+          "end": 25.02,
+          "probability": 0.9932
+        },
+        {
+          "word": " systems",
+          "start": 25.02,
+          "end": 25.72,
+          "probability": 0.991
+        },
+        {
+          "word": " six",
+          "start": 25.72,
+          "end": 26.42,
+          "probability": 0.9467
+        },
+        {
+          "word": " months",
+          "start": 26.42,
+          "end": 26.8,
+          "probability": 0.9991
+        },
+        {
+          "word": " after",
+          "start": 26.8,
+          "end": 27.34,
+          "probability": 0.9976
+        },
+        {
+          "word": " the",
+          "start": 27.34,
+          "end": 27.5,
+          "probability": 0.9944
+        },
+        {
+          "word": " law",
+          "start": 27.5,
+          "end": 27.74,
+          "probability": 0.9889
+        },
+        {
+          "word": " takes",
+          "start": 27.74,
+          "end": 28.02,
+          "probability": 0.9913
+        }
+      ]
+    },
+    {
+      "start": 28.02,
+      "end": 28.48,
+      "text": "effect.",
+      "avg_log_prob": -0.2024,
+      "words": [
+        {
+          "word": " effect.",
+          "start": 28.02,
+          "end": 28.48,
+          "probability": 0.0025
+        }
+      ]
+    },
+    {
+      "start": 30.14,
+      "end": 37.0,
+      "text": "Rules for general-purpose AI systems like chatbots will start going into effect in one year.",
+      "avg_log_prob": -0.2024,
+      "words": [
+        {
+          "word": " Rules",
+          "start": 30.14,
+          "end": 30.62,
+          "probability": 0.8978
+        },
+        {
+          "word": " for",
+          "start": 30.62,
+          "end": 31.0,
+          "probability": 0.979
+        },
+        {
+          "word": " general",
+          "start": 31.0,
+          "end": 31.38,
+          "probability": 0.842
+        },
+        {
+          "word": "-purpose",
+          "start": 31.38,
+          "end": 31.86,
+          "probability": 0.755
+        },
+        {
+          "word": " AI",
+          "start": 31.86,
+          "end": 32.26,
+          "probability": 0.9366
+        },
+        {
+          "word": " systems",
+          "start": 32.26,
+          "end": 32.88,
+          "probability": 0.9896
+        },
+        {
+          "word": " like",
+          "start": 32.88,
+          "end": 33.32,
+          "probability": 0.8859
+        },
+        {
+          "word": " chatbots",
+          "start": 33.32,
+          "end": 34.16,
+          "probability": 0.8658
+        },
+        {
+          "word": " will",
+          "start": 34.16,
+          "end": 34.7,
+          "probability": 0.9587
+        },
+        {
+          "word": " start",
+          "start": 34.7,
+          "end": 35.04,
+          "probability": 0.9963
+        },
+        {
+          "word": " going",
+          "start": 35.04,
+          "end": 35.36,
+          "probability": 0.9963
+        },
+        {
+          "word": " into",
+          "start": 35.36,
+          "end": 35.72,
+          "probability": 0.9857
+        },
+        {
+          "word": " effect",
+          "start": 35.72,
+          "end": 36.1,
+          "probability": 0.9861
+        },
+        {
+          "word": " in",
+          "start": 36.1,
+          "end": 36.46,
+          "probability": 0.9899
+        },
+        {
+          "word": " one",
+          "start": 36.46,
+          "end": 36.66,
+          "probability": 0.9445
+        },
+        {
+          "word": " year.",
+          "start": 36.66,
+          "end": 37.0,
+          "probability": 0.9959
+        }
+      ]
+    },
+    {
+      "start": 37.94,
+      "end": 44.48,
+      "text": "By the middle of 2026, the complete set of regulations, including requirements for high-risk",
+      "avg_log_prob": -0.2024,
+      "words": [
+        {
+          "word": " By",
+          "start": 37.94,
+          "end": 38.16,
+          "probability": 0.9957
+        },
+        {
+          "word": " the",
+          "start": 38.16,
+          "end": 38.3,
+          "probability": 0.997
+        },
+        {
+          "word": " middle",
+          "start": 38.3,
+          "end": 38.56,
+          "probability": 0.964
+        },
+        {
+          "word": " of",
+          "start": 38.56,
+          "end": 38.8,
+          "probability": 0.9981
+        },
+        {
+          "word": " 2026,",
+          "start": 38.8,
+          "end": 39.78,
+          "probability": 0.8976
+        },
+        {
+          "word": " the",
+          "start": 40.26,
+          "end": 40.34,
+          "probability": 0.9972
+        },
+        {
+          "word": " complete",
+          "start": 40.34,
+          "end": 40.72,
+          "probability": 0.9913
+        },
+        {
+          "word": " set",
+          "start": 40.72,
+          "end": 41.16,
+          "probability": 0.9718
+        },
+        {
+          "word": " of",
+          "start": 41.16,
+          "end": 41.44,
+          "probability": 0.9905
+        },
+        {
+          "word": " regulations,",
+          "start": 41.44,
+          "end": 42.1,
+          "probability": 0.9933
+        },
+        {
+          "word": " including",
+          "start": 42.48,
+          "end": 42.82,
+          "probability": 0.9989
+        },
+        {
+          "word": " requirements",
+          "start": 42.82,
+          "end": 43.58,
+          "probability": 0.9809
+        },
+        {
+          "word": " for",
+          "start": 43.58,
+          "end": 44.02,
+          "probability": 0.9984
+        },
+        {
+          "word": " high",
+          "start": 44.02,
+          "end": 44.28,
+          "probability": 0.9796
+        },
+        {
+          "word": "-risk",
+          "start": 44.28,
+          "end": 44.48,
+          "probability": 0.9679
+        }
+      ]
+    },
+    {
+      "start": 44.48,
+      "end": 46.34,
+      "text": "systems, will be in effect.",
+      "avg_log_prob": -0.2024,
+      "words": [
+        {
+          "word": " systems,",
+          "start": 44.48,
+          "end": 45.2,
+          "probability": 0.9927
+        },
+        {
+          "word": " will",
+          "start": 45.46,
+          "end": 45.66,
+          "probability": 0.9983
+        },
+        {
+          "word": " be",
+          "start": 45.66,
+          "end": 45.84,
+          "probability": 0.9969
+        },
+        {
+          "word": " in",
+          "start": 45.84,
+          "end": 46.02,
+          "probability": 0.9333
+        },
+        {
+          "word": " effect.",
+          "start": 46.02,
+          "end": 46.34,
+          "probability": 0.9948
+        }
+      ]
+    },
+    {
+      "start": 47.94,
+      "end": 52.44,
+      "text": "Each EU country will set up their own AI enforcement agency.",
+      "avg_log_prob": -0.2024,
+      "words": [
+        {
+          "word": " Each",
+          "start": 47.94,
+          "end": 48.4,
+          "probability": 0.9948
+        },
+        {
+          "word": " EU",
+          "start": 48.4,
+          "end": 48.68,
+          "probability": 0.9695
+        },
+        {
+          "word": " country",
+          "start": 48.68,
+          "end": 49.24,
+          "probability": 0.9654
+        },
+        {
+          "word": " will",
+          "start": 49.24,
+          "end": 49.58,
+          "probability": 0.9982
+        },
+        {
+          "word": " set",
+          "start": 49.58,
+          "end": 49.82,
+          "probability": 0.9171
+        },
+        {
+          "word": " up",
+          "start": 49.82,
+          "end": 50.0,
+          "probability": 0.9972
+        },
+        {
+          "word": " their",
+          "start": 50.0,
+          "end": 50.22,
+          "probability": 0.993
+        },
+        {
+          "word": " own",
+          "start": 50.22,
+          "end": 50.6,
+          "probability": 0.999
+        },
+        {
+          "word": " AI",
+          "start": 50.6,
+          "end": 51.0,
+          "probability": 0.9865
+        },
+        {
+          "word": " enforcement",
+          "start": 51.0,
+          "end": 51.7,
+          "probability": 0.3583
+        },
+        {
+          "word": " agency.",
+          "start": 51.7,
+          "end": 52.44,
+          "probability": 0.9978
+        }
+      ]
+    },
+    {
+      "start": 52.44,
+      "end": 59.1,
+      "text": "Citizens can make a complaint if they think they have been the victim of a violation of",
+      "avg_log_prob": -0.2072,
+      "words": [
+        {
+          "word": " Citizens",
+          "start": 52.44,
+          "end": 53.88,
+          "probability": 0.2805
+        },
+        {
+          "word": " can",
+          "start": 53.88,
+          "end": 54.4,
+          "probability": 0.9955
+        },
+        {
+          "word": " make",
+          "start": 54.4,
+          "end": 54.64,
+          "probability": 0.99
+        },
+        {
+          "word": " a",
+          "start": 54.64,
+          "end": 54.86,
+          "probability": 0.9932
+        },
+        {
+          "word": " complaint",
+          "start": 54.86,
+          "end": 55.36,
+          "probability": 0.9969
+        },
+        {
+          "word": " if",
+          "start": 55.36,
+          "end": 55.9,
+          "probability": 0.9793
+        },
+        {
+          "word": " they",
+          "start": 55.9,
+          "end": 56.08,
+          "probability": 0.9964
+        },
+        {
+          "word": " think",
+          "start": 56.08,
+          "end": 56.36,
+          "probability": 0.9919
+        },
+        {
+          "word": " they",
+          "start": 56.36,
+          "end": 56.56,
+          "probability": 0.9914
+        },
+        {
+          "word": " have",
+          "start": 56.56,
+          "end": 56.78,
+          "probability": 0.9956
+        },
+        {
+          "word": " been",
+          "start": 56.78,
+          "end": 57.02,
+          "probability": 0.9967
+        },
+        {
+          "word": " the",
+          "start": 57.02,
+          "end": 57.2,
+          "probability": 0.9906
+        },
+        {
+          "word": " victim",
+          "start": 57.2,
+          "end": 57.52,
+          "probability": 0.9931
+        },
+        {
+          "word": " of",
+          "start": 57.52,
+          "end": 57.92,
+          "probability": 0.9953
+        },
+        {
+          "word": " a",
+          "start": 57.92,
+          "end": 58.08,
+          "probability": 0.9786
+        },
+        {
+          "word": " violation",
+          "start": 58.08,
+          "end": 58.56,
+          "probability": 0.9962
+        },
+        {
+          "word": " of",
+          "start": 58.56,
+          "end": 59.1,
+          "probability": 0.996
+        }
+      ]
+    },
+    {
+      "start": 59.1,
+      "end": 59.64,
+      "text": "the rules.",
+      "avg_log_prob": -0.2072,
+      "words": [
+        {
+          "word": " the",
+          "start": 59.1,
+          "end": 59.24,
+          "probability": 0.9909
+        },
+        {
+          "word": " rules.",
+          "start": 59.24,
+          "end": 59.64,
+          "probability": 0.9936
+        }
+      ]
+    },
+    {
+      "start": 60.74,
+      "end": 68.2,
+      "text": "And the EU will create an AI office that will oversee the law for general-purpose AI systems.",
+      "avg_log_prob": -0.2072,
+      "words": [
+        {
+          "word": " And",
+          "start": 60.74,
+          "end": 61.18,
+          "probability": 0.9598
+        },
+        {
+          "word": " the",
+          "start": 61.18,
+          "end": 61.42,
+          "probability": 0.9602
+        },
+        {
+          "word": " EU",
+          "start": 61.42,
+          "end": 61.82,
+          "probability": 0.9807
+        },
+        {
+          "word": " will",
+          "start": 61.82,
+          "end": 62.18,
+          "probability": 0.9915
+        },
+        {
+          "word": " create",
+          "start": 62.18,
+          "end": 62.56,
+          "probability": 0.987
+        },
+        {
+          "word": " an",
+          "start": 62.56,
+          "end": 62.98,
+          "probability": 0.9892
+        },
+        {
+          "word": " AI",
+          "start": 62.98,
+          "end": 63.26,
+          "probability": 0.9349
+        },
+        {
+          "word": " office",
+          "start": 63.26,
+          "end": 63.84,
+          "probability": 0.9339
+        },
+        {
+          "word": " that",
+          "start": 63.84,
+          "end": 64.42,
+          "probability": 0.9893
+        },
+        {
+          "word": " will",
+          "start": 64.42,
+          "end": 64.62,
+          "probability": 0.9976
+        },
+        {
+          "word": " oversee",
+          "start": 64.62,
+          "end": 65.2,
+          "probability": 0.9893
+        },
+        {
+          "word": " the",
+          "start": 65.2,
+          "end": 65.54,
+          "probability": 0.9924
+        },
+        {
+          "word": " law",
+          "start": 65.54,
+          "end": 65.84,
+          "probability": 0.9707
+        },
+        {
+          "word": " for",
+          "start": 65.84,
+          "end": 66.14,
+          "probability": 0.997
+        },
+        {
+          "word": " general",
+          "start": 66.14,
+          "end": 66.56,
+          "probability": 0.9104
+        },
+        {
+          "word": "-purpose",
+          "start": 66.56,
+          "end": 67.04,
+          "probability": 0.7033
+        },
+        {
+          "word": " AI",
+          "start": 67.04,
+          "end": 67.48,
+          "probability": 0.9748
+        },
+        {
+          "word": " systems.",
+          "start": 67.48,
+          "end": 68.2,
+          "probability": 0.9939
+        }
+      ]
+    },
+    {
+      "start": 69.76,
+      "end": 78.12,
+      "text": "Violations of the AI Act could be punished with a fine of up to $38 million, or 7% of",
+      "avg_log_prob": -0.2072,
+      "words": [
+        {
+          "word": " Violations",
+          "start": 69.76,
+          "end": 70.52,
+          "probability": 0.9096
+        },
+        {
+          "word": " of",
+          "start": 70.52,
+          "end": 70.8,
+          "probability": 0.9974
+        },
+        {
+          "word": " the",
+          "start": 70.8,
+          "end": 70.96,
+          "probability": 0.9857
+        },
+        {
+          "word": " AI",
+          "start": 70.96,
+          "end": 71.24,
+          "probability": 0.9847
+        },
+        {
+          "word": " Act",
+          "start": 71.24,
+          "end": 71.72,
+          "probability": 0.9078
+        },
+        {
+          "word": " could",
+          "start": 71.72,
+          "end": 72.3,
+          "probability": 0.9804
+        },
+        {
+          "word": " be",
+          "start": 72.3,
+          "end": 72.52,
+          "probability": 0.9989
+        },
+        {
+          "word": " punished",
+          "start": 72.52,
+          "end": 72.9,
+          "probability": 0.9944
+        },
+        {
+          "word": " with",
+          "start": 72.9,
+          "end": 73.32,
+          "probability": 0.998
+        },
+        {
+          "word": " a",
+          "start": 73.32,
+          "end": 73.48,
+          "probability": 0.9963
+        },
+        {
+          "word": " fine",
+          "start": 73.48,
+          "end": 73.82,
+          "probability": 0.7564
+        },
+        {
+          "word": " of",
+          "start": 73.82,
+          "end": 74.1,
+          "probability": 0.9887
+        },
+        {
+          "word": " up",
+          "start": 74.1,
+          "end": 74.3,
+          "probability": 0.9863
+        },
+        {
+          "word": " to",
+          "start": 74.3,
+          "end": 74.52,
+          "probability": 0.9873
+        },
+        {
+          "word": " $38",
+          "start": 74.52,
+          "end": 75.06,
+          "probability": 0.8409
+        },
+        {
+          "word": " million,",
+          "start": 75.06,
+          "end": 75.42,
+          "probability": 0.9596
+        },
+        {
+          "word": " or",
+          "start": 76.28,
+          "end": 76.8,
+          "probability": 0.9916
+        },
+        {
+          "word": " 7",
+          "start": 76.8,
+          "end": 77.34,
+          "probability": 0.8175
+        },
+        {
+          "word": "%",
+          "start": 77.34,
+          "end": 77.78,
+          "probability": 0.8412
+        },
+        {
+          "word": " of",
+          "start": 77.78,
+          "end": 78.12,
+          "probability": 0.9975
+        }
+      ]
+    },
+    {
+      "start": 78.12,
+      "end": 80.0,
+      "text": "a company's worldwide revenue.",
+      "avg_log_prob": -0.2072,
+      "words": [
+        {
+          "word": " a",
+          "start": 78.12,
+          "end": 78.26,
+          "probability": 0.9617
+        },
+        {
+          "word": " company's",
+          "start": 78.26,
+          "end": 79.0,
+          "probability": 0.9885
+        },
+        {
+          "word": " worldwide",
+          "start": 79.0,
+          "end": 79.38,
+          "probability": 0.9518
+        },
+        {
+          "word": " revenue.",
+          "start": 79.38,
+          "end": 80.0,
+          "probability": 0.9969
+        }
+      ]
+    },
+    {
+      "start": 80.0,
+      "end": 81.66,
+      "text": "I'm Dan Novak.",
+      "avg_log_prob": -0.7115,
+      "words": [
+        {
+          "word": " I'm",
+          "start": 80.0,
+          "end": 81.02,
+          "probability": 0.7542
+        },
+        {
+          "word": " Dan",
+          "start": 81.02,
+          "end": 81.16,
+          "probability": 0.3627
+        },
+        {
+          "word": " Novak.",
+          "start": 81.16,
+          "end": 81.66,
+          "probability": 0.8356
+        }
+      ]
+    }
+  ],
+  "full_text": "are developing rules as are the United Nations and group of seven industrialized nations. The AI Act is expected to officially become law by May or June, after approval from EU member countries. Rules will start taking effect slowly. Countries will be required to ban unapproved AI systems six months after the law takes effect. Rules for general-purpose AI systems like chatbots will start going into effect in one year. By the middle of 2026, the complete set of regulations, including requirements for high-risk systems, will be in effect. Each EU country will set up their own AI enforcement agency. Citizens can make a complaint if they think they have been the victim of a violation of the rules. And the EU will create an AI office that will oversee the law for general-purpose AI systems. Violations of the AI Act could be punished with a fine of up to $38 million, or 7% of a company's worldwide revenue. I'm Dan Novak."
+}

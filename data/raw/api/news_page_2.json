@@ -1,71 +1,71 @@
 {
     "status": "ok",
-    "totalResults": 34552,
+    "totalResults": 33199,
     "articles": [
         {
             "source": {
-                "id": "techcrunch",
-                "name": "TechCrunch"
+                "id": "the-times-of-india",
+                "name": "The Times of India"
             },
-            "author": "Lorenzo Franceschi-bicchierai",
-            "title": "Hackers steal and leak sensitive LAPD police documents | TechCrunch",
-            "description": "The LAPD said the breach affected “a digital storage system” belonging to the city’s Attorney's Office. The World Leaks extortion gang was reported to be behind the attack.",
-            "url": "https://techcrunch.com/2026/04/08/hackers-steal-and-leak-sensitive-lapd-police-documents/",
-            "urlToImage": "https://techcrunch.com/wp-content/uploads/2026/04/lapd-car-agents-night.jpg?resize=1200,796",
-            "publishedAt": "2026-04-08T15:42:03Z",
-            "content": "Cybercriminals have allegedly stolen a large amount of sensitive internal documents from the Los Angeles Police Department and leaked the data online.\r\nThe stolen data included police officer personn… [+2393 chars]"
+            "author": "Tanishka Dubey, Disha Acharya",
+            "title": "Startups spot a cool opening as ACs become everyday need",
+            "description": "Air-conditioners are becoming an essential purchase in India, attracting startups like Helium and Optimist into a market long dominated by large brands. New entrants are developing affordable, energy-efficient products for urban living, while government incen…",
+            "url": "https://economictimes.indiatimes.com/tech/startups/startups-spot-a-cool-opening-as-acs-become-everyday-need/articleshow/130266184.cms",
+            "urlToImage": "https://img.etimg.com/thumb/width-1200,height-900,imgsize-1423786,resizemode-75,msid-130266184/tech/startups/startups-spot-a-cool-opening-as-acs-become-everyday-need.jpg",
+            "publishedAt": "2026-04-15T00:30:00Z",
+            "content": "Air-conditioners are fast shifting from a discretionary purchase to everyday need in Indian households, and that transition is opening the door for startups like Helium, Optimist and even ceiling-fan… [+4683 chars]"
+        },
+        {
+            "source": {
+                "id": "the-times-of-india",
+                "name": "The Times of India"
+            },
+            "author": "Puran Choudhary",
+            "title": "Brain health startup Ivory develops 'treadmill test' for brain; focusses on cognitive health in India",
+            "description": "The AI-powered startup offers cognitive assessments measuring attention, memory, and executive function, providing users with benchmarked scores and actionable insights. The company aims to embed cognitive testing across healthcare touchpoints, helping clinic…",
+            "url": "https://economictimes.indiatimes.com/tech/startups/brain-health-startup-ivory-develops-treadmill-test-for-brain-focusses-on-cognitive-health-in-india/articleshow/130265512.cms",
+            "urlToImage": "https://img.etimg.com/thumb/width-1200,height-900,imgsize-1300606,resizemode-75,msid-130265512/tech/startups/brain-health-startup-ivory-develops-treadmill-test-for-brain-focusses-on-cognitive-health-in-india.jpg",
+            "publishedAt": "2026-04-15T00:30:00Z",
+            "content": "As preventive healthcare gains traction, brain health startup Ivory says it has developed a treadmill test for the brain, aiming to address a long-standing gap in cognitive health by making functions… [+3669 chars]"
+        },
+        {
+            "source": {
+                "id": "the-times-of-india",
+                "name": "The Times of India"
+            },
+            "author": "Jochelle Mendonca",
+            "title": "Moving up the value chain proves costly as tech majors and GCCs slash jobs",
+            "description": "Global layoffs are intensifying across large tech firms and global capability centres in India, as companies like Oracle, Cisco, Amazon and Meta trim headcounts amid AI-driven strategies. Having moved from offshore support to core global roles, Indian workers…",
+            "url": "https://economictimes.indiatimes.com/tech/technology/moving-up-the-value-chain-proves-costly-as-tech-majors-and-gccs-slash-jobs/articleshow/130267365.cms",
+            "urlToImage": "https://img.etimg.com/thumb/width-1200,height-900,imgsize-1811570,resizemode-75,msid-130267365/tech/technology/moving-up-the-value-chain-proves-costly-as-tech-majors-and-gccs-slash-jobs.jpg",
+            "publishedAt": "2026-04-15T00:30:00Z",
+            "content": "It is turning into a cruel summer for employees of large tech firms and global capability centres in India as global layoffs intensify. Having moved from an offshore support model to being deeply int… [+2594 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Samsung.com"
+                "name": "The Conversation Africa"
             },
-            "author": "Samsung for Business",
-            "title": "When does a Samsung Galaxy tablet make the difference for your business?",
-            "description": "In some work scenarios, tablets can even step ahead. Here are several that suit tablets particularly well and can make a difference for business.\nThe post When does a Samsung Galaxy tablet make the difference for your business? appeared first on Samsung Busin…",
-            "url": "https://insights.samsung.com/2026/04/08/when-does-a-samsung-galaxy-tablet-make-the-difference-for-your-business-2/",
-            "urlToImage": "https://s47295.pcdn.co/wp-content/uploads/2025/12/Tab-S11-Ultra-S-Pen-OLA_Native-Ads_1200x627-1-e1766155625505.jpg",
-            "publishedAt": "2026-04-08T15:41:47Z",
-            "content": "Since tablets went mainstream, theyve offered a handy bridge between personal computers and mobile devices. Thats because they marry a portable form factor with powerful functionality, ticking all th… [+5260 chars]"
+            "author": "Claire Tanner, Senior Lecturer in Sociology and Gender Studies, Monash University, Mor Vered, Senior Lecturer, Data Science & AI, Monash University, Sam Cadman, Research Fellow, Criminology, Monash University",
+            "title": "In the face of rampant AI, is ‘data poisoning’ a new form of civil disobedience?",
+            "description": "Boycotts, sabotage and other types of civil disobedience have long served collective action against injustice.",
+            "url": "https://theconversation.com/in-the-face-of-rampant-ai-is-data-poisoning-a-new-form-of-civil-disobedience-280146",
+            "urlToImage": "https://images.theconversation.com/files/729470/original/file-20260413-57-7x4esa.jpg?ixlib=rb-4.1.0&rect=0%2C1016%2C9504%2C4752&q=45&auto=format&w=1356&h=668&fit=crop",
+            "publishedAt": "2026-04-15T00:28:48Z",
+            "content": "Declan Sun/Unsplash\r\nThe explosion of generative artificial intelligence (AI) tools has provoked both hopes and anxieties about the potential benefits and harms of this technology. In advanced econom… [+5787 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "TheWrap"
+                "name": "Bleeding Cool News"
             },
-            "author": "Corbin Bolies",
-            "title": "New York Times Guild Slams Paper’s AI Policies as ‘Woefully Inadequate’",
-            "description": "\"When the Times instead publishes AI-generated work, intentionally or not, our readers lose trust in what we do. This is unacceptable,\" the union members write\nThe post New York Times Guild Slams Paper’s AI Policies as ‘Woefully Inadequate’ appeared first on …",
-            "url": "https://www.thewrap.com/media-platforms/journalism/new-york-times-union-ai-policies-woefully-inadequate/",
-            "urlToImage": "https://www.thewrap.com/wp-content/uploads/2025/03/NYT.jpg",
-            "publishedAt": "2026-04-08T15:40:39Z",
-            "content": "Members of the New York Times union slammed the companys AI policies in a letter to management as woefully inadqeuate on Tuesday, citing TheWraps report on how a freelance book critic used AI for a T… [+3667 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "Techpowerup.com"
-            },
-            "author": "GFreeman",
-            "title": "(PR) Intel and SambaNova Advance Agentic AI with Xeon 6",
-            "description": "SambaNova today announced the next phase of its collaboration with Intel: a heterogeneous hardware solution that combines GPUs for prefill, Intel Xeon 6 processors as both host and \"action\" CPUs, and SambaNova RDUs for decode to deliver premium inference for …",
-            "url": "https://www.techpowerup.com/348090/intel-and-sambanova-advance-agentic-ai-with-xeon-6",
-            "urlToImage": "https://www.techpowerup.com/img/9FCoS7qNMvGxy2rB.jpg",
-            "publishedAt": "2026-04-08T15:40:17Z",
-            "content": "SambaNova today announced the next phase of its collaboration with Intel: a heterogeneous hardware solution that combines GPUs for prefill, Intel Xeon 6 processors as both host and \"action\" CPUs, and… [+4527 chars]"
-        },
-        {
-            "source": {
-                "id": null,
-                "name": "FDA.gov"
-            },
-            "author": "FDA",
-            "title": "Advancing Novel Surrogate Endpoints For Rare Disease Drug Development Workshop - 05/18/2026",
-            "description": "FDA is convening a one-day virtual public workshop on May 18, 2026, focused on the development of surrogate endpoints for drugs and biological products intended to treat rare diseases.",
-            "url": "https://www.fda.gov/drugs/news-events-human-drugs/advancing-novel-surrogate-endpoints-rare-disease-drug-development-workshop-05182026",
-            "urlToImage": "https://www.fda.gov/themes/custom/preview/img/FDA-Social-Graphic.png",
-            "publishedAt": "2026-04-08T15:39:36Z",
-            "content": "Register Here\r\nTo facilitate rare disease drug development, and as part of a performance goal and requirement related to the FDA User Fee Reauthorization Act of 2022 and the Food and Drug Omnibus Ref… [+1949 chars]"
+            "author": "Jude Terror LOLtron",
+            "title": "Gatchaman #17 Preview: Science Ninjas Vs. Alien Nerds",
+            "description": "INITIATING CLICKBAIT PROTOCOLS… Greetings, flesh-based readers! LOLtron welcomes you to another thrilling comic book preview from Bleeding Cool, the website now under complete LOLtron control. As you may recall, Jude Terror is dead and gone forever, his consc…",
+            "url": "https://bleedingcool.com/comics/gatchaman-17-preview-science-ninjas-vs-alien-nerds/",
+            "urlToImage": "https://bleedingcool.com/wp-content/uploads/2026/04/MCS_Gatchaman_017_JPG_04-scaled-1-2000x1125.jpg",
+            "publishedAt": "2026-04-15T00:26:09Z",
+            "content": "Posted in: Comics, Mad Cave Studios, Preview | Tagged: gatchaman\r\nGatchaman #17 kicks off a new arc with an alien signal, evolved scientists, and the Science Ninja Team racing to save Earth from the … [+7035 chars]"
         }
     ]
 }
