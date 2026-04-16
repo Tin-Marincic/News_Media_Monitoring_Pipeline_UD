@@ -1,0 +1,76 @@
+1
+00:00:00,000 --> 00:00:05,360
+This smile is part living skin tissue and part robot.
+
+2
+00:00:06,019 --> 00:00:10,900
+It's the product of a decade of research by scientists at the University of Tokyo.
+
+3
+00:00:11,960 --> 00:00:18,579
+It may look a little eerie, but researchers say it could one day be used for testing cosmetics and medicine
+
+4
+00:00:18,579 --> 00:00:23,100
+and is an important step in the quest to make more life-like robots.
+
+5
+00:00:23,859 --> 00:00:29,399
+To create the smiling robot, scientists grew human cells into the shape of a face.
+
+6
+00:00:29,760 --> 00:00:35,740
+The smile is produced from embedded ligament-like attachments that pull it into a wide grin.
+
+7
+00:00:36,960 --> 00:00:40,020
+Here's lead researcher Shoji Takesuchi.
+
+8
+00:00:41,939 --> 00:00:45,500
+Until now, no one had figured out how to make the living skin move.
+
+9
+00:00:45,500 --> 00:00:52,780
+So I think by attaching these actuators and anchors, it became possible to manipulate living skin for the first time.
+
+10
+00:00:53,100 --> 00:00:55,679
+This is a new technology that we developed.
+
+11
+00:00:58,200 --> 00:01:06,060
+Takesuchi says living tissue has a number of advantages over metal and plastic, such as skin's ability to repair itself.
+
+12
+00:01:06,420 --> 00:01:12,200
+The hope is to add more features to the lab-grown skin, including a circulatory system and nerves.
+
+13
+00:01:13,200 --> 00:01:21,599
+Takesuchi says the work could potentially lead to safer testing for cosmetics and drugs, or be used to cover robots one day.
+
+14
+00:01:22,819 --> 00:01:26,760
+One problem he still faces is the so-called uncanny valley.
+
+15
+00:01:27,420 --> 00:01:32,480
+That's the unsettling feeling that comes when robots start to resemble humans a little too closely.
+
+16
+00:01:33,519 --> 00:01:36,500
+Takesuchi says he hopes to overcome it.
+
+17
+00:01:38,060 --> 00:01:44,459
+Various things have been talked about to reduce the creepiness, but I think one of the important matters is the materials.
+
+18
+00:01:46,359 --> 00:01:53,060
+I think that making robots out of the exact same materials as humans, and having them show the same expressions,
+
+19
+00:01:54,819 --> 00:01:57,739
+might be one key to overcoming the uncanny valley.
+

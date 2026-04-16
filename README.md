@@ -56,7 +56,15 @@ The pipeline can identify basic trends or patterns in news coverage.
 The results are visualized using charts or dashboards to provide insights about the collected data.
 
 the output to show the exif metadata of photos: 
-![alt text](image-2.png)
+![alt text](readme_images/image-2.png)
 
 link to google drive:
 https://drive.google.com/drive/folders/1D_usaqkZVhbzYzMvf3rFbVmM7ukWJk4i?usp=drive_link
+
+6. Load video files and print its properties (duration, fps, resolution) (add image to Read.me), and extract the audio track from a video file (10%)
+
+![alt text](readme_images/image.png)
+
+8. Transcribe a short audio file with faster-whisper; print segments with timestamps (add image in Read.me) (10%)
+
+![alt text](readme_images/transcribe1.png)

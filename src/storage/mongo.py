@@ -2,13 +2,21 @@ from pymongo import MongoClient
 from datetime import datetime
 from pathlib import Path
 from PIL import Image
+import logging
 import os
+
+logger = logging.getLogger(__name__)
 
 client = MongoClient("mongodb://localhost:27017/")
 db = client["news_pipeline"]
 
 collection = db["raw_articles"]
 image_metadata_collection = db["image_metadata"]
+transcripts_collection = db["transcripts"]
+
+
+def get_db():
+    return db
 
 
 def save_to_mongo(data, source, extra_metadata=None):
@@ -23,6 +31,7 @@ def save_to_mongo(data, source, extra_metadata=None):
         document.update(extra_metadata)
 
     collection.insert_one(document)
+    logger.info(f"Inserted raw article document from source: {source}")
     print("Inserted document:", document)
 
 
@@ -56,6 +65,7 @@ def save_image_metadata(metadata_list):
             upsert=True
         )
 
+    logger.info(f"Saved {len(metadata_list)} image metadata records to MongoDB")
     print(f"Saved {len(metadata_list)} image records to MongoDB")
 
 
@@ -124,3 +134,44 @@ def save_batch_results_to_mongo(results):
         cleaned.append(doc)
 
     save_image_metadata(cleaned)
+
+
+def save_transcript(
+    transcript_result: dict,
+    source_path: str,
+    source_type: str = "audio",
+    json_path: str = None,
+    txt_path: str = None,
+    srt_path: str = None
+) -> str:
+    doc = {
+        "source_file": transcript_result.get("source_file", ""),
+        "source_path": source_path,
+        "source_type": source_type,   # "audio" or "video_audio"
+        "model": transcript_result.get("model", "unknown"),
+        "language": transcript_result.get("language", ""),
+        "language_probability": transcript_result.get("language_probability", 0),
+        "duration_s": transcript_result.get("duration_s", 0),
+        "total_chunks": transcript_result.get("total_chunks"),
+        "full_text": transcript_result.get("full_text", ""),
+        "segments": transcript_result.get("segments", []),
+        "transcript_json_path": json_path,
+        "transcript_txt_path": txt_path,
+        "transcript_srt_path": srt_path,
+        "transcribed_at": datetime.utcnow().isoformat(),
+        "type": "transcript"
+    }
+
+    result = transcripts_collection.insert_one(doc)
+
+    logger.info(
+        f"Saved transcript to MongoDB: {doc['source_file']} "
+        f"(id={result.inserted_id})"
+    )
+
+    return str(result.inserted_id)
+
+
+def get_transcripts(source_type=None):
+    query = {"source_type": source_type} if source_type else {}
+    return list(transcripts_collection.find(query, {"_id": 0}))

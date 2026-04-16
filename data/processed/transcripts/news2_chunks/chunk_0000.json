@@ -1,0 +1,3613 @@
+{
+  "source_file": "chunk_0000.wav",
+  "source_path": "C:\\Users\\38760\\AppData\\Local\\Temp\\tmpzf3dy1rr\\chunk_0000.wav",
+  "language": "en",
+  "language_probability": 0.9983,
+  "duration_s": 300.0,
+  "model": "base",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 7.64,
+      "text": "European Union lawmakers gave final approval to the 27 nation groups artificial intelligence",
+      "avg_log_prob": -0.138,
+      "words": [
+        {
+          "word": " European",
+          "start": 0.0,
+          "end": 0.46,
+          "probability": 0.7399
+        },
+        {
+          "word": " Union",
+          "start": 0.46,
+          "end": 1.08,
+          "probability": 0.9746
+        },
+        {
+          "word": " lawmakers",
+          "start": 1.08,
+          "end": 1.78,
+          "probability": 0.9059
+        },
+        {
+          "word": " gave",
+          "start": 1.78,
+          "end": 2.38,
+          "probability": 0.9913
+        },
+        {
+          "word": " final",
+          "start": 2.38,
+          "end": 3.1,
+          "probability": 0.9671
+        },
+        {
+          "word": " approval",
+          "start": 3.1,
+          "end": 3.7,
+          "probability": 0.999
+        },
+        {
+          "word": " to",
+          "start": 3.7,
+          "end": 4.16,
+          "probability": 0.9976
+        },
+        {
+          "word": " the",
+          "start": 4.16,
+          "end": 4.52,
+          "probability": 0.9425
+        },
+        {
+          "word": " 27",
+          "start": 4.52,
+          "end": 5.02,
+          "probability": 0.9628
+        },
+        {
+          "word": " nation",
+          "start": 5.02,
+          "end": 5.62,
+          "probability": 0.8474
+        },
+        {
+          "word": " groups",
+          "start": 5.62,
+          "end": 6.06,
+          "probability": 0.6147
+        },
+        {
+          "word": " artificial",
+          "start": 6.06,
+          "end": 6.78,
+          "probability": 0.6628
+        },
+        {
+          "word": " intelligence",
+          "start": 6.78,
+          "end": 7.64,
+          "probability": 0.9892
+        }
+      ]
+    },
+    {
+      "start": 7.64,
+      "end": 13.52,
+      "text": "law Wednesday. The rules are expected to take effect later this year.",
+      "avg_log_prob": -0.138,
+      "words": [
+        {
+          "word": " law",
+          "start": 7.64,
+          "end": 7.98,
+          "probability": 0.9954
+        },
+        {
+          "word": " Wednesday.",
+          "start": 7.98,
+          "end": 8.54,
+          "probability": 0.9569
+        },
+        {
+          "word": " The",
+          "start": 9.2,
+          "end": 10.0,
+          "probability": 0.9879
+        },
+        {
+          "word": " rules",
+          "start": 10.0,
+          "end": 10.32,
+          "probability": 0.9953
+        },
+        {
+          "word": " are",
+          "start": 10.32,
+          "end": 10.66,
+          "probability": 0.9809
+        },
+        {
+          "word": " expected",
+          "start": 10.66,
+          "end": 11.32,
+          "probability": 0.999
+        },
+        {
+          "word": " to",
+          "start": 11.32,
+          "end": 11.7,
+          "probability": 0.9984
+        },
+        {
+          "word": " take",
+          "start": 11.7,
+          "end": 11.96,
+          "probability": 0.9967
+        },
+        {
+          "word": " effect",
+          "start": 11.96,
+          "end": 12.36,
+          "probability": 0.9815
+        },
+        {
+          "word": " later",
+          "start": 12.36,
+          "end": 12.88,
+          "probability": 0.9738
+        },
+        {
+          "word": " this",
+          "start": 12.88,
+          "end": 13.22,
+          "probability": 0.9974
+        },
+        {
+          "word": " year.",
+          "start": 13.22,
+          "end": 13.52,
+          "probability": 0.999
+        }
+      ]
+    },
+    {
+      "start": 15.34,
+      "end": 21.6,
+      "text": "Lawmakers in the European Parliament voted in favor of the Artificial Intelligence Act",
+      "avg_log_prob": -0.138,
+      "words": [
+        {
+          "word": " Lawmakers",
+          "start": 15.34,
+          "end": 16.04,
+          "probability": 0.9271
+        },
+        {
+          "word": " in",
+          "start": 16.04,
+          "end": 16.52,
+          "probability": 0.9911
+        },
+        {
+          "word": " the",
+          "start": 16.52,
+          "end": 16.86,
+          "probability": 0.9656
+        },
+        {
+          "word": " European",
+          "start": 16.86,
+          "end": 17.28,
+          "probability": 0.9881
+        },
+        {
+          "word": " Parliament",
+          "start": 17.28,
+          "end": 17.92,
+          "probability": 0.8825
+        },
+        {
+          "word": " voted",
+          "start": 17.92,
+          "end": 18.44,
+          "probability": 0.9858
+        },
+        {
+          "word": " in",
+          "start": 18.44,
+          "end": 18.8,
+          "probability": 0.9967
+        },
+        {
+          "word": " favor",
+          "start": 18.8,
+          "end": 19.2,
+          "probability": 0.5489
+        },
+        {
+          "word": " of",
+          "start": 19.2,
+          "end": 19.58,
+          "probability": 0.9986
+        },
+        {
+          "word": " the",
+          "start": 19.58,
+          "end": 19.8,
+          "probability": 0.9851
+        },
+        {
+          "word": " Artificial",
+          "start": 19.8,
+          "end": 20.36,
+          "probability": 0.8886
+        },
+        {
+          "word": " Intelligence",
+          "start": 20.36,
+          "end": 21.04,
+          "probability": 0.9966
+        },
+        {
+          "word": " Act",
+          "start": 21.04,
+          "end": 21.6,
+          "probability": 0.9932
+        }
+      ]
+    },
+    {
+      "start": 21.6,
+      "end": 29.4,
+      "text": "five years after regulations were first proposed. Major technology companies have generally",
+      "avg_log_prob": -0.138,
+      "words": [
+        {
+          "word": " five",
+          "start": 21.6,
+          "end": 22.42,
+          "probability": 0.7303
+        },
+        {
+          "word": " years",
+          "start": 22.42,
+          "end": 22.82,
+          "probability": 0.9986
+        },
+        {
+          "word": " after",
+          "start": 22.82,
+          "end": 23.4,
+          "probability": 0.9967
+        },
+        {
+          "word": " regulations",
+          "start": 23.4,
+          "end": 24.08,
+          "probability": 0.9869
+        },
+        {
+          "word": " were",
+          "start": 24.08,
+          "end": 24.6,
+          "probability": 0.9979
+        },
+        {
+          "word": " first",
+          "start": 24.6,
+          "end": 25.02,
+          "probability": 0.9896
+        },
+        {
+          "word": " proposed.",
+          "start": 25.02,
+          "end": 25.78,
+          "probability": 0.9951
+        },
+        {
+          "word": " Major",
+          "start": 26.86,
+          "end": 27.28,
+          "probability": 0.9869
+        },
+        {
+          "word": " technology",
+          "start": 27.28,
+          "end": 28.0,
+          "probability": 0.9889
+        },
+        {
+          "word": " companies",
+          "start": 28.0,
+          "end": 28.64,
+          "probability": 0.9983
+        },
+        {
+          "word": " have",
+          "start": 28.64,
+          "end": 28.82,
+          "probability": 0.9964
+        },
+        {
+          "word": " generally",
+          "start": 28.82,
+          "end": 29.4,
+          "probability": 0.9921
+        }
+      ]
+    },
+    {
+      "start": 29.4,
+      "end": 36.18,
+      "text": "supported the idea. But they want to make sure new AI requirements work in their favor.",
+      "avg_log_prob": -0.1169,
+      "words": [
+        {
+          "word": " supported",
+          "start": 29.4,
+          "end": 30.12,
+          "probability": 0.5631
+        },
+        {
+          "word": " the",
+          "start": 30.12,
+          "end": 30.5,
+          "probability": 0.9712
+        },
+        {
+          "word": " idea.",
+          "start": 30.5,
+          "end": 30.94,
+          "probability": 0.9949
+        },
+        {
+          "word": " But",
+          "start": 31.92,
+          "end": 32.16,
+          "probability": 0.9887
+        },
+        {
+          "word": " they",
+          "start": 32.16,
+          "end": 32.48,
+          "probability": 0.7455
+        },
+        {
+          "word": " want",
+          "start": 32.48,
+          "end": 32.68,
+          "probability": 0.9945
+        },
+        {
+          "word": " to",
+          "start": 32.68,
+          "end": 32.9,
+          "probability": 0.9935
+        },
+        {
+          "word": " make",
+          "start": 32.9,
+          "end": 33.08,
+          "probability": 0.9943
+        },
+        {
+          "word": " sure",
+          "start": 33.08,
+          "end": 33.4,
+          "probability": 0.9925
+        },
+        {
+          "word": " new",
+          "start": 33.4,
+          "end": 33.76,
+          "probability": 0.9746
+        },
+        {
+          "word": " AI",
+          "start": 33.76,
+          "end": 34.12,
+          "probability": 0.9265
+        },
+        {
+          "word": " requirements",
+          "start": 34.12,
+          "end": 34.9,
+          "probability": 0.9886
+        },
+        {
+          "word": " work",
+          "start": 34.9,
+          "end": 35.34,
+          "probability": 0.9974
+        },
+        {
+          "word": " in",
+          "start": 35.34,
+          "end": 35.62,
+          "probability": 0.9988
+        },
+        {
+          "word": " their",
+          "start": 35.62,
+          "end": 35.78,
+          "probability": 0.995
+        },
+        {
+          "word": " favor.",
+          "start": 35.78,
+          "end": 36.18,
+          "probability": 0.8421
+        }
+      ]
+    },
+    {
+      "start": 37.44,
+      "end": 44.02,
+      "text": "Open AI Chief Sam Altman suggested the maker of ChatGPT might pull out of Europe",
+      "avg_log_prob": -0.1169,
+      "words": [
+        {
+          "word": " Open",
+          "start": 37.44,
+          "end": 37.78,
+          "probability": 0.8813
+        },
+        {
+          "word": " AI",
+          "start": 37.78,
+          "end": 38.14,
+          "probability": 0.9277
+        },
+        {
+          "word": " Chief",
+          "start": 38.14,
+          "end": 38.64,
+          "probability": 0.7101
+        },
+        {
+          "word": " Sam",
+          "start": 38.64,
+          "end": 39.26,
+          "probability": 0.9419
+        },
+        {
+          "word": " Altman",
+          "start": 39.26,
+          "end": 39.76,
+          "probability": 0.9311
+        },
+        {
+          "word": " suggested",
+          "start": 39.76,
+          "end": 40.32,
+          "probability": 0.964
+        },
+        {
+          "word": " the",
+          "start": 40.32,
+          "end": 40.96,
+          "probability": 0.9422
+        },
+        {
+          "word": " maker",
+          "start": 40.96,
+          "end": 41.3,
+          "probability": 0.6968
+        },
+        {
+          "word": " of",
+          "start": 41.3,
+          "end": 41.62,
+          "probability": 0.9923
+        },
+        {
+          "word": " ChatGPT",
+          "start": 41.62,
+          "end": 42.66,
+          "probability": 0.7771
+        },
+        {
+          "word": " might",
+          "start": 42.66,
+          "end": 43.02,
+          "probability": 0.991
+        },
+        {
+          "word": " pull",
+          "start": 43.02,
+          "end": 43.3,
+          "probability": 0.9969
+        },
+        {
+          "word": " out",
+          "start": 43.3,
+          "end": 43.58,
+          "probability": 0.9824
+        },
+        {
+          "word": " of",
+          "start": 43.58,
+          "end": 43.74,
+          "probability": 0.9901
+        },
+        {
+          "word": " Europe",
+          "start": 43.74,
+          "end": 44.02,
+          "probability": 0.9973
+        }
+      ]
+    },
+    {
+      "start": 44.6,
+      "end": 51.38,
+      "text": "if it cannot comply with the AI Act. He later said his company had no plans to leave.",
+      "avg_log_prob": -0.1169,
+      "words": [
+        {
+          "word": " if",
+          "start": 44.54,
+          "end": 44.88,
+          "probability": 0.8626
+        },
+        {
+          "word": " it",
+          "start": 44.88,
+          "end": 45.08,
+          "probability": 0.9928
+        },
+        {
+          "word": " cannot",
+          "start": 45.08,
+          "end": 45.4,
+          "probability": 0.9263
+        },
+        {
+          "word": " comply",
+          "start": 45.4,
+          "end": 46.0,
+          "probability": 0.9974
+        },
+        {
+          "word": " with",
+          "start": 46.0,
+          "end": 46.46,
+          "probability": 0.9981
+        },
+        {
+          "word": " the",
+          "start": 46.46,
+          "end": 46.68,
+          "probability": 0.9896
+        },
+        {
+          "word": " AI",
+          "start": 46.68,
+          "end": 46.98,
+          "probability": 0.986
+        },
+        {
+          "word": " Act.",
+          "start": 46.98,
+          "end": 47.52,
+          "probability": 0.8567
+        },
+        {
+          "word": " He",
+          "start": 48.36,
+          "end": 48.6,
+          "probability": 0.9902
+        },
+        {
+          "word": " later",
+          "start": 48.6,
+          "end": 48.86,
+          "probability": 0.9987
+        },
+        {
+          "word": " said",
+          "start": 48.86,
+          "end": 49.2,
+          "probability": 0.9982
+        },
+        {
+          "word": " his",
+          "start": 49.2,
+          "end": 49.44,
+          "probability": 0.9901
+        },
+        {
+          "word": " company",
+          "start": 49.44,
+          "end": 49.84,
+          "probability": 0.9968
+        },
+        {
+          "word": " had",
+          "start": 49.84,
+          "end": 50.16,
+          "probability": 0.9978
+        },
+        {
+          "word": " no",
+          "start": 50.16,
+          "end": 50.4,
+          "probability": 0.9974
+        },
+        {
+          "word": " plans",
+          "start": 50.4,
+          "end": 50.78,
+          "probability": 0.9989
+        },
+        {
+          "word": " to",
+          "start": 50.78,
+          "end": 51.1,
+          "probability": 0.9981
+        },
+        {
+          "word": " leave.",
+          "start": 51.1,
+          "end": 51.38,
+          "probability": 0.9971
+        }
+      ]
+    },
+    {
+      "start": 52.34,
+      "end": 60.42,
+      "text": "Here are some details about Europe's new AI rules. Like many EU regulations, the AI Act",
+      "avg_log_prob": -0.1374,
+      "words": [
+        {
+          "word": " Here",
+          "start": 52.34,
+          "end": 52.8,
+          "probability": 0.2714
+        },
+        {
+          "word": " are",
+          "start": 52.8,
+          "end": 52.98,
+          "probability": 0.9801
+        },
+        {
+          "word": " some",
+          "start": 52.98,
+          "end": 53.24,
+          "probability": 0.9928
+        },
+        {
+          "word": " details",
+          "start": 53.24,
+          "end": 53.66,
+          "probability": 0.9845
+        },
+        {
+          "word": " about",
+          "start": 53.66,
+          "end": 54.22,
+          "probability": 0.9881
+        },
+        {
+          "word": " Europe's",
+          "start": 54.22,
+          "end": 54.92,
+          "probability": 0.9874
+        },
+        {
+          "word": " new",
+          "start": 54.92,
+          "end": 55.2,
+          "probability": 0.9843
+        },
+        {
+          "word": " AI",
+          "start": 55.2,
+          "end": 55.6,
+          "probability": 0.9534
+        },
+        {
+          "word": " rules.",
+          "start": 55.6,
+          "end": 56.08,
+          "probability": 0.9315
+        },
+        {
+          "word": " Like",
+          "start": 56.78,
+          "end": 57.66,
+          "probability": 0.9766
+        },
+        {
+          "word": " many",
+          "start": 57.66,
+          "end": 57.94,
+          "probability": 0.9904
+        },
+        {
+          "word": " EU",
+          "start": 57.94,
+          "end": 58.3,
+          "probability": 0.9633
+        },
+        {
+          "word": " regulations,",
+          "start": 58.3,
+          "end": 59.08,
+          "probability": 0.9925
+        },
+        {
+          "word": " the",
+          "start": 59.58,
+          "end": 59.66,
+          "probability": 0.9774
+        },
+        {
+          "word": " AI",
+          "start": 59.66,
+          "end": 59.96,
+          "probability": 0.9505
+        },
+        {
+          "word": " Act",
+          "start": 59.96,
+          "end": 60.42,
+          "probability": 0.9444
+        }
+      ]
+    },
+    {
+      "start": 60.42,
+      "end": 68.12,
+      "text": "started as consumer safety legislation. The EU took a risk-based approach to products or services",
+      "avg_log_prob": -0.1374,
+      "words": [
+        {
+          "word": " started",
+          "start": 60.42,
+          "end": 60.98,
+          "probability": 0.9866
+        },
+        {
+          "word": " as",
+          "start": 60.98,
+          "end": 61.34,
+          "probability": 0.9933
+        },
+        {
+          "word": " consumer",
+          "start": 61.34,
+          "end": 61.92,
+          "probability": 0.6486
+        },
+        {
+          "word": " safety",
+          "start": 61.92,
+          "end": 62.42,
+          "probability": 0.9705
+        },
+        {
+          "word": " legislation.",
+          "start": 62.42,
+          "end": 63.16,
+          "probability": 0.9965
+        },
+        {
+          "word": " The",
+          "start": 63.82,
+          "end": 64.02,
+          "probability": 0.993
+        },
+        {
+          "word": " EU",
+          "start": 64.02,
+          "end": 64.36,
+          "probability": 0.9945
+        },
+        {
+          "word": " took",
+          "start": 64.36,
+          "end": 64.78,
+          "probability": 0.9963
+        },
+        {
+          "word": " a",
+          "start": 64.78,
+          "end": 65.06,
+          "probability": 0.9974
+        },
+        {
+          "word": " risk",
+          "start": 65.06,
+          "end": 65.42,
+          "probability": 0.9365
+        },
+        {
+          "word": "-based",
+          "start": 65.42,
+          "end": 65.76,
+          "probability": 0.9177
+        },
+        {
+          "word": " approach",
+          "start": 65.76,
+          "end": 66.42,
+          "probability": 0.9997
+        },
+        {
+          "word": " to",
+          "start": 66.42,
+          "end": 66.7,
+          "probability": 0.9983
+        },
+        {
+          "word": " products",
+          "start": 66.7,
+          "end": 67.16,
+          "probability": 0.9799
+        },
+        {
+          "word": " or",
+          "start": 67.16,
+          "end": 67.54,
+          "probability": 0.9456
+        },
+        {
+          "word": " services",
+          "start": 67.54,
+          "end": 68.12,
+          "probability": 0.9983
+        }
+      ]
+    },
+    {
+      "start": 68.12,
+      "end": 77.6,
+      "text": "that use artificial intelligence or AI. If an AI application is risky, then more rules cover it.",
+      "avg_log_prob": -0.1374,
+      "words": [
+        {
+          "word": " that",
+          "start": 68.12,
+          "end": 68.7,
+          "probability": 0.9835
+        },
+        {
+          "word": " use",
+          "start": 68.7,
+          "end": 69.0,
+          "probability": 0.9506
+        },
+        {
+          "word": " artificial",
+          "start": 69.0,
+          "end": 69.5,
+          "probability": 0.9901
+        },
+        {
+          "word": " intelligence",
+          "start": 69.5,
+          "end": 70.36,
+          "probability": 0.9982
+        },
+        {
+          "word": " or",
+          "start": 70.36,
+          "end": 70.82,
+          "probability": 0.864
+        },
+        {
+          "word": " AI.",
+          "start": 70.82,
+          "end": 71.2,
+          "probability": 0.9956
+        },
+        {
+          "word": " If",
+          "start": 72.7,
+          "end": 73.42,
+          "probability": 0.9832
+        },
+        {
+          "word": " an",
+          "start": 73.42,
+          "end": 73.62,
+          "probability": 0.99
+        },
+        {
+          "word": " AI",
+          "start": 73.62,
+          "end": 73.92,
+          "probability": 0.9928
+        },
+        {
+          "word": " application",
+          "start": 73.92,
+          "end": 74.58,
+          "probability": 0.9874
+        },
+        {
+          "word": " is",
+          "start": 74.58,
+          "end": 75.06,
+          "probability": 0.9993
+        },
+        {
+          "word": " risky,",
+          "start": 75.06,
+          "end": 75.5,
+          "probability": 0.9956
+        },
+        {
+          "word": " then",
+          "start": 76.04,
+          "end": 76.3,
+          "probability": 0.9632
+        },
+        {
+          "word": " more",
+          "start": 76.3,
+          "end": 76.58,
+          "probability": 0.9961
+        },
+        {
+          "word": " rules",
+          "start": 76.58,
+          "end": 76.96,
+          "probability": 0.9957
+        },
+        {
+          "word": " cover",
+          "start": 76.96,
+          "end": 77.32,
+          "probability": 0.994
+        },
+        {
+          "word": " it.",
+          "start": 77.32,
+          "end": 77.6,
+          "probability": 0.9946
+        }
+      ]
+    },
+    {
+      "start": 78.32,
+      "end": 84.34,
+      "text": "Most AI systems are expected to be low-risk like content's recommendation systems",
+      "avg_log_prob": -0.0892,
+      "words": [
+        {
+          "word": " Most",
+          "start": 78.3,
+          "end": 78.74,
+          "probability": 0.8395
+        },
+        {
+          "word": " AI",
+          "start": 78.74,
+          "end": 79.02,
+          "probability": 0.9593
+        },
+        {
+          "word": " systems",
+          "start": 79.02,
+          "end": 79.58,
+          "probability": 0.9966
+        },
+        {
+          "word": " are",
+          "start": 79.58,
+          "end": 79.9,
+          "probability": 0.9966
+        },
+        {
+          "word": " expected",
+          "start": 79.9,
+          "end": 80.5,
+          "probability": 0.9978
+        },
+        {
+          "word": " to",
+          "start": 80.5,
+          "end": 80.88,
+          "probability": 0.9977
+        },
+        {
+          "word": " be",
+          "start": 80.88,
+          "end": 81.04,
+          "probability": 0.984
+        },
+        {
+          "word": " low",
+          "start": 81.04,
+          "end": 81.26,
+          "probability": 0.9961
+        },
+        {
+          "word": "-risk",
+          "start": 81.26,
+          "end": 81.7,
+          "probability": 0.7544
+        },
+        {
+          "word": " like",
+          "start": 81.7,
+          "end": 82.04,
+          "probability": 0.6456
+        },
+        {
+          "word": " content's",
+          "start": 82.04,
+          "end": 82.94,
+          "probability": 0.7129
+        },
+        {
+          "word": " recommendation",
+          "start": 82.94,
+          "end": 83.36,
+          "probability": 0.9708
+        },
+        {
+          "word": " systems",
+          "start": 83.36,
+          "end": 84.34,
+          "probability": 0.9905
+        }
+      ]
+    },
+    {
+      "start": 84.34,
+      "end": 91.68,
+      "text": "or filters that block spam or unwanted email. Companies can choose to follow voluntary",
+      "avg_log_prob": -0.0892,
+      "words": [
+        {
+          "word": " or",
+          "start": 84.34,
+          "end": 85.0,
+          "probability": 0.3111
+        },
+        {
+          "word": " filters",
+          "start": 85.0,
+          "end": 85.46,
+          "probability": 0.9939
+        },
+        {
+          "word": " that",
+          "start": 85.46,
+          "end": 85.9,
+          "probability": 0.9895
+        },
+        {
+          "word": " block",
+          "start": 85.9,
+          "end": 86.18,
+          "probability": 0.9786
+        },
+        {
+          "word": " spam",
+          "start": 86.18,
+          "end": 86.7,
+          "probability": 0.9629
+        },
+        {
+          "word": " or",
+          "start": 86.7,
+          "end": 87.08,
+          "probability": 0.9753
+        },
+        {
+          "word": " unwanted",
+          "start": 87.08,
+          "end": 87.6,
+          "probability": 0.9951
+        },
+        {
+          "word": " email.",
+          "start": 87.6,
+          "end": 88.14,
+          "probability": 0.8577
+        },
+        {
+          "word": " Companies",
+          "start": 89.2,
+          "end": 89.72,
+          "probability": 0.9774
+        },
+        {
+          "word": " can",
+          "start": 89.72,
+          "end": 90.04,
+          "probability": 0.9961
+        },
+        {
+          "word": " choose",
+          "start": 90.04,
+          "end": 90.4,
+          "probability": 0.9953
+        },
+        {
+          "word": " to",
+          "start": 90.4,
+          "end": 90.7,
+          "probability": 0.9991
+        },
+        {
+          "word": " follow",
+          "start": 90.7,
+          "end": 91.08,
+          "probability": 0.9963
+        },
+        {
+          "word": " voluntary",
+          "start": 91.08,
+          "end": 91.68,
+          "probability": 0.9932
+        }
+      ]
+    },
+    {
+      "start": 91.68,
+      "end": 100.48,
+      "text": "requirements and codes of conduct. High-risk uses of AI include tools used in medical devices",
+      "avg_log_prob": -0.0892,
+      "words": [
+        {
+          "word": " requirements",
+          "start": 91.68,
+          "end": 92.5,
+          "probability": 0.996
+        },
+        {
+          "word": " and",
+          "start": 92.5,
+          "end": 93.36,
+          "probability": 0.9562
+        },
+        {
+          "word": " codes",
+          "start": 93.36,
+          "end": 93.82,
+          "probability": 0.9811
+        },
+        {
+          "word": " of",
+          "start": 93.82,
+          "end": 94.04,
+          "probability": 0.9987
+        },
+        {
+          "word": " conduct.",
+          "start": 94.04,
+          "end": 94.64,
+          "probability": 0.9976
+        },
+        {
+          "word": " High",
+          "start": 95.72,
+          "end": 96.16,
+          "probability": 0.9587
+        },
+        {
+          "word": "-risk",
+          "start": 96.16,
+          "end": 96.4,
+          "probability": 0.9684
+        },
+        {
+          "word": " uses",
+          "start": 96.4,
+          "end": 96.8,
+          "probability": 0.9744
+        },
+        {
+          "word": " of",
+          "start": 96.8,
+          "end": 97.16,
+          "probability": 0.9998
+        },
+        {
+          "word": " AI",
+          "start": 97.16,
+          "end": 97.42,
+          "probability": 0.9909
+        },
+        {
+          "word": " include",
+          "start": 97.42,
+          "end": 98.2,
+          "probability": 0.997
+        },
+        {
+          "word": " tools",
+          "start": 98.2,
+          "end": 98.82,
+          "probability": 0.9899
+        },
+        {
+          "word": " used",
+          "start": 98.82,
+          "end": 99.34,
+          "probability": 0.996
+        },
+        {
+          "word": " in",
+          "start": 99.34,
+          "end": 99.54,
+          "probability": 0.9984
+        },
+        {
+          "word": " medical",
+          "start": 99.54,
+          "end": 99.82,
+          "probability": 0.9971
+        },
+        {
+          "word": " devices",
+          "start": 99.82,
+          "end": 100.48,
+          "probability": 0.9986
+        }
+      ]
+    },
+    {
+      "start": 100.48,
+      "end": 105.14,
+      "text": "or important infrastructure like water or electrical networks.",
+      "avg_log_prob": -0.0929,
+      "words": [
+        {
+          "word": " or",
+          "start": 100.48,
+          "end": 101.26,
+          "probability": 0.6744
+        },
+        {
+          "word": " important",
+          "start": 101.26,
+          "end": 101.84,
+          "probability": 0.405
+        },
+        {
+          "word": " infrastructure",
+          "start": 101.84,
+          "end": 102.6,
+          "probability": 0.9902
+        },
+        {
+          "word": " like",
+          "start": 102.6,
+          "end": 103.14,
+          "probability": 0.9422
+        },
+        {
+          "word": " water",
+          "start": 103.14,
+          "end": 103.58,
+          "probability": 0.977
+        },
+        {
+          "word": " or",
+          "start": 103.58,
+          "end": 103.94,
+          "probability": 0.9721
+        },
+        {
+          "word": " electrical",
+          "start": 103.94,
+          "end": 104.42,
+          "probability": 0.997
+        },
+        {
+          "word": " networks.",
+          "start": 104.42,
+          "end": 105.14,
+          "probability": 0.9962
+        }
+      ]
+    },
+    {
+      "start": 105.68,
+      "end": 112.2,
+      "text": "Those face additional requirements like using what the legislation calls high-quality data",
+      "avg_log_prob": -0.0929,
+      "words": [
+        {
+          "word": " Those",
+          "start": 105.68,
+          "end": 106.48,
+          "probability": 0.9898
+        },
+        {
+          "word": " face",
+          "start": 106.48,
+          "end": 106.8,
+          "probability": 0.9909
+        },
+        {
+          "word": " additional",
+          "start": 106.8,
+          "end": 107.48,
+          "probability": 0.998
+        },
+        {
+          "word": " requirements",
+          "start": 107.48,
+          "end": 108.16,
+          "probability": 0.9959
+        },
+        {
+          "word": " like",
+          "start": 108.16,
+          "end": 108.84,
+          "probability": 0.7501
+        },
+        {
+          "word": " using",
+          "start": 108.84,
+          "end": 109.22,
+          "probability": 0.9964
+        },
+        {
+          "word": " what",
+          "start": 109.22,
+          "end": 109.5,
+          "probability": 0.9905
+        },
+        {
+          "word": " the",
+          "start": 109.5,
+          "end": 109.66,
+          "probability": 0.9928
+        },
+        {
+          "word": " legislation",
+          "start": 109.66,
+          "end": 110.12,
+          "probability": 0.975
+        },
+        {
+          "word": " calls",
+          "start": 110.12,
+          "end": 110.78,
+          "probability": 0.9847
+        },
+        {
+          "word": " high",
+          "start": 110.78,
+          "end": 111.24,
+          "probability": 0.6266
+        },
+        {
+          "word": "-quality",
+          "start": 111.24,
+          "end": 111.7,
+          "probability": 0.7089
+        },
+        {
+          "word": " data",
+          "start": 111.7,
+          "end": 112.2,
+          "probability": 0.9991
+        }
+      ]
+    },
+    {
+      "start": 112.72,
+      "end": 120.38,
+      "text": "and providing clear information to users. Some AI uses are banned because they are considered",
+      "avg_log_prob": -0.0929,
+      "words": [
+        {
+          "word": " and",
+          "start": 112.54,
+          "end": 113.02,
+          "probability": 0.7081
+        },
+        {
+          "word": " providing",
+          "start": 113.02,
+          "end": 113.54,
+          "probability": 0.9886
+        },
+        {
+          "word": " clear",
+          "start": 113.54,
+          "end": 113.96,
+          "probability": 0.9938
+        },
+        {
+          "word": " information",
+          "start": 113.96,
+          "end": 114.74,
+          "probability": 0.9993
+        },
+        {
+          "word": " to",
+          "start": 114.74,
+          "end": 115.08,
+          "probability": 0.9988
+        },
+        {
+          "word": " users.",
+          "start": 115.08,
+          "end": 115.48,
+          "probability": 0.9943
+        },
+        {
+          "word": " Some",
+          "start": 116.78,
+          "end": 117.32,
+          "probability": 0.9955
+        },
+        {
+          "word": " AI",
+          "start": 117.32,
+          "end": 117.58,
+          "probability": 0.9519
+        },
+        {
+          "word": " uses",
+          "start": 117.58,
+          "end": 118.02,
+          "probability": 0.961
+        },
+        {
+          "word": " are",
+          "start": 118.02,
+          "end": 118.4,
+          "probability": 0.6837
+        },
+        {
+          "word": " banned",
+          "start": 118.4,
+          "end": 118.82,
+          "probability": 0.9921
+        },
+        {
+          "word": " because",
+          "start": 118.82,
+          "end": 119.32,
+          "probability": 0.9877
+        },
+        {
+          "word": " they",
+          "start": 119.32,
+          "end": 119.68,
+          "probability": 0.9983
+        },
+        {
+          "word": " are",
+          "start": 119.68,
+          "end": 119.82,
+          "probability": 0.996
+        },
+        {
+          "word": " considered",
+          "start": 119.82,
+          "end": 120.38,
+          "probability": 0.9975
+        }
+      ]
+    },
+    {
+      "start": 120.38,
+      "end": 128.02,
+      "text": "to present an unacceptable risk. Those include things like social scoring systems that are meant",
+      "avg_log_prob": -0.0929,
+      "words": [
+        {
+          "word": " to",
+          "start": 120.38,
+          "end": 120.88,
+          "probability": 0.9806
+        },
+        {
+          "word": " present",
+          "start": 120.88,
+          "end": 121.28,
+          "probability": 0.9903
+        },
+        {
+          "word": " an",
+          "start": 121.28,
+          "end": 121.6,
+          "probability": 0.9886
+        },
+        {
+          "word": " unacceptable",
+          "start": 121.6,
+          "end": 122.32,
+          "probability": 0.9887
+        },
+        {
+          "word": " risk.",
+          "start": 122.32,
+          "end": 122.94,
+          "probability": 0.9984
+        },
+        {
+          "word": " Those",
+          "start": 124.1,
+          "end": 124.38,
+          "probability": 0.9921
+        },
+        {
+          "word": " include",
+          "start": 124.38,
+          "end": 125.06,
+          "probability": 0.999
+        },
+        {
+          "word": " things",
+          "start": 125.06,
+          "end": 125.42,
+          "probability": 0.9928
+        },
+        {
+          "word": " like",
+          "start": 125.42,
+          "end": 125.74,
+          "probability": 0.9959
+        },
+        {
+          "word": " social",
+          "start": 125.74,
+          "end": 126.22,
+          "probability": 0.9794
+        },
+        {
+          "word": " scoring",
+          "start": 126.22,
+          "end": 126.74,
+          "probability": 0.9681
+        },
+        {
+          "word": " systems",
+          "start": 126.74,
+          "end": 127.24,
+          "probability": 0.9955
+        },
+        {
+          "word": " that",
+          "start": 127.24,
+          "end": 127.64,
+          "probability": 0.9935
+        },
+        {
+          "word": " are",
+          "start": 127.64,
+          "end": 127.8,
+          "probability": 0.9991
+        },
+        {
+          "word": " meant",
+          "start": 127.8,
+          "end": 128.02,
+          "probability": 0.9994
+        }
+      ]
+    },
+    {
+      "start": 128.02,
+      "end": 135.58,
+      "text": "to govern how people behave. Some sorts of predictive policing and emotion recognition systems",
+      "avg_log_prob": -0.0981,
+      "words": [
+        {
+          "word": " to",
+          "start": 128.02,
+          "end": 128.3,
+          "probability": 0.6607
+        },
+        {
+          "word": " govern",
+          "start": 128.3,
+          "end": 128.7,
+          "probability": 0.9794
+        },
+        {
+          "word": " how",
+          "start": 128.7,
+          "end": 128.96,
+          "probability": 0.9912
+        },
+        {
+          "word": " people",
+          "start": 128.96,
+          "end": 129.28,
+          "probability": 0.9991
+        },
+        {
+          "word": " behave.",
+          "start": 129.28,
+          "end": 129.82,
+          "probability": 0.9989
+        },
+        {
+          "word": " Some",
+          "start": 130.94,
+          "end": 131.32,
+          "probability": 0.9939
+        },
+        {
+          "word": " sorts",
+          "start": 131.32,
+          "end": 131.68,
+          "probability": 0.9908
+        },
+        {
+          "word": " of",
+          "start": 131.68,
+          "end": 132.06,
+          "probability": 0.9984
+        },
+        {
+          "word": " predictive",
+          "start": 132.06,
+          "end": 132.54,
+          "probability": 0.9876
+        },
+        {
+          "word": " policing",
+          "start": 132.54,
+          "end": 133.18,
+          "probability": 0.9968
+        },
+        {
+          "word": " and",
+          "start": 133.18,
+          "end": 133.76,
+          "probability": 0.9625
+        },
+        {
+          "word": " emotion",
+          "start": 133.76,
+          "end": 134.18,
+          "probability": 0.9582
+        },
+        {
+          "word": " recognition",
+          "start": 134.18,
+          "end": 134.76,
+          "probability": 0.9295
+        },
+        {
+          "word": " systems",
+          "start": 134.76,
+          "end": 135.58,
+          "probability": 0.9969
+        }
+      ]
+    },
+    {
+      "start": 136.1,
+      "end": 145.12,
+      "text": "also are reportedly banned in schools and workplaces. Other banned uses include ones that police use",
+      "avg_log_prob": -0.0981,
+      "words": [
+        {
+          "word": " also",
+          "start": 136.07,
+          "end": 136.54,
+          "probability": 0.8798
+        },
+        {
+          "word": " are",
+          "start": 136.54,
+          "end": 136.9,
+          "probability": 0.992
+        },
+        {
+          "word": " reportedly",
+          "start": 136.9,
+          "end": 137.42,
+          "probability": 0.9925
+        },
+        {
+          "word": " banned",
+          "start": 137.42,
+          "end": 138.0,
+          "probability": 0.9947
+        },
+        {
+          "word": " in",
+          "start": 138.0,
+          "end": 138.34,
+          "probability": 0.9974
+        },
+        {
+          "word": " schools",
+          "start": 138.34,
+          "end": 138.72,
+          "probability": 0.9908
+        },
+        {
+          "word": " and",
+          "start": 138.72,
+          "end": 139.18,
+          "probability": 0.9959
+        },
+        {
+          "word": " workplaces.",
+          "start": 139.18,
+          "end": 139.9,
+          "probability": 0.9893
+        },
+        {
+          "word": " Other",
+          "start": 141.28,
+          "end": 141.76,
+          "probability": 0.9963
+        },
+        {
+          "word": " banned",
+          "start": 141.76,
+          "end": 142.18,
+          "probability": 0.8554
+        },
+        {
+          "word": " uses",
+          "start": 142.18,
+          "end": 142.5,
+          "probability": 0.9933
+        },
+        {
+          "word": " include",
+          "start": 142.5,
+          "end": 143.2,
+          "probability": 0.9981
+        },
+        {
+          "word": " ones",
+          "start": 143.2,
+          "end": 143.76,
+          "probability": 0.9929
+        },
+        {
+          "word": " that",
+          "start": 143.76,
+          "end": 144.14,
+          "probability": 0.9889
+        },
+        {
+          "word": " police",
+          "start": 144.14,
+          "end": 144.58,
+          "probability": 0.969
+        },
+        {
+          "word": " use",
+          "start": 144.58,
+          "end": 145.12,
+          "probability": 0.99
+        }
+      ]
+    },
+    {
+      "start": 145.12,
+      "end": 152.14,
+      "text": "to scan faces in public places using AI-powered remote biometric identification systems.",
+      "avg_log_prob": -0.0981,
+      "words": [
+        {
+          "word": " to",
+          "start": 145.12,
+          "end": 145.4,
+          "probability": 0.9972
+        },
+        {
+          "word": " scan",
+          "start": 145.4,
+          "end": 145.72,
+          "probability": 0.9895
+        },
+        {
+          "word": " faces",
+          "start": 145.72,
+          "end": 146.18,
+          "probability": 0.978
+        },
+        {
+          "word": " in",
+          "start": 146.18,
+          "end": 146.5,
+          "probability": 0.995
+        },
+        {
+          "word": " public",
+          "start": 146.5,
+          "end": 146.84,
+          "probability": 0.998
+        },
+        {
+          "word": " places",
+          "start": 146.84,
+          "end": 147.42,
+          "probability": 0.9943
+        },
+        {
+          "word": " using",
+          "start": 147.42,
+          "end": 148.3,
+          "probability": 0.8316
+        },
+        {
+          "word": " AI",
+          "start": 148.3,
+          "end": 148.66,
+          "probability": 0.9682
+        },
+        {
+          "word": "-powered",
+          "start": 148.66,
+          "end": 149.16,
+          "probability": 0.9387
+        },
+        {
+          "word": " remote",
+          "start": 149.16,
+          "end": 149.64,
+          "probability": 0.2175
+        },
+        {
+          "word": " biometric",
+          "start": 149.64,
+          "end": 150.34,
+          "probability": 0.9284
+        },
+        {
+          "word": " identification",
+          "start": 150.34,
+          "end": 151.22,
+          "probability": 0.9936
+        },
+        {
+          "word": " systems.",
+          "start": 151.22,
+          "end": 152.14,
+          "probability": 0.9946
+        }
+      ]
+    },
+    {
+      "start": 152.94,
+      "end": 157.96,
+      "text": "There is an exception for use in serious crimes like kidnapping or terrorism.",
+      "avg_log_prob": -0.1318,
+      "words": [
+        {
+          "word": " There",
+          "start": 152.68,
+          "end": 153.18,
+          "probability": 0.8679
+        },
+        {
+          "word": " is",
+          "start": 153.18,
+          "end": 153.44,
+          "probability": 0.9775
+        },
+        {
+          "word": " an",
+          "start": 153.44,
+          "end": 153.68,
+          "probability": 0.9865
+        },
+        {
+          "word": " exception",
+          "start": 153.68,
+          "end": 154.16,
+          "probability": 0.9715
+        },
+        {
+          "word": " for",
+          "start": 154.16,
+          "end": 154.48,
+          "probability": 0.9923
+        },
+        {
+          "word": " use",
+          "start": 154.48,
+          "end": 154.74,
+          "probability": 0.9938
+        },
+        {
+          "word": " in",
+          "start": 154.74,
+          "end": 155.06,
+          "probability": 0.9971
+        },
+        {
+          "word": " serious",
+          "start": 155.06,
+          "end": 155.46,
+          "probability": 0.9782
+        },
+        {
+          "word": " crimes",
+          "start": 155.46,
+          "end": 155.96,
+          "probability": 0.995
+        },
+        {
+          "word": " like",
+          "start": 155.96,
+          "end": 156.38,
+          "probability": 0.9769
+        },
+        {
+          "word": " kidnapping",
+          "start": 156.38,
+          "end": 156.84,
+          "probability": 0.9605
+        },
+        {
+          "word": " or",
+          "start": 156.84,
+          "end": 157.38,
+          "probability": 0.9734
+        },
+        {
+          "word": " terrorism.",
+          "start": 157.38,
+          "end": 157.96,
+          "probability": 0.9942
+        }
+      ]
+    },
+    {
+      "start": 160.22,
+      "end": 166.74,
+      "text": "The laws early versions centered on AI systems that carry out limited tasks like",
+      "avg_log_prob": -0.1318,
+      "words": [
+        {
+          "word": " The",
+          "start": 160.0,
+          "end": 160.5,
+          "probability": 0.9882
+        },
+        {
+          "word": " laws",
+          "start": 160.5,
+          "end": 160.76,
+          "probability": 0.8305
+        },
+        {
+          "word": " early",
+          "start": 160.76,
+          "end": 161.22,
+          "probability": 0.749
+        },
+        {
+          "word": " versions",
+          "start": 161.22,
+          "end": 161.88,
+          "probability": 0.9883
+        },
+        {
+          "word": " centered",
+          "start": 161.88,
+          "end": 162.4,
+          "probability": 0.8979
+        },
+        {
+          "word": " on",
+          "start": 162.4,
+          "end": 162.9,
+          "probability": 0.9975
+        },
+        {
+          "word": " AI",
+          "start": 162.9,
+          "end": 163.16,
+          "probability": 0.9723
+        },
+        {
+          "word": " systems",
+          "start": 163.16,
+          "end": 163.82,
+          "probability": 0.9879
+        },
+        {
+          "word": " that",
+          "start": 163.82,
+          "end": 164.26,
+          "probability": 0.9935
+        },
+        {
+          "word": " carry",
+          "start": 164.26,
+          "end": 164.58,
+          "probability": 0.997
+        },
+        {
+          "word": " out",
+          "start": 164.58,
+          "end": 164.88,
+          "probability": 0.9855
+        },
+        {
+          "word": " limited",
+          "start": 164.88,
+          "end": 165.3,
+          "probability": 0.9949
+        },
+        {
+          "word": " tasks",
+          "start": 165.3,
+          "end": 165.98,
+          "probability": 0.998
+        },
+        {
+          "word": " like",
+          "start": 165.98,
+          "end": 166.74,
+          "probability": 0.7423
+        }
+      ]
+    },
+    {
+      "start": 166.74,
+      "end": 175.58,
+      "text": "reviewing employment information and job applications. But general AI models like open AI's",
+      "avg_log_prob": -0.1318,
+      "words": [
+        {
+          "word": " reviewing",
+          "start": 166.74,
+          "end": 167.32,
+          "probability": 0.9577
+        },
+        {
+          "word": " employment",
+          "start": 167.32,
+          "end": 168.08,
+          "probability": 0.9352
+        },
+        {
+          "word": " information",
+          "start": 168.08,
+          "end": 168.96,
+          "probability": 0.9505
+        },
+        {
+          "word": " and",
+          "start": 168.96,
+          "end": 169.8,
+          "probability": 0.9404
+        },
+        {
+          "word": " job",
+          "start": 169.8,
+          "end": 170.14,
+          "probability": 0.9936
+        },
+        {
+          "word": " applications.",
+          "start": 170.14,
+          "end": 170.92,
+          "probability": 0.9932
+        },
+        {
+          "word": " But",
+          "start": 171.86,
+          "end": 172.5,
+          "probability": 0.9813
+        },
+        {
+          "word": " general",
+          "start": 172.5,
+          "end": 173.08,
+          "probability": 0.9061
+        },
+        {
+          "word": " AI",
+          "start": 173.08,
+          "end": 173.46,
+          "probability": 0.9896
+        },
+        {
+          "word": " models",
+          "start": 173.46,
+          "end": 174.02,
+          "probability": 0.9956
+        },
+        {
+          "word": " like",
+          "start": 174.02,
+          "end": 174.42,
+          "probability": 0.4577
+        },
+        {
+          "word": " open",
+          "start": 174.42,
+          "end": 174.78,
+          "probability": 0.2356
+        },
+        {
+          "word": " AI's",
+          "start": 174.78,
+          "end": 175.58,
+          "probability": 0.8598
+        }
+      ]
+    },
+    {
+      "start": 175.58,
+      "end": 184.56,
+      "text": "chat GPT forced EU officials to add rules for generative AI models. AI chatbot systems that can",
+      "avg_log_prob": -0.1265,
+      "words": [
+        {
+          "word": " chat",
+          "start": 175.58,
+          "end": 175.82,
+          "probability": 0.0788
+        },
+        {
+          "word": " GPT",
+          "start": 175.82,
+          "end": 176.7,
+          "probability": 0.6281
+        },
+        {
+          "word": " forced",
+          "start": 176.7,
+          "end": 177.6,
+          "probability": 0.3327
+        },
+        {
+          "word": " EU",
+          "start": 177.6,
+          "end": 177.92,
+          "probability": 0.9483
+        },
+        {
+          "word": " officials",
+          "start": 177.92,
+          "end": 178.38,
+          "probability": 0.9872
+        },
+        {
+          "word": " to",
+          "start": 178.38,
+          "end": 178.8,
+          "probability": 0.9957
+        },
+        {
+          "word": " add",
+          "start": 178.8,
+          "end": 179.08,
+          "probability": 0.9904
+        },
+        {
+          "word": " rules",
+          "start": 179.08,
+          "end": 179.38,
+          "probability": 0.991
+        },
+        {
+          "word": " for",
+          "start": 179.38,
+          "end": 179.84,
+          "probability": 0.9895
+        },
+        {
+          "word": " generative",
+          "start": 179.84,
+          "end": 180.5,
+          "probability": 0.9607
+        },
+        {
+          "word": " AI",
+          "start": 180.5,
+          "end": 180.72,
+          "probability": 0.9332
+        },
+        {
+          "word": " models.",
+          "start": 180.72,
+          "end": 181.28,
+          "probability": 0.9835
+        },
+        {
+          "word": " AI",
+          "start": 182.24,
+          "end": 182.68,
+          "probability": 0.9505
+        },
+        {
+          "word": " chatbot",
+          "start": 182.68,
+          "end": 183.3,
+          "probability": 0.8647
+        },
+        {
+          "word": " systems",
+          "start": 183.3,
+          "end": 184.02,
+          "probability": 0.9821
+        },
+        {
+          "word": " that",
+          "start": 184.02,
+          "end": 184.3,
+          "probability": 0.98
+        },
+        {
+          "word": " can",
+          "start": 184.3,
+          "end": 184.56,
+          "probability": 0.9873
+        }
+      ]
+    },
+    {
+      "start": 184.56,
+      "end": 191.68,
+      "text": "produce life-like responses, images and more are examples of generative AI models.",
+      "avg_log_prob": -0.1265,
+      "words": [
+        {
+          "word": " produce",
+          "start": 184.56,
+          "end": 184.94,
+          "probability": 0.9907
+        },
+        {
+          "word": " life",
+          "start": 184.94,
+          "end": 185.42,
+          "probability": 0.8669
+        },
+        {
+          "word": "-like",
+          "start": 185.42,
+          "end": 185.7,
+          "probability": 0.8527
+        },
+        {
+          "word": " responses,",
+          "start": 185.7,
+          "end": 186.42,
+          "probability": 0.997
+        },
+        {
+          "word": " images",
+          "start": 187.08,
+          "end": 187.44,
+          "probability": 0.9958
+        },
+        {
+          "word": " and",
+          "start": 187.44,
+          "end": 188.02,
+          "probability": 0.6683
+        },
+        {
+          "word": " more",
+          "start": 188.02,
+          "end": 188.38,
+          "probability": 0.9955
+        },
+        {
+          "word": " are",
+          "start": 188.38,
+          "end": 189.06,
+          "probability": 0.9344
+        },
+        {
+          "word": " examples",
+          "start": 189.06,
+          "end": 189.62,
+          "probability": 0.9976
+        },
+        {
+          "word": " of",
+          "start": 189.62,
+          "end": 190.16,
+          "probability": 0.9969
+        },
+        {
+          "word": " generative",
+          "start": 190.16,
+          "end": 190.72,
+          "probability": 0.9964
+        },
+        {
+          "word": " AI",
+          "start": 190.72,
+          "end": 191.1,
+          "probability": 0.9972
+        },
+        {
+          "word": " models.",
+          "start": 191.1,
+          "end": 191.68,
+          "probability": 0.9966
+        }
+      ]
+    },
+    {
+      "start": 193.06,
+      "end": 200.08,
+      "text": "Developers of general-purpose AI models will have to provide detailed descriptions of the writings,",
+      "avg_log_prob": -0.1265,
+      "words": [
+        {
+          "word": " Developers",
+          "start": 193.06,
+          "end": 193.98,
+          "probability": 0.9827
+        },
+        {
+          "word": " of",
+          "start": 193.98,
+          "end": 194.26,
+          "probability": 0.9945
+        },
+        {
+          "word": " general",
+          "start": 194.26,
+          "end": 194.66,
+          "probability": 0.8463
+        },
+        {
+          "word": "-purpose",
+          "start": 194.66,
+          "end": 195.1,
+          "probability": 0.7015
+        },
+        {
+          "word": " AI",
+          "start": 195.1,
+          "end": 195.52,
+          "probability": 0.9951
+        },
+        {
+          "word": " models",
+          "start": 195.52,
+          "end": 196.18,
+          "probability": 0.996
+        },
+        {
+          "word": " will",
+          "start": 196.18,
+          "end": 196.7,
+          "probability": 0.9913
+        },
+        {
+          "word": " have",
+          "start": 196.7,
+          "end": 196.92,
+          "probability": 0.9979
+        },
+        {
+          "word": " to",
+          "start": 196.92,
+          "end": 197.12,
+          "probability": 0.9993
+        },
+        {
+          "word": " provide",
+          "start": 197.12,
+          "end": 197.54,
+          "probability": 0.9993
+        },
+        {
+          "word": " detailed",
+          "start": 197.54,
+          "end": 198.24,
+          "probability": 0.9995
+        },
+        {
+          "word": " descriptions",
+          "start": 198.24,
+          "end": 199.08,
+          "probability": 0.9919
+        },
+        {
+          "word": " of",
+          "start": 199.08,
+          "end": 199.56,
+          "probability": 0.9967
+        },
+        {
+          "word": " the",
+          "start": 199.56,
+          "end": 199.72,
+          "probability": 0.994
+        },
+        {
+          "word": " writings,",
+          "start": 199.72,
+          "end": 200.08,
+          "probability": 0.9543
+        }
+      ]
+    },
+    {
+      "start": 200.64,
+      "end": 206.96,
+      "text": "pictures, video and other data on the internet that was used to train the systems.",
+      "avg_log_prob": -0.0982,
+      "words": [
+        {
+          "word": " pictures,",
+          "start": 200.56,
+          "end": 200.98,
+          "probability": 0.0228
+        },
+        {
+          "word": " video",
+          "start": 201.5,
+          "end": 202.0,
+          "probability": 0.9725
+        },
+        {
+          "word": " and",
+          "start": 202.0,
+          "end": 202.44,
+          "probability": 0.8311
+        },
+        {
+          "word": " other",
+          "start": 202.44,
+          "end": 202.74,
+          "probability": 0.9895
+        },
+        {
+          "word": " data",
+          "start": 202.74,
+          "end": 203.14,
+          "probability": 0.9984
+        },
+        {
+          "word": " on",
+          "start": 203.14,
+          "end": 203.42,
+          "probability": 0.9946
+        },
+        {
+          "word": " the",
+          "start": 203.42,
+          "end": 203.6,
+          "probability": 0.9915
+        },
+        {
+          "word": " internet",
+          "start": 203.6,
+          "end": 204.1,
+          "probability": 0.7041
+        },
+        {
+          "word": " that",
+          "start": 204.1,
+          "end": 204.76,
+          "probability": 0.9019
+        },
+        {
+          "word": " was",
+          "start": 204.76,
+          "end": 204.98,
+          "probability": 0.9615
+        },
+        {
+          "word": " used",
+          "start": 204.98,
+          "end": 205.44,
+          "probability": 0.9974
+        },
+        {
+          "word": " to",
+          "start": 205.44,
+          "end": 205.76,
+          "probability": 0.9976
+        },
+        {
+          "word": " train",
+          "start": 205.76,
+          "end": 206.14,
+          "probability": 0.9925
+        },
+        {
+          "word": " the",
+          "start": 206.14,
+          "end": 206.34,
+          "probability": 0.9864
+        },
+        {
+          "word": " systems.",
+          "start": 206.34,
+          "end": 206.96,
+          "probability": 0.9816
+        }
+      ]
+    },
+    {
+      "start": 207.48,
+      "end": 211.02,
+      "text": "They must also follow EU copyright law.",
+      "avg_log_prob": -0.0982,
+      "words": [
+        {
+          "word": " They",
+          "start": 207.48,
+          "end": 208.0,
+          "probability": 0.9828
+        },
+        {
+          "word": " must",
+          "start": 208.0,
+          "end": 208.24,
+          "probability": 0.9925
+        },
+        {
+          "word": " also",
+          "start": 208.24,
+          "end": 208.78,
+          "probability": 0.9919
+        },
+        {
+          "word": " follow",
+          "start": 208.78,
+          "end": 209.24,
+          "probability": 0.9955
+        },
+        {
+          "word": " EU",
+          "start": 209.24,
+          "end": 209.68,
+          "probability": 0.9388
+        },
+        {
+          "word": " copyright",
+          "start": 209.68,
+          "end": 210.3,
+          "probability": 0.6661
+        },
+        {
+          "word": " law.",
+          "start": 210.3,
+          "end": 211.02,
+          "probability": 0.9867
+        }
+      ]
+    },
+    {
+      "start": 212.84,
+      "end": 220.72,
+      "text": "AI-generated pictures, video or audio of existing people, places or events must be labeled as",
+      "avg_log_prob": -0.0982,
+      "words": [
+        {
+          "word": " AI",
+          "start": 212.84,
+          "end": 213.18,
+          "probability": 0.8176
+        },
+        {
+          "word": "-generated",
+          "start": 213.18,
+          "end": 213.98,
+          "probability": 0.8098
+        },
+        {
+          "word": " pictures,",
+          "start": 213.98,
+          "end": 214.42,
+          "probability": 0.8359
+        },
+        {
+          "word": " video",
+          "start": 214.84,
+          "end": 215.14,
+          "probability": 0.9922
+        },
+        {
+          "word": " or",
+          "start": 215.14,
+          "end": 215.54,
+          "probability": 0.6937
+        },
+        {
+          "word": " audio",
+          "start": 215.54,
+          "end": 216.0,
+          "probability": 0.9974
+        },
+        {
+          "word": " of",
+          "start": 216.0,
+          "end": 216.38,
+          "probability": 0.9749
+        },
+        {
+          "word": " existing",
+          "start": 216.38,
+          "end": 216.8,
+          "probability": 0.9963
+        },
+        {
+          "word": " people,",
+          "start": 216.8,
+          "end": 217.32,
+          "probability": 0.9909
+        },
+        {
+          "word": " places",
+          "start": 217.64,
+          "end": 217.86,
+          "probability": 0.9974
+        },
+        {
+          "word": " or",
+          "start": 217.86,
+          "end": 218.24,
+          "probability": 0.6289
+        },
+        {
+          "word": " events",
+          "start": 218.24,
+          "end": 218.7,
+          "probability": 0.9965
+        },
+        {
+          "word": " must",
+          "start": 218.7,
+          "end": 219.68,
+          "probability": 0.8869
+        },
+        {
+          "word": " be",
+          "start": 219.68,
+          "end": 219.92,
+          "probability": 0.9967
+        },
+        {
+          "word": " labeled",
+          "start": 219.92,
+          "end": 220.32,
+          "probability": 0.7911
+        },
+        {
+          "word": " as",
+          "start": 220.32,
+          "end": 220.72,
+          "probability": 0.9645
+        }
+      ]
+    },
+    {
+      "start": 220.72,
+      "end": 228.44,
+      "text": "artificially produced. These sorts of media are known as deepfakes because they appear to show",
+      "avg_log_prob": -0.0982,
+      "words": [
+        {
+          "word": " artificially",
+          "start": 220.72,
+          "end": 221.56,
+          "probability": 0.9492
+        },
+        {
+          "word": " produced.",
+          "start": 221.56,
+          "end": 222.18,
+          "probability": 0.9825
+        },
+        {
+          "word": " These",
+          "start": 222.76,
+          "end": 223.54,
+          "probability": 0.9902
+        },
+        {
+          "word": " sorts",
+          "start": 223.54,
+          "end": 223.94,
+          "probability": 0.9788
+        },
+        {
+          "word": " of",
+          "start": 223.94,
+          "end": 224.26,
+          "probability": 0.9971
+        },
+        {
+          "word": " media",
+          "start": 224.26,
+          "end": 224.68,
+          "probability": 0.9984
+        },
+        {
+          "word": " are",
+          "start": 224.68,
+          "end": 225.02,
+          "probability": 0.9982
+        },
+        {
+          "word": " known",
+          "start": 225.02,
+          "end": 225.28,
+          "probability": 0.9951
+        },
+        {
+          "word": " as",
+          "start": 225.28,
+          "end": 225.7,
+          "probability": 0.9977
+        },
+        {
+          "word": " deepfakes",
+          "start": 225.7,
+          "end": 226.44,
+          "probability": 0.897
+        },
+        {
+          "word": " because",
+          "start": 226.44,
+          "end": 227.14,
+          "probability": 0.8356
+        },
+        {
+          "word": " they",
+          "start": 227.14,
+          "end": 227.46,
+          "probability": 0.9978
+        },
+        {
+          "word": " appear",
+          "start": 227.46,
+          "end": 227.86,
+          "probability": 0.9966
+        },
+        {
+          "word": " to",
+          "start": 227.86,
+          "end": 228.12,
+          "probability": 0.9992
+        },
+        {
+          "word": " show",
+          "start": 228.12,
+          "end": 228.44,
+          "probability": 0.9969
+        }
+      ]
+    },
+    {
+      "start": 228.44,
+      "end": 236.34,
+      "text": "real people doing or saying things that are not real. There are reportedly extra rules",
+      "avg_log_prob": -0.1115,
+      "words": [
+        {
+          "word": " real",
+          "start": 228.44,
+          "end": 228.68,
+          "probability": 0.8527
+        },
+        {
+          "word": " people",
+          "start": 228.68,
+          "end": 229.16,
+          "probability": 0.9842
+        },
+        {
+          "word": " doing",
+          "start": 229.16,
+          "end": 229.56,
+          "probability": 0.9796
+        },
+        {
+          "word": " or",
+          "start": 229.56,
+          "end": 229.88,
+          "probability": 0.8743
+        },
+        {
+          "word": " saying",
+          "start": 229.88,
+          "end": 230.26,
+          "probability": 0.9787
+        },
+        {
+          "word": " things",
+          "start": 230.26,
+          "end": 230.8,
+          "probability": 0.9923
+        },
+        {
+          "word": " that",
+          "start": 230.8,
+          "end": 231.38,
+          "probability": 0.9672
+        },
+        {
+          "word": " are",
+          "start": 231.38,
+          "end": 231.54,
+          "probability": 0.9796
+        },
+        {
+          "word": " not",
+          "start": 231.54,
+          "end": 231.76,
+          "probability": 0.9764
+        },
+        {
+          "word": " real.",
+          "start": 231.76,
+          "end": 232.16,
+          "probability": 0.9918
+        },
+        {
+          "word": " There",
+          "start": 233.52,
+          "end": 234.52,
+          "probability": 0.9662
+        },
+        {
+          "word": " are",
+          "start": 234.52,
+          "end": 234.72,
+          "probability": 0.9978
+        },
+        {
+          "word": " reportedly",
+          "start": 234.72,
+          "end": 235.26,
+          "probability": 0.991
+        },
+        {
+          "word": " extra",
+          "start": 235.26,
+          "end": 235.96,
+          "probability": 0.9855
+        },
+        {
+          "word": " rules",
+          "start": 235.96,
+          "end": 236.34,
+          "probability": 0.9914
+        }
+      ]
+    },
+    {
+      "start": 236.34,
+      "end": 246.02,
+      "text": "for the biggest and most powerful AI models that carry systemic risks. Those include open AI's GPT-4",
+      "avg_log_prob": -0.1115,
+      "words": [
+        {
+          "word": " for",
+          "start": 236.34,
+          "end": 236.8,
+          "probability": 0.9901
+        },
+        {
+          "word": " the",
+          "start": 236.8,
+          "end": 236.98,
+          "probability": 0.9971
+        },
+        {
+          "word": " biggest",
+          "start": 236.98,
+          "end": 237.28,
+          "probability": 0.9918
+        },
+        {
+          "word": " and",
+          "start": 237.28,
+          "end": 237.78,
+          "probability": 0.9866
+        },
+        {
+          "word": " most",
+          "start": 237.78,
+          "end": 238.22,
+          "probability": 0.9939
+        },
+        {
+          "word": " powerful",
+          "start": 238.22,
+          "end": 238.94,
+          "probability": 0.9719
+        },
+        {
+          "word": " AI",
+          "start": 238.94,
+          "end": 239.22,
+          "probability": 0.961
+        },
+        {
+          "word": " models",
+          "start": 239.22,
+          "end": 239.84,
+          "probability": 0.9959
+        },
+        {
+          "word": " that",
+          "start": 239.84,
+          "end": 240.42,
+          "probability": 0.9691
+        },
+        {
+          "word": " carry",
+          "start": 240.42,
+          "end": 240.78,
+          "probability": 0.9974
+        },
+        {
+          "word": " systemic",
+          "start": 240.78,
+          "end": 241.44,
+          "probability": 0.9925
+        },
+        {
+          "word": " risks.",
+          "start": 241.44,
+          "end": 242.04,
+          "probability": 0.9943
+        },
+        {
+          "word": " Those",
+          "start": 242.78,
+          "end": 243.16,
+          "probability": 0.9853
+        },
+        {
+          "word": " include",
+          "start": 243.16,
+          "end": 243.76,
+          "probability": 0.9982
+        },
+        {
+          "word": " open",
+          "start": 243.76,
+          "end": 244.22,
+          "probability": 0.379
+        },
+        {
+          "word": " AI's",
+          "start": 244.22,
+          "end": 245.04,
+          "probability": 0.8044
+        },
+        {
+          "word": " GPT",
+          "start": 245.04,
+          "end": 245.68,
+          "probability": 0.9509
+        },
+        {
+          "word": "-4",
+          "start": 245.68,
+          "end": 246.02,
+          "probability": 0.8048
+        }
+      ]
+    },
+    {
+      "start": 246.02,
+      "end": 254.52,
+      "text": "and Google's Gemini. The EU first suggested AI regulations in 2019.",
+      "avg_log_prob": -0.1115,
+      "words": [
+        {
+          "word": " and",
+          "start": 246.02,
+          "end": 246.82,
+          "probability": 0.9327
+        },
+        {
+          "word": " Google's",
+          "start": 246.82,
+          "end": 247.46,
+          "probability": 0.9571
+        },
+        {
+          "word": " Gemini.",
+          "start": 247.46,
+          "end": 247.96,
+          "probability": 0.9774
+        },
+        {
+          "word": " The",
+          "start": 249.32,
+          "end": 250.32,
+          "probability": 0.963
+        },
+        {
+          "word": " EU",
+          "start": 250.32,
+          "end": 250.68,
+          "probability": 0.9858
+        },
+        {
+          "word": " first",
+          "start": 250.68,
+          "end": 251.16,
+          "probability": 0.9895
+        },
+        {
+          "word": " suggested",
+          "start": 251.16,
+          "end": 252.12,
+          "probability": 0.9938
+        },
+        {
+          "word": " AI",
+          "start": 252.12,
+          "end": 252.52,
+          "probability": 0.979
+        },
+        {
+          "word": " regulations",
+          "start": 252.52,
+          "end": 253.34,
+          "probability": 0.9709
+        },
+        {
+          "word": " in",
+          "start": 253.34,
+          "end": 253.8,
+          "probability": 0.9966
+        },
+        {
+          "word": " 2019.",
+          "start": 253.8,
+          "end": 254.52,
+          "probability": 0.9989
+        }
+      ]
+    },
+    {
+      "start": 254.52,
+      "end": 260.7,
+      "text": "Europe was quick to propose rules for the new and developing industry.",
+      "avg_log_prob": -0.1456,
+      "words": [
+        {
+          "word": " Europe",
+          "start": 254.52,
+          "end": 256.08,
+          "probability": 0.3822
+        },
+        {
+          "word": " was",
+          "start": 256.08,
+          "end": 256.44,
+          "probability": 0.99
+        },
+        {
+          "word": " quick",
+          "start": 256.44,
+          "end": 256.72,
+          "probability": 0.9819
+        },
+        {
+          "word": " to",
+          "start": 256.72,
+          "end": 256.96,
+          "probability": 0.9782
+        },
+        {
+          "word": " propose",
+          "start": 256.96,
+          "end": 257.4,
+          "probability": 0.9451
+        },
+        {
+          "word": " rules",
+          "start": 257.4,
+          "end": 257.84,
+          "probability": 0.9828
+        },
+        {
+          "word": " for",
+          "start": 257.84,
+          "end": 258.32,
+          "probability": 0.9953
+        },
+        {
+          "word": " the",
+          "start": 258.32,
+          "end": 258.6,
+          "probability": 0.9794
+        },
+        {
+          "word": " new",
+          "start": 258.6,
+          "end": 258.86,
+          "probability": 0.9545
+        },
+        {
+          "word": " and",
+          "start": 258.86,
+          "end": 259.22,
+          "probability": 0.9859
+        },
+        {
+          "word": " developing",
+          "start": 259.22,
+          "end": 259.92,
+          "probability": 0.9984
+        },
+        {
+          "word": " industry.",
+          "start": 259.92,
+          "end": 260.7,
+          "probability": 0.9934
+        }
+      ]
+    },
+    {
+      "start": 262.36,
+      "end": 268.3,
+      "text": "In the US, President Joe Biden signed an executive order on AI in October.",
+      "avg_log_prob": -0.1456,
+      "words": [
+        {
+          "word": " In",
+          "start": 262.18,
+          "end": 262.6,
+          "probability": 0.9684
+        },
+        {
+          "word": " the",
+          "start": 262.6,
+          "end": 262.74,
+          "probability": 0.9956
+        },
+        {
+          "word": " US,",
+          "start": 262.74,
+          "end": 263.08,
+          "probability": 0.5773
+        },
+        {
+          "word": " President",
+          "start": 263.72,
+          "end": 264.06,
+          "probability": 0.9289
+        },
+        {
+          "word": " Joe",
+          "start": 264.06,
+          "end": 264.42,
+          "probability": 0.9942
+        },
+        {
+          "word": " Biden",
+          "start": 264.42,
+          "end": 264.84,
+          "probability": 0.9982
+        },
+        {
+          "word": " signed",
+          "start": 264.84,
+          "end": 265.44,
+          "probability": 0.9857
+        },
+        {
+          "word": " an",
+          "start": 265.44,
+          "end": 265.72,
+          "probability": 0.9929
+        },
+        {
+          "word": " executive",
+          "start": 265.72,
+          "end": 266.2,
+          "probability": 0.7549
+        },
+        {
+          "word": " order",
+          "start": 266.2,
+          "end": 266.66,
+          "probability": 0.9956
+        },
+        {
+          "word": " on",
+          "start": 266.66,
+          "end": 266.98,
+          "probability": 0.9862
+        },
+        {
+          "word": " AI",
+          "start": 266.98,
+          "end": 267.3,
+          "probability": 0.8587
+        },
+        {
+          "word": " in",
+          "start": 267.3,
+          "end": 267.76,
+          "probability": 0.9879
+        },
+        {
+          "word": " October.",
+          "start": 267.76,
+          "end": 268.3,
+          "probability": 0.9943
+        }
+      ]
+    },
+    {
+      "start": 269.44,
+      "end": 272.92,
+      "text": "The US Congress is likely to propose legislation.",
+      "avg_log_prob": -0.1456,
+      "words": [
+        {
+          "word": " The",
+          "start": 269.44,
+          "end": 269.6,
+          "probability": 0.9915
+        },
+        {
+          "word": " US",
+          "start": 269.6,
+          "end": 269.9,
+          "probability": 0.7751
+        },
+        {
+          "word": " Congress",
+          "start": 269.9,
+          "end": 270.46,
+          "probability": 0.961
+        },
+        {
+          "word": " is",
+          "start": 270.46,
+          "end": 271.02,
+          "probability": 0.9948
+        },
+        {
+          "word": " likely",
+          "start": 271.02,
+          "end": 271.32,
+          "probability": 0.9989
+        },
+        {
+          "word": " to",
+          "start": 271.32,
+          "end": 271.58,
+          "probability": 0.9989
+        },
+        {
+          "word": " propose",
+          "start": 271.58,
+          "end": 272.12,
+          "probability": 0.9895
+        },
+        {
+          "word": " legislation.",
+          "start": 272.12,
+          "end": 272.92,
+          "probability": 0.9976
+        }
+      ]
+    },
+    {
+      "start": 274.04,
+      "end": 279.72,
+      "text": "Lawmakers in at least seven US states are working on their own AI legislation.",
+      "avg_log_prob": -0.1456,
+      "words": [
+        {
+          "word": " Lawmakers",
+          "start": 274.04,
+          "end": 274.54,
+          "probability": 0.9057
+        },
+        {
+          "word": " in",
+          "start": 274.54,
+          "end": 274.9,
+          "probability": 0.9888
+        },
+        {
+          "word": " at",
+          "start": 274.9,
+          "end": 275.04,
+          "probability": 0.9913
+        },
+        {
+          "word": " least",
+          "start": 275.04,
+          "end": 275.22,
+          "probability": 0.9958
+        },
+        {
+          "word": " seven",
+          "start": 275.22,
+          "end": 275.88,
+          "probability": 0.8716
+        },
+        {
+          "word": " US",
+          "start": 275.88,
+          "end": 276.34,
+          "probability": 0.864
+        },
+        {
+          "word": " states",
+          "start": 276.34,
+          "end": 276.96,
+          "probability": 0.8707
+        },
+        {
+          "word": " are",
+          "start": 276.96,
+          "end": 277.42,
+          "probability": 0.9954
+        },
+        {
+          "word": " working",
+          "start": 277.42,
+          "end": 277.76,
+          "probability": 0.9994
+        },
+        {
+          "word": " on",
+          "start": 277.76,
+          "end": 278.02,
+          "probability": 0.9982
+        },
+        {
+          "word": " their",
+          "start": 278.02,
+          "end": 278.22,
+          "probability": 0.9978
+        },
+        {
+          "word": " own",
+          "start": 278.22,
+          "end": 278.6,
+          "probability": 0.9992
+        },
+        {
+          "word": " AI",
+          "start": 278.6,
+          "end": 278.92,
+          "probability": 0.9872
+        },
+        {
+          "word": " legislation.",
+          "start": 278.92,
+          "end": 279.72,
+          "probability": 0.9938
+        }
+      ]
+    },
+    {
+      "start": 280.44,
+      "end": 283.9,
+      "text": "And international agreements are possible too.",
+      "avg_log_prob": -0.3045,
+      "words": [
+        {
+          "word": " And",
+          "start": 280.44,
+          "end": 281.2,
+          "probability": 0.1013
+        },
+        {
+          "word": " international",
+          "start": 281.2,
+          "end": 281.8,
+          "probability": 0.8439
+        },
+        {
+          "word": " agreements",
+          "start": 281.8,
+          "end": 282.52,
+          "probability": 0.9929
+        },
+        {
+          "word": " are",
+          "start": 282.52,
+          "end": 282.92,
+          "probability": 0.9948
+        },
+        {
+          "word": " possible",
+          "start": 282.92,
+          "end": 283.42,
+          "probability": 0.9946
+        },
+        {
+          "word": " too.",
+          "start": 283.42,
+          "end": 283.9,
+          "probability": 0.5955
+        }
+      ]
+    },
+    {
+      "start": 286.02,
+      "end": 293.52,
+      "text": "Chinese President Xi Jinping has proposed his global AI governance initiative for fair and safe",
+      "avg_log_prob": -0.3045,
+      "words": [
+        {
+          "word": " Chinese",
+          "start": 286.02,
+          "end": 286.3,
+          "probability": 0.8606
+        },
+        {
+          "word": " President",
+          "start": 286.3,
+          "end": 286.84,
+          "probability": 0.6493
+        },
+        {
+          "word": " Xi",
+          "start": 286.84,
+          "end": 287.28,
+          "probability": 0.9828
+        },
+        {
+          "word": " Jinping",
+          "start": 287.28,
+          "end": 287.88,
+          "probability": 0.9428
+        },
+        {
+          "word": " has",
+          "start": 287.88,
+          "end": 288.44,
+          "probability": 0.9899
+        },
+        {
+          "word": " proposed",
+          "start": 288.44,
+          "end": 288.9,
+          "probability": 0.9962
+        },
+        {
+          "word": " his",
+          "start": 288.9,
+          "end": 289.32,
+          "probability": 0.9948
+        },
+        {
+          "word": " global",
+          "start": 289.32,
+          "end": 289.72,
+          "probability": 0.3601
+        },
+        {
+          "word": " AI",
+          "start": 289.72,
+          "end": 290.06,
+          "probability": 0.8982
+        },
+        {
+          "word": " governance",
+          "start": 290.06,
+          "end": 290.62,
+          "probability": 0.9118
+        },
+        {
+          "word": " initiative",
+          "start": 290.62,
+          "end": 291.38,
+          "probability": 0.9952
+        },
+        {
+          "word": " for",
+          "start": 291.38,
+          "end": 292.26,
+          "probability": 0.9761
+        },
+        {
+          "word": " fair",
+          "start": 292.26,
+          "end": 292.66,
+          "probability": 0.8879
+        },
+        {
+          "word": " and",
+          "start": 292.66,
+          "end": 292.98,
+          "probability": 0.979
+        },
+        {
+          "word": " safe",
+          "start": 292.98,
+          "end": 293.52,
+          "probability": 0.9969
+        }
+      ]
+    },
+    {
+      "start": 293.52,
+      "end": 299.98,
+      "text": "use of AI. Other major countries including Brazil and Japan are",
+      "avg_log_prob": -0.3045,
+      "words": [
+        {
+          "word": " use",
+          "start": 293.52,
+          "end": 293.96,
+          "probability": 0.9973
+        },
+        {
+          "word": " of",
+          "start": 293.96,
+          "end": 294.26,
+          "probability": 0.997
+        },
+        {
+          "word": " AI.",
+          "start": 294.26,
+          "end": 294.68,
+          "probability": 0.9915
+        },
+        {
+          "word": " Other",
+          "start": 295.58,
+          "end": 296.08,
+          "probability": 0.9922
+        },
+        {
+          "word": " major",
+          "start": 296.08,
+          "end": 296.6,
+          "probability": 0.9895
+        },
+        {
+          "word": " countries",
+          "start": 296.6,
+          "end": 297.14,
+          "probability": 0.9914
+        },
+        {
+          "word": " including",
+          "start": 297.14,
+          "end": 297.7,
+          "probability": 0.6263
+        },
+        {
+          "word": " Brazil",
+          "start": 297.7,
+          "end": 298.22,
+          "probability": 0.9959
+        },
+        {
+          "word": " and",
+          "start": 298.22,
+          "end": 298.74,
+          "probability": 0.9938
+        },
+        {
+          "word": " Japan",
+          "start": 298.74,
+          "end": 299.24,
+          "probability": 0.9988
+        },
+        {
+          "word": " are",
+          "start": 299.24,
+          "end": 299.98,
+          "probability": 0.938
+        }
+      ]
+    }
+  ],
+  "full_text": "European Union lawmakers gave final approval to the 27 nation groups artificial intelligence law Wednesday. The rules are expected to take effect later this year. Lawmakers in the European Parliament voted in favor of the Artificial Intelligence Act five years after regulations were first proposed. Major technology companies have generally supported the idea. But they want to make sure new AI requirements work in their favor. Open AI Chief Sam Altman suggested the maker of ChatGPT might pull out of Europe if it cannot comply with the AI Act. He later said his company had no plans to leave. Here are some details about Europe's new AI rules. Like many EU regulations, the AI Act started as consumer safety legislation. The EU took a risk-based approach to products or services that use artificial intelligence or AI. If an AI application is risky, then more rules cover it. Most AI systems are expected to be low-risk like content's recommendation systems or filters that block spam or unwanted email. Companies can choose to follow voluntary requirements and codes of conduct. High-risk uses of AI include tools used in medical devices or important infrastructure like water or electrical networks. Those face additional requirements like using what the legislation calls high-quality data and providing clear information to users. Some AI uses are banned because they are considered to present an unacceptable risk. Those include things like social scoring systems that are meant to govern how people behave. Some sorts of predictive policing and emotion recognition systems also are reportedly banned in schools and workplaces. Other banned uses include ones that police use to scan faces in public places using AI-powered remote biometric identification systems. There is an exception for use in serious crimes like kidnapping or terrorism. The laws early versions centered on AI systems that carry out limited tasks like reviewing employment information and job applications. But general AI models like open AI's chat GPT forced EU officials to add rules for generative AI models. AI chatbot systems that can produce life-like responses, images and more are examples of generative AI models. Developers of general-purpose AI models will have to provide detailed descriptions of the writings, pictures, video and other data on the internet that was used to train the systems. They must also follow EU copyright law. AI-generated pictures, video or audio of existing people, places or events must be labeled as artificially produced. These sorts of media are known as deepfakes because they appear to show real people doing or saying things that are not real. There are reportedly extra rules for the biggest and most powerful AI models that carry systemic risks. Those include open AI's GPT-4 and Google's Gemini. The EU first suggested AI regulations in 2019. Europe was quick to propose rules for the new and developing industry. In the US, President Joe Biden signed an executive order on AI in October. The US Congress is likely to propose legislation. Lawmakers in at least seven US states are working on their own AI legislation. And international agreements are possible too. Chinese President Xi Jinping has proposed his global AI governance initiative for fair and safe use of AI. Other major countries including Brazil and Japan are"
+}
