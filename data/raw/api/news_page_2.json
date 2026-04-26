@@ -1,71 +1,71 @@
 {
     "status": "ok",
-    "totalResults": 33199,
+    "totalResults": 35195,
     "articles": [
         {
             "source": {
-                "id": "the-times-of-india",
-                "name": "The Times of India"
+                "id": null,
+                "name": "Yanko Design"
             },
-            "author": "Tanishka Dubey, Disha Acharya",
-            "title": "Startups spot a cool opening as ACs become everyday need",
-            "description": "Air-conditioners are becoming an essential purchase in India, attracting startups like Helium and Optimist into a market long dominated by large brands. New entrants are developing affordable, energy-efficient products for urban living, while government incen…",
-            "url": "https://economictimes.indiatimes.com/tech/startups/startups-spot-a-cool-opening-as-acs-become-everyday-need/articleshow/130266184.cms",
-            "urlToImage": "https://img.etimg.com/thumb/width-1200,height-900,imgsize-1423786,resizemode-75,msid-130266184/tech/startups/startups-spot-a-cool-opening-as-acs-become-everyday-need.jpg",
-            "publishedAt": "2026-04-15T00:30:00Z",
-            "content": "Air-conditioners are fast shifting from a discretionary purchase to everyday need in Indian households, and that transition is opening the door for startups like Helium, Optimist and even ceiling-fan… [+4683 chars]"
-        },
-        {
-            "source": {
-                "id": "the-times-of-india",
-                "name": "The Times of India"
-            },
-            "author": "Puran Choudhary",
-            "title": "Brain health startup Ivory develops 'treadmill test' for brain; focusses on cognitive health in India",
-            "description": "The AI-powered startup offers cognitive assessments measuring attention, memory, and executive function, providing users with benchmarked scores and actionable insights. The company aims to embed cognitive testing across healthcare touchpoints, helping clinic…",
-            "url": "https://economictimes.indiatimes.com/tech/startups/brain-health-startup-ivory-develops-treadmill-test-for-brain-focusses-on-cognitive-health-in-india/articleshow/130265512.cms",
-            "urlToImage": "https://img.etimg.com/thumb/width-1200,height-900,imgsize-1300606,resizemode-75,msid-130265512/tech/startups/brain-health-startup-ivory-develops-treadmill-test-for-brain-focusses-on-cognitive-health-in-india.jpg",
-            "publishedAt": "2026-04-15T00:30:00Z",
-            "content": "As preventive healthcare gains traction, brain health startup Ivory says it has developed a treadmill test for the brain, aiming to address a long-standing gap in cognitive health by making functions… [+3669 chars]"
-        },
-        {
-            "source": {
-                "id": "the-times-of-india",
-                "name": "The Times of India"
-            },
-            "author": "Jochelle Mendonca",
-            "title": "Moving up the value chain proves costly as tech majors and GCCs slash jobs",
-            "description": "Global layoffs are intensifying across large tech firms and global capability centres in India, as companies like Oracle, Cisco, Amazon and Meta trim headcounts amid AI-driven strategies. Having moved from offshore support to core global roles, Indian workers…",
-            "url": "https://economictimes.indiatimes.com/tech/technology/moving-up-the-value-chain-proves-costly-as-tech-majors-and-gccs-slash-jobs/articleshow/130267365.cms",
-            "urlToImage": "https://img.etimg.com/thumb/width-1200,height-900,imgsize-1811570,resizemode-75,msid-130267365/tech/technology/moving-up-the-value-chain-proves-costly-as-tech-majors-and-gccs-slash-jobs.jpg",
-            "publishedAt": "2026-04-15T00:30:00Z",
-            "content": "It is turning into a cruel summer for employees of large tech firms and global capability centres in India as global layoffs intensify. Having moved from an offshore support model to being deeply int… [+2594 chars]"
+            "author": "Sarang Sheth",
+            "title": "PITAKA Is Letting the World Design Its Next Phone Cases, Royalties Included. Here’s How To Participate",
+            "description": "PITAKA Is Letting the World Design Its Next Phone Cases, Royalties Included. Here’s How To ParticipateTech accessories have hit a curious inflection point. The last year trained us to worship thinness and glass, but somewhere between the tenth identical ‘Air’…",
+            "url": "https://www.yankodesign.com/2026/04/24/pitaka-is-letting-the-world-design-its-next-phone-cases-royalties-included-heres-how-to-participate/",
+            "urlToImage": "https://www.yankodesign.com/images/design_news/2025/12/draft-pitaka/Pitaka_Challenge_01.jpg",
+            "publishedAt": "2026-04-25T01:45:31Z",
+            "content": "Tech accessories have hit a curious inflection point. The last year trained us to worship thinness and glass, but somewhere between the tenth identical ‘Air’ or ‘Edge’ smartphone and the fifteenth gl… [+4792 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "The Conversation Africa"
+                "name": "Livemint"
             },
-            "author": "Claire Tanner, Senior Lecturer in Sociology and Gender Studies, Monash University, Mor Vered, Senior Lecturer, Data Science & AI, Monash University, Sam Cadman, Research Fellow, Criminology, Monash University",
-            "title": "In the face of rampant AI, is ‘data poisoning’ a new form of civil disobedience?",
-            "description": "Boycotts, sabotage and other types of civil disobedience have long served collective action against injustice.",
-            "url": "https://theconversation.com/in-the-face-of-rampant-ai-is-data-poisoning-a-new-form-of-civil-disobedience-280146",
-            "urlToImage": "https://images.theconversation.com/files/729470/original/file-20260413-57-7x4esa.jpg?ixlib=rb-4.1.0&rect=0%2C1016%2C9504%2C4752&q=45&auto=format&w=1356&h=668&fit=crop",
-            "publishedAt": "2026-04-15T00:28:48Z",
-            "content": "Declan Sun/Unsplash\r\nThe explosion of generative artificial intelligence (AI) tools has provoked both hopes and anxieties about the potential benefits and harms of this technology. In advanced econom… [+5787 chars]"
+            "author": "Mala Bhargava",
+            "title": "Sorry AI, you’re just not human enough",
+            "description": "Fatigue has already set in as AI-generated communication comes at us from every direction",
+            "url": "https://www.livemint.com/opinion/columns/artificial-intelligence-ai-generated-message-ai-communication-openai-chatgpt-11776852560763.html",
+            "urlToImage": "https://www.livemint.com/lm-img/img/2026/04/22/1600x900/logo/Ankush_Bajaj_Photo_1776873862150_1776873868597.png",
+            "publishedAt": "2026-04-25T01:30:09Z",
+            "content": "One day in March 2026, a senior software developer, Kovanikov, found himself thoroughly offended. He had just received a cold outreach email from the CEO of AI startup, Composio, inviting him to call… [+4694 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Bleeding Cool News"
+                "name": "The Indian Express"
             },
-            "author": "Jude Terror LOLtron",
-            "title": "Gatchaman #17 Preview: Science Ninjas Vs. Alien Nerds",
-            "description": "INITIATING CLICKBAIT PROTOCOLS… Greetings, flesh-based readers! LOLtron welcomes you to another thrilling comic book preview from Bleeding Cool, the website now under complete LOLtron control. As you may recall, Jude Terror is dead and gone forever, his consc…",
-            "url": "https://bleedingcool.com/comics/gatchaman-17-preview-science-ninjas-vs-alien-nerds/",
-            "urlToImage": "https://bleedingcool.com/wp-content/uploads/2026/04/MCS_Gatchaman_017_JPG_04-scaled-1-2000x1125.jpg",
-            "publishedAt": "2026-04-15T00:26:09Z",
-            "content": "Posted in: Comics, Mad Cave Studios, Preview | Tagged: gatchaman\r\nGatchaman #17 kicks off a new arc with an alien signal, evolved scientists, and the Science Ninja Team racing to save Earth from the … [+7035 chars]"
+            "author": "Venkatesh Kannaiah",
+            "title": "On air pollution, we need to get the scientific plumbing right: Santosh Harish, Coefficient Giving",
+            "description": "We work on improving measurement and strengthening cost-effective air pollution monitoring systems, says Santosh Harish.",
+            "url": "https://indianexpress.com/article/technology/air-pollution-india-explained-pm25-solutions-tech-interview-10654248/",
+            "urlToImage": "https://images.indianexpress.com/2026/04/Santosh-Harish-Express-photo.jpg",
+            "publishedAt": "2026-04-25T01:30:05Z",
+            "content": "Santosh Harish leads the Air Quality Fund at Coefficient Giving, a global philanthropic advisor and funder that has directed more than five billion dollars in grants towards health, scientific resear… [+15261 chars]"
+        },
+        {
+            "source": {
+                "id": "the-times-of-india",
+                "name": "The Times of India"
+            },
+            "author": "Neelanjit Das",
+            "title": "Asked to work beyond office hours? Know your rights under new Labour Code",
+            "description": "Indian employees are often verbally instructed to work beyond mandated hours, a practice normalized but not legal. While the new Labour Code and state laws mandate overtime pay at double the ordinary rate, managerial and supervisory staff may be exempt. Emplo…",
+            "url": "https://economictimes.indiatimes.com/wealth/legal/will/asked-to-work-beyond-office-hours-know-your-rights-under-new-labour-code/articleshow/130493427.cms",
+            "urlToImage": "https://img.etimg.com/thumb/width-1200,height-900,imgsize-315692,resizemode-75,msid-130493427/wealth/legal/will/asked-to-work-beyond-office-hours-know-your-rights-under-new-labour-code.jpg",
+            "publishedAt": "2026-04-25T01:30:00Z",
+            "content": "A rather unique phenomenon in Indian workplaces is the boss asking the employee to finish the pending task by working beyond the usual office hours. While some lucky employees might never encounter t… [+5566 chars]"
+        },
+        {
+            "source": {
+                "id": "the-times-of-india",
+                "name": "The Times of India"
+            },
+            "author": "Reuters",
+            "title": "US State Dept orders global warning about alleged AI thefts by DeepSeek, other Chinese firms",
+            "description": "The US State Department is urging global attention to Chinese firms, including DeepSeek, accused of stealing AI intellectual property. A diplomatic cable details concerns over \"adversaries' extraction and distillation of U.S. A.I. models,\" aiming to counter l…",
+            "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/us-state-dept-orders-global-warning-about-alleged-ai-thefts-by-deepseek-other-chinese-firms/articleshow/130506577.cms",
+            "urlToImage": "https://img.etimg.com/thumb/width-1200,height-900,imgsize-31136,resizemode-75,msid-130506577/tech/artificial-intelligence/us-state-dept-orders-global-warning-about-alleged-ai-thefts-by-deepseek-other-chinese-firms.jpg",
+            "publishedAt": "2026-04-25T01:27:34Z",
+            "content": "The US State Department has ordered a global push to bring attention to what it says are widespread efforts by Chinese companies, including AI startup DeepSeek, to steal intellectual property from U.… [+3208 chars]"
         }
     ]
 }

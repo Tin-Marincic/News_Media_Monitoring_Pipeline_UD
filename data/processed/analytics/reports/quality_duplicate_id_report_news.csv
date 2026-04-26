@@ -1,0 +1,4 @@
+column,issue,count,pct,severity
+id,Duplicate identifiers / repeated records,80,5.5,MEDIUM
+url,Duplicate identifiers / repeated records,57,3.92,HIGH
+source_path,Duplicate identifiers / repeated records,1339,92.03,MEDIUM

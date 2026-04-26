@@ -68,3 +68,8 @@ https://drive.google.com/drive/folders/1D_usaqkZVhbzYzMvf3rFbVmM7ukWJk4i?usp=dri
 8. Transcribe a short audio file with faster-whisper; print segments with timestamps (add image in Read.me) (10%)
 
 ![alt text](readme_images/transcribe1.png)
+
+
+notebook for lab 8:
+
+notebooks\lab_8.ipynb

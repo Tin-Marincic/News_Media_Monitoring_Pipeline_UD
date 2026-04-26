@@ -1,0 +1,45 @@
+column,missing_count,missing_pct,severity
+underline,1455,100.0,HIGH
+preview_text,1448,99.52,HIGH
+Total Articles,1446,99.38,HIGH
+Metric,1446,99.38,HIGH
+Politics Articles,1446,99.38,HIGH
+Business Articles,1446,99.38,HIGH
+Average Sentiment,1446,99.38,HIGH
+Highest Mentions,1446,99.38,HIGH
+Total Mentions,1446,99.38,HIGH
+Average Mentions,1446,99.38,HIGH
+italic,1441,99.04,HIGH
+raw_text,1440,98.97,HIGH
+processed_text,1440,98.97,HIGH
+bold,1434,98.56,HIGH
+tables,1401,96.29,HIGH
+paragraph_number,1399,96.15,HIGH
+run_number,1399,96.15,HIGH
+release_year,1365,93.81,HIGH
+sentiment_score,1365,93.81,HIGH
+published_date,1365,93.81,HIGH
+id,1365,93.81,HIGH
+mentions,1365,93.81,HIGH
+release_date,1365,93.81,HIGH
+published_year,1365,93.81,HIGH
+sheet_name,1356,93.2,HIGH
+text,1345,92.44,HIGH
+author,1298,89.21,HIGH
+url,1291,88.73,HIGH
+description,1291,88.73,HIGH
+publishedAt,1291,88.73,HIGH
+nominations,1020,70.1,HIGH
+best_picture,1020,70.1,HIGH
+awards,1020,70.1,HIGH
+page_number,909,62.47,HIGH
+extraction_timestamp,837,57.53,HIGH
+wins,830,57.04,HIGH
+name,830,57.04,HIGH
+losses,830,57.04,HIGH
+year,395,27.15,MEDIUM
+extraction_library,164,11.27,MEDIUM
+version,94,6.46,LOW
+source_path,94,6.46,LOW
+fetched_at,94,6.46,LOW
+file_name,30,2.06,LOW

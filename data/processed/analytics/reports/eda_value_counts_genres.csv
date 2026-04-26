@@ -1,0 +1,16 @@
+genres,count
+scraped_html_paginated,500
+scraped_json_api,435
+json,134
+scraped_html,125
+word_run,56
+news_api,30
+Politics,27
+Business,27
+pdf,18
+pdf_two_column,18
+Sports,18
+ocr_pdf,10
+word,9
+word_two_column,9
+Culture,9

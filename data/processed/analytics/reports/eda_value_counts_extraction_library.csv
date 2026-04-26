@@ -1,0 +1,10 @@
+extraction_library,count
+requests_bs4,625
+requests,435
+,164
+openpyxl,99
+python-docx,74
+pdfplumber,36
+pytesseract_pdf2image,10
+chardet,7
+pytesseract,5

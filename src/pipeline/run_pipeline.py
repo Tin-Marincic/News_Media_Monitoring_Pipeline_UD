@@ -2,6 +2,9 @@ import os
 import sys
 from pathlib import Path
 
+import numpy as np
+import pandas as pd
+
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..")))
 
 from src.utils.logger import logging
@@ -43,6 +46,65 @@ from src.audio_processing.transcriber import (
 from src.video_processing.loader import inspect_video, extract_audio_from_video
 from src.video_processing.frame_extractor import extract_keyframes
 
+from src.analytics.numpy_ops import (
+    demonstrate_array_creation,
+    print_array_info,
+    vectorized_operations,
+    axis_reductions,
+    broadcasting_example,
+)
+from src.analytics.data_loader import (
+    load_from_mongodb,
+    save_to_csv,
+    load_from_csv,
+    chunked_stats,
+    process_chunks_per_language,
+    optimise_dtypes,
+    memory_comparison,
+)
+from src.analytics.explorer import (
+    inspect_shape,
+    print_info,
+    describe_numeric,
+    describe_all,
+    value_counts_report,
+    nunique_report,
+    extract_release_year,
+    plot_distributions,
+)
+from src.analytics.selector import (
+    select_columns,
+    loc_filter,
+    iloc_sample,
+    boolean_filter,
+    isin_filter,
+    between_filter,
+)
+from src.analytics.regex_ops import (
+    extract_year_from_title,
+    extract_any_year_from_title,
+    filter_titles_starting_with,
+    extract_number_from_title,
+    crime_overview_count,
+    crime_overview_rows,
+    short_overviews,
+    extract_genres,
+    top_genres,
+    validate_movie_ids,
+)
+from src.analytics.quality_report import (
+    missing_value_report,
+    zero_as_missing,
+    outlier_report,
+    rating_validity_report,
+    duplicate_id_report,
+    title_quality_report,
+    format_consistency_report,
+    full_quality_report,
+    save_quality_report,
+    save_missing_heatmap,
+)
+
 
 def save_standard_transcript_outputs(result: dict, base_output_path: str) -> tuple[str, str, str]:
     """
@@ -81,7 +143,7 @@ def run_audio_video_stage():
 
                 audio = load_audio(str(audio_file))
                 logging.info(
-                    f"Loaded audio {audio_file.name}: duration={len(audio)/1000:.2f}s, "
+                    f"Loaded audio {audio_file.name}: duration={len(audio) / 1000:.2f}s, "
                     f"channels={audio.channels}, frame_rate={audio.frame_rate}"
                 )
 
@@ -92,7 +154,6 @@ def run_audio_video_stage():
                 export_audio(faded, str(processed_clip_path), fmt="mp3", bitrate="192k")
                 logging.info(f"Saved processed audio clip: {processed_clip_path}")
 
-                # Use chunked transcription for longer audio, standard transcription for shorter
                 if len(audio) > 5 * 60 * 1000:
                     logging.info(f"Using chunked transcription for long audio: {audio_file.name}")
                     chunk_output_dir = processed_transcripts_dir / f"{audio_file.stem}_chunks"
@@ -189,6 +250,550 @@ def run_audio_video_stage():
 
     logging.info("=== Audio/Video Processing Stage Complete ===")
 
+
+def upload_lab8_charts_to_drive(chart_paths: list[str]) -> list[dict]:
+    """
+    Optional Google Drive upload for Lab 8 charts.
+
+    This function will only run if your project has:
+    - googleapiclient installed
+    - src.utils.upload_utils with authenticate_drive and FOLDER_ID
+    - AMILA_EMAIL in .env if you want to share with Amila
+
+    If any of these are missing, the pipeline logs a warning and continues.
+    """
+    logging.info("=== Lab 8 Google Drive Chart Upload Started ===")
+
+    upload_results = []
+
+    if not chart_paths:
+        logging.warning("No Lab 8 charts available for upload")
+        return upload_results
+
+    try:
+        from googleapiclient.http import MediaFileUpload
+        from src.utils.upload_utils import authenticate_drive, FOLDER_ID
+    except Exception as e:
+        logging.warning(f"Google Drive upload skipped because upload utilities are unavailable: {e}")
+        return upload_results
+
+    amila_email = os.getenv("AMILA_EMAIL")
+
+    try:
+        service = authenticate_drive()
+    except Exception as e:
+        logging.error(f"Google Drive authentication failed: {e}")
+        return upload_results
+
+    for chart_path in chart_paths:
+        try:
+            path = Path(chart_path)
+
+            if not path.exists():
+                logging.warning(f"Chart path does not exist, skipping upload: {chart_path}")
+                continue
+
+            file_metadata = {
+                "name": path.name,
+            }
+
+            if FOLDER_ID:
+                file_metadata["parents"] = [FOLDER_ID]
+
+            media = MediaFileUpload(
+                str(path),
+                mimetype="image/png",
+                resumable=False,
+            )
+
+            uploaded_file = service.files().create(
+                body=file_metadata,
+                media_body=media,
+                fields="id, webViewLink",
+            ).execute()
+
+            file_id = uploaded_file.get("id")
+            file_url = uploaded_file.get("webViewLink")
+
+            if amila_email and file_id:
+                service.permissions().create(
+                    fileId=file_id,
+                    body={
+                        "type": "user",
+                        "role": "reader",
+                        "emailAddress": amila_email,
+                    },
+                    sendNotificationEmail=False,
+                ).execute()
+
+                logging.info(f"Shared chart with Amila: {path.name} -> {amila_email}")
+
+            upload_results.append({
+                "file_name": path.name,
+                "local_path": str(path),
+                "drive_file_id": file_id,
+                "drive_url": file_url,
+                "shared_with": amila_email if amila_email else "",
+            })
+
+            logging.info(f"Uploaded Lab 8 chart to Google Drive: {path.name}")
+
+        except Exception as e:
+            logging.error(f"Failed to upload chart {chart_path}: {e}")
+
+    logging.info("=== Lab 8 Google Drive Chart Upload Complete ===")
+    return upload_results
+
+
+def run_lab8_analytics_stage():
+    """
+    Run Lab 8 analytics on the integrated News Media Monitoring Pipeline
+    dataset stored in MongoDB.
+
+    Source:
+    news_pipeline.raw_articles
+
+    Outputs:
+    - raw news CSV
+    - optimised news CSV
+    - NumPy reports
+    - chunked processing reports
+    - EDA reports
+    - news distribution charts
+    - selector/filtering reports
+    - regex reports
+    - missing-value heatmap
+    - full quality report CSV
+    - optional Google Drive chart upload
+    """
+    logging.info("=== Lab 8 News Analytics Stage Started ===")
+
+    analytics_dir = Path("data/processed/analytics")
+    charts_dir = analytics_dir / "charts"
+    reports_dir = analytics_dir / "reports"
+
+    analytics_dir.mkdir(parents=True, exist_ok=True)
+    charts_dir.mkdir(parents=True, exist_ok=True)
+    reports_dir.mkdir(parents=True, exist_ok=True)
+
+    raw_csv_path = analytics_dir / "raw_news_data.csv"
+    optimized_csv_path = analytics_dir / "optimized_news_data.csv"
+
+    # ------------------------------------------------------------
+    # Part 2: NumPy foundations
+    # ------------------------------------------------------------
+    logging.info("Lab 8 Part 2: NumPy operations started")
+
+    arrays = demonstrate_array_creation()
+    print_array_info(arrays)
+
+    numpy_array_rows = []
+
+    for name, arr in arrays.items():
+        numpy_array_rows.append({
+            "array_name": name,
+            "shape": str(arr.shape),
+            "dtype": str(arr.dtype),
+            "ndim": arr.ndim,
+            "size": arr.size,
+            "itemsize": arr.itemsize,
+        })
+
+        logging.info(
+            "NumPy array %s: shape=%s dtype=%s ndim=%s size=%s itemsize=%s",
+            name,
+            arr.shape,
+            arr.dtype,
+            arr.ndim,
+            arr.size,
+            arr.itemsize,
+        )
+
+    pd.DataFrame(numpy_array_rows).to_csv(
+        reports_dir / "numpy_array_info.csv",
+        index=False,
+    )
+
+    rating_score = np.array([8.2, 7.4, 6.9, 9.1, 5.8, 8.7])
+    mentions = np.array([34, 28, 19, 23, 14, 17])
+
+    vectorized_result = vectorized_operations(rating_score, mentions)
+
+    vectorized_output = {
+        "rating_score": rating_score,
+        "mentions": mentions,
+        "normalised": vectorized_result["normalised"],
+        "weighted": vectorized_result["weighted"],
+        "high_rated": vectorized_result["high_rated"],
+        "broadcasting_normalised": broadcasting_example(rating_score),
+    }
+
+    if "high_impact" in vectorized_result:
+        vectorized_output["high_impact"] = vectorized_result["high_impact"]
+
+    if "quality" in vectorized_result:
+        vectorized_output["quality"] = vectorized_result["quality"]
+
+    pd.DataFrame(vectorized_output).to_csv(
+        reports_dir / "numpy_vectorized_operations.csv",
+        index=False,
+    )
+
+    news_matrix = np.array([
+        [8.2, 34, 120.4],
+        [7.4, 28, 95.7],
+        [6.9, 19, 80.2],
+        [9.1, 23, 63.1],
+    ])
+
+    axis_result = axis_reductions(news_matrix)
+
+    pd.DataFrame({
+        "col_means": axis_result["col_means"],
+        "col_stds": axis_result["col_stds"],
+    }).to_csv(
+        reports_dir / "numpy_axis_reductions.csv",
+        index=False,
+    )
+
+    pd.DataFrame({
+        "row_means": axis_result["row_means"],
+    }).to_csv(
+        reports_dir / "numpy_row_reductions.csv",
+        index=False,
+    )
+
+    logging.info("Lab 8 Part 2: NumPy operations complete")
+
+    # ------------------------------------------------------------
+    # Part 3: Loading and memory management
+    # ------------------------------------------------------------
+    logging.info("Lab 8 Part 3: Loading and memory management started")
+
+    news_df = load_from_mongodb()
+
+    if news_df.empty:
+        logging.warning("Lab 8 analytics skipped because MongoDB returned no news records")
+        return
+
+    save_to_csv(news_df, str(raw_csv_path))
+
+    csv_df = load_from_csv(str(raw_csv_path))
+
+    chunk_results = chunked_stats(
+        str(raw_csv_path),
+        chunk_size=50,
+        rating_column="rating_score",
+        language_column="language",
+    )
+
+    pd.DataFrame([{
+        "global_mean_rating_score": chunk_results["global_mean"],
+        "total_rows": chunk_results["total_rows"],
+        "rating_count": chunk_results["rating_count"],
+    }]).to_csv(
+        reports_dir / "chunked_global_rating_score_mean.csv",
+        index=False,
+    )
+
+    chunk_results["language_df"].to_csv(
+        reports_dir / "chunked_language_rating_score_stats.csv",
+        index=False,
+    )
+
+    language_stats = process_chunks_per_language(
+        str(raw_csv_path),
+        chunk_size=50,
+        rating_column="rating_score",
+        language_column="language",
+    )
+
+    language_stats.to_csv(
+        reports_dir / "per_language_accumulators.csv",
+        index=False,
+    )
+
+    optimized_df = optimise_dtypes(csv_df)
+
+    memory_stats = memory_comparison(csv_df, optimized_df)
+
+    pd.DataFrame([memory_stats]).to_csv(
+        reports_dir / "memory_optimisation_report.csv",
+        index=False,
+    )
+
+    save_to_csv(optimized_df, str(optimized_csv_path))
+
+    logging.info("Lab 8 Part 3: Loading and memory management complete")
+
+    # ------------------------------------------------------------
+    # Part 4: Exploration
+    # ------------------------------------------------------------
+    logging.info("Lab 8 Part 4: EDA started")
+
+    eda_df = extract_release_year(csv_df)
+
+    shape_info = inspect_shape(eda_df)
+
+    pd.DataFrame([shape_info]).to_csv(
+        reports_dir / "eda_shape_report.csv",
+        index=False,
+    )
+
+    print_info(eda_df)
+
+    describe_numeric(eda_df).to_csv(
+        reports_dir / "eda_numeric_describe.csv",
+    )
+
+    describe_all(eda_df).to_csv(
+        reports_dir / "eda_full_describe.csv",
+    )
+
+    unique_report = nunique_report(eda_df)
+
+    unique_report.to_csv(
+        reports_dir / "eda_nunique_report.csv",
+        index=False,
+    )
+
+    counts_report = value_counts_report(eda_df)
+
+    for col, report in counts_report.items():
+        report["counts"].to_csv(
+            reports_dir / f"eda_value_counts_{col}.csv",
+            header=["count"],
+        )
+
+    saved_charts = plot_distributions(
+        eda_df,
+        output_dir=str(charts_dir),
+    )
+
+    logging.info("Lab 8 Part 4: EDA complete")
+
+    # ------------------------------------------------------------
+    # Part 5: Selection and filtering
+    # ------------------------------------------------------------
+    logging.info("Lab 8 Part 5: Selection and filtering started")
+
+    select_columns(
+        eda_df,
+        [
+            "record_id",
+            "title",
+            "document_type",
+            "category",
+            "rating_score",
+            "mentions",
+            "popularity",
+            "language",
+            "published_year",
+        ],
+    ).to_csv(
+        reports_dir / "selection_selected_columns.csv",
+        index=False,
+    )
+
+    loc_filter(
+        eda_df,
+        min_rating_score=5.0,
+    ).to_csv(
+        reports_dir / "selection_loc_filter.csv",
+        index=False,
+    )
+
+    iloc_sample(
+        eda_df,
+        step=10,
+    ).to_csv(
+        reports_dir / "selection_iloc_sample.csv",
+        index=False,
+    )
+
+    boolean_filter(
+        eda_df,
+        min_rating_score=5.0,
+        min_mentions=1,
+        min_popularity=10.0,
+    ).to_csv(
+        reports_dir / "selection_boolean_filter.csv",
+        index=False,
+    )
+
+    isin_filter(
+        eda_df,
+        values=["news_api", "json", "pdf", "word", "excel"],
+        column="document_type",
+        exclude=False,
+    ).to_csv(
+        reports_dir / "selection_isin_filter.csv",
+        index=False,
+    )
+
+    isin_filter(
+        eda_df,
+        values=["news_api"],
+        column="document_type",
+        exclude=True,
+    ).to_csv(
+        reports_dir / "selection_isin_exclusion_filter.csv",
+        index=False,
+    )
+
+    between_filter(
+        eda_df,
+        col="rating_score",
+        low=2.0,
+        high=8.0,
+    ).to_csv(
+        reports_dir / "selection_between_filter.csv",
+        index=False,
+    )
+
+    logging.info("Lab 8 Part 5: Selection and filtering complete")
+
+    # ------------------------------------------------------------
+    # Part 6: Regex operations
+    # ------------------------------------------------------------
+    logging.info("Lab 8 Part 6: Regex operations started")
+
+    regex_df = eda_df.copy()
+
+    if "title" in regex_df.columns:
+        regex_df["title_year_parentheses"] = extract_year_from_title(regex_df["title"])
+        regex_df["title_any_year"] = extract_any_year_from_title(regex_df["title"])
+
+    titles_starting_with_the = filter_titles_starting_with(
+        regex_df,
+        prefix="The",
+    )
+
+    titles_starting_with_the.to_csv(
+        reports_dir / "regex_titles_starting_with_the.csv",
+        index=False,
+    )
+
+    regex_df = extract_number_from_title(regex_df)
+
+    crime_count = crime_overview_count(regex_df)
+
+    pd.DataFrame([{
+        "crime_related_content_count": crime_count,
+    }]).to_csv(
+        reports_dir / "regex_crime_content_count.csv",
+        index=False,
+    )
+
+    crime_overview_rows(regex_df).to_csv(
+        reports_dir / "regex_crime_content_rows.csv",
+        index=False,
+    )
+
+    short_overviews(
+        regex_df,
+        max_chars=40,
+    ).to_csv(
+        reports_dir / "regex_short_content_rows.csv",
+        index=False,
+    )
+
+    regex_df = extract_genres(regex_df)
+
+    category_counts = top_genres(regex_df, n=15)
+
+    pd.DataFrame(
+        category_counts,
+        columns=["category_label", "count"],
+    ).to_csv(
+        reports_dir / "regex_top_categories.csv",
+        index=False,
+    )
+
+    regex_df = validate_movie_ids(regex_df)
+
+    regex_df.to_csv(
+        reports_dir / "regex_processed_news_dataset.csv",
+        index=False,
+    )
+
+    logging.info("Lab 8 Part 6: Regex operations complete")
+
+    # ------------------------------------------------------------
+    # Part 7: Data quality reporting
+    # ------------------------------------------------------------
+    logging.info("Lab 8 Part 7: Data quality reporting started")
+
+    missing_report = missing_value_report(eda_df)
+
+    missing_report.to_csv(
+        reports_dir / "quality_missing_value_report.csv",
+        index=False,
+    )
+
+    zero_report = zero_as_missing(eda_df)
+
+    zero_report.to_csv(
+        reports_dir / "quality_zero_as_missing_report.csv",
+        index=False,
+    )
+
+    outlier_report(eda_df).to_csv(
+        reports_dir / "quality_outlier_report.csv",
+        index=False,
+    )
+
+    rating_validity_report(eda_df).to_csv(
+        reports_dir / "quality_rating_validity_report.csv",
+        index=False,
+    )
+
+    duplicate_id_report(eda_df).to_csv(
+        reports_dir / "quality_duplicate_id_report.csv",
+        index=False,
+    )
+
+    title_quality_report(eda_df).to_csv(
+        reports_dir / "quality_title_report.csv",
+        index=False,
+    )
+
+    format_consistency_report(eda_df).to_csv(
+        reports_dir / "quality_format_consistency_report.csv",
+        index=False,
+    )
+
+    quality_df = full_quality_report(eda_df)
+
+    save_quality_report(
+        quality_df,
+        output_path=str(reports_dir / "full_quality_report.csv"),
+    )
+
+    heatmap_path = charts_dir / "missing_values_heatmap.png"
+
+    save_missing_heatmap(
+        eda_df,
+        output_path=str(heatmap_path),
+    )
+
+    if heatmap_path.exists():
+        saved_charts.append(str(heatmap_path))
+
+    logging.info("Lab 8 Part 7: Data quality reporting complete")
+
+    # ------------------------------------------------------------
+    # Optional Google Drive upload
+    # ------------------------------------------------------------
+    upload_results = upload_lab8_charts_to_drive(saved_charts)
+
+    if upload_results:
+        pd.DataFrame(upload_results).to_csv(
+            reports_dir / "google_drive_chart_uploads.csv",
+            index=False,
+        )
+
+    logging.info("=== Lab 8 News Analytics Stage Complete ===")
 
 def run_pipeline():
     try:
@@ -348,7 +953,11 @@ def run_pipeline():
         logging.info(f"Processed single-page scraping: {len(single_scraped)} records")
 
         # Step 11: Multi-page web scraping
-        multi_scraped = scrape_hockey_teams_multi_page(hockey_url, start_page=1, end_page=4)
+        multi_scraped = scrape_hockey_teams_multi_page(
+            hockey_url,
+            start_page=1,
+            end_page=4,
+        )
         for record in multi_scraped:
             save_to_mongo(
                 {
@@ -367,7 +976,7 @@ def run_pipeline():
             )
         logging.info(f"Processed multi-page scraping: {len(multi_scraped)} records")
 
-        # Step 12: Dynamic JSON API scraping
+        # Step 12: Dynamic JSON API movie scraping
         ajax_scraped = scrape_ajax_movies_api()
         for record in ajax_scraped:
             save_to_mongo(
@@ -386,7 +995,7 @@ def run_pipeline():
                     "extraction_library": "requests",
                 },
             )
-        logging.info(f"Processed dynamic JSON scraping: {len(ajax_scraped)} records")
+        logging.info(f"Processed dynamic JSON movie scraping: {len(ajax_scraped)} records")
 
         # Step 13: OCR on scanned image
         image_path = "data/raw/images/test_scan.png"
@@ -455,6 +1064,9 @@ def run_pipeline():
 
         # Step 18: Audio/Video stage
         run_audio_video_stage()
+
+        # Step 19: Lab 8 NumPy, pandas, EDA, regex, and quality reporting
+        run_lab8_analytics_stage()
 
         logging.info("Pipeline finished successfully")
 

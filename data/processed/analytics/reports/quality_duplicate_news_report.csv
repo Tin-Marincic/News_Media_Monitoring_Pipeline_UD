@@ -1,0 +1,3 @@
+column,issue,count,pct,severity
+record_id,Duplicate record IDs,0,0.0,LOW
+url,Duplicate URLs,57,3.92,MEDIUM

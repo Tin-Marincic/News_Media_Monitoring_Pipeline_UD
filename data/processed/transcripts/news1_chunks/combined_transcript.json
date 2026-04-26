@@ -1,6 +1,6 @@
 {
   "source_file": "news1.mp3",
-  "source_path": "data/raw/audio/news1.mp3",
+  "source_path": "data\\raw\\audio\\news1.mp3",
   "language": "en",
   "language_probability": 0.9997,
   "model": "base",
