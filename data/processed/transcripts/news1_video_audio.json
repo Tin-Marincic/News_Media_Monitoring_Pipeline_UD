@@ -1,6 +1,6 @@
 {
   "source_file": "news1_from_video.mp3",
-  "source_path": "data/processed/audio/news1_from_video.mp3",
+  "source_path": "data\\processed\\audio\\news1_from_video.mp3",
   "language": "en",
   "language_probability": 0.9933,
   "duration_s": 196.5,

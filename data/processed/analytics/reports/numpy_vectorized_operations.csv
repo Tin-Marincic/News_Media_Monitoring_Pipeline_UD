@@ -1,0 +1,7 @@
+rating_score,mentions,normalised,weighted,high_rated,broadcasting_normalised,high_impact
+8.2,34,82.0,29.15,True,0.7272727272727272,True
+7.4,28,74.0,24.92,False,0.48484848484848503,True
+6.9,19,69.0,20.67,False,0.33333333333333354,False
+9.1,23,91.0,28.92,True,1.0,True
+5.8,14,58.0,15.71,False,0.0,False
+8.7,17,87.0,25.15,True,0.8787878787878787,False

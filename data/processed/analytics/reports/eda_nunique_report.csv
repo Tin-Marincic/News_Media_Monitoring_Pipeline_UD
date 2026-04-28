@@ -1,0 +1,61 @@
+column,nunique,dtype
+record_id,1455,int64
+fetched_at,1137,datetime64[us]
+extraction_timestamp,618,datetime64[us]
+overview,229,str
+content_text,229,str
+title,203,str
+url,107,str
+description,107,str
+publishedAt,97,str
+popularity,91,float64
+title_length,89,int64
+author,89,str
+rating_score,88,float64
+content_length,88,int64
+vote_average,88,float64
+source_name,80,str
+losses,38,float64
+wins,37,float64
+name,27,str
+source_path,22,str
+category,19,str
+genres,19,str
+document_type,15,str
+text,14,str
+file_name,13,str
+nominations,12,float64
+vote_count,11,float64
+year,11,float64
+id,10,float64
+mentions,10,float64
+paragraph_number,8,float64
+extraction_library,8,str
+awards,7,float64
+preview_text,7,str
+sentiment_score,7,float64
+release_date,6,datetime64[us]
+tables,6,str
+published_date,6,datetime64[us]
+page_number,4,float64
+processed_text,3,str
+raw_text,3,str
+best_picture,2,object
+sheet_name,2,str
+version,1,float64
+Average Sentiment,1,float64
+Average Mentions,1,float64
+Total Mentions,1,float64
+Total Articles,1,float64
+Metric,1,str
+italic,1,object
+Business Articles,1,float64
+bold,1,object
+published_year,1,float64
+run_number,1,float64
+Politics Articles,1,float64
+Highest Mentions,1,float64
+original_language,1,str
+language,1,str
+release_year,1,float64
+underline,0,float64

@@ -1,0 +1,16 @@
+source_path,count
+https://www.scrapethissite.com/pages/forms/,125
+https://www.scrapethissite.com/pages/forms/?page_num=1,125
+https://www.scrapethissite.com/pages/forms/?page_num=2,125
+https://www.scrapethissite.com/pages/forms/?page_num=3,125
+https://www.scrapethissite.com/pages/forms/?page_num=4,125
+,94
+https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2014,80
+https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2015,80
+data/raw/excel/news_data.xlsx,77
+https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2011,75
+https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2012,75
+https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2010,65
+data/raw/word/news_normal.docx,63
+https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2013,60
+news_page_1.json,35

@@ -1,0 +1,6 @@
+array_name,shape,dtype,ndim,size,itemsize
+article_mentions,"(6,)",int64,1,6,8
+missing_sentiment_placeholder,"(6,)",float64,1,6,8
+category_weights,"(3, 4)",float64,2,12,8
+years,"(7,)",int64,1,7,8
+score_buffer,"(2, 3)",float64,2,6,8

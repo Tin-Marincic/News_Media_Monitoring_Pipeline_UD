@@ -1,0 +1,62 @@
+column,issue,count,pct,severity
+underline,Missing values,1455,100.0,HIGH
+preview_text,Missing values,1448,99.52,HIGH
+Total Articles,Missing values,1446,99.38,HIGH
+Metric,Missing values,1446,99.38,HIGH
+Politics Articles,Missing values,1446,99.38,HIGH
+Business Articles,Missing values,1446,99.38,HIGH
+Average Sentiment,Missing values,1446,99.38,HIGH
+Highest Mentions,Missing values,1446,99.38,HIGH
+Total Mentions,Missing values,1446,99.38,HIGH
+Average Mentions,Missing values,1446,99.38,HIGH
+italic,Missing values,1441,99.04,HIGH
+raw_text,Missing values,1440,98.97,HIGH
+processed_text,Missing values,1440,98.97,HIGH
+bold,Missing values,1434,98.56,HIGH
+tables,Missing values,1401,96.29,HIGH
+paragraph_number,Missing values,1399,96.15,HIGH
+run_number,Missing values,1399,96.15,HIGH
+release_year,Missing values,1365,93.81,HIGH
+sentiment_score,Missing values,1365,93.81,HIGH
+published_date,Missing values,1365,93.81,HIGH
+id,Missing values,1365,93.81,HIGH
+mentions,Missing values,1365,93.81,HIGH
+release_date,Missing values,1365,93.81,HIGH
+published_year,Missing values,1365,93.81,HIGH
+mentions,Zero values may represent missing or incomplete analytics data,1365,93.81,HIGH
+sentiment_score,Zero values may represent missing or incomplete analytics data,1365,93.81,HIGH
+sheet_name,Missing values,1356,93.2,HIGH
+text,Missing values,1345,92.44,HIGH
+author,Missing values,1298,89.21,HIGH
+url,Missing values,1291,88.73,HIGH
+description,Missing values,1291,88.73,HIGH
+publishedAt,Missing values,1291,88.73,HIGH
+nominations,Missing values,1020,70.1,HIGH
+best_picture,Missing values,1020,70.1,HIGH
+awards,Missing values,1020,70.1,HIGH
+page_number,Missing values,909,62.47,HIGH
+extraction_timestamp,Missing values,837,57.53,HIGH
+wins,Missing values,830,57.04,HIGH
+name,Missing values,830,57.04,HIGH
+losses,Missing values,830,57.04,HIGH
+title_length,IQR outliers detected,572,39.31,HIGH
+url,Duplicate identifiers / repeated records,57,3.92,HIGH
+source_path,Duplicate identifiers / repeated records,1339,92.03,MEDIUM
+content_text,Unusually short content text,1134,77.94,MEDIUM
+year,Missing values,395,27.15,MEDIUM
+content_length,IQR outliers detected,371,25.5,MEDIUM
+rating_score,IQR outliers detected,344,23.64,MEDIUM
+vote_average,IQR outliers detected,344,23.64,MEDIUM
+popularity,IQR outliers detected,310,21.31,MEDIUM
+extraction_library,Missing values,164,11.27,MEDIUM
+awards,IQR outliers detected,45,10.34,MEDIUM
+id,Duplicate identifiers / repeated records,80,5.5,MEDIUM
+version,Missing values,94,6.46,LOW
+source_path,Missing values,94,6.46,LOW
+fetched_at,Missing values,94,6.46,LOW
+losses,IQR outliers detected,25,4.0,LOW
+file_name,Missing values,30,2.06,LOW
+title,Unusually short titles,30,2.06,LOW
+wins,IQR outliers detected,10,1.6,LOW
+record_id,Duplicate record IDs,0,0.0,LOW
+url,Duplicate URLs,57,3.92,MEDIUM

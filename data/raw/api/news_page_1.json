@@ -1,71 +1,71 @@
 {
     "status": "ok",
-    "totalResults": 33199,
+    "totalResults": 35195,
     "articles": [
+        {
+            "source": {
+                "id": null,
+                "name": "Trysight.ai"
+            },
+            "author": "Sight Ai",
+            "title": "Automated Content Marketing Workflow: 6-Step Guide",
+            "description": "Learn how to build an automated content marketing workflow in 6 steps. Streamline production, eliminate repetitive tasks, and focus on strategic growth.",
+            "url": "https://www.trysight.ai/blog/automated-content-marketing-workflow#article",
+            "urlToImage": "https://fdvteatlwlgmmzxbfkni.supabase.co/storage/v1/object/public/blog-images/media/automated-content-marketing-workflow-1777018494172.jpg",
+            "publishedAt": "2026-04-25T02:14:04Z",
+            "content": "Manual content marketing is a time drain that keeps teams stuck in repetitive tasks instead of strategic work. Between keyword research, writing, editing, publishing, and distribution, marketers ofte… [+17831 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Moneycontrol"
+            },
+            "author": "Bloomberg",
+            "title": "Nasdaq 100, S&P 500 finish at record on Intel’s blowout results",
+            "description": "The Nasdaq 100 Index gained 1.9% to finish at a fresh all-time closing high, with chipmakers such as Advanced Micro Devices Inc. and ARM Holdings Plc contributing to gains.",
+            "url": "https://www.moneycontrol.com/news/business/markets/nasdaq-100-s-p-500-finish-at-record-on-intel-s-blowout-results-13899092.html",
+            "urlToImage": "https://images.moneycontrol.com/static-mcnews/2026/04/20260425011516_nasdaq-r.jpg",
+            "publishedAt": "2026-04-25T02:09:48Z",
+            "content": "US stocks finished at all-time highs on Friday as a blockbuster sales forecast from Intel Corp. fueled a rally in technology stocks, while trader optimism around the prospect of US-Iran talks increas… [+2840 chars]"
+        },
         {
             "source": {
                 "id": null,
                 "name": "GlobeNewswire"
             },
-            "author": "True Cellular Formulas",
-            "title": "Zinc7 Claims Evaluated: The Most Potent Zinc Supplement on the Market by True Cellular Formulas",
-            "description": "True Cellular Formulas details Zinc7's seven-form zinc complex, ingredient structure, and multi-form zinc bioavailability for women over 40....",
-            "url": "https://www.globenewswire.com/news-release/2026/04/15/3274068/0/en/Zinc7-Claims-Evaluated-The-Most-Potent-Zinc-Supplement-on-the-Market-by-True-Cellular-Formulas.html",
-            "urlToImage": "https://ml.globenewswire.com/Resource/Download/fccd0ffc-44f8-471e-abf0-517e47603450",
-            "publishedAt": "2026-04-15T00:32:00Z",
-            "content": "Allison Park PA, April 14, 2026 (GLOBE NEWSWIRE) -- This article contains affiliate links. If a purchase is made through these links, a commission may be earned at no additional cost to the buyer. Th… [+19270 chars]"
+            "author": "HERE Europe B.V.",
+            "title": "HERE and KOTEI partner to build AI‑native navigation for the software‑defined vehicle era",
+            "description": "Beijing, Auto China 2026 – HERE Technologies, the leading mapping and location data company, and KOTEI, a pioneer in “AI + automotive software”, today announced a strategic co-development partnership to build the next generation of AI-native navigation and in…",
+            "url": "https://www.globenewswire.com/news-release/2026/04/25/3281126/0/en/HERE-and-KOTEI-partner-to-build-AI-native-navigation-for-the-software-defined-vehicle-era.html",
+            "urlToImage": "https://ml-eu.globenewswire.com/Resource/Download/1ea45a5f-35a8-4aa1-abea-0928206b7231",
+            "publishedAt": "2026-04-25T02:00:00Z",
+            "content": "<ul><li>Co-development reimagines navigation as a decision-driven, predictive experience that learns driver intent and adapts in real-time</li><li>Platform approach enables automakers to curate AI-po… [+4259 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Livemint"
+                "name": "Freerepublic.com"
             },
-            "author": "Priyamvada C",
-            "title": "Big money wants a seat in deals, not just funds—and it’s reshaping India’s private markets",
-            "description": "Co-investment is becoming standard as investors seek more control, better returns and larger exposure",
-            "url": "https://www.livemint.com/industry/big-money-seat-deals-funds-reshaping-india-s-private-markets-coinvestment-11776142373050.html",
-            "urlToImage": "https://www.livemint.com/lm-img/img/2026/04/14/1600x900/logo/WhatsApp_1696595068276_1776157187775.jpg",
-            "publishedAt": "2026-04-15T00:30:44Z",
-            "content": "In Indias private markets, this push for co-investment rights is giving limited partners (LPs) more control over where their money goes and better economics, while encouraging fund managers to offer … [+5603 chars]"
+            "author": "AP News",
+            "title": "Navy review puts future of highest-tech US aircraft carriers in question",
+            "description": "The U.S. Navy is reviewing the design and costs of one of its most high-tech and expensive warships — the Ford-class aircraft carrier — and the service’s top boss is not ruling out canceling future versions of its design. Navy Secretary John Phelan told repor…",
+            "url": "https://freerepublic.com/focus/f-news/4376332/posts",
+            "urlToImage": null,
+            "publishedAt": "2026-04-25T01:55:05Z",
+            "content": "Skip to comments.\r\nNavy review puts future of highest-tech US aircraft carriers in questionAP News ^\r\n | April 21, 2026\r\n | KONSTANTIN TOROPIN\r\nPosted on 04/24/2026 6:55:05 PM PDT by MinorityRepublic… [+2807 chars]"
         },
         {
             "source": {
                 "id": null,
-                "name": "Livemint"
+                "name": "The Indian Express"
             },
-            "author": "Ayaan Kartik",
-            "title": "War disruptions fuel interest in EV retrofits, demand more than doubles",
-            "description": "Retrofitting firms such as Bengaluru-based Exponent Energy and Gurugram-based Folks Motor said inquiries have more than doubled since the war, reflecting a sharp rise in consumer interest.",
-            "url": "https://www.livemint.com/industry/manufacturing/west-asia-war-ev-retrofit-firms-automobiles-11776157412801.html",
-            "urlToImage": "https://www.livemint.com/lm-img/img/2026/04/14/1600x900/logo/3-0-134102337-EV1-0_1679831240005_1776171122653.jpg",
-            "publishedAt": "2026-04-15T00:30:24Z",
-            "content": "Retrofitting firms such as Bengaluru-based Exponent Energy and Gurugram-based Folks Motor said inquiries have more than doubled since the war, reflecting a sharp rise in consumer interest.\r\nWhile Exp… [+4648 chars]"
-        },
-        {
-            "source": {
-                "id": "the-times-of-india",
-                "name": "The Times of India"
-            },
-            "author": "Suraksha P",
-            "title": "NHRC member defends notice to MeitY, says child safety concerns override pending DPDP enforcement",
-            "description": "The NHRC in its March 24 notice to the ministry had raised alleged non-compliance of the Digital Personal Data Protection (DPDP) Act by digital platforms. Digital services industry grouping Internet and Mobile Association of India (IAMAI), in a letter to the …",
-            "url": "https://economictimes.indiatimes.com/tech/technology/nhrc-member-defends-notice-to-meity-says-child-safety-concerns-override-pending-dpdp-enforcement/articleshow/130266326.cms",
-            "urlToImage": "https://img.etimg.com/thumb/width-1200,height-900,imgsize-2562303,resizemode-75,msid-130266326/tech/technology/nhrc-member-defends-notice-to-meity-says-child-safety-concerns-override-pending-dpdp-enforcement.jpg",
-            "publishedAt": "2026-04-15T00:30:00Z",
-            "content": "The National Human Rights Commissions (NHRC) recent notice to the Ministry of Electronics and Information Technology (MeitY) over alleged data protection lapses by tech companies was rooted in its ma… [+3990 chars]"
-        },
-        {
-            "source": {
-                "id": "the-times-of-india",
-                "name": "The Times of India"
-            },
-            "author": "Subhayan Chakraborty",
-            "title": "Central government yet to notify selection panels for data protection board",
-            "description": "Five months after establishing the Data Protection Board of India (DPBI), the government has yet to set up search-cum-selection committees to appoint its chairperson and four members. While the Digital Personal Data Protection (DPDP) rules are in force, the q…",
-            "url": "https://economictimes.indiatimes.com/tech/technology/central-government-yet-to-notify-selection-panels-for-data-protection-board/articleshow/130267670.cms",
-            "urlToImage": "https://img.etimg.com/thumb/width-1200,height-900,imgsize-13150,resizemode-75,msid-130267670/tech/technology/central-government-yet-to-notify-selection-panels-for-data-protection-board.jpg",
-            "publishedAt": "2026-04-15T00:30:00Z",
-            "content": "The government has yet to set up search-cum-selection committees to pick the chairperson and four members of the Data Protection Board of India (DPBI), five months after establishing the quasi-judici… [+2366 chars]"
+            "author": "Reuters",
+            "title": "US orders global warning over alleged AI theft by DeepSeek and Chinese firms",
+            "description": "The US is urging allies to address what it calls Chinese efforts to replicate American AI models, spotlighting DeepSeek and escalating tensions ahead of a Trump-Xi meeting.",
+            "url": "https://indianexpress.com/article/technology/artificial-intelligence/us-orders-global-warning-over-alleged-ai-theft-by-deepseek-and-chinese-firms-10654753/",
+            "urlToImage": "https://images.indianexpress.com/2025/01/DeepSeek-2-1.jpg",
+            "publishedAt": "2026-04-25T01:53:01Z",
+            "content": "The US State Department has ordered a global push to bring attention to what it says are widespread efforts by Chinese companies, including AI startup DeepSeek, to steal intellectual property from US… [+3165 chars]"
         }
     ]
 }

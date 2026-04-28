@@ -1,0 +1,106 @@
+record_id,title,document_type,category,rating_score,mentions,popularity,language
+46,Untitled record,pdf,pdf,10.0,,1019.0,unknown
+48,Untitled record,pdf_two_column,pdf_two_column,10.0,,2124.0,unknown
+50,Untitled record,word,word,10.0,,1080.0,unknown
+51,Untitled record,word_two_column,word_two_column,10.0,,1877.0,unknown
+53,AI Market Growth,excel,Business,7.0,28.0,28.0,unknown
+54,Sports Highlights,excel,Sports,5.0,19.0,19.0,unknown
+56,Café Culture Trends,excel,Culture,6.0,14.0,14.0,unknown
+57,München Startup Round,excel,Technology,8.0,17.0,17.0,unknown
+58,Žurnal Election Pulse,excel,Politics,5.0,21.0,21.0,unknown
+60,Weekend Match Buzz,excel,Sports,7.0,31.0,31.0,unknown
+78,Untitled record,pdf,pdf,10.0,,1019.0,unknown
+80,Untitled record,pdf_two_column,pdf_two_column,10.0,,2124.0,unknown
+82,Untitled record,word,word,10.0,,1080.0,unknown
+83,Untitled record,word_two_column,word_two_column,10.0,,1877.0,unknown
+85,AI Market Growth,excel,Business,7.0,28.0,28.0,unknown
+86,Sports Highlights,excel,Sports,5.0,19.0,19.0,unknown
+88,Café Culture Trends,excel,Culture,6.0,14.0,14.0,unknown
+89,München Startup Round,excel,Technology,8.0,17.0,17.0,unknown
+90,Žurnal Election Pulse,excel,Politics,5.0,21.0,21.0,unknown
+92,Weekend Match Buzz,excel,Sports,7.0,31.0,31.0,unknown
+110,Untitled record,pdf,pdf,10.0,,1019.0,unknown
+112,Untitled record,pdf_two_column,pdf_two_column,10.0,,2124.0,unknown
+114,Untitled record,word,word,10.0,,1080.0,unknown
+115,Untitled record,word_two_column,word_two_column,10.0,,1877.0,unknown
+125,AI Market Growth,excel,Business,7.0,28.0,28.0,unknown
+126,Sports Highlights,excel,Sports,5.0,19.0,19.0,unknown
+128,Café Culture Trends,excel,Culture,6.0,14.0,14.0,unknown
+129,München Startup Round,excel,Technology,8.0,17.0,17.0,unknown
+130,Žurnal Election Pulse,excel,Politics,5.0,21.0,21.0,unknown
+132,Weekend Match Buzz,excel,Sports,7.0,31.0,31.0,unknown
+150,Untitled record,pdf,pdf,10.0,,1019.0,unknown
+152,Untitled record,pdf_two_column,pdf_two_column,10.0,,2124.0,unknown
+154,Untitled record,word,word,10.0,,1080.0,unknown
+155,Untitled record,word_two_column,word_two_column,10.0,,1877.0,unknown
+165,AI Market Growth,excel,Business,7.0,28.0,28.0,unknown
+166,Sports Highlights,excel,Sports,5.0,19.0,19.0,unknown
+168,Café Culture Trends,excel,Culture,6.0,14.0,14.0,unknown
+169,München Startup Round,excel,Technology,8.0,17.0,17.0,unknown
+170,Žurnal Election Pulse,excel,Politics,5.0,21.0,21.0,unknown
+172,Weekend Match Buzz,excel,Sports,7.0,31.0,31.0,unknown
+191,Untitled record,pdf,pdf,10.0,,1019.0,unknown
+193,Untitled record,pdf_two_column,pdf_two_column,10.0,,2124.0,unknown
+195,Untitled record,word,word,10.0,,1080.0,unknown
+196,Untitled record,word_two_column,word_two_column,10.0,,1877.0,unknown
+206,AI Market Growth,excel,Business,7.0,28.0,28.0,unknown
+207,Sports Highlights,excel,Sports,5.0,19.0,19.0,unknown
+209,Café Culture Trends,excel,Culture,6.0,14.0,14.0,unknown
+210,München Startup Round,excel,Technology,8.0,17.0,17.0,unknown
+211,Žurnal Election Pulse,excel,Politics,5.0,21.0,21.0,unknown
+213,Weekend Match Buzz,excel,Sports,7.0,31.0,31.0,unknown
+429,Untitled record,ocr_image,ocr_image,8.43,,843.0,unknown
+430,Untitled record,ocr_pdf,ocr_pdf,10.0,,1024.0,unknown
+431,Untitled record,ocr_pdf,ocr_pdf,8.81,,881.0,unknown
+447,Untitled record,pdf,pdf,10.0,,1019.0,unknown
+449,Untitled record,pdf_two_column,pdf_two_column,10.0,,2124.0,unknown
+451,Untitled record,word,word,10.0,,1080.0,unknown
+452,Untitled record,word_two_column,word_two_column,10.0,,1877.0,unknown
+462,AI Market Growth,excel,Business,7.0,28.0,28.0,unknown
+463,Sports Highlights,excel,Sports,5.0,19.0,19.0,unknown
+465,Café Culture Trends,excel,Culture,6.0,14.0,14.0,unknown
+466,München Startup Round,excel,Technology,8.0,17.0,17.0,unknown
+467,Žurnal Election Pulse,excel,Politics,5.0,21.0,21.0,unknown
+469,Weekend Match Buzz,excel,Sports,7.0,31.0,31.0,unknown
+685,Untitled record,ocr_image,ocr_image,8.43,,843.0,unknown
+686,Untitled record,ocr_pdf,ocr_pdf,10.0,,1024.0,unknown
+687,Untitled record,ocr_pdf,ocr_pdf,8.81,,881.0,unknown
+703,Untitled record,pdf,pdf,10.0,,1019.0,unknown
+705,Untitled record,pdf_two_column,pdf_two_column,10.0,,2124.0,unknown
+707,Untitled record,word,word,10.0,,1080.0,unknown
+708,Untitled record,word_two_column,word_two_column,10.0,,1877.0,unknown
+718,AI Market Growth,excel,Business,7.0,28.0,28.0,unknown
+719,Sports Highlights,excel,Sports,5.0,19.0,19.0,unknown
+721,Café Culture Trends,excel,Culture,6.0,14.0,14.0,unknown
+722,München Startup Round,excel,Technology,8.0,17.0,17.0,unknown
+723,Žurnal Election Pulse,excel,Politics,5.0,21.0,21.0,unknown
+725,Weekend Match Buzz,excel,Sports,7.0,31.0,31.0,unknown
+941,Untitled record,ocr_image,ocr_image,8.43,,843.0,unknown
+942,Untitled record,ocr_pdf,ocr_pdf,10.0,,1024.0,unknown
+943,Untitled record,ocr_pdf,ocr_pdf,8.81,,881.0,unknown
+959,Untitled record,pdf,pdf,10.0,,1019.0,unknown
+961,Untitled record,pdf_two_column,pdf_two_column,10.0,,2124.0,unknown
+963,Untitled record,word,word,10.0,,1080.0,unknown
+964,Untitled record,word_two_column,word_two_column,10.0,,1877.0,unknown
+974,AI Market Growth,excel,Business,7.0,28.0,28.0,unknown
+975,Sports Highlights,excel,Sports,5.0,19.0,19.0,unknown
+977,Café Culture Trends,excel,Culture,6.0,14.0,14.0,unknown
+978,München Startup Round,excel,Technology,8.0,17.0,17.0,unknown
+979,Žurnal Election Pulse,excel,Politics,5.0,21.0,21.0,unknown
+981,Weekend Match Buzz,excel,Sports,7.0,31.0,31.0,unknown
+1197,Untitled record,ocr_image,ocr_image,8.43,,843.0,unknown
+1198,Untitled record,ocr_pdf,ocr_pdf,10.0,,1024.0,unknown
+1199,Untitled record,ocr_pdf,ocr_pdf,8.81,,881.0,unknown
+1215,Untitled record,pdf,pdf,10.0,,1019.0,unknown
+1217,Untitled record,pdf_two_column,pdf_two_column,10.0,,2124.0,unknown
+1219,Untitled record,word,word,10.0,,1080.0,unknown
+1220,Untitled record,word_two_column,word_two_column,10.0,,1877.0,unknown
+1230,AI Market Growth,excel,Business,7.0,28.0,28.0,unknown
+1231,Sports Highlights,excel,Sports,5.0,19.0,19.0,unknown
+1233,Café Culture Trends,excel,Culture,6.0,14.0,14.0,unknown
+1234,München Startup Round,excel,Technology,8.0,17.0,17.0,unknown
+1235,Žurnal Election Pulse,excel,Politics,5.0,21.0,21.0,unknown
+1237,Weekend Match Buzz,excel,Sports,7.0,31.0,31.0,unknown
+1453,Untitled record,ocr_image,ocr_image,8.43,,843.0,unknown
+1454,Untitled record,ocr_pdf,ocr_pdf,10.0,,1024.0,unknown
+1455,Untitled record,ocr_pdf,ocr_pdf,8.81,,881.0,unknown

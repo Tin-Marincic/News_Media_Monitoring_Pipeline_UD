@@ -1,0 +1,93 @@
+,record_id,source_name,author,title,description,url,publishedAt,source_path,fetched_at,version,document_type,file_name,page_number,extraction_timestamp,extraction_library,text,tables,id,category,published_date,mentions,sentiment_score,sheet_name,Metric,Total Articles,Total Mentions,Average Mentions,Average Sentiment,Highest Mentions,Politics Articles,Business Articles,paragraph_number,run_number,bold,italic,underline,preview_text,name,year,wins,losses,nominations,awards,best_picture,raw_text,processed_text,content_text,language,published_year,content_length,title_length,rating_score,overview,genres,popularity,release_date,release_year,original_language,vote_average,vote_count
+count,1455.0,1455,157,1455,164,164,164,1361,1361,1361.0,1455,1425,546.0,618,1291,110,54,90.0,1455,90,90.0,90.0,99,9,9.0,9.0,9.0,9.0,9.0,9.0,9.0,56.0,56.0,21,14,0.0,7,625,1060.0,625.0,625.0,435.0,435.0,435,15,15,1455,1455,90.0,1455.0,1455.0,1455.0,1455,1455,1455.0,90,90.0,1455,1455.0,1455.0
+unique,,80,89,203,107,107,97,22,,,15,13,,,8,14,6,,19,,,,2,1,,,,,,,,,,1,1,,7,27,,,,,,2,3,3,229,1,,,,,229,19,,,,1,,
+top,,unknown,Reuters,Untitled record,"These shares are having a good session on hump day. But why?
+The post Why EOS, Humm, New Hope, and Sims shares are storming higher today appeared first on The Motley Fool Australia.",https://www.fool.com.au/2026/03/18/why-eos-humm-new-hope-and-sims-shares-are-storming-higher-today/,2026-03-18T02:40:46Z,https://www.scrapethissite.com/pages/forms/,,,scraped_html_paginated,hockey_multi_page_results.json,,,requests_bs4,"News Media Monitoring Pipeline — Extraction Sample
+Normal layout · includes text, tables with/without borders, and images
+The News Media Monitoring Pipeline collects article metadata, summaries, and engagement signals from online
+outlets. This sample document is designed for document extraction tests and intentionally includes paragraphs,
+bordered tables, borderless tables, and several images.
+During the latest monitoring window, editors tracked rising coverage of elections, AI investments, and live sports
+rights. The content below includes special characters such as Ž, č, š, and café so encoding-aware processing can be
+verified during extraction.
+A downstream parser can extract body text with pdfplumber or python-docx, then store the normalized text and
+metadata in MongoDB together with source path, page number, and extraction timestamp.
+Table with borders — sample source coverage
+Source Category Articles Avg. sentiment
+BBC Politics 12 0.41
+Reuters Business 10 0.63
+CNN Technology 8 0.57
+AP Sports 6 0.49","[[['Source', 'Category', 'Articles', 'Avg. sentiment'], ['BBC', 'Politics', '12', '0.41'], ['Reuters', 'Business', '10', '0.63'], ['CNN', 'Technology', '8', '0.57'], ['AP', 'Sports', '6', '0.49']]]",,scraped_html_paginated,,,,Articles,Value,,,,,,,,,,True,True,,"{
+    ""status"": ""ok"",
+    ""totalResults"": 34363,
+    ""articles"": [
+        {
+            ""source"": {
+                ""id"": null,
+                ""name"": ""Paul Tan's Automotive News""
+            },
+            ""author"": ""Gerard Lye"",
+            ""title"": ""Tesla sued for USD1 million after C",Boston Bruins,,,,,,False,"U okviru 31. kola italijanske Serie A, Inter je na San Siru deklasirao Romu
+rezultatom 5:2 i uévrstio se na vrhu tabele.
+
+Cine
+
+Haris Fozlagié
+“Turstigka zajednica bara rekorde”
+
+Sarajevo obara sve rekorde!
+
+Haris Fazlagi¢ OrTsopu >
+
+Susret je poéeo furiozno za doma¢e. Veé u 1. minuti Lautaro Martinez najbolje se
+snaagao Sesnaestercu nakon brzog napada i zakucao loptu za rano vodstvo Intera
+od 1:0.
+
+Nakon Sokantnog poéetka, Roma je uspjela uspostaviti ravnotezu i nakon nekoliko
+
+neiskori8tenih poluprilika, dosli su do izjednagenja. Igrala se 40. minuta kada je
+
+pratio odli¢an centarSut i udarcem glavom matirao Sommera za
+
+ilo da ée se na odmor otidi u egalu, Hakan Calhanoglu je u drugoj
+minuti sudijske nadoknade izve potez utakmice. Uputio je pravi projektil sa 20
+
+metara, pogodivai raélje gola nemoénog Svilara za vodstvo Intera 2:1.
+","U okviru 31. kola italijanske Serie A, Inter je na San Siru deklasirao Romu
+rezultatom 5:2 i uévrstio se na vrhu tabele.
+
+SF
+
+FBne
+
+ovis Fezlagié
+
+Sarajevo obara sve rekorde!
+
+Haris Fazlagi¢ OTBOpM >
+
+Susret je poteo furiozno za domace. Veé u 1. minuti Lautaro Martinez najbolje se
+snaaao Sesnaestercu nakon brzog napada i zakucao loptu za rano vodstvo Intera
+od 1:0.
+
+Nakon Sokantnog potetka, Roma je uspjela uspostaviti ravnotezZu i nakon nekoliko
+
+neiskori8tenih poluprilika, do8li su do izjednatenja. Igrala se 40. minuta kada je
+Gianluca Mandi
+1
+
+ispratio odligan centarSut i udarcem glavom matirao Sommera za
+
+Kada se dinilo da ée se na odmor otidi u egalu, Hakan Calhanoglu je u drugoj
+minuti sudijske nadoknade izve potez utakmice. Uputio je pravi projektil sa 20
+
+metara, pogodivai razlje gola nemoénog Svilara za vodstvo Intera 2:1.
+",Untitled record,unknown,,,,,Untitled record,scraped_html_paginated,,,,unknown,,
+freq,,1189,16,766,5,5,5,125,,,500,500,,,625,9,9,,500,,,,90,9,,,,,,,,,,21,14,,1,35,,,,,,405,5,5,634,1455,,,,,634,500,,,,1455,,
+mean,728.0,,,,,,,,2026-04-12 18:01:23.771983,1.0,,,2.4157509157509156,2026-04-11 12:33:08.038402,,,,5.5,,2026-03-22 12:00:00,23.5,0.51,,,10.0,235.0,23.5,0.51,34.0,3.0,3.0,6.0,1.0,,,,,,2000.117924528302,35.008,34.784,3.942528735632184,1.6666666666666667,,,,,,2026.0,94.28384879725085,21.503092783505156,1.1160137457044674,,,94.5807560137457,2026-03-22 12:00:00,2026.0,,1.1160137457044674,2.3917525773195876
+min,1.0,,,,,,,,2026-04-01 02:26:18.663000,1.0,,,1.0,2026-04-01 02:10:52.965282,,,,1.0,,2026-03-20 00:00:00,14.0,0.2,,,10.0,235.0,23.5,0.51,34.0,3.0,3.0,1.0,1.0,,,,,,1990.0,10.0,11.0,1.0,1.0,,,,,,2026.0,3.0,3.0,0.03,,,3.0,2026-03-20 00:00:00,2026.0,,0.03,1.0
+25%,364.5,,,,,,,,2026-04-09 15:21:30.718000,1.0,,,1.0,2026-04-06 00:28:31.571914,,,,3.0,,2026-03-21 00:00:00,19.0,0.4,,,10.0,235.0,23.5,0.51,34.0,3.0,3.0,3.5,1.0,,,,,,1991.0,30.0,29.0,1.0,1.0,,,,,,2026.0,15.0,15.0,0.15,,,15.0,2026-03-21 00:00:00,2026.0,,0.15,1.0
+50%,728.0,,,,,,,,2026-04-09 15:51:53.588000,1.0,,,2.0,2026-04-09 15:51:38.185589,,,,5.5,,2026-03-22 12:00:00,22.5,0.5,,,10.0,235.0,23.5,0.51,34.0,3.0,3.0,5.5,1.0,,,,,,1993.0,36.0,34.0,2.0,1.0,,,,,,2026.0,15.0,15.0,0.15,,,15.0,2026-03-22 12:00:00,2026.0,,0.15,1.0
+75%,1091.5,,,,,,,,2026-04-16 00:34:19.422000,1.0,,,3.0,2026-04-16 00:34:12.088912,,,,8.0,,2026-03-24 00:00:00,28.0,0.7,,,10.0,235.0,23.5,0.51,34.0,3.0,3.0,7.75,1.0,,,,,,2012.0,42.0,39.0,6.0,2.0,,,,,,2026.0,21.0,16.0,0.585,,,24.0,2026-03-24 00:00:00,2026.0,,0.585,1.0
+max,1455.0,,,,,,,,2026-04-26 02:17:59.397000,1.0,,,4.0,2026-04-26 02:17:53.010339,,,,10.0,,2026-03-25 00:00:00,34.0,0.8,,,10.0,235.0,23.5,0.51,34.0,3.0,3.0,13.0,1.0,,,,,,2015.0,56.0,71.0,12.0,7.0,,,,,,2026.0,2124.0,202.0,10.0,,,2124.0,2026-03-25 00:00:00,2026.0,,10.0,34.0
+std,420.1666336109996,,,,,,,,,0.0,,,1.1158775228940123,,,,,2.8883726610694618,,,5.987346207356108,0.18239973388508085,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.7755192297941558,0.0,,,,,,10.5119321308533,9.241676782034185,9.84542715667715,3.319945039517462,1.2578478682259688,,,,,,0.0,268.3378890050481,21.649669954415625,2.1855113251177807,,,268.26021603728145,,0.0,,2.1855113251177807,5.620672018672763

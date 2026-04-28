@@ -1,6 +1,6 @@
 {
   "source_file": "news3.mp3",
-  "source_path": "data/raw/audio/news3.mp3",
+  "source_path": "data\\raw\\audio\\news3.mp3",
   "language": "en",
   "language_probability": 0.9944,
   "duration_s": 180.02,

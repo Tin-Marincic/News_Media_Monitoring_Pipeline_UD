@@ -1,0 +1,732 @@
+record_id,source_name,author,title,description,url,publishedAt,source_path,fetched_at,version,document_type,file_name,page_number,extraction_timestamp,extraction_library,text,tables,id,category,published_date,mentions,sentiment_score,sheet_name,Metric,Total Articles,Total Mentions,Average Mentions,Average Sentiment,Highest Mentions,Politics Articles,Business Articles,paragraph_number,run_number,bold,italic,underline,preview_text,name,year,wins,losses,nominations,awards,best_picture,raw_text,processed_text,content_text,language,published_year,content_length,title_length,rating_score,overview,genres,popularity,release_date,release_year,original_language,vote_average,vote_count
+1,Motley Fool Australia,James Mickleboro,"Why EOS, Humm, New Hope, and Sims shares are storming higher today","These shares are having a good session on hump day. But why?
+The post Why EOS, Humm, New Hope, and Sims shares are storming higher today appeared first on The Motley Fool Australia.",https://www.fool.com.au/2026/03/18/why-eos-humm-new-hope-and-sims-shares-are-storming-higher-today/,2026-03-18T02:40:46Z,,,,news_api,,,,,,,,news_api,,,,,,,,,,,,,,,,,,,,,,,,,,,,"These shares are having a good session on hump day. But why?
+The post Why EOS, Humm, New Hope, and Sims shares are storming higher today appeared first on The Motley Fool Australia.",unknown,,181,66,1.81,"These shares are having a good session on hump day. But why?
+The post Why EOS, Humm, New Hope, and Sims shares are storming higher today appeared first on The Motley Fool Australia.",news_api,181.0,,,unknown,1.81,1.0
+11,Thechronicle.com.gh,JENNIFER AMBOLLEY,Ghana’s Mining Investment Ranking Tumbles …Jinapor Expresses Concern,"Ghana’s standing as a preferred destination for mining investment has come under renewed scrutiny, following a significant drop in the latest Global Mining Investment Attractiveness Index, prompting concern from the country’s immediate past Minister for Lands…",https://thechronicle.com.gh/ghanas-mining-investment-ranking-tumbles-jinapor-expresses-concern/,2026-03-18T02:12:35Z,,,,news_api,,,,,,,,news_api,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Ghana’s standing as a preferred destination for mining investment has come under renewed scrutiny, following a significant drop in the latest Global Mining Investment Attractiveness Index, prompting concern from the country’s immediate past Minister for Lands…",unknown,,260,68,2.6,"Ghana’s standing as a preferred destination for mining investment has come under renewed scrutiny, following a significant drop in the latest Global Mining Investment Attractiveness Index, prompting concern from the country’s immediate past Minister for Lands…",news_api,260.0,,,unknown,2.6,1.0
+21,The Times of India,TOI Education,"GATE 2026 final answer key not released yet, results likely to be out tomorrow: Check details here","The Indian Institute of Technology Guwahati has clarified that the GATE 2026 final answer key has not yet been released, dismissing reports claiming otherwise. Candidates have been advised to rely only on official updates on the GATE portals. The result is ex…",https://timesofindia.indiatimes.com/education/news/gate-2026-final-answer-key-not-released-yet-results-likely-to-be-out-tomorrow-check-details-here/articleshow/129645610.cms,2026-03-18T02:31:14Z,,,,news_api,,,,,,,,news_api,,,,,,,,,,,,,,,,,,,,,,,,,,,,"The Indian Institute of Technology Guwahati has clarified that the GATE 2026 final answer key has not yet been released, dismissing reports claiming otherwise. Candidates have been advised to rely only on official updates on the GATE portals. The result is ex…",unknown,,260,98,2.6,"The Indian Institute of Technology Guwahati has clarified that the GATE 2026 final answer key has not yet been released, dismissing reports claiming otherwise. Candidates have been advised to rely only on official updates on the GATE portals. The result is ex…",news_api,260.0,,,unknown,2.6,1.0
+31,Paul Tan's Automotive News,Gerard Lye,Tesla sued for USD1 million after Cybertruck nearly drives off Houston overpass while FSD mode engaged,"A woman from Houston, Texas is suing Tesla for USD1 million after a terrifying incident which she claimed put her and her one-year-old child’s lives in danger, KHOU reports. The incident, which happened in August […]
+The post Tesla sued for USD1 million after…",https://paultan.org/2026/03/18/tesla-gets-sued-for-fsd-crash-in-texas/,2026-03-18T02:50:13Z,,,,json,news_page_1.json,,2026-04-01 02:10:52.965282,,,,,json,,,,,,,,,,,,,,,,,,,,,,,,,,,,"A woman from Houston, Texas is suing Tesla for USD1 million after a terrifying incident which she claimed put her and her one-year-old child’s lives in danger, KHOU reports. The incident, which happened in August […]
+The post Tesla sued for USD1 million after…",unknown,,260,102,2.6,"A woman from Houston, Texas is suing Tesla for USD1 million after a terrifying incident which she claimed put her and her one-year-old child’s lives in danger, KHOU reports. The incident, which happened in August […]
+The post Tesla sued for USD1 million after…",json,260.0,,,unknown,2.6,1.0
+41,BusinessLine,KS Badri Narayanan,"17 stocks including Tata Steel, SBI, Varun Beverages, Shree Cement, Wipro, Ceigall, NHPC, Paisalo, Strides Pharma will remain in focus on Wednesday","Key stocks like Tata Steel, SBI, and Varun Beverages will be in focus on Wednesday due to significant corporate developments.",https://www.thehindubusinessline.com/markets/17-stocks-including-tata-steel-sbi-varun-beverages-shree-cement-wipro-ceigall-nhpc-paisalo-strides-pharma-will-remain-in-focus-on-wednesday/article70756561.ece,2026-03-18T02:15:03Z,,,,json,news_page_3.json,,2026-04-01 02:10:53.011149,,,,,json,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Key stocks like Tata Steel, SBI, and Varun Beverages will be in focus on Wednesday due to significant corporate developments.",unknown,,125,147,1.25,"Key stocks like Tata Steel, SBI, and Varun Beverages will be in focus on Wednesday due to significant corporate developments.",json,125.0,,,unknown,1.25,1.0
+51,data/raw/word/news_two_column.docx,,Untitled record,,,,,,,word_two_column,news_two_column.docx,,2026-04-01 02:10:53.187288,python-docx,"News Monitoring Brief —
+Two Column Sample
+
+Two-column layout for extraction testing with pdfplumber crop strategy
+
+This two-column briefing simulates a compact media report distributed to newsroom analysts. It contains short paragraphs and embedded images so you can test whether column-aware extraction produces readable output. The layout is intentionally narrow and mirrors the kind of print digest often used for morning media reviews.
+
+Coverage this week highlighted policy debates, AI funding optimism, and a surge in weekend sports clips. Regional desks also logged multilingual mentions including Žurnal, São Paulo, München, and café references. These characters are useful for testing whether normalization preserves accented text during extraction.
+
+A common strategy for multi-column PDFs is to split each page into left and right regions, extract both halves separately, normalize whitespace, and concatenate the results in reading order. This avoids jumbled lines when extractors read across the page instead of down the first column.
+
+Analysts can further attach metadata such as source file, page number, extraction date, and processing library so that downstream search or audit tasks remain transparent. Once stored in MongoDB, the document content can be searched alongside article feeds gathered from APIs and scraped websites.
+
+In production, a simple logging trail should capture document name, success state, encoding notes, and any extraction warnings. That makes it easier to compare normal PDFs, two-column PDFs, Word documents, and Excel sheets inside one reproducible pipeline.
+
+Bordered table — source coverage snapshot
+
+Borderless table — trending keyword snapshot
+
+Store extracted text with metadata such as file name, page number, source path, extraction date, and library used. This helps version and audit ingestion results inside the pipeline.","[[['Source', 'Hits'], ['BBC', '12'], ['CNN', '8'], ['AP', '6'], ['Reuters', '10']], [['Keyword', 'Count'], ['election', '18'], ['markets', '21'], ['AI', '26'], ['sports', '16']]]",,word_two_column,,,,,,,,,,,,,,,,,,,,,,,,,,,,"News Monitoring Brief —
+Two Column Sample
+
+Two-column layout for extraction testing with pdfplumber crop strategy
+
+This two-column briefing simulates a compact media report distributed to newsroom analysts. It contains short paragraphs and embedded images so you can test whether column-aware extraction produces readable output. The layout is intentionally narrow and mirrors the kind of print digest often used for morning media reviews.
+
+Coverage this week highlighted policy debates, AI funding optimism, and a surge in weekend sports clips. Regional desks also logged multilingual mentions including Žurnal, São Paulo, München, and café references. These characters are useful for testing whether normalization preserves accented text during extraction.
+
+A common strategy for multi-column PDFs is to split each page into left and right regions, extract both halves separately, normalize whitespace, and concatenate the results in reading order. This avoids jumbled lines when extractors read across the page instead of down the first column.
+
+Analysts can further attach metadata such as source file, page number, extraction date, and processing library so that downstream search or audit tasks remain transparent. Once stored in MongoDB, the document content can be searched alongside article feeds gathered from APIs and scraped websites.
+
+In production, a simple logging trail should capture document name, success state, encoding notes, and any extraction warnings. That makes it easier to compare normal PDFs, two-column PDFs, Word documents, and Excel sheets inside one reproducible pipeline.
+
+Bordered table — source coverage snapshot
+
+Borderless table — trending keyword snapshot
+
+Store extracted text with metadata such as file name, page number, source path, extraction date, and library used. This helps version and audit ingestion results inside the pipeline.",unknown,,1877,15,10.0,"News Monitoring Brief —
+Two Column Sample
+
+Two-column layout for extraction testing with pdfplumber crop strategy
+
+This two-column briefing simulates a compact media report distributed to newsroom analysts. It contains short paragraphs and embedded images so you can test whether column-aware extraction produces readable output. The layout is intentionally narrow and mirrors the kind of print digest often used for morning media reviews.
+
+Coverage this week highlighted policy debates, AI funding optimism, and a surge in weekend sports clips. Regional desks also logged multilingual mentions including Žurnal, São Paulo, München, and café references. These characters are useful for testing whether normalization preserves accented text during extraction.
+
+A common strategy for multi-column PDFs is to split each page into left and right regions, extract both halves separately, normalize whitespace, and concatenate the results in reading order. This avoids jumbled lines when extractors read across the page instead of down the first column.
+
+Analysts can further attach metadata such as source file, page number, extraction date, and processing library so that downstream search or audit tasks remain transparent. Once stored in MongoDB, the document content can be searched alongside article feeds gathered from APIs and scraped websites.
+
+In production, a simple logging trail should capture document name, success state, encoding notes, and any extraction warnings. That makes it easier to compare normal PDFs, two-column PDFs, Word documents, and Excel sheets inside one reproducible pipeline.
+
+Bordered table — source coverage snapshot
+
+Borderless table — trending keyword snapshot
+
+Store extracted text with metadata such as file name, page number, source path, extraction date, and library used. This helps version and audit ingestion results inside the pipeline.",word_two_column,1877.0,,,unknown,10.0,1.0
+61,Al Jazeera,,Inflation Briefing,,,,,,,excel,news_data.xlsx,,2026-04-01 02:10:53.221659,openpyxl,,,10.0,Business,2026-03-25,22.0,0.2,Articles,,,,,,,,,,,,,,,,,,,,,,,,Inflation Briefing,unknown,2026.0,18,18,2.0,Inflation Briefing,Business,22.0,2026-03-25,2026.0,unknown,2.0,22.0
+71,The Times of India,Reuters,Trump administration defends Anthropic blacklisting in US court,"Defense Secretary Pete Hegseth designated Anthropic, the maker of popular AI assistant Claude, a national security supply chain risk on March 3 after the company refused to remove guardrails ‌against its ⁠technology being ⁠used for autonomous weapons or domes…",https://economictimes.indiatimes.com/tech/tech-bytes/trump-administration-defends-anthropic-blacklisting-in-us-court/articleshow/129645468.cms,2026-03-18T02:16:55Z,,,,json,news_page_2.json,,2026-04-01 02:14:43.364361,,,,,json,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Defense Secretary Pete Hegseth designated Anthropic, the maker of popular AI assistant Claude, a national security supply chain risk on March 3 after the company refused to remove guardrails ‌against its ⁠technology being ⁠used for autonomous weapons or domes…",unknown,,260,63,2.6,"Defense Secretary Pete Hegseth designated Anthropic, the maker of popular AI assistant Claude, a national security supply chain risk on March 3 after the company refused to remove guardrails ‌against its ⁠technology being ⁠used for autonomous weapons or domes…",json,260.0,,,unknown,2.6,1.0
+81,data/raw/pdf/news_two_column.pdf,,Untitled record,,,,,,,pdf_two_column,news_two_column.pdf,2.0,2026-04-01 02:14:43.471760,pdfplumber,"Bordered table — source coverage snaps
+Source Hits
+BBC 12
+CNN 8
+AP 6
+Reuters 10
+Borderless table — trending keyword sn
+Keyword Count
+election 18
+markets 21
+AI 26
+sports 16
+Store extracted text with metadata such as file name, page n
+version and audit ingestion results inside the pipeline.
+
+t
+shot
+er, source path, extraction date, and library used. This helps","[[['Source', 'Hits'], ['BBC', '12'], ['CNN', '8'], ['AP', '6'], ['Reuters', '10']], [['Keyword', 'Count']]]",,pdf_two_column,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Bordered table — source coverage snaps
+Source Hits
+BBC 12
+CNN 8
+AP 6
+Reuters 10
+Borderless table — trending keyword sn
+Keyword Count
+election 18
+markets 21
+AI 26
+sports 16
+Store extracted text with metadata such as file name, page n
+version and audit ingestion results inside the pipeline.
+
+t
+shot
+er, source path, extraction date, and library used. This helps",unknown,,360,15,3.6,"Bordered table — source coverage snaps
+Source Hits
+BBC 12
+CNN 8
+AP 6
+Reuters 10
+Borderless table — trending keyword sn
+Keyword Count
+election 18
+markets 21
+AI 26
+sports 16
+Store extracted text with metadata such as file name, page n
+version and audit ingestion results inside the pipeline.
+
+t
+shot
+er, source path, extraction date, and library used. This helps",pdf_two_column,360.0,,,unknown,3.6,1.0
+91,Financial Times,,Streaming Rights Watch,,,,,,,excel,news_data.xlsx,,2026-04-01 02:14:43.534301,openpyxl,,,8.0,Business,2026-03-24,26.0,0.4,Articles,,,,,,,,,,,,,,,,,,,,,,,,Streaming Rights Watch,unknown,2026.0,22,22,4.0,Streaming Rights Watch,Business,26.0,2026-03-24,2026.0,unknown,4.0,26.0
+101,Financial Post,Business Wire,LTM Named NVIDIA Partner Network ‘Rising Star Consulting Partner of the Year’ at NVIDIA GTC 2026,"MUMBAI, India — LTM, the Business Creativity partner to the world’s largest enterprises, has been recognized as the NVIDIA Partner Network (NPN) ‘Rising Star Consulting Partner of the Year’ at NVIDIA GTC 2026. The award recognizes LTM’s strong collaboration w…",https://financialpost.com/pmn/business-wire-news-releases-pmn/ltm-named-nvidia-partner-network-rising-star-consulting-partner-of-the-year-at-nvidia-gtc-2026,2026-03-18T02:30:15Z,news_page_2.json,2026-04-01 02:26:18.673,1.0,json,news_page_2.json,,,,,,,json,,,,,,,,,,,,,,,,,,,,,,,,,,,,"MUMBAI, India — LTM, the Business Creativity partner to the world’s largest enterprises, has been recognized as the NVIDIA Partner Network (NPN) ‘Rising Star Consulting Partner of the Year’ at NVIDIA GTC 2026. The award recognizes LTM’s strong collaboration w…",unknown,,260,96,2.6,"MUMBAI, India — LTM, the Business Creativity partner to the world’s largest enterprises, has been recognized as the NVIDIA Partner Network (NPN) ‘Rising Star Consulting Partner of the Year’ at NVIDIA GTC 2026. The award recognizes LTM’s strong collaboration w…",json,260.0,,,unknown,2.6,1.0
+111,unknown,,Untitled record,,,,data/raw/pdf/news_normal.pdf,2026-04-01 02:26:18.756,1.0,pdf,news_normal.pdf,2.0,2026-04-01 02:26:18.730157,pdfplumber,"Table without borders — trending keyword snapshot
+Month Trending keyword Mentions
+January election 45
+February AI 52
+March streaming 61
+April inflation 56
+Suggested extraction metadata: file name, document type, source path, extraction timestamp, page number, and extraction
+library.","[[['Month', 'Trending keyword', 'Mentions']]]",,pdf,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Table without borders — trending keyword snapshot
+Month Trending keyword Mentions
+January election 45
+February AI 52
+March streaming 61
+April inflation 56
+Suggested extraction metadata: file name, document type, source path, extraction timestamp, page number, and extraction
+library.",unknown,,283,15,2.83,"Table without borders — trending keyword snapshot
+Month Trending keyword Mentions
+January election 45
+February AI 52
+March streaming 61
+April inflation 56
+Suggested extraction metadata: file name, document type, source path, extraction timestamp, page number, and extraction
+library.",pdf,283.0,,,unknown,2.83,1.0
+121,unknown,,Untitled record,,,,data/raw/word/news_normal.docx,2026-04-01 02:26:18.851,1.0,word_run,news_normal.docx,,,python-docx,Table with borders — sample source coverage,,,word_run,,,,,,,,,,,,,7.0,1.0,True,,,,,,,,,,,,,Table with borders — sample source coverage,unknown,,43,15,0.4299999999999999,Table with borders — sample source coverage,word_run,43.0,,,unknown,0.4299999999999999,1.0
+131,Financial Times,,Streaming Rights Watch,,,,data/raw/excel/news_data.xlsx,2026-04-01 02:26:18.866,1.0,excel,news_data.xlsx,,2026-04-01 02:26:18.862035,openpyxl,,,8.0,Business,2026-03-24,26.0,0.4,Articles,,,,,,,,,,,,,,,,,,,,,,,,Streaming Rights Watch,unknown,2026.0,22,22,4.0,Streaming Rights Watch,Business,26.0,2026-03-24,2026.0,unknown,4.0,26.0
+141,Growag.com,Casey Dunn,Soil Health: How Deep It Goes & How to Improve It | growᴬᴳ,"Explore soil health in agriculture, why it matters, how to measure it, and practical ways to restore and improve soil health long term.",https://www.growag.com/article/soil-health-foundation-every-productive-farm,2026-03-31T02:14:38Z,news_page_2.json,2026-04-01 02:31:18.174,1.0,json,news_page_2.json,,,,,,,json,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Explore soil health in agriculture, why it matters, how to measure it, and practical ways to restore and improve soil health long term.",unknown,,135,58,1.35,"Explore soil health in agriculture, why it matters, how to measure it, and practical ways to restore and improve soil health long term.",json,135.0,,,unknown,1.35,1.0
+151,unknown,,Untitled record,,,,data/raw/pdf/news_normal.pdf,2026-04-01 02:31:18.230,1.0,pdf,news_normal.pdf,2.0,2026-04-01 02:31:18.225590,pdfplumber,"Table without borders — trending keyword snapshot
+Month Trending keyword Mentions
+January election 45
+February AI 52
+March streaming 61
+April inflation 56
+Suggested extraction metadata: file name, document type, source path, extraction timestamp, page number, and extraction
+library.","[[['Month', 'Trending keyword', 'Mentions']]]",,pdf,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Table without borders — trending keyword snapshot
+Month Trending keyword Mentions
+January election 45
+February AI 52
+March streaming 61
+April inflation 56
+Suggested extraction metadata: file name, document type, source path, extraction timestamp, page number, and extraction
+library.",unknown,,283,15,2.83,"Table without borders — trending keyword snapshot
+Month Trending keyword Mentions
+January election 45
+February AI 52
+March streaming 61
+April inflation 56
+Suggested extraction metadata: file name, document type, source path, extraction timestamp, page number, and extraction
+library.",pdf,283.0,,,unknown,2.83,1.0
+161,unknown,,Untitled record,,,,data/raw/word/news_normal.docx,2026-04-01 02:31:18.320,1.0,word_run,news_normal.docx,,,python-docx,Table with borders — sample source coverage,,,word_run,,,,,,,,,,,,,7.0,1.0,True,,,,,,,,,,,,,Table with borders — sample source coverage,unknown,,43,15,0.4299999999999999,Table with borders — sample source coverage,word_run,43.0,,,unknown,0.4299999999999999,1.0
+171,Financial Times,,Streaming Rights Watch,,,,data/raw/excel/news_data.xlsx,2026-04-01 02:31:18.340,1.0,excel,news_data.xlsx,,2026-04-01 02:31:18.328554,openpyxl,,,8.0,Business,2026-03-24,26.0,0.4,Articles,,,,,,,,,,,,,,,,,,,,,,,,Streaming Rights Watch,unknown,2026.0,22,22,4.0,Streaming Rights Watch,Business,26.0,2026-03-24,2026.0,unknown,4.0,26.0
+181,GlobeNewswire,RAKIA,"RAKIA Achieves CMMC Level 1 Compliance, Expanding Access to U.S. Defense Contracts and Accelerating Federal Growth Strategy",CMMS opens new opportunities in U.S. defense contracts and accelerates federal expansion....,https://www.globenewswire.com/news-release/2026/04/04/3268218/0/en/RAKIA-Achieves-CMMC-Level-1-Compliance-Expanding-Access-to-U-S-Defense-Contracts-and-Accelerating-Federal-Growth-Strategy.html,2026-04-04T23:39:00Z,news_page_2.json,2026-04-06 00:28:10.615,1.0,json,news_page_2.json,,,,,,,json,,,,,,,,,,,,,,,,,,,,,,,,,,,,CMMS opens new opportunities in U.S. defense contracts and accelerates federal expansion....,unknown,,92,123,0.92,CMMS opens new opportunities in U.S. defense contracts and accelerates federal expansion....,json,92.0,,,unknown,0.92,1.0
+191,unknown,,Untitled record,,,,data/raw/pdf/news_normal.pdf,2026-04-06 00:28:10.682,1.0,pdf,news_normal.pdf,1.0,2026-04-06 00:28:10.673031,pdfplumber,"News Media Monitoring Pipeline — Extraction Sample
+Normal layout · includes text, tables with/without borders, and images
+The News Media Monitoring Pipeline collects article metadata, summaries, and engagement signals from online
+outlets. This sample document is designed for document extraction tests and intentionally includes paragraphs,
+bordered tables, borderless tables, and several images.
+During the latest monitoring window, editors tracked rising coverage of elections, AI investments, and live sports
+rights. The content below includes special characters such as Ž, č, š, and café so encoding-aware processing can be
+verified during extraction.
+A downstream parser can extract body text with pdfplumber or python-docx, then store the normalized text and
+metadata in MongoDB together with source path, page number, and extraction timestamp.
+Table with borders — sample source coverage
+Source Category Articles Avg. sentiment
+BBC Politics 12 0.41
+Reuters Business 10 0.63
+CNN Technology 8 0.57
+AP Sports 6 0.49","[[['Source', 'Category', 'Articles', 'Avg. sentiment'], ['BBC', 'Politics', '12', '0.41'], ['Reuters', 'Business', '10', '0.63'], ['CNN', 'Technology', '8', '0.57'], ['AP', 'Sports', '6', '0.49']]]",,pdf,,,,,,,,,,,,,,,,,,,,,,,,,,,,"News Media Monitoring Pipeline — Extraction Sample
+Normal layout · includes text, tables with/without borders, and images
+The News Media Monitoring Pipeline collects article metadata, summaries, and engagement signals from online
+outlets. This sample document is designed for document extraction tests and intentionally includes paragraphs,
+bordered tables, borderless tables, and several images.
+During the latest monitoring window, editors tracked rising coverage of elections, AI investments, and live sports
+rights. The content below includes special characters such as Ž, č, š, and café so encoding-aware processing can be
+verified during extraction.
+A downstream parser can extract body text with pdfplumber or python-docx, then store the normalized text and
+metadata in MongoDB together with source path, page number, and extraction timestamp.
+Table with borders — sample source coverage
+Source Category Articles Avg. sentiment
+BBC Politics 12 0.41
+Reuters Business 10 0.63
+CNN Technology 8 0.57
+AP Sports 6 0.49",unknown,,1019,15,10.0,"News Media Monitoring Pipeline — Extraction Sample
+Normal layout · includes text, tables with/without borders, and images
+The News Media Monitoring Pipeline collects article metadata, summaries, and engagement signals from online
+outlets. This sample document is designed for document extraction tests and intentionally includes paragraphs,
+bordered tables, borderless tables, and several images.
+During the latest monitoring window, editors tracked rising coverage of elections, AI investments, and live sports
+rights. The content below includes special characters such as Ž, č, š, and café so encoding-aware processing can be
+verified during extraction.
+A downstream parser can extract body text with pdfplumber or python-docx, then store the normalized text and
+metadata in MongoDB together with source path, page number, and extraction timestamp.
+Table with borders — sample source coverage
+Source Category Articles Avg. sentiment
+BBC Politics 12 0.41
+Reuters Business 10 0.63
+CNN Technology 8 0.57
+AP Sports 6 0.49",pdf,1019.0,,,unknown,10.0,1.0
+201,unknown,,Untitled record,,,,data/raw/word/news_normal.docx,2026-04-06 00:28:10.817,1.0,word_run,news_normal.docx,,,python-docx,"A downstream parser can extract body text with pdfplumber or python-docx, then store the normalized text and metadata in MongoDB together with source path, page number, and extraction timestamp.",,,word_run,,,,,,,,,,,,,6.0,1.0,,,,,,,,,,,,,,"A downstream parser can extract body text with pdfplumber or python-docx, then store the normalized text and metadata in MongoDB together with source path, page number, and extraction timestamp.",unknown,,194,15,1.94,"A downstream parser can extract body text with pdfplumber or python-docx, then store the normalized text and metadata in MongoDB together with source path, page number, and extraction timestamp.",word_run,194.0,,,unknown,1.94,1.0
+211,Žurnal,,Žurnal Election Pulse,,,,data/raw/excel/news_data.xlsx,2026-04-06 00:28:10.845,1.0,excel,news_data.xlsx,,2026-04-06 00:28:10.841846,openpyxl,,,7.0,Politics,2026-03-23,21.0,0.5,Articles,,,,,,,,,,,,,,,,,,,,,,,,Žurnal Election Pulse,unknown,2026.0,21,21,5.0,Žurnal Election Pulse,Politics,21.0,2026-03-23,2026.0,unknown,5.0,21.0
+221,unknown,,Untitled record,,,,https://www.scrapethissite.com/pages/forms/,2026-04-06 00:28:14.345,1.0,scraped_html,hockey_results.json,,,requests_bs4,,,,scraped_html,,,,,,,,,,,,,,,,,,,Detroit Red Wings,1990.0,34.0,38.0,,,,,,Untitled record,unknown,,15,15,0.15,Untitled record,scraped_html,15.0,,,unknown,0.15,1.0
+231,unknown,,Untitled record,,,,https://www.scrapethissite.com/pages/forms/,2026-04-06 00:28:14.350,1.0,scraped_html,hockey_results.json,,,requests_bs4,,,,scraped_html,,,,,,,,,,,,,,,,,,,Pittsburgh Penguins,1990.0,41.0,33.0,,,,,,Untitled record,unknown,,15,15,0.15,Untitled record,scraped_html,15.0,,,unknown,0.15,1.0
+241,unknown,,Untitled record,,,,https://www.scrapethissite.com/pages/forms/,2026-04-06 00:28:14.355,1.0,scraped_html,hockey_results.json,,,requests_bs4,,,,scraped_html,,,,,,,,,,,,,,,,,,,Chicago Blackhawks,1991.0,36.0,29.0,,,,,,Untitled record,unknown,,15,15,0.15,Untitled record,scraped_html,15.0,,,unknown,0.15,1.0
+251,unknown,,Untitled record,,,,https://www.scrapethissite.com/pages/forms/?page_num=1,2026-04-06 00:28:24.412,1.0,scraped_html_paginated,hockey_multi_page_results.json,1.0,,requests_bs4,,,,scraped_html_paginated,,,,,,,,,,,,,,,,,,,Montreal Canadiens,1990.0,39.0,30.0,,,,,,Untitled record,unknown,,15,15,0.15,Untitled record,scraped_html_paginated,15.0,,,unknown,0.15,1.0
+261,unknown,,Untitled record,,,,https://www.scrapethissite.com/pages/forms/?page_num=1,2026-04-06 00:28:24.420,1.0,scraped_html_paginated,hockey_multi_page_results.json,1.0,,requests_bs4,,,,scraped_html_paginated,,,,,,,,,,,,,,,,,,,Washington Capitals,1990.0,37.0,36.0,,,,,,Untitled record,unknown,,15,15,0.15,Untitled record,scraped_html_paginated,15.0,,,unknown,0.15,1.0
+271,unknown,,Untitled record,,,,https://www.scrapethissite.com/pages/forms/?page_num=2,2026-04-06 00:28:24.426,1.0,scraped_html_paginated,hockey_multi_page_results.json,2.0,,requests_bs4,,,,scraped_html_paginated,,,,,,,,,,,,,,,,,,,Minnesota North Stars,1991.0,32.0,42.0,,,,,,Untitled record,unknown,,15,15,0.15,Untitled record,scraped_html_paginated,15.0,,,unknown,0.15,1.0
+281,unknown,,Untitled record,,,,https://www.scrapethissite.com/pages/forms/?page_num=2,2026-04-06 00:28:24.436,1.0,scraped_html_paginated,hockey_multi_page_results.json,2.0,,requests_bs4,,,,scraped_html_paginated,,,,,,,,,,,,,,,,,,,Toronto Maple Leafs,1991.0,30.0,43.0,,,,,,Untitled record,unknown,,15,15,0.15,Untitled record,scraped_html_paginated,15.0,,,unknown,0.15,1.0
+291,unknown,,Untitled record,,,,https://www.scrapethissite.com/pages/forms/?page_num=2,2026-04-06 00:28:24.442,1.0,scraped_html_paginated,hockey_multi_page_results.json,2.0,,requests_bs4,,,,scraped_html_paginated,,,,,,,,,,,,,,,,,,,Hartford Whalers,1992.0,26.0,52.0,,,,,,Untitled record,unknown,,15,15,0.15,Untitled record,scraped_html_paginated,15.0,,,unknown,0.15,1.0
+301,unknown,,Untitled record,,,,https://www.scrapethissite.com/pages/forms/?page_num=3,2026-04-06 00:28:24.505,1.0,scraped_html_paginated,hockey_multi_page_results.json,3.0,,requests_bs4,,,,scraped_html_paginated,,,,,,,,,,,,,,,,,,,Quebec Nordiques,1992.0,47.0,27.0,,,,,,Untitled record,unknown,,15,15,0.15,Untitled record,scraped_html_paginated,15.0,,,unknown,0.15,1.0
+311,unknown,,Untitled record,,,,https://www.scrapethissite.com/pages/forms/?page_num=3,2026-04-06 00:28:24.526,1.0,scraped_html_paginated,hockey_multi_page_results.json,3.0,,requests_bs4,,,,scraped_html_paginated,,,,,,,,,,,,,,,,,,,Buffalo Sabres,1993.0,43.0,32.0,,,,,,Untitled record,unknown,,15,15,0.15,Untitled record,scraped_html_paginated,15.0,,,unknown,0.15,1.0
+321,unknown,,Untitled record,,,,https://www.scrapethissite.com/pages/forms/?page_num=4,2026-04-06 00:28:24.534,1.0,scraped_html_paginated,hockey_multi_page_results.json,4.0,,requests_bs4,,,,scraped_html_paginated,,,,,,,,,,,,,,,,,,,New Jersey Devils,1993.0,47.0,25.0,,,,,,Untitled record,unknown,,15,15,0.15,Untitled record,scraped_html_paginated,15.0,,,unknown,0.15,1.0
+331,unknown,,Untitled record,,,,https://www.scrapethissite.com/pages/forms/?page_num=4,2026-04-06 00:28:24.540,1.0,scraped_html_paginated,hockey_multi_page_results.json,4.0,,requests_bs4,,,,scraped_html_paginated,,,,,,,,,,,,,,,,,,,Toronto Maple Leafs,1993.0,43.0,29.0,,,,,,Untitled record,unknown,,15,15,0.15,Untitled record,scraped_html_paginated,15.0,,,unknown,0.15,1.0
+341,unknown,,Untitled record,,,,https://www.scrapethissite.com/pages/forms/?page_num=4,2026-04-06 00:28:24.547,1.0,scraped_html_paginated,hockey_multi_page_results.json,4.0,,requests_bs4,,,,scraped_html_paginated,,,,,,,,,,,,,,,,,,,Detroit Red Wings,1994.0,33.0,11.0,,,,,,Untitled record,unknown,,15,15,0.15,Untitled record,scraped_html_paginated,15.0,,,unknown,0.15,1.0
+351,unknown,,God of Love,,,,https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2010,2026-04-06 00:28:38.896,1.0,scraped_json_api,ajax_movies_api_results.json,,2026-04-06 00:28:26.652022,requests,,,,scraped_json_api,,,,,,,,,,,,,,,,,,,,2010.0,,,1.0,1.0,False,,,God of Love,unknown,,11,11,0.1099999999999999,God of Love,scraped_json_api,11.0,,,unknown,0.1099999999999999,1.0
+361,unknown,,The Help,,,,https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2011,2026-04-06 00:28:38.902,1.0,scraped_json_api,ajax_movies_api_results.json,,2026-04-06 00:28:29.112893,requests,,,,scraped_json_api,,,,,,,,,,,,,,,,,,,,2011.0,,,4.0,1.0,False,,,The Help,unknown,,8,8,0.08,The Help,scraped_json_api,8.0,,,unknown,0.08,1.0
+371,unknown,,Life of Pi,,,,https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2012,2026-04-06 00:28:38.908,1.0,scraped_json_api,ajax_movies_api_results.json,,2026-04-06 00:28:31.571865,requests,,,,scraped_json_api,,,,,,,,,,,,,,,,,,,,2012.0,,,11.0,4.0,False,,,Life of Pi,unknown,,10,10,0.1,Life of Pi,scraped_json_api,10.0,,,unknown,0.1,1.0
+381,unknown,,Brave,,,,https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2012,2026-04-06 00:28:38.915,1.0,scraped_json_api,ajax_movies_api_results.json,,2026-04-06 00:28:31.571913,requests,,,,scraped_json_api,,,,,,,,,,,,,,,,,,,,2012.0,,,1.0,1.0,False,,,Brave,unknown,,5,5,0.05,Brave,scraped_json_api,5.0,,,unknown,0.05,1.0
+391,unknown,,Blue Jasmine,,,,https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2013,2026-04-06 00:28:38.920,1.0,scraped_json_api,ajax_movies_api_results.json,,2026-04-06 00:28:34.144196,requests,,,,scraped_json_api,,,,,,,,,,,,,,,,,,,,2013.0,,,3.0,1.0,False,,,Blue Jasmine,unknown,,12,12,0.12,Blue Jasmine,scraped_json_api,12.0,,,unknown,0.12,1.0
+401,unknown,,American Sniper,,,,https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2014,2026-04-06 00:28:38.926,1.0,scraped_json_api,ajax_movies_api_results.json,,2026-04-06 00:28:36.492937,requests,,,,scraped_json_api,,,,,,,,,,,,,,,,,,,,2014.0,,,6.0,1.0,False,,,American Sniper,unknown,,15,15,0.15,American Sniper,scraped_json_api,15.0,,,unknown,0.15,1.0
+411,unknown,,Still Alice,,,,https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2014,2026-04-06 00:28:38.933,1.0,scraped_json_api,ajax_movies_api_results.json,,2026-04-06 00:28:36.492994,requests,,,,scraped_json_api,,,,,,,,,,,,,,,,,,,,2014.0,,,1.0,1.0,False,,,Still Alice,unknown,,11,11,0.1099999999999999,Still Alice,scraped_json_api,11.0,,,unknown,0.1099999999999999,1.0
+421,unknown,,The Hateful Eight  ,,,,https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2015,2026-04-06 00:28:38.938,1.0,scraped_json_api,ajax_movies_api_results.json,,2026-04-06 00:28:38.861406,requests,,,,scraped_json_api,,,,,,,,,,,,,,,,,,,,2015.0,,,2.0,1.0,False,,,The Hateful Eight  ,unknown,,19,19,0.19,The Hateful Eight  ,scraped_json_api,19.0,,,unknown,0.19,1.0
+431,unknown,,Untitled record,,,,data/raw/scanned/test_scan.pdf,2026-04-06 00:28:42.859,1.0,ocr_pdf,test_scan.pdf,2.0,,pytesseract_pdf2image,,,,ocr_pdf,,,,,,,,,,,,,,,,,,,,,,,,,,"Vecini kupaca kada kupuje automobil ni na kraj pameti nije misao kako ¢e ga
+odrzavati. Poslovni model autoindustrije nije u prodaji vozila. Tu se zaraduje
+relativno malo. Pravi novac lezi u servisu, u rezervnim dijelovima, u svakom
+kvaru koji vas uhvati nespremne, a to se sve CeS¢e deSava.
+
+Samo
+ONLINE
+
+1GOS nije bez rizika ios wave ovisnest. Same za punaletre.
+
+Proizvodadci novijih automobila namjerno projektuju vozila tako da ih je skupo
+popraviti, jer im su servis i prodaja rezervnih dijelova profitabilniji biznis od prodaje
+
+samih automobila.
+
+Kako automobili postaju sofisticiraniji, a komponente vezane jedna uz drugu, sam
+dizajn i konstrukcija dijelova vise nije jednostavan niti jeftin za servisiranje. Skuplji
+dijelovi su jedna strana, broj radnih sati i povezani sklopovi koji se prodaju u
+
+kompletu finansijski dovode viasnike do bankrota, narocito kod luksuznijih vozila.
+
+Plastiéni prsten od par eura, racun od 34.500 eura
+","Vecini kupaca kada kupuje automobil ni na kraj pameti nije misao kako ¢e ga
+odrzavati. Poslovni model autoindustrije nije u prodaji vozila. Tu se zaraduje
+relativno malo. Pravi novac leZi u servisu, u rezervnim dijelovima, u svakom
+kvaru koji vas uhvati nespremne, a to se sve Ces¢e deSava.
+
+Samo
+ONLINE
+
+Proizvodadi novijih automobila namjerno projektuju vozila tako da ih je skupo
+popraviti, jer im su servis i prodaja rezervnih dijelova profitabilniji biznis od prodaje
+
+samih automobila.
+
+Kako automobili postaju sofisticiraniji, a komponente vezane jedna uz drugu, sam
+dizajn i konstrukcija dijelova vise nije jednostavan niti jeftin za servisiranje. Skuplji
+dijelovi su jedna strana, broj radnih sati i povezani sklopovi koji se prodaju u
+
+kompletu finansijski dovode vlasnike do bankrota, narocito kod luksuznijih vozila.
+
+Plastiéni prsten od par eura, racun od 34.500 eura
+","Vecini kupaca kada kupuje automobil ni na kraj pameti nije misao kako ¢e ga
+odrzavati. Poslovni model autoindustrije nije u prodaji vozila. Tu se zaraduje
+relativno malo. Pravi novac leZi u servisu, u rezervnim dijelovima, u svakom
+kvaru koji vas uhvati nespremne, a to se sve Ces¢e deSava.
+
+Samo
+ONLINE
+
+Proizvodadi novijih automobila namjerno projektuju vozila tako da ih je skupo
+popraviti, jer im su servis i prodaja rezervnih dijelova profitabilniji biznis od prodaje
+
+samih automobila.
+
+Kako automobili postaju sofisticiraniji, a komponente vezane jedna uz drugu, sam
+dizajn i konstrukcija dijelova vise nije jednostavan niti jeftin za servisiranje. Skuplji
+dijelovi su jedna strana, broj radnih sati i povezani sklopovi koji se prodaju u
+
+kompletu finansijski dovode vlasnike do bankrota, narocito kod luksuznijih vozila.
+
+Plastiéni prsten od par eura, racun od 34.500 eura
+",unknown,,881,15,8.81,"Vecini kupaca kada kupuje automobil ni na kraj pameti nije misao kako ¢e ga
+odrzavati. Poslovni model autoindustrije nije u prodaji vozila. Tu se zaraduje
+relativno malo. Pravi novac leZi u servisu, u rezervnim dijelovima, u svakom
+kvaru koji vas uhvati nespremne, a to se sve Ces¢e deSava.
+
+Samo
+ONLINE
+
+Proizvodadi novijih automobila namjerno projektuju vozila tako da ih je skupo
+popraviti, jer im su servis i prodaja rezervnih dijelova profitabilniji biznis od prodaje
+
+samih automobila.
+
+Kako automobili postaju sofisticiraniji, a komponente vezane jedna uz drugu, sam
+dizajn i konstrukcija dijelova vise nije jednostavan niti jeftin za servisiranje. Skuplji
+dijelovi su jedna strana, broj radnih sati i povezani sklopovi koji se prodaju u
+
+kompletu finansijski dovode vlasnike do bankrota, narocito kod luksuznijih vozila.
+
+Plastiéni prsten od par eura, racun od 34.500 eura
+",ocr_pdf,881.0,,,unknown,8.81,1.0
+441,BusinessLine,BL Mumbai Bureau,JFE Engineering Corp invests ₹128 cr in 2 projects of Antony Waste Handling Cell in AP,"JFE Engineering invests ₹128 crore in Antony Waste's waste-to-energy projects in Andhra Pradesh, marking a significant Japanese entry into India's waste management sector.",https://www.thehindubusinessline.com/companies/jfe-engineering-corp-invests-128-cr-in-2-projects-of-antony-waste-handling-cell-in-ap/article70838960.ece,2026-04-08T15:10:19Z,news_page_2.json,2026-04-09 15:21:30.760,1.0,json,news_page_2.json,,,,,,,json,,,,,,,,,,,,,,,,,,,,,,,,,,,,"JFE Engineering invests ₹128 crore in Antony Waste's waste-to-energy projects in Andhra Pradesh, marking a significant Japanese entry into India's waste management sector.",unknown,,171,86,1.7100000000000002,"JFE Engineering invests ₹128 crore in Antony Waste's waste-to-energy projects in Andhra Pradesh, marking a significant Japanese entry into India's waste management sector.",json,171.0,,,unknown,1.7100000000000002,1.0
+451,unknown,,Untitled record,,,,data/raw/word/news_normal.docx,2026-04-09 15:21:31.015,1.0,word,news_normal.docx,,2026-04-09 15:21:30.982725,python-docx,"News Media Monitoring Pipeline — Extraction Sample
+
+Normal layout · includes text, tables with/without borders, and images
+
+The News Media Monitoring Pipeline collects article metadata, summaries, and engagement signals from online outlets. This sample document is designed for document extraction tests and intentionally includes paragraphs, bordered tables, borderless tables, and several images.
+
+During the latest monitoring window, editors tracked rising coverage of elections, AI investments, and live sports rights. The content below includes special characters such as Ž, č, š, and café so encoding-aware processing can be verified during extraction.
+
+A downstream parser can extract body text with pdfplumber or python-docx, then store the normalized text and metadata in MongoDB together with source path, page number, and extraction timestamp.
+
+Table with borders — sample source coverage
+
+Table without borders — trending keyword snapshot
+
+Suggested extraction metadata: file name, document type, source path, extraction timestamp, page number, and extraction library.","[[['Source', 'Category', 'Articles', 'Avg. sentiment'], ['BBC', 'Politics', '12', '0.41'], ['Reuters', 'Business', '10', '0.63'], ['CNN', 'Technology', '8', '0.57'], ['AP', 'Sports', '6', '0.49']], [['Month', 'Trending keyword', 'Mentions'], ['January', 'election', '45'], ['February', 'AI', '52'], ['March', 'streaming', '61'], ['April', 'inflation', '56']]]",,word,,,,,,,,,,,,,,,,,,,,,,,,,,,,"News Media Monitoring Pipeline — Extraction Sample
+
+Normal layout · includes text, tables with/without borders, and images
+
+The News Media Monitoring Pipeline collects article metadata, summaries, and engagement signals from online outlets. This sample document is designed for document extraction tests and intentionally includes paragraphs, bordered tables, borderless tables, and several images.
+
+During the latest monitoring window, editors tracked rising coverage of elections, AI investments, and live sports rights. The content below includes special characters such as Ž, č, š, and café so encoding-aware processing can be verified during extraction.
+
+A downstream parser can extract body text with pdfplumber or python-docx, then store the normalized text and metadata in MongoDB together with source path, page number, and extraction timestamp.
+
+Table with borders — sample source coverage
+
+Table without borders — trending keyword snapshot
+
+Suggested extraction metadata: file name, document type, source path, extraction timestamp, page number, and extraction library.",unknown,,1080,15,10.0,"News Media Monitoring Pipeline — Extraction Sample
+
+Normal layout · includes text, tables with/without borders, and images
+
+The News Media Monitoring Pipeline collects article metadata, summaries, and engagement signals from online outlets. This sample document is designed for document extraction tests and intentionally includes paragraphs, bordered tables, borderless tables, and several images.
+
+During the latest monitoring window, editors tracked rising coverage of elections, AI investments, and live sports rights. The content below includes special characters such as Ž, č, š, and café so encoding-aware processing can be verified during extraction.
+
+A downstream parser can extract body text with pdfplumber or python-docx, then store the normalized text and metadata in MongoDB together with source path, page number, and extraction timestamp.
+
+Table with borders — sample source coverage
+
+Table without borders — trending keyword snapshot
+
+Suggested extraction metadata: file name, document type, source path, extraction timestamp, page number, and extraction library.",word,1080.0,,,unknown,10.0,1.0
+461,BBC,,Election Update,,,,data/raw/excel/news_data.xlsx,2026-04-09 15:21:31.082,1.0,excel,news_data.xlsx,,2026-04-09 15:21:31.082458,openpyxl,,,1.0,Politics,2026-03-20,34.0,0.4,Articles,,,,,,,,,,,,,,,,,,,,,,,,Election Update,unknown,2026.0,15,15,4.0,Election Update,Politics,34.0,2026-03-20,2026.0,unknown,4.0,34.0
+471,unknown,,Untitled record,,,,data/raw/excel/news_data.xlsx,2026-04-09 15:21:31.099,1.0,excel_summary,news_data.xlsx,,2026-04-09 15:21:31.098979,openpyxl,,,,excel_summary,,,,Summary,Value,10.0,235.0,23.5,0.51,34.0,3.0,3.0,,,,,,,,,,,,,,,,Untitled record,unknown,,15,15,0.15,Untitled record,excel_summary,15.0,,,unknown,0.15,1.0
+481,unknown,,Untitled record,,,,https://www.scrapethissite.com/pages/forms/,2026-04-09 15:21:35.723,1.0,scraped_html,hockey_results.json,,,requests_bs4,,,,scraped_html,,,,,,,,,,,,,,,,,,,Minnesota North Stars,1990.0,27.0,39.0,,,,,,Untitled record,unknown,,15,15,0.15,Untitled record,scraped_html,15.0,,,unknown,0.15,1.0
+491,unknown,,Untitled record,,,,https://www.scrapethissite.com/pages/forms/,2026-04-09 15:21:35.743,1.0,scraped_html,hockey_results.json,,,requests_bs4,,,,scraped_html,,,,,,,,,,,,,,,,,,,Vancouver Canucks,1990.0,28.0,43.0,,,,,,Untitled record,unknown,,15,15,0.15,Untitled record,scraped_html,15.0,,,unknown,0.15,1.0
+501,unknown,,Untitled record,,,,https://www.scrapethissite.com/pages/forms/?page_num=1,2026-04-09 15:21:47.438,1.0,scraped_html_paginated,hockey_multi_page_results.json,1.0,,requests_bs4,,,,scraped_html_paginated,,,,,,,,,,,,,,,,,,,Chicago Blackhawks,1990.0,49.0,23.0,,,,,,Untitled record,unknown,,15,15,0.15,Untitled record,scraped_html_paginated,15.0,,,unknown,0.15,1.0
+511,unknown,,Untitled record,,,,https://www.scrapethissite.com/pages/forms/?page_num=1,2026-04-09 15:21:47.452,1.0,scraped_html_paginated,hockey_multi_page_results.json,1.0,,requests_bs4,,,,scraped_html_paginated,,,,,,,,,,,,,,,,,,,Philadelphia Flyers,1990.0,33.0,37.0,,,,,,Untitled record,unknown,,15,15,0.15,Untitled record,scraped_html_paginated,15.0,,,unknown,0.15,1.0
+521,unknown,,Untitled record,,,,https://www.scrapethissite.com/pages/forms/?page_num=1,2026-04-09 15:21:47.492,1.0,scraped_html_paginated,hockey_multi_page_results.json,1.0,,requests_bs4,,,,scraped_html_paginated,,,,,,,,,,,,,,,,,,,Calgary Flames,1991.0,31.0,37.0,,,,,,Untitled record,unknown,,15,15,0.15,Untitled record,scraped_html_paginated,15.0,,,unknown,0.15,1.0
+531,unknown,,Untitled record,,,,https://www.scrapethissite.com/pages/forms/?page_num=2,2026-04-09 15:21:47.502,1.0,scraped_html_paginated,hockey_multi_page_results.json,2.0,,requests_bs4,,,,scraped_html_paginated,,,,,,,,,,,,,,,,,,,New York Rangers,1991.0,50.0,25.0,,,,,,Untitled record,unknown,,15,15,0.15,Untitled record,scraped_html_paginated,15.0,,,unknown,0.15,1.0
+541,unknown,,Untitled record,,,,https://www.scrapethissite.com/pages/forms/?page_num=2,2026-04-09 15:21:47.512,1.0,scraped_html_paginated,hockey_multi_page_results.json,2.0,,requests_bs4,,,,scraped_html_paginated,,,,,,,,,,,,,,,,,,,Boston Bruins,1992.0,51.0,26.0,,,,,,Untitled record,unknown,,15,15,0.15,Untitled record,scraped_html_paginated,15.0,,,unknown,0.15,1.0
+551,unknown,,Untitled record,,,,https://www.scrapethissite.com/pages/forms/?page_num=3,2026-04-09 15:21:47.518,1.0,scraped_html_paginated,hockey_multi_page_results.json,3.0,,requests_bs4,,,,scraped_html_paginated,,,,,,,,,,,,,,,,,,,New Jersey Devils,1992.0,40.0,37.0,,,,,,Untitled record,unknown,,15,15,0.15,Untitled record,scraped_html_paginated,15.0,,,unknown,0.15,1.0
+561,unknown,,Untitled record,,,,https://www.scrapethissite.com/pages/forms/?page_num=3,2026-04-09 15:21:47.528,1.0,scraped_html_paginated,hockey_multi_page_results.json,3.0,,requests_bs4,,,,scraped_html_paginated,,,,,,,,,,,,,,,,,,,Toronto Maple Leafs,1992.0,44.0,29.0,,,,,,Untitled record,unknown,,15,15,0.15,Untitled record,scraped_html_paginated,15.0,,,unknown,0.15,1.0
+571,unknown,,Untitled record,,,,https://www.scrapethissite.com/pages/forms/?page_num=3,2026-04-09 15:21:47.537,1.0,scraped_html_paginated,hockey_multi_page_results.json,3.0,,requests_bs4,,,,scraped_html_paginated,,,,,,,,,,,,,,,,,,,Detroit Red Wings,1993.0,46.0,30.0,,,,,,Untitled record,unknown,,15,15,0.15,Untitled record,scraped_html_paginated,15.0,,,unknown,0.15,1.0
+581,unknown,,Untitled record,,,,https://www.scrapethissite.com/pages/forms/?page_num=4,2026-04-09 15:21:47.550,1.0,scraped_html_paginated,hockey_multi_page_results.json,4.0,,requests_bs4,,,,scraped_html_paginated,,,,,,,,,,,,,,,,,,,Philadelphia Flyers,1993.0,35.0,39.0,,,,,,Untitled record,unknown,,15,15,0.15,Untitled record,scraped_html_paginated,15.0,,,unknown,0.15,1.0
+591,unknown,,Untitled record,,,,https://www.scrapethissite.com/pages/forms/?page_num=4,2026-04-09 15:21:47.557,1.0,scraped_html_paginated,hockey_multi_page_results.json,4.0,,requests_bs4,,,,scraped_html_paginated,,,,,,,,,,,,,,,,,,,Mighty Ducks of Anaheim,1994.0,16.0,27.0,,,,,,Untitled record,unknown,,15,15,0.15,Untitled record,scraped_html_paginated,15.0,,,unknown,0.15,1.0
+601,unknown,,The Fighter,,,,https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2010,2026-04-09 15:22:02.907,1.0,scraped_json_api,ajax_movies_api_results.json,,2026-04-09 15:21:50.143735,requests,,,,scraped_json_api,,,,,,,,,,,,,,,,,,,,2010.0,,,7.0,2.0,False,,,The Fighter,unknown,,11,11,0.1099999999999999,The Fighter,scraped_json_api,11.0,,,unknown,0.1099999999999999,1.0
+611,unknown,,The Artist,,,,https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2011,2026-04-09 15:22:02.916,1.0,scraped_json_api,ajax_movies_api_results.json,,2026-04-09 15:21:52.603268,requests,,,,scraped_json_api,,,,,,,,,,,,,,,,,,,,2011.0,,,10.0,5.0,True,,,The Artist,unknown,,10,10,0.1,The Artist,scraped_json_api,10.0,,,unknown,0.1,1.0
+621,unknown,,Undefeated,,,,https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2011,2026-04-09 15:22:02.936,1.0,scraped_json_api,ajax_movies_api_results.json,,2026-04-09 15:21:52.603302,requests,,,,scraped_json_api,,,,,,,,,,,,,,,,,,,,2011.0,,,1.0,1.0,False,,,Undefeated,unknown,,10,10,0.1,Undefeated,scraped_json_api,10.0,,,unknown,0.1,1.0
+631,unknown,,Skyfall,,,,https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2012,2026-04-09 15:22:02.952,1.0,scraped_json_api,ajax_movies_api_results.json,,2026-04-09 15:21:55.056614,requests,,,,scraped_json_api,,,,,,,,,,,,,,,,,,,,2012.0,,,5.0,2.0,False,,,Skyfall,unknown,,7,7,0.07,Skyfall,scraped_json_api,7.0,,,unknown,0.07,1.0
+641,unknown,,12 Years a Slave,,,,https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2013,2026-04-09 15:22:02.966,1.0,scraped_json_api,ajax_movies_api_results.json,,2026-04-09 15:21:57.724242,requests,,,,scraped_json_api,,,,,,,,,,,,,,,,,,,,2013.0,,,9.0,3.0,True,,,12 Years a Slave,unknown,,16,16,0.16,12 Years a Slave,scraped_json_api,16.0,,,unknown,0.16,1.0
+651,unknown,,The Great Beauty,,,,https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2013,2026-04-09 15:22:02.979,1.0,scraped_json_api,ajax_movies_api_results.json,,2026-04-09 15:21:57.724302,requests,,,,scraped_json_api,,,,,,,,,,,,,,,,,,,,2013.0,,,1.0,1.0,False,,,The Great Beauty,unknown,,16,16,0.16,The Great Beauty,scraped_json_api,16.0,,,unknown,0.16,1.0
+661,unknown,,Ida,,,,https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2014,2026-04-09 15:22:02.987,1.0,scraped_json_api,ajax_movies_api_results.json,,2026-04-09 15:22:00.382442,requests,,,,scraped_json_api,,,,,,,,,,,,,,,,,,,,2014.0,,,2.0,1.0,False,,,Ida,unknown,,3,3,0.03,Ida,scraped_json_api,3.0,,,unknown,0.03,1.0
+671,unknown,,The Revenant   ,,,,https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2015,2026-04-09 15:22:03.000,1.0,scraped_json_api,ajax_movies_api_results.json,,2026-04-09 15:22:02.857594,requests,,,,scraped_json_api,,,,,,,,,,,,,,,,,,,,2015.0,,,12.0,3.0,False,,,The Revenant   ,unknown,,15,15,0.15,The Revenant   ,scraped_json_api,15.0,,,unknown,0.15,1.0
+681,unknown,,A Girl in the River: The Price of Forgiveness  ,,,,https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2015,2026-04-09 15:22:03.015,1.0,scraped_json_api,ajax_movies_api_results.json,,2026-04-09 15:22:02.857623,requests,,,,scraped_json_api,,,,,,,,,,,,,,,,,,,,2015.0,,,1.0,1.0,False,,,A Girl in the River: The Price of Forgiveness  ,unknown,,47,47,0.47,A Girl in the River: The Price of Forgiveness  ,scraped_json_api,47.0,,,unknown,0.47,1.0
+691,GlobeNewswire,ADI Predictstreet,ADI Predictstreet Secures Gibraltar Regulatory Approval to Scale Its Data-Driven Forecasting Platform Globally,"GIBRALTAR, April 08, 2026 (GLOBE NEWSWIRE) -- ADI Predictstreet, a global forecasting platform powered by ADI Chain and a subsidiary of Finstreet Limited, announced that it has secured regulatory approval in Gibraltar, marking a significant step in its global…",https://www.globenewswire.com/news-release/2026/04/08/3270357/0/en/ADI-Predictstreet-Secures-Gibraltar-Regulatory-Approval-to-Scale-Its-Data-Driven-Forecasting-Platform-Globally.html,2026-04-08T15:44:00Z,news_page_1.json,2026-04-09 15:51:37.888,1.0,json,news_page_1.json,,,,,,,json,,,,,,,,,,,,,,,,,,,,,,,,,,,,"GIBRALTAR, April 08, 2026 (GLOBE NEWSWIRE) -- ADI Predictstreet, a global forecasting platform powered by ADI Chain and a subsidiary of Finstreet Limited, announced that it has secured regulatory approval in Gibraltar, marking a significant step in its global…",unknown,,260,110,2.6,"GIBRALTAR, April 08, 2026 (GLOBE NEWSWIRE) -- ADI Predictstreet, a global forecasting platform powered by ADI Chain and a subsidiary of Finstreet Limited, announced that it has secured regulatory approval in Gibraltar, marking a significant step in its global…",json,260.0,,,unknown,2.6,1.0
+701,Iasbaba.com,IASbaba,UPSC Quiz – 2026 : IASbaba’s Daily Current Affairs Quiz 8th April 2026,"For Previous Daily Quiz (ARCHIVES) – CLICK HERE The Current Affairs questions are based on sources like ‘The Hindu’, ‘Indian Express’ and ‘PIB’, which are very important sources for UPSC Prelims Exam. The questions are focused on both the concepts and facts. …",https://iasbaba.com/2026/04/upsc-quiz-2026-iasbabas-daily-current-affairs-quiz-8th-april-2026/,2026-04-08T15:34:20Z,news_page_3.json,2026-04-09 15:51:38.019,1.0,json,news_page_3.json,,,,,,,json,,,,,,,,,,,,,,,,,,,,,,,,,,,,"For Previous Daily Quiz (ARCHIVES) – CLICK HERE The Current Affairs questions are based on sources like ‘The Hindu’, ‘Indian Express’ and ‘PIB’, which are very important sources for UPSC Prelims Exam. The questions are focused on both the concepts and facts. …",unknown,,260,70,2.6,"For Previous Daily Quiz (ARCHIVES) – CLICK HERE The Current Affairs questions are based on sources like ‘The Hindu’, ‘Indian Express’ and ‘PIB’, which are very important sources for UPSC Prelims Exam. The questions are focused on both the concepts and facts. …",json,260.0,,,unknown,2.6,1.0
+711,unknown,,Untitled record,,,,data/raw/word/news_normal.docx,2026-04-09 15:51:38.249,1.0,word_run,news_normal.docx,,,python-docx,"The News Media Monitoring Pipeline collects article metadata, summaries, and engagement signals from online outlets. This sample document is designed for document extraction tests and intentionally includes paragraphs, bordered tables, borderless tables, and several images.",,,word_run,,,,,,,,,,,,,4.0,1.0,,,,,,,,,,,,,,"The News Media Monitoring Pipeline collects article metadata, summaries, and engagement signals from online outlets. This sample document is designed for document extraction tests and intentionally includes paragraphs, bordered tables, borderless tables, and several images.",unknown,,274,15,2.74,"The News Media Monitoring Pipeline collects article metadata, summaries, and engagement signals from online outlets. This sample document is designed for document extraction tests and intentionally includes paragraphs, bordered tables, borderless tables, and several images.",word_run,274.0,,,unknown,2.74,1.0
+721,Le Monde,,Café Culture Trends,,,,data/raw/excel/news_data.xlsx,2026-04-09 15:51:38.270,1.0,excel,news_data.xlsx,,2026-04-09 15:51:38.266073,openpyxl,,,5.0,Culture,2026-03-22,14.0,0.6,Articles,,,,,,,,,,,,,,,,,,,,,,,,Café Culture Trends,unknown,2026.0,19,19,6.0,Café Culture Trends,Culture,14.0,2026-03-22,2026.0,unknown,6.0,14.0
+731,unknown,,Untitled record,,,,https://www.scrapethissite.com/pages/forms/,2026-04-09 15:51:42.340,1.0,scraped_html,hockey_results.json,,,requests_bs4,,,,scraped_html,,,,,,,,,,,,,,,,,,,Calgary Flames,1990.0,46.0,26.0,,,,,,Untitled record,unknown,,15,15,0.15,Untitled record,scraped_html,15.0,,,unknown,0.15,1.0
+741,unknown,,Untitled record,,,,https://www.scrapethissite.com/pages/forms/,2026-04-09 15:51:42.346,1.0,scraped_html,hockey_results.json,,,requests_bs4,,,,scraped_html,,,,,,,,,,,,,,,,,,,New York Rangers,1990.0,36.0,31.0,,,,,,Untitled record,unknown,,15,15,0.15,Untitled record,scraped_html,15.0,,,unknown,0.15,1.0
+751,unknown,,Untitled record,,,,https://www.scrapethissite.com/pages/forms/,2026-04-09 15:51:42.391,1.0,scraped_html,hockey_results.json,,,requests_bs4,,,,scraped_html,,,,,,,,,,,,,,,,,,,Buffalo Sabres,1991.0,31.0,37.0,,,,,,Untitled record,unknown,,15,15,0.15,Untitled record,scraped_html,15.0,,,unknown,0.15,1.0
+761,unknown,,Untitled record,,,,https://www.scrapethissite.com/pages/forms/?page_num=1,2026-04-09 15:51:53.577,1.0,scraped_html_paginated,hockey_multi_page_results.json,1.0,,requests_bs4,,,,scraped_html_paginated,,,,,,,,,,,,,,,,,,,Los Angeles Kings,1990.0,46.0,24.0,,,,,,Untitled record,unknown,,15,15,0.15,Untitled record,scraped_html_paginated,15.0,,,unknown,0.15,1.0
+771,unknown,,Untitled record,,,,https://www.scrapethissite.com/pages/forms/?page_num=1,2026-04-09 15:51:53.586,1.0,scraped_html_paginated,hockey_multi_page_results.json,1.0,,requests_bs4,,,,scraped_html_paginated,,,,,,,,,,,,,,,,,,,Toronto Maple Leafs,1990.0,23.0,46.0,,,,,,Untitled record,unknown,,15,15,0.15,Untitled record,scraped_html_paginated,15.0,,,unknown,0.15,1.0
+781,unknown,,Untitled record,,,,https://www.scrapethissite.com/pages/forms/?page_num=2,2026-04-09 15:51:53.595,1.0,scraped_html_paginated,hockey_multi_page_results.json,2.0,,requests_bs4,,,,scraped_html_paginated,,,,,,,,,,,,,,,,,,,Hartford Whalers,1991.0,26.0,41.0,,,,,,Untitled record,unknown,,15,15,0.15,Untitled record,scraped_html_paginated,15.0,,,unknown,0.15,1.0
+791,unknown,,Untitled record,,,,https://www.scrapethissite.com/pages/forms/?page_num=2,2026-04-09 15:51:53.623,1.0,scraped_html_paginated,hockey_multi_page_results.json,2.0,,requests_bs4,,,,scraped_html_paginated,,,,,,,,,,,,,,,,,,,San Jose Sharks,1991.0,17.0,58.0,,,,,,Untitled record,unknown,,15,15,0.15,Untitled record,scraped_html_paginated,15.0,,,unknown,0.15,1.0
+801,unknown,,Untitled record,,,,https://www.scrapethissite.com/pages/forms/?page_num=2,2026-04-09 15:51:53.630,1.0,scraped_html_paginated,hockey_multi_page_results.json,2.0,,requests_bs4,,,,scraped_html_paginated,,,,,,,,,,,,,,,,,,,Detroit Red Wings,1992.0,47.0,28.0,,,,,,Untitled record,unknown,,15,15,0.15,Untitled record,scraped_html_paginated,15.0,,,unknown,0.15,1.0
+811,unknown,,Untitled record,,,,https://www.scrapethissite.com/pages/forms/?page_num=3,2026-04-09 15:51:53.642,1.0,scraped_html_paginated,hockey_multi_page_results.json,3.0,,requests_bs4,,,,scraped_html_paginated,,,,,,,,,,,,,,,,,,,Philadelphia Flyers,1992.0,36.0,37.0,,,,,,Untitled record,unknown,,15,15,0.15,Untitled record,scraped_html_paginated,15.0,,,unknown,0.15,1.0
+821,unknown,,Untitled record,,,,https://www.scrapethissite.com/pages/forms/?page_num=3,2026-04-09 15:51:53.651,1.0,scraped_html_paginated,hockey_multi_page_results.json,3.0,,requests_bs4,,,,scraped_html_paginated,,,,,,,,,,,,,,,,,,,Mighty Ducks of Anaheim,1993.0,33.0,46.0,,,,,,Untitled record,unknown,,15,15,0.15,Untitled record,scraped_html_paginated,15.0,,,unknown,0.15,1.0
+831,unknown,,Untitled record,,,,https://www.scrapethissite.com/pages/forms/?page_num=4,2026-04-09 15:51:53.661,1.0,scraped_html_paginated,hockey_multi_page_results.json,4.0,,requests_bs4,,,,scraped_html_paginated,,,,,,,,,,,,,,,,,,,Los Angeles Kings,1993.0,27.0,45.0,,,,,,Untitled record,unknown,,15,15,0.15,Untitled record,scraped_html_paginated,15.0,,,unknown,0.15,1.0
+841,unknown,,Untitled record,,,,https://www.scrapethissite.com/pages/forms/?page_num=4,2026-04-09 15:51:53.672,1.0,scraped_html_paginated,hockey_multi_page_results.json,4.0,,requests_bs4,,,,scraped_html_paginated,,,,,,,,,,,,,,,,,,,St. Louis Blues,1993.0,40.0,33.0,,,,,,Untitled record,unknown,,15,15,0.15,Untitled record,scraped_html_paginated,15.0,,,unknown,0.15,1.0
+851,unknown,,Untitled record,,,,https://www.scrapethissite.com/pages/forms/?page_num=4,2026-04-09 15:51:53.681,1.0,scraped_html_paginated,hockey_multi_page_results.json,4.0,,requests_bs4,,,,scraped_html_paginated,,,,,,,,,,,,,,,,,,,Chicago Blackhawks,1994.0,24.0,19.0,,,,,,Untitled record,unknown,,15,15,0.15,Untitled record,scraped_html_paginated,15.0,,,unknown,0.15,1.0
+861,unknown,,In a Better World,,,,https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2010,2026-04-09 15:52:08.957,1.0,scraped_json_api,ajax_movies_api_results.json,,2026-04-09 15:51:56.170826,requests,,,,scraped_json_api,,,,,,,,,,,,,,,,,,,,2010.0,,,1.0,1.0,False,,,In a Better World,unknown,,17,17,0.17,In a Better World,scraped_json_api,17.0,,,unknown,0.17,1.0
+871,unknown,,The Girl with the Dragon Tattoo,,,,https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2011,2026-04-09 15:52:08.968,1.0,scraped_json_api,ajax_movies_api_results.json,,2026-04-09 15:51:58.740624,requests,,,,scraped_json_api,,,,,,,,,,,,,,,,,,,,2011.0,,,5.0,1.0,False,,,The Girl with the Dragon Tattoo,unknown,,31,31,0.31,The Girl with the Dragon Tattoo,scraped_json_api,31.0,,,unknown,0.31,1.0
+881,unknown,,Rango,,,,https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2011,2026-04-09 15:52:08.995,1.0,scraped_json_api,ajax_movies_api_results.json,,2026-04-09 15:51:58.740671,requests,,,,scraped_json_api,,,,,,,,,,,,,,,,,,,,2011.0,,,1.0,1.0,False,,,Rango,unknown,,5,5,0.05,Rango,scraped_json_api,5.0,,,unknown,0.05,1.0
+891,unknown,,Anna Karenina,,,,https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2012,2026-04-09 15:52:09.017,1.0,scraped_json_api,ajax_movies_api_results.json,,2026-04-09 15:52:01.298186,requests,,,,scraped_json_api,,,,,,,,,,,,,,,,,,,,2012.0,,,4.0,1.0,False,,,Anna Karenina,unknown,,13,13,0.13,Anna Karenina,scraped_json_api,13.0,,,unknown,0.13,1.0
+901,unknown,,The Great Gatsby,,,,https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2013,2026-04-09 15:52:09.030,1.0,scraped_json_api,ajax_movies_api_results.json,,2026-04-09 15:52:03.870507,requests,,,,scraped_json_api,,,,,,,,,,,,,,,,,,,,2013.0,,,2.0,2.0,False,,,The Great Gatsby,unknown,,16,16,0.16,The Great Gatsby,scraped_json_api,16.0,,,unknown,0.16,1.0
+911,unknown,,Whiplash,,,,https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2014,2026-04-09 15:52:09.040,1.0,scraped_json_api,ajax_movies_api_results.json,,2026-04-09 15:52:06.416219,requests,,,,scraped_json_api,,,,,,,,,,,,,,,,,,,,2014.0,,,5.0,3.0,False,,,Whiplash,unknown,,8,8,0.08,Whiplash,scraped_json_api,8.0,,,unknown,0.08,1.0
+921,unknown,,Crisis Hotline: Veterans Press 1,,,,https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2014,2026-04-09 15:52:09.049,1.0,scraped_json_api,ajax_movies_api_results.json,,2026-04-09 15:52:06.416260,requests,,,,scraped_json_api,,,,,,,,,,,,,,,,,,,,2014.0,,,1.0,1.0,False,,,Crisis Hotline: Veterans Press 1,unknown,,32,32,0.32,Crisis Hotline: Veterans Press 1,scraped_json_api,32.0,,,unknown,0.32,1.0
+931,unknown,,Room   ,,,,https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2015,2026-04-09 15:52:09.058,1.0,scraped_json_api,ajax_movies_api_results.json,,2026-04-09 15:52:08.869282,requests,,,,scraped_json_api,,,,,,,,,,,,,,,,,,,,2015.0,,,4.0,1.0,False,,,Room   ,unknown,,7,7,0.07,Room   ,scraped_json_api,7.0,,,unknown,0.07,1.0
+941,unknown,,Untitled record,,,,data/raw/images/test_scan.png,2026-04-09 15:52:10.062,1.0,ocr_image,test_scan.png,,,pytesseract,,,,ocr_image,,,,,,,,,,,,,,,,,,,,,,,,,,"U okviru 31. kola italijanske Serie A, Inter je na San Siru deklasirao Romu
+rezultatom 5:2 i uévrstio se na vrhu tabele.
+
+Cine
+
+Haris Fozlagié
+“Turstigka zajednica bara rekorde”
+
+Sarajevo obara sve rekorde!
+
+Haris Fazlagi¢ OrTsopu >
+
+Susret je poéeo furiozno za doma¢e. Veé u 1. minuti Lautaro Martinez najbolje se
+snaagao Sesnaestercu nakon brzog napada i zakucao loptu za rano vodstvo Intera
+od 1:0.
+
+Nakon Sokantnog poéetka, Roma je uspjela uspostaviti ravnotezu i nakon nekoliko
+
+neiskori8tenih poluprilika, dosli su do izjednagenja. Igrala se 40. minuta kada je
+
+pratio odli¢an centarSut i udarcem glavom matirao Sommera za
+
+ilo da ée se na odmor otidi u egalu, Hakan Calhanoglu je u drugoj
+minuti sudijske nadoknade izve potez utakmice. Uputio je pravi projektil sa 20
+
+metara, pogodivai raélje gola nemoénog Svilara za vodstvo Intera 2:1.
+","U okviru 31. kola italijanske Serie A, Inter je na San Siru deklasirao Romu
+rezultatom 5:2 i uévrstio se na vrhu tabele.
+
+SF
+
+FBne
+
+ovis Fezlagié
+
+Sarajevo obara sve rekorde!
+
+Haris Fazlagi¢ OTBOpM >
+
+Susret je poteo furiozno za domace. Veé u 1. minuti Lautaro Martinez najbolje se
+snaaao Sesnaestercu nakon brzog napada i zakucao loptu za rano vodstvo Intera
+od 1:0.
+
+Nakon Sokantnog potetka, Roma je uspjela uspostaviti ravnotezZu i nakon nekoliko
+
+neiskori8tenih poluprilika, do8li su do izjednatenja. Igrala se 40. minuta kada je
+Gianluca Mandi
+1
+
+ispratio odligan centarSut i udarcem glavom matirao Sommera za
+
+Kada se dinilo da ée se na odmor otidi u egalu, Hakan Calhanoglu je u drugoj
+minuti sudijske nadoknade izve potez utakmice. Uputio je pravi projektil sa 20
+
+metara, pogodivai razlje gola nemoénog Svilara za vodstvo Intera 2:1.
+","U okviru 31. kola italijanske Serie A, Inter je na San Siru deklasirao Romu
+rezultatom 5:2 i uévrstio se na vrhu tabele.
+
+SF
+
+FBne
+
+ovis Fezlagié
+
+Sarajevo obara sve rekorde!
+
+Haris Fazlagi¢ OTBOpM >
+
+Susret je poteo furiozno za domace. Veé u 1. minuti Lautaro Martinez najbolje se
+snaaao Sesnaestercu nakon brzog napada i zakucao loptu za rano vodstvo Intera
+od 1:0.
+
+Nakon Sokantnog potetka, Roma je uspjela uspostaviti ravnotezZu i nakon nekoliko
+
+neiskori8tenih poluprilika, do8li su do izjednatenja. Igrala se 40. minuta kada je
+Gianluca Mandi
+1
+
+ispratio odligan centarSut i udarcem glavom matirao Sommera za
+
+Kada se dinilo da ée se na odmor otidi u egalu, Hakan Calhanoglu je u drugoj
+minuti sudijske nadoknade izve potez utakmice. Uputio je pravi projektil sa 20
+
+metara, pogodivai razlje gola nemoénog Svilara za vodstvo Intera 2:1.
+",unknown,,843,15,8.43,"U okviru 31. kola italijanske Serie A, Inter je na San Siru deklasirao Romu
+rezultatom 5:2 i uévrstio se na vrhu tabele.
+
+SF
+
+FBne
+
+ovis Fezlagié
+
+Sarajevo obara sve rekorde!
+
+Haris Fazlagi¢ OTBOpM >
+
+Susret je poteo furiozno za domace. Veé u 1. minuti Lautaro Martinez najbolje se
+snaaao Sesnaestercu nakon brzog napada i zakucao loptu za rano vodstvo Intera
+od 1:0.
+
+Nakon Sokantnog potetka, Roma je uspjela uspostaviti ravnotezZu i nakon nekoliko
+
+neiskori8tenih poluprilika, do8li su do izjednatenja. Igrala se 40. minuta kada je
+Gianluca Mandi
+1
+
+ispratio odligan centarSut i udarcem glavom matirao Sommera za
+
+Kada se dinilo da ée se na odmor otidi u egalu, Hakan Calhanoglu je u drugoj
+minuti sudijske nadoknade izve potez utakmice. Uputio je pravi projektil sa 20
+
+metara, pogodivai razlje gola nemoénog Svilara za vodstvo Intera 2:1.
+",ocr_image,843.0,,,unknown,8.43,1.0
+951,The Times of India,Jochelle Mendonca,Moving up the value chain proves costly as tech majors and GCCs slash jobs,"Global layoffs are intensifying across large tech firms and global capability centres in India, as companies like Oracle, Cisco, Amazon and Meta trim headcounts amid AI-driven strategies. Having moved from offshore support to core global roles, Indian workers…",https://economictimes.indiatimes.com/tech/technology/moving-up-the-value-chain-proves-costly-as-tech-majors-and-gccs-slash-jobs/articleshow/130267365.cms,2026-04-15T00:30:00Z,news_page_2.json,2026-04-16 00:33:48.385,1.0,json,news_page_2.json,,,,,,,json,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Global layoffs are intensifying across large tech firms and global capability centres in India, as companies like Oracle, Cisco, Amazon and Meta trim headcounts amid AI-driven strategies. Having moved from offshore support to core global roles, Indian workers…",unknown,,260,74,2.6,"Global layoffs are intensifying across large tech firms and global capability centres in India, as companies like Oracle, Cisco, Amazon and Meta trim headcounts amid AI-driven strategies. Having moved from offshore support to core global roles, Indian workers…",json,260.0,,,unknown,2.6,1.0
+961,unknown,,Untitled record,,,,data/raw/pdf/news_two_column.pdf,2026-04-16 00:33:48.652,1.0,pdf_two_column,news_two_column.pdf,1.0,2026-04-16 00:33:48.637425,pdfplumber,"News Monit
+Two Colu
+Two-column layout for extraction
+This two-column briefing simulates a compact media
+report distributed to newsroom analysts. It contains
+short paragraphs and embedded images so you can test
+whether column-aware extraction produces readable
+output. The layout is intentionally narrow and mirrors
+the kind of print digest often used for morning media
+reviews.
+Coverage this week highlighted policy debates, AI
+funding optimism, and a surge in weekend sports clips.
+Regional desks also logged multilingual mentions
+including Žurnal, São Paulo, München, and café
+references. These characters are useful for testing
+whether normalization preserves accented text during
+extraction.
+A common strategy for multi-column PDFs is to split
+each page into left and right regions, extract both halves
+separately, normalize whitespace, and concatenate the
+results in reading order. This avoids jumbled lines
+when extractors read across the page instead of down
+the first column.
+Analysts can further attach metadata such as source
+file, page number, extraction date, and processing
+library so that downstream search or audit tasks remain
+transparent. Once stored in MongoDB, the document
+content can be searched alongside article feeds gathered
+from APIs and scraped websites.
+
+ring Brief —
+mn Sample
+ing with pdfplumber crop strategy
+In production, a simple logging trail should capture
+document name, success state, encoding notes, and any
+extraction warnings. That makes it easier to compare
+normal PDFs, two-column PDFs, Word documents, and
+Excel sheets inside one reproducible pipeline.
+The monitoring team can also compare issue salience
+by source, category, and region. Even a lightweight lab
+pipeline benefits from consistent metadata, because it
+lets you trace which parser produced each record and
+when that record entered the database.
+If a page uses a strong newspaper-style layout, a
+left-right crop method is often enough to recover the
+intended order. When tables or images appear, they can
+be stored separately as supporting content, while
+normalized text remains searchable as a clean field in
+MongoDB.",[],,pdf_two_column,,,,,,,,,,,,,,,,,,,,,,,,,,,,"News Monit
+Two Colu
+Two-column layout for extraction
+This two-column briefing simulates a compact media
+report distributed to newsroom analysts. It contains
+short paragraphs and embedded images so you can test
+whether column-aware extraction produces readable
+output. The layout is intentionally narrow and mirrors
+the kind of print digest often used for morning media
+reviews.
+Coverage this week highlighted policy debates, AI
+funding optimism, and a surge in weekend sports clips.
+Regional desks also logged multilingual mentions
+including Žurnal, São Paulo, München, and café
+references. These characters are useful for testing
+whether normalization preserves accented text during
+extraction.
+A common strategy for multi-column PDFs is to split
+each page into left and right regions, extract both halves
+separately, normalize whitespace, and concatenate the
+results in reading order. This avoids jumbled lines
+when extractors read across the page instead of down
+the first column.
+Analysts can further attach metadata such as source
+file, page number, extraction date, and processing
+library so that downstream search or audit tasks remain
+transparent. Once stored in MongoDB, the document
+content can be searched alongside article feeds gathered
+from APIs and scraped websites.
+
+ring Brief —
+mn Sample
+ing with pdfplumber crop strategy
+In production, a simple logging trail should capture
+document name, success state, encoding notes, and any
+extraction warnings. That makes it easier to compare
+normal PDFs, two-column PDFs, Word documents, and
+Excel sheets inside one reproducible pipeline.
+The monitoring team can also compare issue salience
+by source, category, and region. Even a lightweight lab
+pipeline benefits from consistent metadata, because it
+lets you trace which parser produced each record and
+when that record entered the database.
+If a page uses a strong newspaper-style layout, a
+left-right crop method is often enough to recover the
+intended order. When tables or images appear, they can
+be stored separately as supporting content, while
+normalized text remains searchable as a clean field in
+MongoDB.",unknown,,2124,15,10.0,"News Monit
+Two Colu
+Two-column layout for extraction
+This two-column briefing simulates a compact media
+report distributed to newsroom analysts. It contains
+short paragraphs and embedded images so you can test
+whether column-aware extraction produces readable
+output. The layout is intentionally narrow and mirrors
+the kind of print digest often used for morning media
+reviews.
+Coverage this week highlighted policy debates, AI
+funding optimism, and a surge in weekend sports clips.
+Regional desks also logged multilingual mentions
+including Žurnal, São Paulo, München, and café
+references. These characters are useful for testing
+whether normalization preserves accented text during
+extraction.
+A common strategy for multi-column PDFs is to split
+each page into left and right regions, extract both halves
+separately, normalize whitespace, and concatenate the
+results in reading order. This avoids jumbled lines
+when extractors read across the page instead of down
+the first column.
+Analysts can further attach metadata such as source
+file, page number, extraction date, and processing
+library so that downstream search or audit tasks remain
+transparent. Once stored in MongoDB, the document
+content can be searched alongside article feeds gathered
+from APIs and scraped websites.
+
+ring Brief —
+mn Sample
+ing with pdfplumber crop strategy
+In production, a simple logging trail should capture
+document name, success state, encoding notes, and any
+extraction warnings. That makes it easier to compare
+normal PDFs, two-column PDFs, Word documents, and
+Excel sheets inside one reproducible pipeline.
+The monitoring team can also compare issue salience
+by source, category, and region. Even a lightweight lab
+pipeline benefits from consistent metadata, because it
+lets you trace which parser produced each record and
+when that record entered the database.
+If a page uses a strong newspaper-style layout, a
+left-right crop method is often enough to recover the
+intended order. When tables or images appear, they can
+be stored separately as supporting content, while
+normalized text remains searchable as a clean field in
+MongoDB.",pdf_two_column,2124.0,,,unknown,10.0,1.0
+971,unknown,,Untitled record,,,,data/raw/word/news_normal.docx,2026-04-16 00:33:48.746,1.0,word_run,news_normal.docx,,,python-docx,Table without borders — trending keyword snapshot,,,word_run,,,,,,,,,,,,,10.0,1.0,True,,,,,,,,,,,,,Table without borders — trending keyword snapshot,unknown,,49,15,0.49,Table without borders — trending keyword snapshot,word_run,49.0,,,unknown,0.49,1.0
+981,ESPN,,Weekend Match Buzz,,,,data/raw/excel/news_data.xlsx,2026-04-16 00:33:48.785,1.0,excel,news_data.xlsx,,2026-04-16 00:33:48.775115,openpyxl,,,9.0,Sports,2026-03-24,31.0,0.7,Articles,,,,,,,,,,,,,,,,,,,,,,,,Weekend Match Buzz,unknown,2026.0,18,18,7.0,Weekend Match Buzz,Sports,31.0,2026-03-24,2026.0,unknown,7.0,31.0
+991,unknown,,Untitled record,,,,https://www.scrapethissite.com/pages/forms/,2026-04-16 00:33:53.241,1.0,scraped_html,hockey_results.json,,,requests_bs4,,,,scraped_html,,,,,,,,,,,,,,,,,,,Hartford Whalers,1990.0,31.0,38.0,,,,,,Untitled record,unknown,,15,15,0.15,Untitled record,scraped_html,15.0,,,unknown,0.15,1.0
+1001,unknown,,Untitled record,,,,https://www.scrapethissite.com/pages/forms/,2026-04-16 00:33:53.260,1.0,scraped_html,hockey_results.json,,,requests_bs4,,,,scraped_html,,,,,,,,,,,,,,,,,,,St. Louis Blues,1990.0,47.0,22.0,,,,,,Untitled record,unknown,,15,15,0.15,Untitled record,scraped_html,15.0,,,unknown,0.15,1.0
+1011,unknown,,Untitled record,,,,https://www.scrapethissite.com/pages/forms/?page_num=1,2026-04-16 00:34:04.432,1.0,scraped_html_paginated,hockey_multi_page_results.json,1.0,,requests_bs4,,,,scraped_html_paginated,,,,,,,,,,,,,,,,,,,Buffalo Sabres,1990.0,31.0,30.0,,,,,,Untitled record,unknown,,15,15,0.15,Untitled record,scraped_html_paginated,15.0,,,unknown,0.15,1.0
+1021,unknown,,Untitled record,,,,https://www.scrapethissite.com/pages/forms/?page_num=1,2026-04-16 00:34:04.440,1.0,scraped_html_paginated,hockey_multi_page_results.json,1.0,,requests_bs4,,,,scraped_html_paginated,,,,,,,,,,,,,,,,,,,New York Islanders,1990.0,25.0,45.0,,,,,,Untitled record,unknown,,15,15,0.15,Untitled record,scraped_html_paginated,15.0,,,unknown,0.15,1.0
+1031,unknown,,Untitled record,,,,https://www.scrapethissite.com/pages/forms/?page_num=1,2026-04-16 00:34:04.447,1.0,scraped_html_paginated,hockey_multi_page_results.json,1.0,,requests_bs4,,,,scraped_html_paginated,,,,,,,,,,,,,,,,,,,Boston Bruins,1991.0,36.0,32.0,,,,,,Untitled record,unknown,,15,15,0.15,Untitled record,scraped_html_paginated,15.0,,,unknown,0.15,1.0
+1041,unknown,,Untitled record,,,,https://www.scrapethissite.com/pages/forms/?page_num=2,2026-04-16 00:34:04.489,1.0,scraped_html_paginated,hockey_multi_page_results.json,2.0,,requests_bs4,,,,scraped_html_paginated,,,,,,,,,,,,,,,,,,,New Jersey Devils,1991.0,38.0,31.0,,,,,,Untitled record,unknown,,15,15,0.15,Untitled record,scraped_html_paginated,15.0,,,unknown,0.15,1.0
+1051,unknown,,Untitled record,,,,https://www.scrapethissite.com/pages/forms/?page_num=2,2026-04-16 00:34:04.519,1.0,scraped_html_paginated,hockey_multi_page_results.json,2.0,,requests_bs4,,,,scraped_html_paginated,,,,,,,,,,,,,,,,,,,Washington Capitals,1991.0,45.0,27.0,,,,,,Untitled record,unknown,,15,15,0.15,Untitled record,scraped_html_paginated,15.0,,,unknown,0.15,1.0
+1061,unknown,,Untitled record,,,,https://www.scrapethissite.com/pages/forms/?page_num=3,2026-04-16 00:34:04.532,1.0,scraped_html_paginated,hockey_multi_page_results.json,3.0,,requests_bs4,,,,scraped_html_paginated,,,,,,,,,,,,,,,,,,,Minnesota North Stars,1992.0,36.0,38.0,,,,,,Untitled record,unknown,,15,15,0.15,Untitled record,scraped_html_paginated,15.0,,,unknown,0.15,1.0
+1071,unknown,,Untitled record,,,,https://www.scrapethissite.com/pages/forms/?page_num=3,2026-04-16 00:34:04.545,1.0,scraped_html_paginated,hockey_multi_page_results.json,3.0,,requests_bs4,,,,scraped_html_paginated,,,,,,,,,,,,,,,,,,,St. Louis Blues,1992.0,37.0,36.0,,,,,,Untitled record,unknown,,15,15,0.15,Untitled record,scraped_html_paginated,15.0,,,unknown,0.15,1.0
+1081,unknown,,Untitled record,,,,https://www.scrapethissite.com/pages/forms/?page_num=3,2026-04-16 00:34:04.555,1.0,scraped_html_paginated,hockey_multi_page_results.json,3.0,,requests_bs4,,,,scraped_html_paginated,,,,,,,,,,,,,,,,,,,Chicago Blackhawks,1993.0,39.0,36.0,,,,,,Untitled record,unknown,,15,15,0.15,Untitled record,scraped_html_paginated,15.0,,,unknown,0.15,1.0
+1091,unknown,,Untitled record,,,,https://www.scrapethissite.com/pages/forms/?page_num=4,2026-04-16 00:34:04.568,1.0,scraped_html_paginated,hockey_multi_page_results.json,4.0,,requests_bs4,,,,scraped_html_paginated,,,,,,,,,,,,,,,,,,,New York Rangers,1993.0,52.0,24.0,,,,,,Untitled record,unknown,,15,15,0.15,Untitled record,scraped_html_paginated,15.0,,,unknown,0.15,1.0
+1101,unknown,,Untitled record,,,,https://www.scrapethissite.com/pages/forms/?page_num=4,2026-04-16 00:34:04.578,1.0,scraped_html_paginated,hockey_multi_page_results.json,4.0,,requests_bs4,,,,scraped_html_paginated,,,,,,,,,,,,,,,,,,,Washington Capitals,1993.0,39.0,35.0,,,,,,Untitled record,unknown,,15,15,0.15,Untitled record,scraped_html_paginated,15.0,,,unknown,0.15,1.0
+1111,unknown,,Inception,,,,https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2010,2026-04-16 00:34:19.415,1.0,scraped_json_api,ajax_movies_api_results.json,,2026-04-16 00:34:06.972800,requests,,,,scraped_json_api,,,,,,,,,,,,,,,,,,,,2010.0,,,8.0,4.0,False,,,Inception,unknown,,9,9,0.09,Inception,scraped_json_api,9.0,,,unknown,0.09,1.0
+1121,unknown,,Strangers No More,,,,https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2010,2026-04-16 00:34:19.429,1.0,scraped_json_api,ajax_movies_api_results.json,,2026-04-16 00:34:06.972858,requests,,,,scraped_json_api,,,,,,,,,,,,,,,,,,,,2010.0,,,1.0,1.0,False,,,Strangers No More,unknown,,17,17,0.17,Strangers No More,scraped_json_api,17.0,,,unknown,0.17,1.0
+1131,unknown,,The Fantastic Flying Books of Mr. Morris Lessmore,,,,https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2011,2026-04-16 00:34:19.440,1.0,scraped_json_api,ajax_movies_api_results.json,,2026-04-16 00:34:09.528308,requests,,,,scraped_json_api,,,,,,,,,,,,,,,,,,,,2011.0,,,1.0,1.0,False,,,The Fantastic Flying Books of Mr. Morris Lessmore,unknown,,49,49,0.49,The Fantastic Flying Books of Mr. Morris Lessmore,scraped_json_api,49.0,,,unknown,0.49,1.0
+1141,unknown,,Lincoln,,,,https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2012,2026-04-16 00:34:19.454,1.0,scraped_json_api,ajax_movies_api_results.json,,2026-04-16 00:34:12.088883,requests,,,,scraped_json_api,,,,,,,,,,,,,,,,,,,,2012.0,,,12.0,2.0,False,,,Lincoln,unknown,,7,7,0.07,Lincoln,scraped_json_api,7.0,,,unknown,0.07,1.0
+1151,unknown,,Inocente,,,,https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2012,2026-04-16 00:34:19.468,1.0,scraped_json_api,ajax_movies_api_results.json,,2026-04-16 00:34:12.088944,requests,,,,scraped_json_api,,,,,,,,,,,,,,,,,,,,2012.0,,,1.0,1.0,False,,,Inocente,unknown,,8,8,0.08,Inocente,scraped_json_api,8.0,,,unknown,0.08,1.0
+1161,unknown,,The Lady in Number 6: Music Saved My Life,,,,https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2013,2026-04-16 00:34:19.480,1.0,scraped_json_api,ajax_movies_api_results.json,,2026-04-16 00:34:14.545725,requests,,,,scraped_json_api,,,,,,,,,,,,,,,,,,,,2013.0,,,1.0,1.0,False,,,The Lady in Number 6: Music Saved My Life,unknown,,41,41,0.41,The Lady in Number 6: Music Saved My Life,scraped_json_api,41.0,,,unknown,0.41,1.0
+1171,unknown,,Interstellar,,,,https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2014,2026-04-16 00:34:19.487,1.0,scraped_json_api,ajax_movies_api_results.json,,2026-04-16 00:34:16.901571,requests,,,,scraped_json_api,,,,,,,,,,,,,,,,,,,,2014.0,,,5.0,1.0,False,,,Interstellar,unknown,,12,12,0.12,Interstellar,scraped_json_api,12.0,,,unknown,0.12,1.0
+1181,unknown,,Spotlight  ,,,,https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2015,2026-04-16 00:34:19.499,1.0,scraped_json_api,ajax_movies_api_results.json,,2026-04-16 00:34:19.362431,requests,,,,scraped_json_api,,,,,,,,,,,,,,,,,,,,2015.0,,,6.0,2.0,True,,,Spotlight  ,unknown,,11,11,0.1099999999999999,Spotlight  ,scraped_json_api,11.0,,,unknown,0.1099999999999999,1.0
+1191,unknown,,Amy,,,,https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2015,2026-04-16 00:34:19.511,1.0,scraped_json_api,ajax_movies_api_results.json,,2026-04-16 00:34:19.362562,requests,,,,scraped_json_api,,,,,,,,,,,,,,,,,,,,2015.0,,,1.0,1.0,False,,,Amy,unknown,,3,3,0.03,Amy,scraped_json_api,3.0,,,unknown,0.03,1.0
+1201,Moneycontrol,Bloomberg,"Nasdaq 100, S&P 500 finish at record on Intel’s blowout results","The Nasdaq 100 Index gained 1.9% to finish at a fresh all-time closing high, with chipmakers such as Advanced Micro Devices Inc. and ARM Holdings Plc contributing to gains.",https://www.moneycontrol.com/news/business/markets/nasdaq-100-s-p-500-finish-at-record-on-intel-s-blowout-results-13899092.html,2026-04-25T02:09:48Z,news_page_1.json,2026-04-26 02:17:20.793,1.0,json,news_page_1.json,,,,,,,json,,,,,,,,,,,,,,,,,,,,,,,,,,,,"The Nasdaq 100 Index gained 1.9% to finish at a fresh all-time closing high, with chipmakers such as Advanced Micro Devices Inc. and ARM Holdings Plc contributing to gains.",unknown,,172,63,1.7199999999999998,"The Nasdaq 100 Index gained 1.9% to finish at a fresh all-time closing high, with chipmakers such as Advanced Micro Devices Inc. and ARM Holdings Plc contributing to gains.",json,172.0,,,unknown,1.7199999999999998,1.0
+1211,GlobeNewswire,"iSpring Water Systems, LLC",iSpring to Showcase Cutting-Edge Water Filtration Solutions at WQA 2026 Expo,"Miami Beach, FL, April 24, 2026 (GLOBE NEWSWIRE) -- The 2026 Water Quality Association (WQA) Expo will once again gather the foremost innovators and leaders in the global water treatment industry, and iSpring Water Systems
+ is set to take a prominent role. A…",https://www.globenewswire.com/news-release/2026/04/25/3281125/0/en/iSpring-to-Showcase-Cutting-Edge-Water-Filtration-Solutions-at-WQA-2026-Expo.html,2026-04-25T01:24:00Z,news_page_3.json,2026-04-26 02:17:20.860,1.0,json,news_page_3.json,,,,,,,json,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Miami Beach, FL, April 24, 2026 (GLOBE NEWSWIRE) -- The 2026 Water Quality Association (WQA) Expo will once again gather the foremost innovators and leaders in the global water treatment industry, and iSpring Water Systems
+ is set to take a prominent role. A…",unknown,,260,76,2.6,"Miami Beach, FL, April 24, 2026 (GLOBE NEWSWIRE) -- The 2026 Water Quality Association (WQA) Expo will once again gather the foremost innovators and leaders in the global water treatment industry, and iSpring Water Systems
+ is set to take a prominent role. A…",json,260.0,,,unknown,2.6,1.0
+1221,unknown,,Untitled record,,,,data/raw/word/news_normal.docx,2026-04-26 02:17:21.148,1.0,word_run,news_normal.docx,,,python-docx,News Media Monitoring Pipeline — Extraction Sample,,,word_run,,,,,,,,,,,,,1.0,1.0,True,,,,,,,,,,,,,News Media Monitoring Pipeline — Extraction Sample,unknown,,50,15,0.5,News Media Monitoring Pipeline — Extraction Sample,word_run,50.0,,,unknown,0.5,1.0
+1231,CNN,,Sports Highlights,,,,data/raw/excel/news_data.xlsx,2026-04-26 02:17:21.178,1.0,excel,news_data.xlsx,,2026-04-26 02:17:21.173624,openpyxl,,,3.0,Sports,2026-03-21,19.0,0.5,Articles,,,,,,,,,,,,,,,,,,,,,,,,Sports Highlights,unknown,2026.0,17,17,5.0,Sports Highlights,Sports,19.0,2026-03-21,2026.0,unknown,5.0,19.0
+1241,unknown,,Untitled record,,,,https://www.scrapethissite.com/pages/forms/,2026-04-26 02:17:25.980,1.0,scraped_html,hockey_results.json,,,requests_bs4,,,,scraped_html,,,,,,,,,,,,,,,,,,,Boston Bruins,1990.0,44.0,24.0,,,,,,Untitled record,unknown,,15,15,0.15,Untitled record,scraped_html,15.0,,,unknown,0.15,1.0
+1251,unknown,,Untitled record,,,,https://www.scrapethissite.com/pages/forms/,2026-04-26 02:17:25.994,1.0,scraped_html,hockey_results.json,,,requests_bs4,,,,scraped_html,,,,,,,,,,,,,,,,,,,New Jersey Devils,1990.0,32.0,33.0,,,,,,Untitled record,unknown,,15,15,0.15,Untitled record,scraped_html,15.0,,,unknown,0.15,1.0
+1261,unknown,,Untitled record,,,,https://www.scrapethissite.com/pages/forms/,2026-04-26 02:17:26.016,1.0,scraped_html,hockey_results.json,,,requests_bs4,,,,scraped_html,,,,,,,,,,,,,,,,,,,Winnipeg Jets,1990.0,26.0,43.0,,,,,,Untitled record,unknown,,15,15,0.15,Untitled record,scraped_html,15.0,,,unknown,0.15,1.0
+1271,unknown,,Untitled record,,,,https://www.scrapethissite.com/pages/forms/?page_num=1,2026-04-26 02:17:37.334,1.0,scraped_html_paginated,hockey_multi_page_results.json,1.0,,requests_bs4,,,,scraped_html_paginated,,,,,,,,,,,,,,,,,,,Edmonton Oilers,1990.0,37.0,37.0,,,,,,Untitled record,unknown,,15,15,0.15,Untitled record,scraped_html_paginated,15.0,,,unknown,0.15,1.0
+1281,unknown,,Untitled record,,,,https://www.scrapethissite.com/pages/forms/?page_num=1,2026-04-26 02:17:37.358,1.0,scraped_html_paginated,hockey_multi_page_results.json,1.0,,requests_bs4,,,,scraped_html_paginated,,,,,,,,,,,,,,,,,,,Quebec Nordiques,1990.0,16.0,50.0,,,,,,Untitled record,unknown,,15,15,0.15,Untitled record,scraped_html_paginated,15.0,,,unknown,0.15,1.0
+1291,unknown,,Untitled record,,,,https://www.scrapethissite.com/pages/forms/?page_num=2,2026-04-26 02:17:37.378,1.0,scraped_html_paginated,hockey_multi_page_results.json,2.0,,requests_bs4,,,,scraped_html_paginated,,,,,,,,,,,,,,,,,,,Detroit Red Wings,1991.0,43.0,25.0,,,,,,Untitled record,unknown,,15,15,0.15,Untitled record,scraped_html_paginated,15.0,,,unknown,0.15,1.0
+1301,unknown,,Untitled record,,,,https://www.scrapethissite.com/pages/forms/?page_num=2,2026-04-26 02:17:37.396,1.0,scraped_html_paginated,hockey_multi_page_results.json,2.0,,requests_bs4,,,,scraped_html_paginated,,,,,,,,,,,,,,,,,,,Pittsburgh Penguins,1991.0,39.0,32.0,,,,,,Untitled record,unknown,,15,15,0.15,Untitled record,scraped_html_paginated,15.0,,,unknown,0.15,1.0
+1311,unknown,,Untitled record,,,,https://www.scrapethissite.com/pages/forms/?page_num=2,2026-04-26 02:17:37.407,1.0,scraped_html_paginated,hockey_multi_page_results.json,2.0,,requests_bs4,,,,scraped_html_paginated,,,,,,,,,,,,,,,,,,,Calgary Flames,1992.0,43.0,30.0,,,,,,Untitled record,unknown,,15,15,0.15,Untitled record,scraped_html_paginated,15.0,,,unknown,0.15,1.0
+1321,unknown,,Untitled record,,,,https://www.scrapethissite.com/pages/forms/?page_num=3,2026-04-26 02:17:37.423,1.0,scraped_html_paginated,hockey_multi_page_results.json,3.0,,requests_bs4,,,,scraped_html_paginated,,,,,,,,,,,,,,,,,,,New York Rangers,1992.0,34.0,39.0,,,,,,Untitled record,unknown,,15,15,0.15,Untitled record,scraped_html_paginated,15.0,,,unknown,0.15,1.0
+1331,unknown,,Untitled record,,,,https://www.scrapethissite.com/pages/forms/?page_num=3,2026-04-26 02:17:37.434,1.0,scraped_html_paginated,hockey_multi_page_results.json,3.0,,requests_bs4,,,,scraped_html_paginated,,,,,,,,,,,,,,,,,,,Washington Capitals,1992.0,43.0,34.0,,,,,,Untitled record,unknown,,15,15,0.15,Untitled record,scraped_html_paginated,15.0,,,unknown,0.15,1.0
+1341,unknown,,Untitled record,,,,https://www.scrapethissite.com/pages/forms/?page_num=4,2026-04-26 02:17:37.444,1.0,scraped_html_paginated,hockey_multi_page_results.json,4.0,,requests_bs4,,,,scraped_html_paginated,,,,,,,,,,,,,,,,,,,Florida Panthers,1993.0,33.0,34.0,,,,,,Untitled record,unknown,,15,15,0.15,Untitled record,scraped_html_paginated,15.0,,,unknown,0.15,1.0
+1351,unknown,,Untitled record,,,,https://www.scrapethissite.com/pages/forms/?page_num=4,2026-04-26 02:17:37.457,1.0,scraped_html_paginated,hockey_multi_page_results.json,4.0,,requests_bs4,,,,scraped_html_paginated,,,,,,,,,,,,,,,,,,,Quebec Nordiques,1993.0,34.0,42.0,,,,,,Untitled record,unknown,,15,15,0.15,Untitled record,scraped_html_paginated,15.0,,,unknown,0.15,1.0
+1361,unknown,,Untitled record,,,,https://www.scrapethissite.com/pages/forms/?page_num=4,2026-04-26 02:17:37.464,1.0,scraped_html_paginated,hockey_multi_page_results.json,4.0,,requests_bs4,,,,scraped_html_paginated,,,,,,,,,,,,,,,,,,,Buffalo Sabres,1994.0,22.0,19.0,,,,,,Untitled record,unknown,,15,15,0.15,Untitled record,scraped_html_paginated,15.0,,,unknown,0.15,1.0
+1371,unknown,,Alice in Wonderland,,,,https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2010,2026-04-26 02:17:53.080,1.0,scraped_json_api,ajax_movies_api_results.json,,2026-04-26 02:17:40.110773,requests,,,,scraped_json_api,,,,,,,,,,,,,,,,,,,,2010.0,,,3.0,2.0,False,,,Alice in Wonderland,unknown,,19,19,0.19,Alice in Wonderland,scraped_json_api,19.0,,,unknown,0.19,1.0
+1381,unknown,,The Iron Lady,,,,https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2011,2026-04-26 02:17:53.091,1.0,scraped_json_api,ajax_movies_api_results.json,,2026-04-26 02:17:42.571612,requests,,,,scraped_json_api,,,,,,,,,,,,,,,,,,,,2011.0,,,2.0,2.0,False,,,The Iron Lady,unknown,,13,13,0.13,The Iron Lady,scraped_json_api,13.0,,,unknown,0.13,1.0
+1391,unknown,,Saving Face,,,,https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2011,2026-04-26 02:17:53.106,1.0,scraped_json_api,ajax_movies_api_results.json,,2026-04-26 02:17:42.571663,requests,,,,scraped_json_api,,,,,,,,,,,,,,,,,,,,2011.0,,,1.0,1.0,False,,,Saving Face,unknown,,11,11,0.1099999999999999,Saving Face,scraped_json_api,11.0,,,unknown,0.1099999999999999,1.0
+1401,unknown,,Zero Dark Thirty,,,,https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2012,2026-04-26 02:17:53.122,1.0,scraped_json_api,ajax_movies_api_results.json,,2026-04-26 02:17:45.226758,requests,,,,scraped_json_api,,,,,,,,,,,,,,,,,,,,2012.0,,,5.0,1.0,False,,,Zero Dark Thirty,unknown,,16,16,0.16,Zero Dark Thirty,scraped_json_api,16.0,,,unknown,0.16,1.0
+1411,unknown,,Dallas Buyers Club,,,,https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2013,2026-04-26 02:17:53.138,1.0,scraped_json_api,ajax_movies_api_results.json,,2026-04-26 02:17:47.592595,requests,,,,scraped_json_api,,,,,,,,,,,,,,,,,,,,2013.0,,,6.0,3.0,False,,,Dallas Buyers Club,unknown,,18,18,0.18,Dallas Buyers Club,scraped_json_api,18.0,,,unknown,0.18,1.0
+1421,unknown,,Birdman,,,,https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2014,2026-04-26 02:17:53.154,1.0,scraped_json_api,ajax_movies_api_results.json,,2026-04-26 02:17:50.347302,requests,,,,scraped_json_api,,,,,,,,,,,,,,,,,,,,2014.0,,,9.0,4.0,True,,,Birdman,unknown,,7,7,0.07,Birdman,scraped_json_api,7.0,,,unknown,0.07,1.0
+1431,unknown,,Citizenfour,,,,https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2014,2026-04-26 02:17:53.163,1.0,scraped_json_api,ajax_movies_api_results.json,,2026-04-26 02:17:50.347400,requests,,,,scraped_json_api,,,,,,,,,,,,,,,,,,,,2014.0,,,1.0,1.0,False,,,Citizenfour,unknown,,11,11,0.1099999999999999,Citizenfour,scraped_json_api,11.0,,,unknown,0.1099999999999999,1.0
+1441,unknown,,The Big Short  ,,,,https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2015,2026-04-26 02:17:53.170,1.0,scraped_json_api,ajax_movies_api_results.json,,2026-04-26 02:17:53.010254,requests,,,,scraped_json_api,,,,,,,,,,,,,,,,,,,,2015.0,,,5.0,1.0,False,,,The Big Short  ,unknown,,15,15,0.15,The Big Short  ,scraped_json_api,15.0,,,unknown,0.15,1.0
+1451,unknown,,Spectre,,,,https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2015,2026-04-26 02:17:53.178,1.0,scraped_json_api,ajax_movies_api_results.json,,2026-04-26 02:17:53.010331,requests,,,,scraped_json_api,,,,,,,,,,,,,,,,,,,,2015.0,,,1.0,1.0,False,,,Spectre,unknown,,7,7,0.07,Spectre,scraped_json_api,7.0,,,unknown,0.07,1.0
