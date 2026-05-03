@@ -567,3 +567,171 @@ def validate_movie_ids(df: pd.DataFrame) -> pd.DataFrame:
     df["is_valid_movie_id"] = df["is_valid_news_id"]
 
     return df
+
+# -------------------------------------------------------------------
+# Lab 9 regex-based cleaning and validation helpers
+# -------------------------------------------------------------------
+
+_DATE_YYYY_MM_DD = re.compile(r"^\d{4}-\d{2}-\d{2}")
+_LANGUAGE_CODE = re.compile(r"^[a-z]{2}$", re.IGNORECASE)
+_NUMERIC_VALUE = re.compile(r"[-+]?\d*\.?\d+")
+
+
+def detect_invalid_date_formats(
+    df: pd.DataFrame,
+    date_col: str = "published_date",
+) -> pd.DataFrame:
+    """
+    Detect rows where a date column does not match a simple YYYY-MM-DD pattern.
+
+    This is a regex-based pre-validation helper. It does not replace
+    pd.to_datetime, but it helps identify suspicious original strings.
+    """
+    if date_col not in df.columns:
+        logger.warning("detect_invalid_date_formats skipped because %s is missing", date_col)
+        return pd.DataFrame()
+
+    date_text = df[date_col].dropna().astype(str).str.strip()
+
+    invalid_mask = ~date_text.str.match(_DATE_YYYY_MM_DD.pattern, na=False)
+
+    invalid_dates = date_text[invalid_mask]
+
+    result = pd.DataFrame({
+        "row_index": invalid_dates.index,
+        "column": date_col,
+        "value": invalid_dates.values,
+        "issue": "Invalid date format; expected YYYY-MM-DD",
+    })
+
+    logger.info(
+        "detect_invalid_date_formats: %d invalid values found in %s",
+        len(result),
+        date_col,
+    )
+
+    return result
+
+
+def detect_invalid_language_codes(
+    df: pd.DataFrame,
+    language_col: str = "language",
+) -> pd.DataFrame:
+    """
+    Detect invalid language codes.
+
+    Accepts two-letter language codes and 'unknown'.
+    """
+    if language_col not in df.columns:
+        if "original_language" in df.columns:
+            language_col = "original_language"
+        else:
+            logger.warning("detect_invalid_language_codes skipped because no language column exists")
+            return pd.DataFrame()
+
+    lang_text = df[language_col].dropna().astype(str).str.strip().str.lower()
+
+    valid_mask = lang_text.str.match(_LANGUAGE_CODE.pattern, na=False) | lang_text.eq("unknown")
+
+    invalid_values = lang_text[~valid_mask]
+
+    result = pd.DataFrame({
+        "row_index": invalid_values.index,
+        "column": language_col,
+        "value": invalid_values.values,
+        "issue": "Invalid language code",
+    })
+
+    logger.info(
+        "detect_invalid_language_codes: %d invalid values found in %s",
+        len(result),
+        language_col,
+    )
+
+    return result
+
+
+def extract_numeric_values_from_text(
+    text_series: pd.Series,
+) -> pd.Series:
+    """
+    Extract the first numeric value from a text Series.
+
+    Examples:
+    'Article mentions: 25' -> 25
+    'Score 4.5/10' -> 4.5
+    """
+    result = (
+        text_series
+        .fillna("")
+        .astype(str)
+        .str.extract(f"({_NUMERIC_VALUE.pattern})", expand=False)
+    )
+
+    logger.info(
+        "extract_numeric_values_from_text: extracted %d numeric values",
+        result.notna().sum(),
+    )
+
+    return result
+
+
+def add_extracted_number_column(
+    df: pd.DataFrame,
+    source_col: str = "title",
+    output_col: str = "extracted_number",
+) -> pd.DataFrame:
+    """
+    Add a column containing the first numeric value extracted from text.
+    """
+    df = df.copy()
+
+    if source_col not in df.columns:
+        logger.warning("add_extracted_number_column skipped because %s is missing", source_col)
+        df[output_col] = pd.NA
+        return df
+
+    df[output_col] = extract_numeric_values_from_text(df[source_col])
+
+    logger.info(
+        "add_extracted_number_column: created %s from %s",
+        output_col,
+        source_col,
+    )
+
+    return df
+
+
+def flag_short_content(
+    df: pd.DataFrame,
+    text_col: str = "content_text",
+    min_chars: int = 40,
+) -> pd.DataFrame:
+    """
+    Add a boolean flag for suspiciously short article/document content.
+    """
+    df = df.copy()
+
+    if text_col not in df.columns:
+        if "overview" in df.columns:
+            text_col = "overview"
+        else:
+            logger.warning("flag_short_content skipped because no content column exists")
+            df["is_short_content"] = False
+            return df
+
+    df["is_short_content"] = (
+        df[text_col]
+        .fillna("")
+        .astype(str)
+        .str.len()
+        .lt(min_chars)
+    )
+
+    logger.info(
+        "flag_short_content: %d rows flagged under %d characters",
+        int(df["is_short_content"].sum()),
+        min_chars,
+    )
+
+    return df

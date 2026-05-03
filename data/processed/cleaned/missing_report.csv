@@ -1,0 +1,45 @@
+column,missing_count,missing_pct,dtype
+underline,1455,100.0,float64
+preview_text,1448,99.52,str
+Total Articles,1446,99.38,float64
+Metric,1446,99.38,str
+Politics Articles,1446,99.38,float64
+Business Articles,1446,99.38,float64
+Average Sentiment,1446,99.38,float64
+Highest Mentions,1446,99.38,float64
+Total Mentions,1446,99.38,float64
+Average Mentions,1446,99.38,float64
+italic,1441,99.04,object
+raw_text,1440,98.97,str
+processed_text,1440,98.97,str
+bold,1434,98.56,object
+tables,1401,96.29,str
+paragraph_number,1399,96.15,float64
+run_number,1399,96.15,float64
+release_year,1365,93.81,float64
+sentiment_score,1365,93.81,float64
+published_date,1365,93.81,str
+id,1365,93.81,float64
+mentions,1365,93.81,float64
+release_date,1365,93.81,str
+published_year,1365,93.81,float64
+sheet_name,1356,93.2,str
+text,1345,92.44,str
+author,1298,89.21,str
+url,1291,88.73,str
+description,1291,88.73,str
+publishedAt,1291,88.73,str
+nominations,1020,70.1,float64
+best_picture,1020,70.1,object
+awards,1020,70.1,float64
+page_number,909,62.47,float64
+wins,830,57.04,float64
+losses,830,57.04,float64
+name,830,57.04,str
+extraction_timestamp,718,49.35,str
+year,395,27.15,float64
+extraction_library,164,11.27,str
+version,94,6.46,float64
+source_path,94,6.46,str
+fetched_at,94,6.46,str
+file_name,30,2.06,str

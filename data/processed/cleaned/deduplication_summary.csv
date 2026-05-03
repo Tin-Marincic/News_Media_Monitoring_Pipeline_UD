@@ -1,0 +1,5 @@
+step,rows_before,rows_after,rows_removed
+drop_exact_duplicates,1455,1455,0
+drop_duplicate_urls,1455,1398,57
+drop_duplicate_titles,1398,1318,80
+drop_duplicate_ids,1318,1318,0
