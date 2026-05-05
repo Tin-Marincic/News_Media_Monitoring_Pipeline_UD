@@ -105,6 +105,8 @@ from src.analytics.quality_report import (
     save_missing_heatmap,
 )
 
+from src.cleaning.clean_pipeline import run_cleaning_pipeline_from_csv
+
 
 def save_standard_transcript_outputs(result: dict, base_output_path: str) -> tuple[str, str, str]:
     """
@@ -135,7 +137,6 @@ def run_audio_video_stage():
     processed_frames_dir.mkdir(parents=True, exist_ok=True)
     processed_transcripts_dir.mkdir(parents=True, exist_ok=True)
 
-    # AUDIO STAGE
     if raw_audio_dir.exists():
         for audio_file in raw_audio_dir.glob("*.mp3"):
             try:
@@ -196,7 +197,6 @@ def run_audio_video_stage():
             except Exception as e:
                 logging.error(f"Audio processing failed for {audio_file.name}: {e}")
 
-    # VIDEO STAGE
     if raw_video_dir.exists():
         for video_file in raw_video_dir.glob("*.mp4"):
             try:
@@ -254,13 +254,6 @@ def run_audio_video_stage():
 def upload_lab8_charts_to_drive(chart_paths: list[str]) -> list[dict]:
     """
     Optional Google Drive upload for Lab 8 charts.
-
-    This function will only run if your project has:
-    - googleapiclient installed
-    - src.utils.upload_utils with authenticate_drive and FOLDER_ID
-    - AMILA_EMAIL in .env if you want to share with Amila
-
-    If any of these are missing, the pipeline logs a warning and continues.
     """
     logging.info("=== Lab 8 Google Drive Chart Upload Started ===")
 
@@ -293,9 +286,7 @@ def upload_lab8_charts_to_drive(chart_paths: list[str]) -> list[dict]:
                 logging.warning(f"Chart path does not exist, skipping upload: {chart_path}")
                 continue
 
-            file_metadata = {
-                "name": path.name,
-            }
+            file_metadata = {"name": path.name}
 
             if FOLDER_ID:
                 file_metadata["parents"] = [FOLDER_ID]
@@ -342,6 +333,7 @@ def upload_lab8_charts_to_drive(chart_paths: list[str]) -> list[dict]:
             logging.error(f"Failed to upload chart {chart_path}: {e}")
 
     logging.info("=== Lab 8 Google Drive Chart Upload Complete ===")
+
     return upload_results
 
 
@@ -349,22 +341,6 @@ def run_lab8_analytics_stage():
     """
     Run Lab 8 analytics on the integrated News Media Monitoring Pipeline
     dataset stored in MongoDB.
-
-    Source:
-    news_pipeline.raw_articles
-
-    Outputs:
-    - raw news CSV
-    - optimised news CSV
-    - NumPy reports
-    - chunked processing reports
-    - EDA reports
-    - news distribution charts
-    - selector/filtering reports
-    - regex reports
-    - missing-value heatmap
-    - full quality report CSV
-    - optional Google Drive chart upload
     """
     logging.info("=== Lab 8 News Analytics Stage Started ===")
 
@@ -379,9 +355,6 @@ def run_lab8_analytics_stage():
     raw_csv_path = analytics_dir / "raw_news_data.csv"
     optimized_csv_path = analytics_dir / "optimized_news_data.csv"
 
-    # ------------------------------------------------------------
-    # Part 2: NumPy foundations
-    # ------------------------------------------------------------
     logging.info("Lab 8 Part 2: NumPy operations started")
 
     arrays = demonstrate_array_creation()
@@ -465,9 +438,6 @@ def run_lab8_analytics_stage():
 
     logging.info("Lab 8 Part 2: NumPy operations complete")
 
-    # ------------------------------------------------------------
-    # Part 3: Loading and memory management
-    # ------------------------------------------------------------
     logging.info("Lab 8 Part 3: Loading and memory management started")
 
     news_df = load_from_mongodb()
@@ -526,9 +496,6 @@ def run_lab8_analytics_stage():
 
     logging.info("Lab 8 Part 3: Loading and memory management complete")
 
-    # ------------------------------------------------------------
-    # Part 4: Exploration
-    # ------------------------------------------------------------
     logging.info("Lab 8 Part 4: EDA started")
 
     eda_df = extract_release_year(csv_df)
@@ -572,9 +539,6 @@ def run_lab8_analytics_stage():
 
     logging.info("Lab 8 Part 4: EDA complete")
 
-    # ------------------------------------------------------------
-    # Part 5: Selection and filtering
-    # ------------------------------------------------------------
     logging.info("Lab 8 Part 5: Selection and filtering started")
 
     select_columns(
@@ -653,9 +617,6 @@ def run_lab8_analytics_stage():
 
     logging.info("Lab 8 Part 5: Selection and filtering complete")
 
-    # ------------------------------------------------------------
-    # Part 6: Regex operations
-    # ------------------------------------------------------------
     logging.info("Lab 8 Part 6: Regex operations started")
 
     regex_df = eda_df.copy()
@@ -719,9 +680,6 @@ def run_lab8_analytics_stage():
 
     logging.info("Lab 8 Part 6: Regex operations complete")
 
-    # ------------------------------------------------------------
-    # Part 7: Data quality reporting
-    # ------------------------------------------------------------
     logging.info("Lab 8 Part 7: Data quality reporting started")
 
     missing_report = missing_value_report(eda_df)
@@ -782,9 +740,6 @@ def run_lab8_analytics_stage():
 
     logging.info("Lab 8 Part 7: Data quality reporting complete")
 
-    # ------------------------------------------------------------
-    # Optional Google Drive upload
-    # ------------------------------------------------------------
     upload_results = upload_lab8_charts_to_drive(saved_charts)
 
     if upload_results:
@@ -795,19 +750,53 @@ def run_lab8_analytics_stage():
 
     logging.info("=== Lab 8 News Analytics Stage Complete ===")
 
+
+def run_lab9_cleaning_stage():
+    """
+    Run Lab 9 cleaning on the raw news CSV generated by Lab 8.
+    """
+    logging.info("=== Lab 9 Cleaning Stage Started ===")
+
+    raw_news_csv = Path("data/processed/analytics/raw_news_data.csv")
+
+    if not raw_news_csv.exists():
+        logging.warning(
+            "Lab 9 raw input not found at %s. Running Lab 8 analytics first.",
+            raw_news_csv,
+        )
+        run_lab8_analytics_stage()
+
+    if not raw_news_csv.exists():
+        raise FileNotFoundError(
+            f"Lab 9 cleaning input does not exist: {raw_news_csv}"
+        )
+
+    cleaned_df = run_cleaning_pipeline_from_csv(
+        input_path=str(raw_news_csv),
+        save=True,
+    )
+
+    logging.info(
+        "Lab 9 cleaned dataset shape: rows=%d columns=%d",
+        cleaned_df.shape[0],
+        cleaned_df.shape[1],
+    )
+
+    logging.info("=== Lab 9 Cleaning Stage Complete ===")
+
+    return cleaned_df
+
+
 def run_pipeline():
     try:
         logging.info("Pipeline started")
 
-        # Step 1: Fetch API data and save raw JSON pages
         articles = fetch_news(query="technology", pages=3, page_size=5)
         logging.info(f"Fetched {len(articles)} total articles from API")
 
-        # Step 2: Parse saved JSON files and store parsed data to MongoDB
         parsed_articles = parse_json_files()
         logging.info(f"Parsed and stored {len(parsed_articles)} JSON articles to MongoDB")
 
-        # Step 3: Process normal PDF
         normal_pdf = "data/raw/pdf/news_normal.pdf"
         if Path(normal_pdf).exists():
             pdf_pages = extract_text_from_pdf(normal_pdf)
@@ -825,7 +814,6 @@ def run_pipeline():
                 )
             logging.info(f"Processed normal PDF: {normal_pdf}")
 
-        # Step 4: Process two-column PDF
         two_column_pdf = "data/raw/pdf/news_two_column.pdf"
         if Path(two_column_pdf).exists():
             pdf_pages = extract_text_from_two_column_pdf(two_column_pdf)
@@ -843,7 +831,6 @@ def run_pipeline():
                 )
             logging.info(f"Processed two-column PDF: {two_column_pdf}")
 
-        # Step 5: Process normal Word
         normal_word = "data/raw/word/news_normal.docx"
         if Path(normal_word).exists():
             word_data = extract_text_from_word(normal_word)
@@ -859,7 +846,6 @@ def run_pipeline():
             )
             logging.info(f"Processed normal Word file: {normal_word}")
 
-        # Step 6: Process two-column Word
         two_column_word = "data/raw/word/news_two_column.docx"
         if Path(two_column_word).exists():
             word_data = extract_text_from_two_column_word(two_column_word)
@@ -875,7 +861,6 @@ def run_pipeline():
             )
             logging.info(f"Processed two-column Word file: {two_column_word}")
 
-        # Step 7: Process Word runs
         if Path(normal_word).exists():
             word_runs = extract_word_runs(normal_word)
             for run in word_runs:
@@ -890,7 +875,6 @@ def run_pipeline():
                 )
             logging.info(f"Processed Word runs for file: {normal_word}")
 
-        # Step 8: Process Excel
         excel_path = "data/raw/excel/news_data.xlsx"
         if Path(excel_path).exists():
             excel_articles = extract_data_from_excel(excel_path)
@@ -917,7 +901,6 @@ def run_pipeline():
             )
             logging.info(f"Processed Excel file: {excel_path}")
 
-        # Step 9: Encoding test
         encoding_file = "data/raw/api/news_page_1.json"
         if Path(encoding_file).exists():
             encoding_text = read_file_with_encoding(encoding_file)
@@ -932,7 +915,6 @@ def run_pipeline():
             )
             logging.info(f"Encoding test processed for: {encoding_file}")
 
-        # Step 10: Single-page web scraping
         hockey_url = "https://www.scrapethissite.com/pages/forms/"
         single_scraped = scrape_hockey_teams(hockey_url)
         for record in single_scraped:
@@ -952,7 +934,6 @@ def run_pipeline():
             )
         logging.info(f"Processed single-page scraping: {len(single_scraped)} records")
 
-        # Step 11: Multi-page web scraping
         multi_scraped = scrape_hockey_teams_multi_page(
             hockey_url,
             start_page=1,
@@ -976,7 +957,6 @@ def run_pipeline():
             )
         logging.info(f"Processed multi-page scraping: {len(multi_scraped)} records")
 
-        # Step 12: Dynamic JSON API movie scraping
         ajax_scraped = scrape_ajax_movies_api()
         for record in ajax_scraped:
             save_to_mongo(
@@ -997,7 +977,6 @@ def run_pipeline():
             )
         logging.info(f"Processed dynamic JSON movie scraping: {len(ajax_scraped)} records")
 
-        # Step 13: OCR on scanned image
         image_path = "data/raw/images/test_scan.png"
         if Path(image_path).exists():
             image_ocr = ocr_image(image_path)
@@ -1016,7 +995,6 @@ def run_pipeline():
             )
             logging.info("Processed OCR image")
 
-        # Step 14: OCR on scanned PDF
         scanned_pdf = "data/raw/scanned/test_scan.pdf"
         if Path(scanned_pdf).exists():
             pdf_ocr_results = ocr_scanned_pdf(scanned_pdf)
@@ -1037,7 +1015,6 @@ def run_pipeline():
                 )
             logging.info(f"Processed OCR scanned PDF: {len(pdf_ocr_results)} pages")
 
-        # Step 15: Load article metadata from saved JSON and download article images
         image_articles = load_articles_from_json("data/raw/api")
         downloaded_images = download_article_images(
             image_articles,
@@ -1046,7 +1023,6 @@ def run_pipeline():
         )
         logging.info(f"Downloaded {len(downloaded_images)} article images")
 
-        # Step 16: Batch process images
         image_results, image_errors = batch_process_images(
             input_dir="data/raw/images",
             output_dir="data/processed",
@@ -1058,15 +1034,14 @@ def run_pipeline():
         )
         logging.info(f"Batch processed {len(image_results)} images with {len(image_errors)} errors")
 
-        # Step 17: Save image metadata to MongoDB
         save_batch_results_to_mongo(image_results)
         logging.info(f"Saved {len(image_results)} image metadata records to MongoDB")
 
-        # Step 18: Audio/Video stage
         run_audio_video_stage()
 
-        # Step 19: Lab 8 NumPy, pandas, EDA, regex, and quality reporting
         run_lab8_analytics_stage()
+
+        run_lab9_cleaning_stage()
 
         logging.info("Pipeline finished successfully")
 

@@ -1,0 +1,36 @@
+[1m============================= test session starts =============================[0m
+platform win32 -- Python 3.14.3, pytest-9.0.3, pluggy-1.6.0 -- c:\Users\38760\Desktop\Unstructured_Data\News_Media_Monitoring_Pipeline_UD\.venv\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: c:\Users\38760\Desktop\Unstructured_Data\News_Media_Monitoring_Pipeline_UD
+plugins: anyio-4.13.0, cov-7.1.0
+[1mcollecting ... [0mcollected 26 items
+
+tests/test_cleaning.py::test_report_missing_detects_missing_values [32mPASSED[0m[32m [  3%][0m
+tests/test_cleaning.py::test_drop_rows_missing_title_removes_empty_string [32mPASSED[0m[32m [  7%][0m
+tests/test_cleaning.py::test_fill_missing_overview_no_nulls_remain [32mPASSED[0m[32m [ 11%][0m
+tests/test_cleaning.py::test_fill_missing_overview_uses_placeholder [32mPASSED[0m[32m [ 15%][0m
+tests/test_cleaning.py::test_replace_zero_with_nan_on_rating_score [32mPASSED[0m[32m [ 19%][0m
+tests/test_cleaning.py::test_fill_numeric_with_median [32mPASSED[0m[32m             [ 23%][0m
+tests/test_cleaning.py::test_drop_high_missingness_columns [32mPASSED[0m[32m        [ 26%][0m
+tests/test_cleaning.py::test_clean_title_strips_whitespace_and_removes_year [32mPASSED[0m[32m [ 30%][0m
+tests/test_cleaning.py::test_clean_language_code_normalizes_values [32mPASSED[0m[32m [ 34%][0m
+tests/test_cleaning.py::test_clean_overview_text_removes_html [32mPASSED[0m[32m     [ 38%][0m
+tests/test_cleaning.py::test_extract_year_from_release_date [32mPASSED[0m[32m       [ 42%][0m
+tests/test_cleaning.py::test_clean_genre_string_normalizes_labels [32mPASSED[0m[32m [ 46%][0m
+tests/test_cleaning.py::test_drop_exact_duplicates_removes_copies [32mPASSED[0m[32m [ 50%][0m
+tests/test_cleaning.py::test_count_duplicates_returns_correct_number [32mPASSED[0m[32m [ 53%][0m
+tests/test_cleaning.py::test_drop_duplicate_ids_keeps_first [32mPASSED[0m[32m       [ 57%][0m
+tests/test_cleaning.py::test_drop_duplicate_urls [32mPASSED[0m[32m                  [ 61%][0m
+tests/test_cleaning.py::test_drop_duplicate_titles_uses_title_and_date [32mPASSED[0m[32m [ 65%][0m
+tests/test_cleaning.py::test_convert_dates_produces_datetime_type [32mPASSED[0m[32m [ 69%][0m
+tests/test_cleaning.py::test_convert_dates_bad_values_become_nat [32mPASSED[0m[32m  [ 73%][0m
+tests/test_cleaning.py::test_convert_numeric_columns [32mPASSED[0m[32m              [ 76%][0m
+tests/test_cleaning.py::test_convert_category_columns [32mPASSED[0m[32m             [ 80%][0m
+tests/test_cleaning.py::test_validate_no_null_titles_passes_on_clean_data [32mPASSED[0m[32m [ 84%][0m
+tests/test_cleaning.py::test_validate_no_null_titles_fails_on_empty_title [32mPASSED[0m[32m [ 88%][0m
+tests/test_cleaning.py::test_validate_rating_score_fails_on_out_of_range [32mPASSED[0m[32m [ 92%][0m
+tests/test_cleaning.py::test_validate_language_codes_accepts_unknown [32mPASSED[0m[32m [ 96%][0m
+tests/test_cleaning.py::test_full_cleaning_pipeline_passes_validations [32mPASSED[0m[32m [100%][0m
+
+[32m============================= [32m[1m26 passed[0m[32m in 0.91s[0m[32m ==============================[0m
+

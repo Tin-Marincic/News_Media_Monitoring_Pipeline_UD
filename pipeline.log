@@ -2742,3 +2742,539 @@
 2026-04-26 18:13:32,347 - INFO - Lab 8 notebook Part 8 started: Google Drive upload
 2026-04-26 18:13:32,354 - INFO - file_cache is only supported with oauth2client<4.0.0
 2026-04-26 18:14:15,436 - INFO - Lab 8 notebook Part 8 complete: charts uploaded and shared
+2026-05-03 15:54:35,845 - INFO - === Lab 9 Cleaning Stage Started ===
+2026-05-03 15:54:35,845 - INFO - Loading raw CSV for cleaning: data\processed\analytics\raw_news_data.csv
+2026-05-03 15:54:35,873 - INFO - Loaded raw CSV for cleaning: shape=(1455, 60)
+2026-05-03 15:54:35,873 - INFO - === Starting Lab 9 cleaning pipeline: 1455 rows ===
+2026-05-03 15:54:35,874 - INFO - Step 1: generate missing-value report
+2026-05-03 15:54:35,879 - INFO - Missing value report generated for 44 columns
+2026-05-03 15:54:35,885 - INFO - Saved missing report to data\processed\cleaned\missing_report.csv
+2026-05-03 15:54:35,885 - INFO - Step 2: drop rows missing critical fields
+2026-05-03 15:54:35,888 - INFO - drop_rows_missing_critical_fields: dropped 0 rows using columns=['record_id', 'title']
+2026-05-03 15:54:35,889 - INFO - Step 3: clean string columns
+2026-05-03 15:54:35,889 - INFO - Starting string cleaning workflow
+2026-05-03 15:54:35,892 - INFO - clean_title: 55 titles modified
+2026-05-03 15:54:35,894 - INFO - clean_language_code: normalized language codes
+2026-05-03 15:54:35,900 - INFO - clean_overview_text: content_text cleaned, 166 values modified
+2026-05-03 15:54:35,906 - INFO - clean_overview_text: overview cleaned, 166 values modified
+2026-05-03 15:54:35,910 - INFO - clean_overview_text: description cleaned, 1326 values modified
+2026-05-03 15:54:35,914 - INFO - clean_overview_text: text cleaned, 1399 values modified
+2026-05-03 15:54:35,917 - INFO - clean_overview_text: processed_text cleaned, 1455 values modified
+2026-05-03 15:54:35,920 - INFO - clean_overview_text: raw_text cleaned, 1455 values modified
+2026-05-03 15:54:35,922 - INFO - clean_overview_text: preview_text cleaned, 1455 values modified
+2026-05-03 15:54:35,925 - INFO - extract_year_from_release_date: extracted 90 years from published_date
+2026-05-03 15:54:35,928 - INFO - clean_genre_string: genres normalized
+2026-05-03 15:54:35,931 - INFO - clean_genre_string: category normalized
+2026-05-03 15:54:35,933 - INFO - clean_genre_string: document_type normalized
+2026-05-03 15:54:35,935 - INFO - clean_genre_string: source_name normalized
+2026-05-03 15:54:35,935 - INFO - String cleaning workflow complete
+2026-05-03 15:54:35,935 - INFO - Step 4: fill missing text fields
+2026-05-03 15:54:35,937 - INFO - fill_missing_text_fields: title -> filled 0 missing and 0 empty values
+2026-05-03 15:54:35,937 - INFO - fill_missing_text_fields: description -> filled 0 missing and 0 empty values
+2026-05-03 15:54:35,938 - INFO - fill_missing_text_fields: content_text -> filled 0 missing and 0 empty values
+2026-05-03 15:54:35,939 - INFO - fill_missing_text_fields: overview -> filled 0 missing and 0 empty values
+2026-05-03 15:54:35,940 - INFO - fill_missing_text_fields: text -> filled 0 missing and 0 empty values
+2026-05-03 15:54:35,940 - INFO - fill_missing_text_fields: raw_text -> filled 0 missing and 0 empty values
+2026-05-03 15:54:35,941 - INFO - fill_missing_text_fields: processed_text -> filled 0 missing and 0 empty values
+2026-05-03 15:54:35,942 - INFO - fill_missing_text_fields: preview_text -> filled 0 missing and 0 empty values
+2026-05-03 15:54:35,942 - INFO - fill_missing_text_fields: source_name -> filled 0 missing and 0 empty values
+2026-05-03 15:54:35,943 - INFO - fill_missing_text_fields: category -> filled 0 missing and 0 empty values
+2026-05-03 15:54:35,944 - INFO - fill_missing_text_fields: document_type -> filled 0 missing and 0 empty values
+2026-05-03 15:54:35,944 - INFO - fill_missing_text_fields: language -> filled 0 missing and 0 empty values
+2026-05-03 15:54:35,945 - INFO - fill_missing_overview: filled 0 rows
+2026-05-03 15:54:35,946 - INFO - Step 5: replace zero-as-missing numeric values
+2026-05-03 15:54:35,946 - INFO - replace_zero_with_nan: mentions -> replaced 0 zeros
+2026-05-03 15:54:35,946 - INFO - replace_zero_with_nan: sentiment_score -> replaced 0 zeros
+2026-05-03 15:54:35,947 - INFO - replace_zero_with_nan: rating_score -> replaced 0 zeros
+2026-05-03 15:54:35,947 - INFO - replace_zero_with_nan: popularity -> replaced 0 zeros
+2026-05-03 15:54:35,947 - INFO - replace_zero_with_nan: vote_average -> replaced 0 zeros
+2026-05-03 15:54:35,947 - INFO - replace_zero_with_nan: vote_count -> replaced 0 zeros
+2026-05-03 15:54:35,947 - INFO - Step 6: fill numeric missing values with medians
+2026-05-03 15:54:35,948 - INFO - fill_numeric_with_median: rating_score -> filled 0 with 0.15
+2026-05-03 15:54:35,949 - INFO - fill_numeric_with_median: content_length -> filled 0 with 15.00
+2026-05-03 15:54:35,949 - INFO - fill_numeric_with_median: title_length -> filled 0 with 15.00
+2026-05-03 15:54:35,949 - INFO - fill_numeric_with_median: popularity -> filled 0 with 15.00
+2026-05-03 15:54:35,950 - INFO - fill_numeric_with_median: vote_average -> filled 0 with 0.15
+2026-05-03 15:54:35,950 - INFO - fill_numeric_with_median: vote_count -> filled 0 with 1.00
+2026-05-03 15:54:35,950 - INFO - Step 7: remove duplicates
+2026-05-03 15:54:35,979 - INFO - drop_exact_duplicates: removed 0 rows
+2026-05-03 15:54:35,982 - INFO - drop_duplicate_urls: removed 57 rows
+2026-05-03 15:54:35,986 - INFO - drop_duplicate_titles: removed 80 rows using title + published_date only where date exists
+2026-05-03 15:54:35,987 - INFO - drop_duplicate_ids (record_id): removed 0 rows
+2026-05-03 15:54:35,987 - INFO - Deduplication removed 137 rows total
+2026-05-03 15:54:35,987 - INFO - Step 8: drop high-missingness columns
+2026-05-03 15:54:35,989 - INFO - drop_high_missingness_columns: dropped columns=['author', 'publishedAt', 'tables', 'id', 'mentions', 'sentiment_score', 'sheet_name', 'Metric', 'Total Articles', 'Total Mentions', 'Average Mentions', 'Average Sentiment', 'Highest Mentions', 'Politics Articles', 'Business Articles', 'paragraph_number', 'run_number', 'bold', 'italic', 'underline', 'nominations', 'awards', 'best_picture', 'release_date', 'release_year'] using threshold=0.60
+2026-05-03 15:54:35,989 - INFO - Step 9: convert data types
+2026-05-03 15:54:35,989 - INFO - Starting type conversion workflow
+2026-05-03 15:54:35,990 - INFO - convert_dates: published_date -> datetime, 1308 NaT values
+2026-05-03 15:54:35,992 - INFO - convert_dates: fetched_at -> datetime, 42 NaT values
+2026-05-03 15:54:35,993 - INFO - convert_dates: extraction_timestamp -> datetime, 810 NaT values
+2026-05-03 15:54:35,994 - INFO - convert_numeric_columns: rating_score -> float32
+2026-05-03 15:54:35,994 - INFO - convert_numeric_columns: popularity -> float32
+2026-05-03 15:54:35,994 - INFO - convert_numeric_columns: vote_average -> float32
+2026-05-03 15:54:35,995 - INFO - convert_numeric_columns: vote_count -> float32
+2026-05-03 15:54:35,995 - INFO - convert_numeric_columns: wins -> float32
+2026-05-03 15:54:35,995 - INFO - convert_numeric_columns: losses -> float32
+2026-05-03 15:54:35,995 - INFO - convert_numeric_columns: record_id -> Int64
+2026-05-03 15:54:35,996 - INFO - convert_numeric_columns: page_number -> Int64
+2026-05-03 15:54:35,996 - INFO - convert_numeric_columns: published_year -> Int64
+2026-05-03 15:54:35,996 - INFO - convert_numeric_columns: year -> Int64
+2026-05-03 15:54:35,996 - INFO - convert_numeric_columns: content_length -> Int64
+2026-05-03 15:54:35,996 - INFO - convert_numeric_columns: title_length -> Int64
+2026-05-03 15:54:35,997 - INFO - convert_category_columns: language -> category
+2026-05-03 15:54:35,997 - INFO - convert_category_columns: original_language -> category
+2026-05-03 15:54:35,998 - INFO - convert_category_columns: category -> category
+2026-05-03 15:54:35,998 - INFO - convert_category_columns: genres -> category
+2026-05-03 15:54:35,998 - INFO - convert_category_columns: document_type -> category
+2026-05-03 15:54:35,999 - INFO - convert_category_columns: source_name -> category
+2026-05-03 15:54:35,999 - INFO - convert_category_columns: extraction_library -> category
+2026-05-03 15:54:36,000 - INFO - convert_category_columns: file_name -> category
+2026-05-03 15:54:36,000 - INFO - Type conversion workflow complete
+2026-05-03 15:54:36,005 - INFO - memory_report: before=2.7063 MB after=1.9137 MB saved=0.7926 MB pct=29.29
+2026-05-03 15:54:36,005 - INFO - Step 10: run validation
+2026-05-03 15:54:36,005 - INFO - validate_required_columns: PASSED
+2026-05-03 15:54:36,006 - INFO - validate_no_null_titles: PASSED
+2026-05-03 15:54:36,007 - INFO - validate_rating_score_range (rating_score): PASSED
+2026-05-03 15:54:36,008 - INFO - validate_year_range (published_year): PASSED
+2026-05-03 15:54:36,008 - INFO - validate_no_duplicate_ids (record_id): PASSED
+2026-05-03 15:54:36,010 - INFO - validate_language_codes (language): PASSED
+2026-05-03 15:54:36,011 - INFO - validate_content_length (content_length): PASSED
+2026-05-03 15:54:36,011 - INFO - validate_content_length (title_length): PASSED
+2026-05-03 15:54:36,012 - INFO - Validation complete: 7 passed, 0 failed
+2026-05-03 15:54:36,068 - INFO - Saved cleaned dataset to data\processed\cleaned\cleaned_data.csv (1318 rows)
+2026-05-03 15:54:36,068 - INFO - Saved cleaned dataset alias to data\processed\cleaned\clean.csv (1318 rows)
+2026-05-03 15:54:36,068 - INFO - === Cleaning pipeline complete: 1318 rows remain ===
+2026-05-03 15:54:36,069 - INFO - Lab 9 cleaned dataset shape: rows=1318 columns=35
+2026-05-03 15:54:36,069 - INFO - === Lab 9 Cleaning Stage Complete ===
+2026-05-03 16:06:17,866 - INFO - Lab 9 notebook started
+2026-05-03 16:06:24,652 - INFO - Lab 9 notebook loaded raw dataset with shape=(1455, 60)
+2026-05-03 16:06:28,641 - INFO - Missing value report generated for 44 columns
+2026-05-03 16:06:28,658 - INFO - Lab 9 notebook missing value report saved to data\processed\cleaned\missing_report.csv
+2026-05-03 16:06:32,534 - INFO - drop_rows_missing_critical_fields: dropped 0 rows using columns=['record_id', 'title']
+2026-05-03 16:06:32,538 - INFO - fill_missing_text_fields: title -> filled 0 missing and 0 empty values
+2026-05-03 16:06:32,540 - INFO - fill_missing_text_fields: description -> filled 1291 missing and 0 empty values
+2026-05-03 16:06:32,543 - INFO - fill_missing_text_fields: content_text -> filled 0 missing and 0 empty values
+2026-05-03 16:06:32,546 - INFO - fill_missing_text_fields: overview -> filled 0 missing and 0 empty values
+2026-05-03 16:06:32,548 - INFO - fill_missing_text_fields: text -> filled 1345 missing and 0 empty values
+2026-05-03 16:06:32,549 - INFO - fill_missing_text_fields: raw_text -> filled 1440 missing and 0 empty values
+2026-05-03 16:06:32,550 - INFO - fill_missing_text_fields: processed_text -> filled 1440 missing and 0 empty values
+2026-05-03 16:06:32,551 - INFO - fill_missing_text_fields: preview_text -> filled 1448 missing and 0 empty values
+2026-05-03 16:06:32,552 - INFO - fill_missing_text_fields: source_name -> filled 0 missing and 0 empty values
+2026-05-03 16:06:32,553 - INFO - fill_missing_text_fields: category -> filled 0 missing and 0 empty values
+2026-05-03 16:06:32,554 - INFO - fill_missing_text_fields: document_type -> filled 0 missing and 0 empty values
+2026-05-03 16:06:32,555 - INFO - fill_missing_text_fields: language -> filled 0 missing and 0 empty values
+2026-05-03 16:06:32,556 - INFO - fill_missing_overview: filled 0 rows
+2026-05-03 16:06:32,557 - INFO - replace_zero_with_nan: mentions -> replaced 0 zeros
+2026-05-03 16:06:32,557 - INFO - replace_zero_with_nan: sentiment_score -> replaced 0 zeros
+2026-05-03 16:06:32,557 - INFO - replace_zero_with_nan: rating_score -> replaced 0 zeros
+2026-05-03 16:06:32,558 - INFO - replace_zero_with_nan: popularity -> replaced 0 zeros
+2026-05-03 16:06:32,558 - INFO - replace_zero_with_nan: vote_average -> replaced 0 zeros
+2026-05-03 16:06:32,558 - INFO - replace_zero_with_nan: vote_count -> replaced 0 zeros
+2026-05-03 16:06:32,560 - INFO - fill_numeric_with_median: rating_score -> filled 0 with 0.15
+2026-05-03 16:06:32,562 - INFO - fill_numeric_with_median: content_length -> filled 0 with 15.00
+2026-05-03 16:06:32,562 - INFO - fill_numeric_with_median: title_length -> filled 0 with 15.00
+2026-05-03 16:06:32,563 - INFO - fill_numeric_with_median: popularity -> filled 0 with 15.00
+2026-05-03 16:06:32,563 - INFO - fill_numeric_with_median: vote_average -> filled 0 with 0.15
+2026-05-03 16:06:32,563 - INFO - fill_numeric_with_median: vote_count -> filled 0 with 1.00
+2026-05-03 16:06:32,568 - INFO - drop_high_missingness_columns: dropped columns=['author', 'publishedAt', 'page_number', 'tables', 'id', 'mentions', 'sentiment_score', 'sheet_name', 'Metric', 'Total Articles', 'Total Mentions', 'Average Mentions', 'Average Sentiment', 'Highest Mentions', 'Politics Articles', 'Business Articles', 'paragraph_number', 'run_number', 'bold', 'italic', 'underline', 'nominations', 'awards', 'best_picture', 'release_date', 'release_year'] using threshold=0.60
+2026-05-03 16:06:32,577 - INFO - Lab 9 notebook missing handling complete: before=1455 after=1455 shape=(1455, 34)
+2026-05-03 16:06:50,782 - INFO - clean_title: 55 titles modified
+2026-05-03 16:06:50,785 - INFO - clean_language_code: normalized language codes
+2026-05-03 16:06:50,796 - INFO - clean_overview_text: content_text cleaned, 166 values modified
+2026-05-03 16:06:50,804 - INFO - clean_overview_text: overview cleaned, 166 values modified
+2026-05-03 16:06:50,810 - INFO - clean_overview_text: description cleaned, 1326 values modified
+2026-05-03 16:06:50,816 - INFO - clean_overview_text: text cleaned, 1399 values modified
+2026-05-03 16:06:50,819 - INFO - clean_overview_text: processed_text cleaned, 1455 values modified
+2026-05-03 16:06:50,822 - INFO - clean_overview_text: raw_text cleaned, 1455 values modified
+2026-05-03 16:06:50,827 - INFO - clean_overview_text: preview_text cleaned, 1455 values modified
+2026-05-03 16:06:50,830 - INFO - extract_year_from_release_date: extracted 90 years from published_date
+2026-05-03 16:06:50,833 - INFO - clean_genre_string: genres normalized
+2026-05-03 16:06:50,836 - INFO - clean_genre_string: category normalized
+2026-05-03 16:06:50,838 - INFO - clean_genre_string: document_type normalized
+2026-05-03 16:06:50,841 - INFO - clean_genre_string: source_name normalized
+2026-05-03 16:06:50,848 - INFO - Lab 9 notebook string cleaning complete
+2026-05-03 16:06:56,380 - INFO - detect_invalid_date_formats: 0 invalid values found in published_date
+2026-05-03 16:06:56,385 - INFO - detect_invalid_language_codes: 0 invalid values found in language
+2026-05-03 16:06:56,388 - INFO - extract_numeric_values_from_text: extracted 83 numeric values
+2026-05-03 16:06:56,388 - INFO - add_extracted_number_column: created title_number_lab9 from title
+2026-05-03 16:06:56,393 - INFO - flag_short_content: 1145 rows flagged under 40 characters
+2026-05-03 16:06:56,424 - INFO - Lab 9 notebook regex cleaning helpers complete
+2026-05-03 16:07:01,818 - INFO - drop_exact_duplicates: removed 0 rows
+2026-05-03 16:07:01,825 - INFO - drop_duplicate_urls: removed 57 rows
+2026-05-03 16:07:01,830 - INFO - drop_duplicate_titles: removed 80 rows using title + published_date only where date exists
+2026-05-03 16:07:01,831 - INFO - drop_duplicate_ids (record_id): removed 0 rows
+2026-05-03 16:07:01,842 - INFO - Lab 9 notebook deduplication complete: shape=(1318, 62)
+2026-05-03 16:07:05,870 - INFO - convert_dates: published_date -> datetime, 1308 NaT values
+2026-05-03 16:07:05,871 - INFO - convert_dates: publishedAt -> datetime, 1211 NaT values
+2026-05-03 16:07:05,872 - INFO - convert_dates: release_date -> datetime, 1308 NaT values
+2026-05-03 16:07:05,874 - INFO - convert_dates: fetched_at -> datetime, 42 NaT values
+2026-05-03 16:07:05,876 - INFO - convert_dates: extraction_timestamp -> datetime, 810 NaT values
+2026-05-03 16:07:05,877 - INFO - convert_numeric_columns: rating_score -> float32
+2026-05-03 16:07:05,877 - INFO - convert_numeric_columns: sentiment_score -> float32
+2026-05-03 16:07:05,877 - INFO - convert_numeric_columns: mentions -> float32
+2026-05-03 16:07:05,878 - INFO - convert_numeric_columns: popularity -> float32
+2026-05-03 16:07:05,878 - INFO - convert_numeric_columns: vote_average -> float32
+2026-05-03 16:07:05,879 - INFO - convert_numeric_columns: vote_count -> float32
+2026-05-03 16:07:05,879 - INFO - convert_numeric_columns: wins -> float32
+2026-05-03 16:07:05,880 - INFO - convert_numeric_columns: losses -> float32
+2026-05-03 16:07:05,880 - INFO - convert_numeric_columns: nominations -> float32
+2026-05-03 16:07:05,881 - INFO - convert_numeric_columns: awards -> float32
+2026-05-03 16:07:05,882 - INFO - convert_numeric_columns: Average Sentiment -> float32
+2026-05-03 16:07:05,883 - INFO - convert_numeric_columns: Average Mentions -> float32
+2026-05-03 16:07:05,883 - INFO - convert_numeric_columns: Highest Mentions -> float32
+2026-05-03 16:07:05,883 - INFO - convert_numeric_columns: record_id -> Int64
+2026-05-03 16:07:05,884 - INFO - convert_numeric_columns: id -> Int64
+2026-05-03 16:07:05,884 - INFO - convert_numeric_columns: page_number -> Int64
+2026-05-03 16:07:05,885 - INFO - convert_numeric_columns: paragraph_number -> Int64
+2026-05-03 16:07:05,885 - INFO - convert_numeric_columns: run_number -> Int64
+2026-05-03 16:07:05,886 - INFO - convert_numeric_columns: published_year -> Int64
+2026-05-03 16:07:05,886 - INFO - convert_numeric_columns: release_year -> Int64
+2026-05-03 16:07:05,886 - INFO - convert_numeric_columns: year -> Int64
+2026-05-03 16:07:05,887 - INFO - convert_numeric_columns: content_length -> Int64
+2026-05-03 16:07:05,887 - INFO - convert_numeric_columns: title_length -> Int64
+2026-05-03 16:07:05,887 - INFO - convert_numeric_columns: Total Articles -> Int64
+2026-05-03 16:07:05,888 - INFO - convert_numeric_columns: Total Mentions -> Int64
+2026-05-03 16:07:05,888 - INFO - convert_numeric_columns: Politics Articles -> Int64
+2026-05-03 16:07:05,889 - INFO - convert_numeric_columns: Business Articles -> Int64
+2026-05-03 16:07:05,891 - INFO - convert_category_columns: language -> category
+2026-05-03 16:07:05,891 - INFO - convert_category_columns: original_language -> category
+2026-05-03 16:07:05,892 - INFO - convert_category_columns: category -> category
+2026-05-03 16:07:05,892 - INFO - convert_category_columns: genres -> category
+2026-05-03 16:07:05,893 - INFO - convert_category_columns: document_type -> category
+2026-05-03 16:07:05,893 - INFO - convert_category_columns: source_name -> category
+2026-05-03 16:07:05,893 - INFO - convert_category_columns: extraction_library -> category
+2026-05-03 16:07:05,894 - INFO - convert_category_columns: file_name -> category
+2026-05-03 16:07:05,894 - INFO - convert_category_columns: sheet_name -> category
+2026-05-03 16:07:05,895 - INFO - convert_category_columns: best_picture -> category
+2026-05-03 16:07:05,896 - INFO - convert_category_columns: bold -> category
+2026-05-03 16:07:05,896 - INFO - convert_category_columns: italic -> category
+2026-05-03 16:07:05,905 - INFO - memory_report: before=3.2912 MB after=2.2499 MB saved=1.0413 MB pct=31.64
+2026-05-03 16:07:05,919 - INFO - Lab 9 notebook type conversion complete
+2026-05-03 16:07:19,349 - INFO - validate_required_columns: PASSED
+2026-05-03 16:07:19,350 - INFO - validate_no_null_titles: PASSED
+2026-05-03 16:07:19,350 - INFO - validate_rating_score_range (rating_score): PASSED
+2026-05-03 16:07:19,351 - INFO - validate_year_range (published_year): PASSED
+2026-05-03 16:07:19,351 - INFO - validate_no_duplicate_ids (record_id): PASSED
+2026-05-03 16:07:19,353 - INFO - validate_language_codes (language): PASSED
+2026-05-03 16:07:19,353 - INFO - validate_content_length (content_length): PASSED
+2026-05-03 16:07:19,355 - INFO - validate_content_length (title_length): PASSED
+2026-05-03 16:07:19,355 - INFO - Validation complete: 7 passed, 0 failed
+2026-05-03 16:07:19,367 - INFO - Lab 9 notebook validation complete: {'passed': 7, 'failed': 0, 'failures': []}
+2026-05-03 16:07:22,837 - INFO - === Starting Lab 9 cleaning pipeline: 1455 rows ===
+2026-05-03 16:07:22,840 - INFO - Step 1: generate missing-value report
+2026-05-03 16:07:22,847 - INFO - Missing value report generated for 44 columns
+2026-05-03 16:07:22,859 - INFO - Saved missing report to data\processed\cleaned\missing_report.csv
+2026-05-03 16:07:22,860 - INFO - Step 2: drop rows missing critical fields
+2026-05-03 16:07:22,865 - INFO - drop_rows_missing_critical_fields: dropped 0 rows using columns=['record_id', 'title']
+2026-05-03 16:07:22,865 - INFO - Step 3: clean string columns
+2026-05-03 16:07:22,865 - INFO - Starting string cleaning workflow
+2026-05-03 16:07:22,878 - INFO - clean_title: 55 titles modified
+2026-05-03 16:07:22,883 - INFO - clean_language_code: normalized language codes
+2026-05-03 16:07:22,899 - INFO - clean_overview_text: content_text cleaned, 166 values modified
+2026-05-03 16:07:22,910 - INFO - clean_overview_text: overview cleaned, 166 values modified
+2026-05-03 16:07:22,917 - INFO - clean_overview_text: description cleaned, 1326 values modified
+2026-05-03 16:07:22,922 - INFO - clean_overview_text: text cleaned, 1399 values modified
+2026-05-03 16:07:22,926 - INFO - clean_overview_text: processed_text cleaned, 1455 values modified
+2026-05-03 16:07:22,929 - INFO - clean_overview_text: raw_text cleaned, 1455 values modified
+2026-05-03 16:07:22,932 - INFO - clean_overview_text: preview_text cleaned, 1455 values modified
+2026-05-03 16:07:22,934 - INFO - extract_year_from_release_date: extracted 90 years from published_date
+2026-05-03 16:07:22,937 - INFO - clean_genre_string: genres normalized
+2026-05-03 16:07:22,940 - INFO - clean_genre_string: category normalized
+2026-05-03 16:07:22,942 - INFO - clean_genre_string: document_type normalized
+2026-05-03 16:07:22,944 - INFO - clean_genre_string: source_name normalized
+2026-05-03 16:07:22,945 - INFO - String cleaning workflow complete
+2026-05-03 16:07:22,945 - INFO - Step 4: fill missing text fields
+2026-05-03 16:07:22,946 - INFO - fill_missing_text_fields: title -> filled 0 missing and 0 empty values
+2026-05-03 16:07:22,947 - INFO - fill_missing_text_fields: description -> filled 0 missing and 0 empty values
+2026-05-03 16:07:22,947 - INFO - fill_missing_text_fields: content_text -> filled 0 missing and 0 empty values
+2026-05-03 16:07:22,948 - INFO - fill_missing_text_fields: overview -> filled 0 missing and 0 empty values
+2026-05-03 16:07:22,949 - INFO - fill_missing_text_fields: text -> filled 0 missing and 0 empty values
+2026-05-03 16:07:22,949 - INFO - fill_missing_text_fields: raw_text -> filled 0 missing and 0 empty values
+2026-05-03 16:07:22,950 - INFO - fill_missing_text_fields: processed_text -> filled 0 missing and 0 empty values
+2026-05-03 16:07:22,951 - INFO - fill_missing_text_fields: preview_text -> filled 0 missing and 0 empty values
+2026-05-03 16:07:22,951 - INFO - fill_missing_text_fields: source_name -> filled 0 missing and 0 empty values
+2026-05-03 16:07:22,953 - INFO - fill_missing_text_fields: category -> filled 0 missing and 0 empty values
+2026-05-03 16:07:22,953 - INFO - fill_missing_text_fields: document_type -> filled 0 missing and 0 empty values
+2026-05-03 16:07:22,954 - INFO - fill_missing_text_fields: language -> filled 0 missing and 0 empty values
+2026-05-03 16:07:22,956 - INFO - fill_missing_overview: filled 0 rows
+2026-05-03 16:07:22,956 - INFO - Step 5: replace zero-as-missing numeric values
+2026-05-03 16:07:22,957 - INFO - replace_zero_with_nan: mentions -> replaced 0 zeros
+2026-05-03 16:07:22,957 - INFO - replace_zero_with_nan: sentiment_score -> replaced 0 zeros
+2026-05-03 16:07:22,957 - INFO - replace_zero_with_nan: rating_score -> replaced 0 zeros
+2026-05-03 16:07:22,957 - INFO - replace_zero_with_nan: popularity -> replaced 0 zeros
+2026-05-03 16:07:22,958 - INFO - replace_zero_with_nan: vote_average -> replaced 0 zeros
+2026-05-03 16:07:22,958 - INFO - replace_zero_with_nan: vote_count -> replaced 0 zeros
+2026-05-03 16:07:22,958 - INFO - Step 6: fill numeric missing values with medians
+2026-05-03 16:07:22,959 - INFO - fill_numeric_with_median: rating_score -> filled 0 with 0.15
+2026-05-03 16:07:22,960 - INFO - fill_numeric_with_median: content_length -> filled 0 with 15.00
+2026-05-03 16:07:22,960 - INFO - fill_numeric_with_median: title_length -> filled 0 with 15.00
+2026-05-03 16:07:22,961 - INFO - fill_numeric_with_median: popularity -> filled 0 with 15.00
+2026-05-03 16:07:22,961 - INFO - fill_numeric_with_median: vote_average -> filled 0 with 0.15
+2026-05-03 16:07:22,961 - INFO - fill_numeric_with_median: vote_count -> filled 0 with 1.00
+2026-05-03 16:07:22,962 - INFO - Step 7: remove duplicates
+2026-05-03 16:07:22,990 - INFO - drop_exact_duplicates: removed 0 rows
+2026-05-03 16:07:22,993 - INFO - drop_duplicate_urls: removed 57 rows
+2026-05-03 16:07:22,997 - INFO - drop_duplicate_titles: removed 80 rows using title + published_date only where date exists
+2026-05-03 16:07:22,998 - INFO - drop_duplicate_ids (record_id): removed 0 rows
+2026-05-03 16:07:22,998 - INFO - Deduplication removed 137 rows total
+2026-05-03 16:07:22,998 - INFO - Step 8: drop high-missingness columns
+2026-05-03 16:07:23,000 - INFO - drop_high_missingness_columns: dropped columns=['author', 'publishedAt', 'tables', 'id', 'mentions', 'sentiment_score', 'sheet_name', 'Metric', 'Total Articles', 'Total Mentions', 'Average Mentions', 'Average Sentiment', 'Highest Mentions', 'Politics Articles', 'Business Articles', 'paragraph_number', 'run_number', 'bold', 'italic', 'underline', 'nominations', 'awards', 'best_picture', 'release_date', 'release_year'] using threshold=0.60
+2026-05-03 16:07:23,000 - INFO - Step 9: convert data types
+2026-05-03 16:07:23,000 - INFO - Starting type conversion workflow
+2026-05-03 16:07:23,001 - INFO - convert_dates: published_date -> datetime, 1308 NaT values
+2026-05-03 16:07:23,003 - INFO - convert_dates: fetched_at -> datetime, 42 NaT values
+2026-05-03 16:07:23,004 - INFO - convert_dates: extraction_timestamp -> datetime, 810 NaT values
+2026-05-03 16:07:23,005 - INFO - convert_numeric_columns: rating_score -> float32
+2026-05-03 16:07:23,005 - INFO - convert_numeric_columns: popularity -> float32
+2026-05-03 16:07:23,005 - INFO - convert_numeric_columns: vote_average -> float32
+2026-05-03 16:07:23,005 - INFO - convert_numeric_columns: vote_count -> float32
+2026-05-03 16:07:23,005 - INFO - convert_numeric_columns: wins -> float32
+2026-05-03 16:07:23,006 - INFO - convert_numeric_columns: losses -> float32
+2026-05-03 16:07:23,006 - INFO - convert_numeric_columns: record_id -> Int64
+2026-05-03 16:07:23,006 - INFO - convert_numeric_columns: page_number -> Int64
+2026-05-03 16:07:23,006 - INFO - convert_numeric_columns: published_year -> Int64
+2026-05-03 16:07:23,007 - INFO - convert_numeric_columns: year -> Int64
+2026-05-03 16:07:23,007 - INFO - convert_numeric_columns: content_length -> Int64
+2026-05-03 16:07:23,007 - INFO - convert_numeric_columns: title_length -> Int64
+2026-05-03 16:07:23,008 - INFO - convert_category_columns: language -> category
+2026-05-03 16:07:23,008 - INFO - convert_category_columns: original_language -> category
+2026-05-03 16:07:23,009 - INFO - convert_category_columns: category -> category
+2026-05-03 16:07:23,009 - INFO - convert_category_columns: genres -> category
+2026-05-03 16:07:23,009 - INFO - convert_category_columns: document_type -> category
+2026-05-03 16:07:23,010 - INFO - convert_category_columns: source_name -> category
+2026-05-03 16:07:23,010 - INFO - convert_category_columns: extraction_library -> category
+2026-05-03 16:07:23,010 - INFO - convert_category_columns: file_name -> category
+2026-05-03 16:07:23,010 - INFO - Type conversion workflow complete
+2026-05-03 16:07:23,015 - INFO - memory_report: before=2.7063 MB after=1.9137 MB saved=0.7926 MB pct=29.29
+2026-05-03 16:07:23,015 - INFO - Step 10: run validation
+2026-05-03 16:07:23,016 - INFO - validate_required_columns: PASSED
+2026-05-03 16:07:23,016 - INFO - validate_no_null_titles: PASSED
+2026-05-03 16:07:23,017 - INFO - validate_rating_score_range (rating_score): PASSED
+2026-05-03 16:07:23,017 - INFO - validate_year_range (published_year): PASSED
+2026-05-03 16:07:23,017 - INFO - validate_no_duplicate_ids (record_id): PASSED
+2026-05-03 16:07:23,018 - INFO - validate_language_codes (language): PASSED
+2026-05-03 16:07:23,019 - INFO - validate_content_length (content_length): PASSED
+2026-05-03 16:07:23,019 - INFO - validate_content_length (title_length): PASSED
+2026-05-03 16:07:23,019 - INFO - Validation complete: 7 passed, 0 failed
+2026-05-03 16:07:23,068 - INFO - Saved cleaned dataset to data\processed\cleaned\cleaned_data.csv (1318 rows)
+2026-05-03 16:07:23,069 - INFO - Saved cleaned dataset alias to data\processed\cleaned\clean.csv (1318 rows)
+2026-05-03 16:07:23,069 - INFO - === Cleaning pipeline complete: 1318 rows remain ===
+2026-05-03 16:07:23,080 - INFO - Lab 9 notebook full reusable pipeline complete: shape=(1318, 35)
+2026-05-03 16:07:35,516 - INFO - Lab 9 notebook pytest complete with return code 0
+2026-05-03 16:07:41,709 - INFO - Lab 9 notebook final verification complete
+2026-05-03 16:11:02,564 - INFO - Lab 9 notebook started
+2026-05-03 16:11:02,610 - INFO - Lab 9 notebook loaded raw dataset with shape=(1455, 60)
+2026-05-03 16:11:02,633 - INFO - Missing value report generated for 44 columns
+2026-05-03 16:11:02,651 - INFO - Lab 9 notebook missing value report saved to data\processed\cleaned\missing_report.csv
+2026-05-03 16:11:02,672 - INFO - drop_rows_missing_critical_fields: dropped 0 rows using columns=['record_id', 'title']
+2026-05-03 16:11:02,675 - INFO - fill_missing_text_fields: title -> filled 0 missing and 0 empty values
+2026-05-03 16:11:02,677 - INFO - fill_missing_text_fields: description -> filled 1291 missing and 0 empty values
+2026-05-03 16:11:02,678 - INFO - fill_missing_text_fields: content_text -> filled 0 missing and 0 empty values
+2026-05-03 16:11:02,680 - INFO - fill_missing_text_fields: overview -> filled 0 missing and 0 empty values
+2026-05-03 16:11:02,682 - INFO - fill_missing_text_fields: text -> filled 1345 missing and 0 empty values
+2026-05-03 16:11:02,683 - INFO - fill_missing_text_fields: raw_text -> filled 1440 missing and 0 empty values
+2026-05-03 16:11:02,684 - INFO - fill_missing_text_fields: processed_text -> filled 1440 missing and 0 empty values
+2026-05-03 16:11:02,685 - INFO - fill_missing_text_fields: preview_text -> filled 1448 missing and 0 empty values
+2026-05-03 16:11:02,685 - INFO - fill_missing_text_fields: source_name -> filled 0 missing and 0 empty values
+2026-05-03 16:11:02,686 - INFO - fill_missing_text_fields: category -> filled 0 missing and 0 empty values
+2026-05-03 16:11:02,687 - INFO - fill_missing_text_fields: document_type -> filled 0 missing and 0 empty values
+2026-05-03 16:11:02,688 - INFO - fill_missing_text_fields: language -> filled 0 missing and 0 empty values
+2026-05-03 16:11:02,689 - INFO - fill_missing_overview: filled 0 rows
+2026-05-03 16:11:02,690 - INFO - replace_zero_with_nan: mentions -> replaced 0 zeros
+2026-05-03 16:11:02,690 - INFO - replace_zero_with_nan: sentiment_score -> replaced 0 zeros
+2026-05-03 16:11:02,690 - INFO - replace_zero_with_nan: rating_score -> replaced 0 zeros
+2026-05-03 16:11:02,690 - INFO - replace_zero_with_nan: popularity -> replaced 0 zeros
+2026-05-03 16:11:02,690 - INFO - replace_zero_with_nan: vote_average -> replaced 0 zeros
+2026-05-03 16:11:02,691 - INFO - replace_zero_with_nan: vote_count -> replaced 0 zeros
+2026-05-03 16:11:02,692 - INFO - fill_numeric_with_median: rating_score -> filled 0 with 0.15
+2026-05-03 16:11:02,694 - INFO - fill_numeric_with_median: content_length -> filled 0 with 15.00
+2026-05-03 16:11:02,695 - INFO - fill_numeric_with_median: title_length -> filled 0 with 15.00
+2026-05-03 16:11:02,696 - INFO - fill_numeric_with_median: popularity -> filled 0 with 15.00
+2026-05-03 16:11:02,697 - INFO - fill_numeric_with_median: vote_average -> filled 0 with 0.15
+2026-05-03 16:11:02,697 - INFO - fill_numeric_with_median: vote_count -> filled 0 with 1.00
+2026-05-03 16:11:02,700 - INFO - drop_high_missingness_columns: dropped columns=['author', 'publishedAt', 'page_number', 'tables', 'id', 'mentions', 'sentiment_score', 'sheet_name', 'Metric', 'Total Articles', 'Total Mentions', 'Average Mentions', 'Average Sentiment', 'Highest Mentions', 'Politics Articles', 'Business Articles', 'paragraph_number', 'run_number', 'bold', 'italic', 'underline', 'nominations', 'awards', 'best_picture', 'release_date', 'release_year'] using threshold=0.60
+2026-05-03 16:11:02,708 - INFO - Lab 9 notebook missing handling complete: before=1455 after=1455 shape=(1455, 34)
+2026-05-03 16:11:02,730 - INFO - clean_title: 55 titles modified
+2026-05-03 16:11:02,733 - INFO - clean_language_code: normalized language codes
+2026-05-03 16:11:02,739 - INFO - clean_overview_text: content_text cleaned, 166 values modified
+2026-05-03 16:11:02,747 - INFO - clean_overview_text: overview cleaned, 166 values modified
+2026-05-03 16:11:02,752 - INFO - clean_overview_text: description cleaned, 1326 values modified
+2026-05-03 16:11:02,757 - INFO - clean_overview_text: text cleaned, 1399 values modified
+2026-05-03 16:11:02,761 - INFO - clean_overview_text: processed_text cleaned, 1455 values modified
+2026-05-03 16:11:02,766 - INFO - clean_overview_text: raw_text cleaned, 1455 values modified
+2026-05-03 16:11:02,769 - INFO - clean_overview_text: preview_text cleaned, 1455 values modified
+2026-05-03 16:11:02,772 - INFO - extract_year_from_release_date: extracted 90 years from published_date
+2026-05-03 16:11:02,775 - INFO - clean_genre_string: genres normalized
+2026-05-03 16:11:02,778 - INFO - clean_genre_string: category normalized
+2026-05-03 16:11:02,781 - INFO - clean_genre_string: document_type normalized
+2026-05-03 16:11:02,783 - INFO - clean_genre_string: source_name normalized
+2026-05-03 16:11:02,789 - INFO - Lab 9 notebook string cleaning complete
+2026-05-03 16:11:02,803 - INFO - detect_invalid_date_formats: 0 invalid values found in published_date
+2026-05-03 16:11:02,807 - INFO - detect_invalid_language_codes: 0 invalid values found in language
+2026-05-03 16:11:02,811 - INFO - extract_numeric_values_from_text: extracted 83 numeric values
+2026-05-03 16:11:02,812 - INFO - add_extracted_number_column: created title_number_lab9 from title
+2026-05-03 16:11:02,814 - INFO - flag_short_content: 1145 rows flagged under 40 characters
+2026-05-03 16:11:02,842 - INFO - Lab 9 notebook regex cleaning helpers complete
+2026-05-03 16:11:02,900 - INFO - drop_exact_duplicates: removed 0 rows
+2026-05-03 16:11:02,906 - INFO - drop_duplicate_urls: removed 57 rows
+2026-05-03 16:11:02,912 - INFO - drop_duplicate_titles: removed 80 rows using title + published_date only where date exists
+2026-05-03 16:11:02,917 - INFO - drop_duplicate_ids (record_id): removed 0 rows
+2026-05-03 16:11:02,930 - INFO - Lab 9 notebook deduplication complete: shape=(1318, 62)
+2026-05-03 16:11:02,947 - INFO - convert_dates: published_date -> datetime, 1308 NaT values
+2026-05-03 16:11:02,948 - INFO - convert_dates: publishedAt -> datetime, 1211 NaT values
+2026-05-03 16:11:02,951 - INFO - convert_dates: release_date -> datetime, 1308 NaT values
+2026-05-03 16:11:02,954 - INFO - convert_dates: fetched_at -> datetime, 42 NaT values
+2026-05-03 16:11:02,955 - INFO - convert_dates: extraction_timestamp -> datetime, 810 NaT values
+2026-05-03 16:11:02,957 - INFO - convert_numeric_columns: rating_score -> float32
+2026-05-03 16:11:02,957 - INFO - convert_numeric_columns: sentiment_score -> float32
+2026-05-03 16:11:02,957 - INFO - convert_numeric_columns: mentions -> float32
+2026-05-03 16:11:02,957 - INFO - convert_numeric_columns: popularity -> float32
+2026-05-03 16:11:02,958 - INFO - convert_numeric_columns: vote_average -> float32
+2026-05-03 16:11:02,958 - INFO - convert_numeric_columns: vote_count -> float32
+2026-05-03 16:11:02,958 - INFO - convert_numeric_columns: wins -> float32
+2026-05-03 16:11:02,959 - INFO - convert_numeric_columns: losses -> float32
+2026-05-03 16:11:02,959 - INFO - convert_numeric_columns: nominations -> float32
+2026-05-03 16:11:02,960 - INFO - convert_numeric_columns: awards -> float32
+2026-05-03 16:11:02,960 - INFO - convert_numeric_columns: Average Sentiment -> float32
+2026-05-03 16:11:02,961 - INFO - convert_numeric_columns: Average Mentions -> float32
+2026-05-03 16:11:02,961 - INFO - convert_numeric_columns: Highest Mentions -> float32
+2026-05-03 16:11:02,962 - INFO - convert_numeric_columns: record_id -> Int64
+2026-05-03 16:11:02,963 - INFO - convert_numeric_columns: id -> Int64
+2026-05-03 16:11:02,964 - INFO - convert_numeric_columns: page_number -> Int64
+2026-05-03 16:11:02,965 - INFO - convert_numeric_columns: paragraph_number -> Int64
+2026-05-03 16:11:02,965 - INFO - convert_numeric_columns: run_number -> Int64
+2026-05-03 16:11:02,965 - INFO - convert_numeric_columns: published_year -> Int64
+2026-05-03 16:11:02,966 - INFO - convert_numeric_columns: release_year -> Int64
+2026-05-03 16:11:02,966 - INFO - convert_numeric_columns: year -> Int64
+2026-05-03 16:11:02,966 - INFO - convert_numeric_columns: content_length -> Int64
+2026-05-03 16:11:02,967 - INFO - convert_numeric_columns: title_length -> Int64
+2026-05-03 16:11:02,967 - INFO - convert_numeric_columns: Total Articles -> Int64
+2026-05-03 16:11:02,967 - INFO - convert_numeric_columns: Total Mentions -> Int64
+2026-05-03 16:11:02,967 - INFO - convert_numeric_columns: Politics Articles -> Int64
+2026-05-03 16:11:02,968 - INFO - convert_numeric_columns: Business Articles -> Int64
+2026-05-03 16:11:02,969 - INFO - convert_category_columns: language -> category
+2026-05-03 16:11:02,969 - INFO - convert_category_columns: original_language -> category
+2026-05-03 16:11:02,970 - INFO - convert_category_columns: category -> category
+2026-05-03 16:11:02,970 - INFO - convert_category_columns: genres -> category
+2026-05-03 16:11:02,970 - INFO - convert_category_columns: document_type -> category
+2026-05-03 16:11:02,971 - INFO - convert_category_columns: source_name -> category
+2026-05-03 16:11:02,971 - INFO - convert_category_columns: extraction_library -> category
+2026-05-03 16:11:02,971 - INFO - convert_category_columns: file_name -> category
+2026-05-03 16:11:02,972 - INFO - convert_category_columns: sheet_name -> category
+2026-05-03 16:11:02,972 - INFO - convert_category_columns: best_picture -> category
+2026-05-03 16:11:02,972 - INFO - convert_category_columns: bold -> category
+2026-05-03 16:11:02,973 - INFO - convert_category_columns: italic -> category
+2026-05-03 16:11:02,984 - INFO - memory_report: before=3.2912 MB after=2.2499 MB saved=1.0413 MB pct=31.64
+2026-05-03 16:11:02,998 - INFO - Lab 9 notebook type conversion complete
+2026-05-03 16:11:03,007 - INFO - validate_required_columns: PASSED
+2026-05-03 16:11:03,009 - INFO - validate_no_null_titles: PASSED
+2026-05-03 16:11:03,010 - INFO - validate_rating_score_range (rating_score): PASSED
+2026-05-03 16:11:03,011 - INFO - validate_year_range (published_year): PASSED
+2026-05-03 16:11:03,012 - INFO - validate_no_duplicate_ids (record_id): PASSED
+2026-05-03 16:11:03,016 - INFO - validate_language_codes (language): PASSED
+2026-05-03 16:11:03,018 - INFO - validate_content_length (content_length): PASSED
+2026-05-03 16:11:03,019 - INFO - validate_content_length (title_length): PASSED
+2026-05-03 16:11:03,019 - INFO - Validation complete: 7 passed, 0 failed
+2026-05-03 16:11:03,032 - INFO - Lab 9 notebook validation complete: {'passed': 7, 'failed': 0, 'failures': []}
+2026-05-03 16:11:03,043 - INFO - === Starting Lab 9 cleaning pipeline: 1455 rows ===
+2026-05-03 16:11:03,045 - INFO - Step 1: generate missing-value report
+2026-05-03 16:11:03,055 - INFO - Missing value report generated for 44 columns
+2026-05-03 16:11:03,062 - INFO - Saved missing report to data\processed\cleaned\missing_report.csv
+2026-05-03 16:11:03,063 - INFO - Step 2: drop rows missing critical fields
+2026-05-03 16:11:03,066 - INFO - drop_rows_missing_critical_fields: dropped 0 rows using columns=['record_id', 'title']
+2026-05-03 16:11:03,066 - INFO - Step 3: clean string columns
+2026-05-03 16:11:03,067 - INFO - Starting string cleaning workflow
+2026-05-03 16:11:03,071 - INFO - clean_title: 55 titles modified
+2026-05-03 16:11:03,072 - INFO - clean_language_code: normalized language codes
+2026-05-03 16:11:03,081 - INFO - clean_overview_text: content_text cleaned, 166 values modified
+2026-05-03 16:11:03,087 - INFO - clean_overview_text: overview cleaned, 166 values modified
+2026-05-03 16:11:03,091 - INFO - clean_overview_text: description cleaned, 1326 values modified
+2026-05-03 16:11:03,096 - INFO - clean_overview_text: text cleaned, 1399 values modified
+2026-05-03 16:11:03,100 - INFO - clean_overview_text: processed_text cleaned, 1455 values modified
+2026-05-03 16:11:03,103 - INFO - clean_overview_text: raw_text cleaned, 1455 values modified
+2026-05-03 16:11:03,106 - INFO - clean_overview_text: preview_text cleaned, 1455 values modified
+2026-05-03 16:11:03,108 - INFO - extract_year_from_release_date: extracted 90 years from published_date
+2026-05-03 16:11:03,113 - INFO - clean_genre_string: genres normalized
+2026-05-03 16:11:03,116 - INFO - clean_genre_string: category normalized
+2026-05-03 16:11:03,119 - INFO - clean_genre_string: document_type normalized
+2026-05-03 16:11:03,121 - INFO - clean_genre_string: source_name normalized
+2026-05-03 16:11:03,121 - INFO - String cleaning workflow complete
+2026-05-03 16:11:03,122 - INFO - Step 4: fill missing text fields
+2026-05-03 16:11:03,123 - INFO - fill_missing_text_fields: title -> filled 0 missing and 0 empty values
+2026-05-03 16:11:03,123 - INFO - fill_missing_text_fields: description -> filled 0 missing and 0 empty values
+2026-05-03 16:11:03,124 - INFO - fill_missing_text_fields: content_text -> filled 0 missing and 0 empty values
+2026-05-03 16:11:03,125 - INFO - fill_missing_text_fields: overview -> filled 0 missing and 0 empty values
+2026-05-03 16:11:03,126 - INFO - fill_missing_text_fields: text -> filled 0 missing and 0 empty values
+2026-05-03 16:11:03,127 - INFO - fill_missing_text_fields: raw_text -> filled 0 missing and 0 empty values
+2026-05-03 16:11:03,128 - INFO - fill_missing_text_fields: processed_text -> filled 0 missing and 0 empty values
+2026-05-03 16:11:03,130 - INFO - fill_missing_text_fields: preview_text -> filled 0 missing and 0 empty values
+2026-05-03 16:11:03,131 - INFO - fill_missing_text_fields: source_name -> filled 0 missing and 0 empty values
+2026-05-03 16:11:03,131 - INFO - fill_missing_text_fields: category -> filled 0 missing and 0 empty values
+2026-05-03 16:11:03,132 - INFO - fill_missing_text_fields: document_type -> filled 0 missing and 0 empty values
+2026-05-03 16:11:03,133 - INFO - fill_missing_text_fields: language -> filled 0 missing and 0 empty values
+2026-05-03 16:11:03,134 - INFO - fill_missing_overview: filled 0 rows
+2026-05-03 16:11:03,134 - INFO - Step 5: replace zero-as-missing numeric values
+2026-05-03 16:11:03,135 - INFO - replace_zero_with_nan: mentions -> replaced 0 zeros
+2026-05-03 16:11:03,135 - INFO - replace_zero_with_nan: sentiment_score -> replaced 0 zeros
+2026-05-03 16:11:03,135 - INFO - replace_zero_with_nan: rating_score -> replaced 0 zeros
+2026-05-03 16:11:03,136 - INFO - replace_zero_with_nan: popularity -> replaced 0 zeros
+2026-05-03 16:11:03,136 - INFO - replace_zero_with_nan: vote_average -> replaced 0 zeros
+2026-05-03 16:11:03,136 - INFO - replace_zero_with_nan: vote_count -> replaced 0 zeros
+2026-05-03 16:11:03,136 - INFO - Step 6: fill numeric missing values with medians
+2026-05-03 16:11:03,137 - INFO - fill_numeric_with_median: rating_score -> filled 0 with 0.15
+2026-05-03 16:11:03,137 - INFO - fill_numeric_with_median: content_length -> filled 0 with 15.00
+2026-05-03 16:11:03,138 - INFO - fill_numeric_with_median: title_length -> filled 0 with 15.00
+2026-05-03 16:11:03,138 - INFO - fill_numeric_with_median: popularity -> filled 0 with 15.00
+2026-05-03 16:11:03,138 - INFO - fill_numeric_with_median: vote_average -> filled 0 with 0.15
+2026-05-03 16:11:03,139 - INFO - fill_numeric_with_median: vote_count -> filled 0 with 1.00
+2026-05-03 16:11:03,139 - INFO - Step 7: remove duplicates
+2026-05-03 16:11:03,168 - INFO - drop_exact_duplicates: removed 0 rows
+2026-05-03 16:11:03,172 - INFO - drop_duplicate_urls: removed 57 rows
+2026-05-03 16:11:03,176 - INFO - drop_duplicate_titles: removed 80 rows using title + published_date only where date exists
+2026-05-03 16:11:03,177 - INFO - drop_duplicate_ids (record_id): removed 0 rows
+2026-05-03 16:11:03,177 - INFO - Deduplication removed 137 rows total
+2026-05-03 16:11:03,177 - INFO - Step 8: drop high-missingness columns
+2026-05-03 16:11:03,179 - INFO - drop_high_missingness_columns: dropped columns=['author', 'publishedAt', 'tables', 'id', 'mentions', 'sentiment_score', 'sheet_name', 'Metric', 'Total Articles', 'Total Mentions', 'Average Mentions', 'Average Sentiment', 'Highest Mentions', 'Politics Articles', 'Business Articles', 'paragraph_number', 'run_number', 'bold', 'italic', 'underline', 'nominations', 'awards', 'best_picture', 'release_date', 'release_year'] using threshold=0.60
+2026-05-03 16:11:03,180 - INFO - Step 9: convert data types
+2026-05-03 16:11:03,180 - INFO - Starting type conversion workflow
+2026-05-03 16:11:03,181 - INFO - convert_dates: published_date -> datetime, 1308 NaT values
+2026-05-03 16:11:03,182 - INFO - convert_dates: fetched_at -> datetime, 42 NaT values
+2026-05-03 16:11:03,183 - INFO - convert_dates: extraction_timestamp -> datetime, 810 NaT values
+2026-05-03 16:11:03,184 - INFO - convert_numeric_columns: rating_score -> float32
+2026-05-03 16:11:03,184 - INFO - convert_numeric_columns: popularity -> float32
+2026-05-03 16:11:03,184 - INFO - convert_numeric_columns: vote_average -> float32
+2026-05-03 16:11:03,185 - INFO - convert_numeric_columns: vote_count -> float32
+2026-05-03 16:11:03,185 - INFO - convert_numeric_columns: wins -> float32
+2026-05-03 16:11:03,185 - INFO - convert_numeric_columns: losses -> float32
+2026-05-03 16:11:03,185 - INFO - convert_numeric_columns: record_id -> Int64
+2026-05-03 16:11:03,186 - INFO - convert_numeric_columns: page_number -> Int64
+2026-05-03 16:11:03,186 - INFO - convert_numeric_columns: published_year -> Int64
+2026-05-03 16:11:03,186 - INFO - convert_numeric_columns: year -> Int64
+2026-05-03 16:11:03,186 - INFO - convert_numeric_columns: content_length -> Int64
+2026-05-03 16:11:03,186 - INFO - convert_numeric_columns: title_length -> Int64
+2026-05-03 16:11:03,187 - INFO - convert_category_columns: language -> category
+2026-05-03 16:11:03,187 - INFO - convert_category_columns: original_language -> category
+2026-05-03 16:11:03,188 - INFO - convert_category_columns: category -> category
+2026-05-03 16:11:03,188 - INFO - convert_category_columns: genres -> category
+2026-05-03 16:11:03,188 - INFO - convert_category_columns: document_type -> category
+2026-05-03 16:11:03,189 - INFO - convert_category_columns: source_name -> category
+2026-05-03 16:11:03,189 - INFO - convert_category_columns: extraction_library -> category
+2026-05-03 16:11:03,189 - INFO - convert_category_columns: file_name -> category
+2026-05-03 16:11:03,189 - INFO - Type conversion workflow complete
+2026-05-03 16:11:03,195 - INFO - memory_report: before=2.7063 MB after=1.9137 MB saved=0.7926 MB pct=29.29
+2026-05-03 16:11:03,196 - INFO - Step 10: run validation
+2026-05-03 16:11:03,196 - INFO - validate_required_columns: PASSED
+2026-05-03 16:11:03,197 - INFO - validate_no_null_titles: PASSED
+2026-05-03 16:11:03,197 - INFO - validate_rating_score_range (rating_score): PASSED
+2026-05-03 16:11:03,198 - INFO - validate_year_range (published_year): PASSED
+2026-05-03 16:11:03,198 - INFO - validate_no_duplicate_ids (record_id): PASSED
+2026-05-03 16:11:03,199 - INFO - validate_language_codes (language): PASSED
+2026-05-03 16:11:03,199 - INFO - validate_content_length (content_length): PASSED
+2026-05-03 16:11:03,200 - INFO - validate_content_length (title_length): PASSED
+2026-05-03 16:11:03,200 - INFO - Validation complete: 7 passed, 0 failed
+2026-05-03 16:11:03,251 - INFO - Saved cleaned dataset to data\processed\cleaned\cleaned_data.csv (1318 rows)
+2026-05-03 16:11:03,251 - INFO - Saved cleaned dataset alias to data\processed\cleaned\clean.csv (1318 rows)
+2026-05-03 16:11:03,251 - INFO - === Cleaning pipeline complete: 1318 rows remain ===
+2026-05-03 16:11:03,263 - INFO - Lab 9 notebook full reusable pipeline complete: shape=(1318, 35)
+2026-05-03 16:11:05,437 - INFO - Lab 9 notebook pytest complete with return code 0
+2026-05-03 16:11:05,468 - INFO - Lab 9 notebook final verification complete
