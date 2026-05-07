@@ -1,0 +1,53 @@
+record_id,title_mysql,title_mongo,document_type_mysql,rating_score,engagement_score,estimated_value
+53,AI Market Growth,AI Market Growth,excel,7.0,71.56,1216.52
+59,Streaming Rights Watch,Streaming Rights Watch,excel,4.0,41.52,954.96
+61,Inflation Briefing,Inflation Briefing,excel,2.0,21.28,404.32
+56,Café Culture Trends,Café Culture Trends,excel,6.0,60.89,1217.8
+135,Untitled record,Untitled record,encoding_test,3.0,48.0,14448.0
+175,Untitled record,Untitled record,encoding_test,3.0,48.0,14448.0
+216,Untitled record,Untitled record,encoding_test,3.0,48.0,14448.0
+62,Untitled record,Untitled record,excel_summary,0.15,2.4,38.4
+94,Untitled record,Untitled record,excel_summary,0.15,2.4,38.4
+134,Untitled record,Untitled record,excel_summary,0.15,2.4,38.4
+136,"Samsung introduces Hearapy, an app that helps reduce motion sickness using sound","Samsung introduces Hearapy, an app that helps reduce motion sickness using sound",json,2.6,41.6,10857.6
+137,Royals #1 Preview: Telepathic Twins Gamble in Seoul's Underworld,Royals #1 Preview: Telepathic Twins Gamble in Seoul's Underworld,json,2.6,41.6,10857.6
+140,Economic Digest: Nepal’s Business News in a Snap,Economic Digest: Nepal’s Business News in a Snap,json,2.6,41.6,10857.6
+3,"GATE 2026 final answer key not released yet, results likely to be out tomorrow: Check details here","GATE 2026 final answer key not released yet, results likely to be out tomorrow: Check details here",news_api,2.6,41.6,10857.6
+4,LTM Named NVIDIA Partner Network ‘Rising Star Consulting Partner of the Year’ at NVIDIA GTC 2026,LTM Named NVIDIA Partner Network ‘Rising Star Consulting Partner of the Year’ at NVIDIA GTC 2026,news_api,2.6,41.6,10857.6
+5,"Asian stocks rally as oil retreats, Fed in spotlight","Asian stocks rally as oil retreats, Fed in spotlight",news_api,2.6,41.6,10857.6
+429,Untitled record,Untitled record,ocr_image,8.43,134.88,113839.0
+685,Untitled record,Untitled record,ocr_image,8.43,134.88,113839.0
+941,Untitled record,Untitled record,ocr_image,8.43,134.88,113839.0
+430,Untitled record,Untitled record,ocr_pdf,10.0,161.44,165476.0
+686,Untitled record,Untitled record,ocr_pdf,10.0,161.44,165476.0
+942,Untitled record,Untitled record,ocr_pdf,10.0,161.44,165476.0
+46,Untitled record,Untitled record,pdf,10.0,161.14,164363.0
+78,Untitled record,Untitled record,pdf,10.0,161.14,164363.0
+110,Untitled record,Untitled record,pdf,10.0,161.14,164363.0
+48,Untitled record,Untitled record,pdf_two_column,10.0,227.44,483310.0
+80,Untitled record,Untitled record,pdf_two_column,10.0,227.44,483310.0
+112,Untitled record,Untitled record,pdf_two_column,10.0,227.44,483310.0
+58,Žurnal Election Pulse,Žurnal Election Pulse,excel,5.0,51.26,1127.72
+52,Election Update,Election Update,excel,4.0,41.85,669.6
+55,Climate Policy Shift,Climate Policy Shift,excel,3.0,31.35,658.35
+217,Untitled record,Untitled record,scraped_html,0.15,2.4,38.4
+218,Untitled record,Untitled record,scraped_html,0.15,2.4,38.4
+219,Untitled record,Untitled record,scraped_html,0.15,2.4,38.4
+242,Untitled record,Untitled record,scraped_html_paginated,0.15,2.4,38.4
+243,Untitled record,Untitled record,scraped_html_paginated,0.15,2.4,38.4
+244,Untitled record,Untitled record,scraped_html_paginated,0.15,2.4,38.4
+363,The Fantastic Flying Books of Mr. Morris Lessmore,The Fantastic Flying Books of Mr. Morris Lessmore,scraped_json_api,0.49,7.84,392.0
+619,The Fantastic Flying Books of Mr. Morris Lessmore,The Fantastic Flying Books of Mr. Morris Lessmore,scraped_json_api,0.49,7.84,392.0
+875,The Fantastic Flying Books of Mr. Morris Lessmore,The Fantastic Flying Books of Mr. Morris Lessmore,scraped_json_api,0.49,7.84,392.0
+60,Weekend Match Buzz,Weekend Match Buzz,excel,7.0,71.73,1362.87
+54,Sports Highlights,Sports Highlights,excel,5.0,51.12,920.16
+57,München Startup Round,München Startup Round,excel,8.0,81.06,1783.32
+50,Untitled record,Untitled record,word,10.0,164.8,178149.0
+82,Untitled record,Untitled record,word,10.0,164.8,178149.0
+114,Untitled record,Untitled record,word,10.0,164.8,178149.0
+118,Untitled record,Untitled record,word_run,2.74,43.84,12056.0
+158,Untitled record,Untitled record,word_run,2.74,43.84,12056.0
+199,Untitled record,Untitled record,word_run,2.74,43.84,12056.0
+51,Untitled record,Untitled record,word_two_column,10.0,212.62,399300.0
+83,Untitled record,Untitled record,word_two_column,10.0,212.62,399300.0
+115,Untitled record,Untitled record,word_two_column,10.0,212.62,399300.0

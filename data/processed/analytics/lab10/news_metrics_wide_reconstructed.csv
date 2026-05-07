@@ -1,0 +1,11 @@
+record_id,primary_category,analysis_year,content_length,engagement_score,estimated_value,popularity,rating_score
+52,politics,2026,15.0,41.85,669.6,34.0,4.0
+53,business,2026,16.0,71.56,1216.52,28.0,7.0
+54,sports,2026,17.0,51.12,920.16,19.0,5.0
+55,politics,2026,20.0,31.35,658.35,23.0,3.0
+56,culture,2026,19.0,60.89,1217.8,14.0,6.0
+57,technology,2026,21.0,81.06,1783.32,17.0,8.0
+58,politics,2026,21.0,51.26,1127.72,21.0,5.0
+59,business,2026,22.0,41.52,954.96,26.0,4.0
+60,sports,2026,18.0,71.73,1362.87,31.0,7.0
+61,business,2026,18.0,21.28,404.32,22.0,2.0

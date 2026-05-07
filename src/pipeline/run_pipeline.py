@@ -108,6 +108,55 @@ from src.analytics.quality_report import (
 from src.cleaning.clean_pipeline import run_cleaning_pipeline_from_csv
 
 
+from src.analytics.db_connector import setup_mysql_from_cleaned_data
+from src.analytics.data_combiner import (
+    prepare_metadata_df,
+    merge_metadata_with_metrics,
+    compare_join_types,
+    save_join_count_chart,
+    save_combined_outputs,
+)
+from src.analytics.pivot_builder import (
+    add_primary_category,
+    add_analysis_year,
+    wide_to_long_metrics,
+    long_to_wide_metrics,
+    build_category_year_pivot,
+    build_language_decade_crosstab,
+    save_pivot_outputs,
+)
+from src.analytics.aggregator import (
+    category_summary,
+    document_type_summary,
+    yearly_trends,
+    top_n_per_group,
+    add_group_average_columns,
+    filter_large_categories,
+    save_yearly_trends_chart,
+    save_aggregation_outputs,
+)
+from src.analytics.time_series import (
+    parse_news_dates,
+    add_date_components,
+    build_monthly_time_series,
+    resample_yearly,
+    resample_quarterly,
+    add_rolling_averages,
+    save_time_series_chart,
+    save_time_series_outputs,
+)
+from src.analytics.mongo_pipeline import (
+    run_category_aggregation,
+    run_document_type_aggregation,
+    run_source_aggregation,
+    save_mongo_aggregation_outputs,
+)
+from src.analytics.insight_reporter import (
+    generate_insight_questions,
+    save_insight_outputs,
+)
+
+
 def save_standard_transcript_outputs(result: dict, base_output_path: str) -> tuple[str, str, str]:
     """
     Save transcript as JSON, TXT, and SRT using a shared base path.
@@ -787,6 +836,252 @@ def run_lab9_cleaning_stage():
     return cleaned_df
 
 
+def run_lab10_analysis_stage():
+    """
+    Run Lab 10 advanced data analysis on the Lab 9 cleaned dataset.
+
+    This stage covers:
+    - MySQL connection and table population
+    - combining MySQL metrics with cleaned metadata
+    - join type comparison
+    - reshaping with melt()
+    - pivot tables and crosstabs
+    - groupby analysis
+    - time series analysis
+    - MongoDB aggregation pipelines
+    - analytical insight reports and charts
+    """
+    logging.info("=== Lab 10 Advanced Analysis Stage Started ===")
+
+    output_dir = Path("data/processed/analytics/lab10")
+    output_dir.mkdir(parents=True, exist_ok=True)
+
+    cleaned_csv_path = Path("data/processed/cleaned/cleaned_data.csv")
+
+    if not cleaned_csv_path.exists():
+        logging.warning(
+            "Lab 10 cleaned input not found at %s. Running Lab 9 cleaning first.",
+            cleaned_csv_path,
+        )
+        run_lab9_cleaning_stage()
+
+    if not cleaned_csv_path.exists():
+        raise FileNotFoundError(
+            f"Lab 10 input does not exist: {cleaned_csv_path}"
+        )
+
+    logging.info("Lab 10 Part 1: MySQL setup started")
+
+    cleaned_df = pd.read_csv(cleaned_csv_path)
+
+    mysql_metrics_df = setup_mysql_from_cleaned_data(
+        cleaned_csv_path=str(cleaned_csv_path),
+    )
+
+    mysql_metrics_df.to_csv(
+        output_dir / "mysql_news_article_metrics.csv",
+        index=False,
+    )
+
+    logging.info(
+        "Lab 10 MySQL metrics shape: rows=%d columns=%d",
+        mysql_metrics_df.shape[0],
+        mysql_metrics_df.shape[1],
+    )
+
+    logging.info("Lab 10 Part 1: MySQL setup complete")
+
+    logging.info("Lab 10 Part 2: Combining data sources started")
+
+    metadata_df = prepare_metadata_df(cleaned_df)
+
+    combined_df = merge_metadata_with_metrics(
+        metadata_df=metadata_df,
+        metrics_df=mysql_metrics_df,
+        how="left",
+    )
+
+    join_counts_df = compare_join_types(
+        metadata_df=metadata_df,
+        metrics_df=mysql_metrics_df,
+    )
+
+    save_join_count_chart(
+        join_counts_df,
+        output_path=str(output_dir / "join_type_row_counts.png"),
+    )
+
+    save_combined_outputs(
+        combined_df,
+        join_counts_df,
+        output_dir=str(output_dir),
+    )
+
+    logging.info(
+        "Lab 10 combined dataset shape: rows=%d columns=%d",
+        combined_df.shape[0],
+        combined_df.shape[1],
+    )
+
+    logging.info("Lab 10 Part 2: Combining data sources complete")
+
+    logging.info("Lab 10 Part 3: Reshaping and pivot tables started")
+
+    combined_df = add_primary_category(combined_df)
+    combined_df = add_analysis_year(combined_df)
+
+    long_metrics_df = wide_to_long_metrics(combined_df)
+    wide_metrics_df = long_to_wide_metrics(long_metrics_df)
+
+    category_year_pivot = build_category_year_pivot(combined_df)
+    language_decade_crosstab = build_language_decade_crosstab(combined_df)
+
+    wide_metrics_df.to_csv(
+        output_dir / "news_metrics_wide_reconstructed.csv",
+        index=False,
+    )
+
+    save_pivot_outputs(
+        long_metrics_df,
+        category_year_pivot,
+        language_decade_crosstab,
+        output_dir=str(output_dir),
+    )
+
+    logging.info(
+        "Lab 10 reshaping complete: long=%s wide=%s pivot=%s",
+        long_metrics_df.shape,
+        wide_metrics_df.shape,
+        category_year_pivot.shape,
+    )
+
+    logging.info("Lab 10 Part 3: Reshaping and pivot tables complete")
+
+    logging.info("Lab 10 Part 4: GroupBy analysis started")
+
+    category_df = category_summary(combined_df)
+    document_df = document_type_summary(combined_df)
+    yearly_df = yearly_trends(combined_df)
+    top_articles_df = top_n_per_group(combined_df, n=3)
+    transformed_df = add_group_average_columns(combined_df)
+    filtered_large_categories_df = filter_large_categories(combined_df, min_count=5)
+
+    transformed_df.to_csv(
+        output_dir / "combined_with_group_averages.csv",
+        index=False,
+    )
+
+    filtered_large_categories_df.to_csv(
+        output_dir / "large_categories_only.csv",
+        index=False,
+    )
+
+    save_yearly_trends_chart(
+        yearly_df,
+        output_path=str(output_dir / "yearly_trends.png"),
+    )
+
+    save_aggregation_outputs(
+        category_df,
+        yearly_df,
+        top_articles_df,
+        document_df,
+        output_dir=str(output_dir),
+    )
+
+    logging.info("Lab 10 Part 4: GroupBy analysis complete")
+
+    logging.info("Lab 10 Part 5: Time series analysis started")
+
+    time_series_df = parse_news_dates(combined_df)
+    time_series_df = add_date_components(time_series_df)
+
+    monthly_df = build_monthly_time_series(time_series_df)
+    yearly_time_series_df = resample_yearly(time_series_df)
+    quarterly_df = resample_quarterly(time_series_df)
+
+    monthly_rolling_df = add_rolling_averages(monthly_df)
+
+    save_time_series_chart(
+        monthly_rolling_df,
+        output_path=str(output_dir / "rolling_estimated_value.png"),
+    )
+
+    save_time_series_outputs(
+        monthly_rolling_df,
+        yearly_time_series_df,
+        quarterly_df,
+        output_dir=str(output_dir),
+    )
+
+    logging.info("Lab 10 Part 5: Time series analysis complete")
+
+    logging.info("Lab 10 Part 6: MongoDB aggregation started")
+
+    mongo_category_df = run_category_aggregation()
+    mongo_document_df = run_document_type_aggregation()
+    mongo_source_df = run_source_aggregation()
+
+    save_mongo_aggregation_outputs(
+        mongo_category_df,
+        mongo_document_df,
+        mongo_source_df,
+        output_dir=str(output_dir),
+    )
+
+    logging.info(
+        "Lab 10 MongoDB aggregations complete: category=%s document=%s source=%s",
+        mongo_category_df.shape,
+        mongo_document_df.shape,
+        mongo_source_df.shape,
+    )
+
+    logging.info("Lab 10 Part 6: MongoDB aggregation complete")
+
+    logging.info("Lab 10 Part 7: Analytical insight reporting started")
+
+    insight_df = generate_insight_questions(combined_df)
+
+    insight_df.to_csv(
+        output_dir / "analytical_questions_report.csv",
+        index=False,
+    )
+
+    save_insight_outputs(
+        combined_df,
+        output_dir=str(output_dir),
+    )
+
+    logging.info(
+        "Lab 10 generated %d analytical insights",
+        len(insight_df),
+    )
+
+    logging.info("Lab 10 Part 7: Analytical insight reporting complete")
+
+    logging.info("=== Lab 10 Advanced Analysis Stage Complete ===")
+
+    return {
+        "mysql_metrics_shape": mysql_metrics_df.shape,
+        "combined_shape": combined_df.shape,
+        "join_counts_shape": join_counts_df.shape,
+        "long_metrics_shape": long_metrics_df.shape,
+        "wide_metrics_shape": wide_metrics_df.shape,
+        "pivot_shape": category_year_pivot.shape,
+        "crosstab_shape": language_decade_crosstab.shape,
+        "category_summary_shape": category_df.shape,
+        "document_summary_shape": document_df.shape,
+        "yearly_summary_shape": yearly_df.shape,
+        "monthly_time_series_shape": monthly_rolling_df.shape,
+        "yearly_time_series_shape": yearly_time_series_df.shape,
+        "quarterly_time_series_shape": quarterly_df.shape,
+        "mongo_category_shape": mongo_category_df.shape,
+        "mongo_document_shape": mongo_document_df.shape,
+        "mongo_source_shape": mongo_source_df.shape,
+        "insights_shape": insight_df.shape,
+    }
+
+
 def run_pipeline():
     try:
         logging.info("Pipeline started")
@@ -1042,6 +1337,8 @@ def run_pipeline():
         run_lab8_analytics_stage()
 
         run_lab9_cleaning_stage()
+
+        run_lab10_analysis_stage()
 
         logging.info("Pipeline finished successfully")
 

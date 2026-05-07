@@ -1,0 +1,15 @@
+record_count,titles_available,text_records_available,sample_source,category,unique_document_type_count
+500,0,0,https://www.scrapethissite.com/pages/forms/?page_num=1,scraped_html_paginated,1
+435,0,0,https://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2010,scraped_json_api,1
+125,0,0,https://www.scrapethissite.com/pages/forms/,scraped_html,1
+104,0,0,news_page_1.json,unknown,1
+70,0,0,data/raw/excel/news_data.xlsx,excel,1
+56,0,0,data/raw/word/news_normal.docx,word_run,1
+14,0,0,data/raw/pdf/news_two_column.pdf,pdf_two_column,1
+14,0,0,data/raw/pdf/news_normal.pdf,pdf,1
+10,0,0,data/raw/scanned/test_scan.pdf,ocr_pdf,1
+7,0,0,data/raw/excel/news_data.xlsx,excel_summary,1
+7,0,0,data/raw/word/news_normal.docx,word,1
+7,0,0,data/raw/word/news_two_column.docx,word_two_column,1
+7,0,0,data/raw/api/news_page_1.json,encoding_test,1
+5,0,0,data/raw/images/test_scan.png,ocr_image,1

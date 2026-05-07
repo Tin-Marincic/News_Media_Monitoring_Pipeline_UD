@@ -1,0 +1,7 @@
+question,answer,main_metric,metric_value,supporting_count
+Which news category has the highest total estimated value?,The highest total estimated value belongs to 'pdf_two_column' with 4536932.40 total estimated value across 18 records.,total_estimated_value,4536932.4,18
+Which category has the highest average rating score?,The category with the highest average rating score is 'word_two_column' with an average rating score of 10.00.,avg_rating_score,10.0,9
+Which document type appears most often in the dataset?,The most frequent document type is 'scraped_html_paginated' with 500 records.,article_count,500.0,500
+Which individual record has the highest estimated value?,The record with the highest estimated value is 'Untitled record' (record_id=48) with 483310.00 estimated value.,estimated_value,483310.0,1
+Which year has the most dated news records?,"The year with the most dated records is 2026, with 10 dated records.",article_count_by_year,10.0,10
+How many top category-level records were identified?,The top-N category analysis identified 19 leading records across categories.,top_records_per_category,19.0,19
