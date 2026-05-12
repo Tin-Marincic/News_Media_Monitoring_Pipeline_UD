@@ -1,0 +1,14 @@
+record_count,titles_available,document_type
+500,0,scraped_html_paginated
+435,0,scraped_json_api
+125,0,scraped_html
+70,0,excel
+56,0,word_run
+14,0,pdf
+14,0,pdf_two_column
+10,0,ocr_pdf
+7,0,encoding_test
+7,0,word_two_column
+7,0,word
+7,0,excel_summary
+5,0,ocr_image

@@ -3278,3 +3278,259 @@
 2026-05-03 16:11:03,263 - INFO - Lab 9 notebook full reusable pipeline complete: shape=(1318, 35)
 2026-05-03 16:11:05,437 - INFO - Lab 9 notebook pytest complete with return code 0
 2026-05-03 16:11:05,468 - INFO - Lab 9 notebook final verification complete
+2026-05-07 23:24:45,040 - INFO - === Lab 10 Advanced Analysis Stage Started ===
+2026-05-07 23:24:45,041 - INFO - Lab 10 Part 1: MySQL setup started
+2026-05-07 23:24:45,056 - INFO - Setting up MySQL from cleaned CSV: data\processed\cleaned\cleaned_data.csv
+2026-05-07 23:24:45,057 - INFO - Opening MySQL connection host=localhost port=3306 database=None
+2026-05-07 23:24:45,063 - INFO - Database ensured: news_analytics
+2026-05-07 23:24:45,077 - INFO - Opening MySQL connection host=localhost port=3306 database=news_analytics
+2026-05-07 23:24:45,093 - INFO - Dropped old MySQL table if it existed: news_article_metrics
+2026-05-07 23:24:45,111 - INFO - MySQL table ensured: news_article_metrics
+2026-05-07 23:24:45,111 - INFO - Preparing article metrics for MySQL insertion
+2026-05-07 23:24:45,125 - INFO - Prepared 1318 article metric rows for MySQL
+2026-05-07 23:24:45,128 - INFO - MySQL table ensured: news_article_metrics
+2026-05-07 23:24:45,128 - INFO - Cleared existing rows from news_article_metrics
+2026-05-07 23:24:45,235 - INFO - Inserted/updated 1318 rows into news_article_metrics
+2026-05-07 23:24:45,235 - INFO - Inserted 1318 cleaned rows into MySQL
+2026-05-07 23:24:45,426 - INFO - Queried 1318 rows from news_article_metrics
+2026-05-07 23:24:45,427 - INFO - MySQL connection closed
+2026-05-07 23:24:45,445 - INFO - Lab 10 MySQL metrics shape: rows=1318 columns=13
+2026-05-07 23:24:45,446 - INFO - Lab 10 Part 1: MySQL setup complete
+2026-05-07 23:24:45,446 - INFO - Lab 10 Part 2: Combining data sources started
+2026-05-07 23:24:45,450 - INFO - Prepared metadata DataFrame with shape=(1318, 13)
+2026-05-07 23:24:45,450 - INFO - Merging MySQL (1318 rows) and metadata/MongoDB (1318 rows) on "record_id" with how="left"
+2026-05-07 23:24:45,456 - INFO - Merged result: 1318 rows, 25 columns
+2026-05-07 23:24:45,456 - INFO - Merging MySQL (1318 rows) and metadata/MongoDB (1318 rows) on "record_id" with how="inner"
+2026-05-07 23:24:45,461 - INFO - Merged result: 1318 rows, 25 columns
+2026-05-07 23:24:45,461 - INFO - Merging MySQL (1318 rows) and metadata/MongoDB (1318 rows) on "record_id" with how="left"
+2026-05-07 23:24:45,468 - INFO - Merged result: 1318 rows, 25 columns
+2026-05-07 23:24:45,469 - INFO - Merging MySQL (1318 rows) and metadata/MongoDB (1318 rows) on "record_id" with how="right"
+2026-05-07 23:24:45,477 - INFO - Merged result: 1318 rows, 25 columns
+2026-05-07 23:24:45,477 - INFO - Merging MySQL (1318 rows) and metadata/MongoDB (1318 rows) on "record_id" with how="outer"
+2026-05-07 23:24:45,489 - INFO - Merged result: 1318 rows, 25 columns
+2026-05-07 23:24:45,490 - INFO - Join type comparison complete
+2026-05-07 23:24:45,655 - INFO - Saved join count chart to data\processed\analytics\lab10\join_type_row_counts.png
+2026-05-07 23:24:45,683 - INFO - Saved combined DataFrame to data\processed\analytics\lab10\combined_news_metrics.csv
+2026-05-07 23:24:45,683 - INFO - Saved join counts to data\processed\analytics\lab10\join_type_row_counts.csv
+2026-05-07 23:24:45,684 - INFO - Lab 10 combined dataset shape: rows=1318 columns=25
+2026-05-07 23:24:45,684 - INFO - Lab 10 Part 2: Combining data sources complete
+2026-05-07 23:24:45,684 - INFO - Lab 10 Part 3: Reshaping and pivot tables started
+2026-05-07 23:24:45,686 - INFO - add_primary_category: created/standardized primary_category
+2026-05-07 23:24:45,687 - INFO - add_analysis_year: created analysis_year with 10 non-null values
+2026-05-07 23:24:45,691 - INFO - Wide->Long: 1318 rows x 26 cols -> 6590 rows x 6 cols
+2026-05-07 23:24:45,692 - INFO - wide_to_long_metrics: used id_vars=['record_id', 'primary_category', 'analysis_year', 'document_type_mysql'] value_vars=['popularity', 'engagement_score', 'estimated_value', 'rating_score', 'content_length']
+2026-05-07 23:24:45,700 - INFO - long_to_wide_metrics: converted long shape (6590, 6) to wide shape (10, 8)
+2026-05-07 23:24:45,712 - INFO - Pivot table shape: (2, 6)
+2026-05-07 23:24:45,712 - INFO - build_category_year_pivot: created pivot with shape=(2, 6)
+2026-05-07 23:24:45,726 - INFO - Crosstab shape: (2, 3)
+2026-05-07 23:24:45,726 - INFO - build_language_decade_crosstab: created crosstab with shape=(2, 3)
+2026-05-07 23:24:45,762 - INFO - Saved long metrics to data\processed\analytics\lab10\news_metrics_long.csv
+2026-05-07 23:24:45,762 - INFO - Saved category/year pivot to data\processed\analytics\lab10\pivot_category_year.csv
+2026-05-07 23:24:45,762 - INFO - Saved language/decade crosstab to data\processed\analytics\lab10\language_decade_crosstab.csv
+2026-05-07 23:24:45,762 - INFO - Lab 10 reshaping complete: long=(6590, 6) wide=(10, 8) pivot=(2, 6)
+2026-05-07 23:24:45,762 - INFO - Lab 10 Part 3: Reshaping and pivot tables complete
+2026-05-07 23:24:45,762 - INFO - Lab 10 Part 4: GroupBy analysis started
+2026-05-07 23:24:45,771 - INFO - category_summary: created summary with shape=(19, 13)
+2026-05-07 23:24:45,779 - INFO - document_type_summary: created summary with shape=(15, 8)
+2026-05-07 23:24:45,790 - INFO - yearly_trends: created trends with shape=(1, 8)
+2026-05-07 23:24:45,821 - INFO - top_n_per_group: group=primary_category sort=estimated_value n=3 -> 52 rows
+2026-05-07 23:24:45,823 - INFO - add_group_average_columns: added transformed group averages
+2026-05-07 23:24:45,827 - INFO - filter_large_categories: kept 1308/1318 rows using min_count=5
+2026-05-07 23:24:46,047 - INFO - Saved yearly trends chart to data\processed\analytics\lab10\yearly_trends.png
+2026-05-07 23:24:46,083 - INFO - Saved aggregation outputs to data\processed\analytics\lab10
+2026-05-07 23:24:46,083 - INFO - Lab 10 Part 4: GroupBy analysis complete
+2026-05-07 23:24:46,083 - INFO - Lab 10 Part 5: Time series analysis started
+2026-05-07 23:24:46,085 - INFO - parse_news_dates: parsed published_date_mysql into analysis_date; valid=10 missing=1308
+2026-05-07 23:24:46,090 - INFO - add_date_components: added components from analysis_date with 10 valid dates
+2026-05-07 23:24:46,099 - INFO - build_monthly_time_series: created monthly table with shape=(1, 5)
+2026-05-07 23:24:46,108 - INFO - resample_yearly: created yearly table with shape=(1, 4)
+2026-05-07 23:24:46,116 - INFO - resample_quarterly: created quarterly table with shape=(1, 4)
+2026-05-07 23:24:46,118 - INFO - add_rolling_averages: added rolling windows=(3, 6, 12) using total_estimated_value
+2026-05-07 23:24:46,483 - INFO - Saved time series chart to data\processed\analytics\lab10\rolling_estimated_value.png
+2026-05-07 23:24:46,528 - INFO - Saved monthly time series to data\processed\analytics\lab10\monthly_time_series.csv
+2026-05-07 23:24:46,528 - INFO - Saved yearly time series to data\processed\analytics\lab10\yearly_time_series.csv
+2026-05-07 23:24:46,528 - INFO - Saved quarterly time series to data\processed\analytics\lab10\quarterly_time_series.csv
+2026-05-07 23:24:46,528 - INFO - Lab 10 Part 5: Time series analysis complete
+2026-05-07 23:24:46,528 - INFO - Lab 10 Part 6: MongoDB aggregation started
+2026-05-07 23:24:46,528 - INFO - Opening MongoDB client: mongodb://localhost:27017/
+2026-05-07 23:24:46,531 - INFO - Using MongoDB collection: news_pipeline.raw_articles
+2026-05-07 23:24:46,551 - INFO - Mongo aggregation returned 14 rows from news_pipeline.raw_articles
+2026-05-07 23:24:46,552 - INFO - MongoDB client closed
+2026-05-07 23:24:46,552 - INFO - Opening MongoDB client: mongodb://localhost:27017/
+2026-05-07 23:24:46,554 - INFO - Using MongoDB collection: news_pipeline.raw_articles
+2026-05-07 23:24:46,565 - INFO - Mongo aggregation returned 13 rows from news_pipeline.raw_articles
+2026-05-07 23:24:46,566 - INFO - MongoDB client closed
+2026-05-07 23:24:46,566 - INFO - Opening MongoDB client: mongodb://localhost:27017/
+2026-05-07 23:24:46,568 - INFO - Using MongoDB collection: news_pipeline.raw_articles
+2026-05-07 23:24:46,586 - INFO - Mongo aggregation returned 22 rows from news_pipeline.raw_articles
+2026-05-07 23:24:46,587 - INFO - MongoDB client closed
+2026-05-07 23:24:46,603 - INFO - Saved Mongo category aggregation to data\processed\analytics\lab10\mongo_category_aggregation.csv
+2026-05-07 23:24:46,603 - INFO - Saved Mongo document type aggregation to data\processed\analytics\lab10\mongo_document_type_aggregation.csv
+2026-05-07 23:24:46,603 - INFO - Saved Mongo source aggregation to data\processed\analytics\lab10\mongo_source_aggregation.csv
+2026-05-07 23:24:46,603 - INFO - Lab 10 MongoDB aggregations complete: category=(14, 6) document=(13, 3) source=(22, 2)
+2026-05-07 23:24:46,603 - INFO - Lab 10 Part 6: MongoDB aggregation complete
+2026-05-07 23:24:46,603 - INFO - Lab 10 Part 7: Analytical insight reporting started
+2026-05-07 23:24:46,605 - INFO - add_primary_category: created/standardized primary_category
+2026-05-07 23:24:46,606 - INFO - add_analysis_year: created analysis_year with 10 non-null values
+2026-05-07 23:24:46,609 - INFO - Prepared insight dataset with shape=(1318, 28)
+2026-05-07 23:24:46,616 - INFO - category_summary: created summary with shape=(19, 13)
+2026-05-07 23:24:46,623 - INFO - document_type_summary: created summary with shape=(15, 8)
+2026-05-07 23:24:46,632 - INFO - yearly_trends: created trends with shape=(1, 8)
+2026-05-07 23:24:46,670 - INFO - top_n_per_group: group=primary_category sort=estimated_value n=1 -> 19 rows
+2026-05-07 23:24:46,673 - INFO - Generated 6 analytical insights
+2026-05-07 23:24:46,682 - INFO - add_primary_category: created/standardized primary_category
+2026-05-07 23:24:46,684 - INFO - add_analysis_year: created analysis_year with 10 non-null values
+2026-05-07 23:24:46,688 - INFO - Prepared insight dataset with shape=(1318, 28)
+2026-05-07 23:24:46,698 - INFO - category_summary: created summary with shape=(19, 13)
+2026-05-07 23:24:46,709 - INFO - document_type_summary: created summary with shape=(15, 8)
+2026-05-07 23:24:46,726 - INFO - yearly_trends: created trends with shape=(1, 8)
+2026-05-07 23:24:46,728 - INFO - add_primary_category: created/standardized primary_category
+2026-05-07 23:24:46,729 - INFO - add_analysis_year: created analysis_year with 10 non-null values
+2026-05-07 23:24:46,732 - INFO - Prepared insight dataset with shape=(1318, 28)
+2026-05-07 23:24:46,738 - INFO - category_summary: created summary with shape=(19, 13)
+2026-05-07 23:24:46,758 - INFO - document_type_summary: created summary with shape=(15, 8)
+2026-05-07 23:24:46,770 - INFO - yearly_trends: created trends with shape=(1, 8)
+2026-05-07 23:24:46,802 - INFO - top_n_per_group: group=primary_category sort=estimated_value n=1 -> 19 rows
+2026-05-07 23:24:46,804 - INFO - Generated 6 analytical insights
+2026-05-07 23:24:47,001 - INFO - Saved top categories chart to data\processed\analytics\lab10\top_categories_estimated_value.png
+2026-05-07 23:24:47,228 - INFO - Saved document type chart to data\processed\analytics\lab10\document_type_counts.png
+2026-05-07 23:24:47,231 - INFO - add_primary_category: created/standardized primary_category
+2026-05-07 23:24:47,232 - INFO - add_analysis_year: created analysis_year with 10 non-null values
+2026-05-07 23:24:47,234 - INFO - Prepared insight dataset with shape=(1318, 28)
+2026-05-07 23:24:47,393 - INFO - Saved rating vs estimated value scatter to data\processed\analytics\lab10\rating_vs_estimated_value.png
+2026-05-07 23:24:47,396 - INFO - add_primary_category: created/standardized primary_category
+2026-05-07 23:24:47,397 - INFO - add_analysis_year: created analysis_year with 10 non-null values
+2026-05-07 23:24:47,400 - INFO - Prepared insight dataset with shape=(1318, 28)
+2026-05-07 23:24:47,543 - INFO - Saved top articles chart to data\processed\analytics\lab10\top_articles_estimated_value.png
+2026-05-07 23:24:47,543 - INFO - Saved all insight outputs to data\processed\analytics\lab10
+2026-05-07 23:24:47,544 - INFO - Lab 10 generated 6 analytical insights
+2026-05-07 23:24:47,544 - INFO - Lab 10 Part 7: Analytical insight reporting complete
+2026-05-07 23:24:47,544 - INFO - === Lab 10 Advanced Analysis Stage Complete ===
+2026-05-07 23:26:33,953 - INFO - === Lab 10 Advanced Analysis Stage Started ===
+2026-05-07 23:26:33,953 - INFO - Lab 10 Part 1: MySQL setup started
+2026-05-07 23:26:33,972 - INFO - Setting up MySQL from cleaned CSV: data\processed\cleaned\cleaned_data.csv
+2026-05-07 23:26:33,972 - INFO - Opening MySQL connection host=localhost port=3306 database=None
+2026-05-07 23:26:33,978 - INFO - Database ensured: news_analytics
+2026-05-07 23:26:33,992 - INFO - Opening MySQL connection host=localhost port=3306 database=news_analytics
+2026-05-07 23:26:34,015 - INFO - Dropped old MySQL table if it existed: news_article_metrics
+2026-05-07 23:26:34,038 - INFO - MySQL table ensured: news_article_metrics
+2026-05-07 23:26:34,038 - INFO - Preparing article metrics for MySQL insertion
+2026-05-07 23:26:34,052 - INFO - Prepared 1318 article metric rows for MySQL
+2026-05-07 23:26:34,055 - INFO - MySQL table ensured: news_article_metrics
+2026-05-07 23:26:34,056 - INFO - Cleared existing rows from news_article_metrics
+2026-05-07 23:26:34,179 - INFO - Inserted/updated 1318 rows into news_article_metrics
+2026-05-07 23:26:34,180 - INFO - Inserted 1318 cleaned rows into MySQL
+2026-05-07 23:26:34,361 - INFO - Queried 1318 rows from news_article_metrics
+2026-05-07 23:26:34,364 - INFO - MySQL connection closed
+2026-05-07 23:26:34,392 - INFO - Lab 10 MySQL metrics shape: rows=1318 columns=13
+2026-05-07 23:26:34,392 - INFO - Lab 10 Part 1: MySQL setup complete
+2026-05-07 23:26:34,392 - INFO - Lab 10 Part 2: Combining data sources started
+2026-05-07 23:26:34,396 - INFO - Prepared metadata DataFrame with shape=(1318, 13)
+2026-05-07 23:26:34,396 - INFO - Merging MySQL (1318 rows) and metadata/MongoDB (1318 rows) on "record_id" with how="left"
+2026-05-07 23:26:34,403 - INFO - Merged result: 1318 rows, 25 columns
+2026-05-07 23:26:34,403 - INFO - Merging MySQL (1318 rows) and metadata/MongoDB (1318 rows) on "record_id" with how="inner"
+2026-05-07 23:26:34,408 - INFO - Merged result: 1318 rows, 25 columns
+2026-05-07 23:26:34,409 - INFO - Merging MySQL (1318 rows) and metadata/MongoDB (1318 rows) on "record_id" with how="left"
+2026-05-07 23:26:34,413 - INFO - Merged result: 1318 rows, 25 columns
+2026-05-07 23:26:34,413 - INFO - Merging MySQL (1318 rows) and metadata/MongoDB (1318 rows) on "record_id" with how="right"
+2026-05-07 23:26:34,421 - INFO - Merged result: 1318 rows, 25 columns
+2026-05-07 23:26:34,421 - INFO - Merging MySQL (1318 rows) and metadata/MongoDB (1318 rows) on "record_id" with how="outer"
+2026-05-07 23:26:34,431 - INFO - Merged result: 1318 rows, 25 columns
+2026-05-07 23:26:34,432 - INFO - Join type comparison complete
+2026-05-07 23:26:34,586 - INFO - Saved join count chart to data\processed\analytics\lab10\join_type_row_counts.png
+2026-05-07 23:26:34,614 - INFO - Saved combined DataFrame to data\processed\analytics\lab10\combined_news_metrics.csv
+2026-05-07 23:26:34,614 - INFO - Saved join counts to data\processed\analytics\lab10\join_type_row_counts.csv
+2026-05-07 23:26:34,614 - INFO - Lab 10 combined dataset shape: rows=1318 columns=25
+2026-05-07 23:26:34,614 - INFO - Lab 10 Part 2: Combining data sources complete
+2026-05-07 23:26:34,614 - INFO - Lab 10 Part 3: Reshaping and pivot tables started
+2026-05-07 23:26:34,617 - INFO - add_primary_category: created/standardized primary_category
+2026-05-07 23:26:34,619 - INFO - add_analysis_year: created analysis_year with 10 non-null values
+2026-05-07 23:26:34,624 - INFO - Wide->Long: 1318 rows x 26 cols -> 6590 rows x 6 cols
+2026-05-07 23:26:34,624 - INFO - wide_to_long_metrics: used id_vars=['record_id', 'primary_category', 'analysis_year', 'document_type_mysql'] value_vars=['popularity', 'engagement_score', 'estimated_value', 'rating_score', 'content_length']
+2026-05-07 23:26:34,634 - INFO - long_to_wide_metrics: converted long shape (6590, 6) to wide shape (10, 8)
+2026-05-07 23:26:34,650 - INFO - Pivot table shape: (2, 6)
+2026-05-07 23:26:34,650 - INFO - build_category_year_pivot: created pivot with shape=(2, 6)
+2026-05-07 23:26:34,664 - INFO - Crosstab shape: (2, 3)
+2026-05-07 23:26:34,664 - INFO - build_language_decade_crosstab: created crosstab with shape=(2, 3)
+2026-05-07 23:26:34,700 - INFO - Saved long metrics to data\processed\analytics\lab10\news_metrics_long.csv
+2026-05-07 23:26:34,700 - INFO - Saved category/year pivot to data\processed\analytics\lab10\pivot_category_year.csv
+2026-05-07 23:26:34,700 - INFO - Saved language/decade crosstab to data\processed\analytics\lab10\language_decade_crosstab.csv
+2026-05-07 23:26:34,700 - INFO - Lab 10 reshaping complete: long=(6590, 6) wide=(10, 8) pivot=(2, 6)
+2026-05-07 23:26:34,700 - INFO - Lab 10 Part 3: Reshaping and pivot tables complete
+2026-05-07 23:26:34,701 - INFO - Lab 10 Part 4: GroupBy analysis started
+2026-05-07 23:26:34,709 - INFO - category_summary: created summary with shape=(19, 13)
+2026-05-07 23:26:34,714 - INFO - document_type_summary: created summary with shape=(15, 8)
+2026-05-07 23:26:34,727 - INFO - yearly_trends: created trends with shape=(1, 8)
+2026-05-07 23:26:34,755 - INFO - top_n_per_group: group=primary_category sort=estimated_value n=3 -> 52 rows
+2026-05-07 23:26:34,757 - INFO - add_group_average_columns: added transformed group averages
+2026-05-07 23:26:34,761 - INFO - filter_large_categories: kept 1308/1318 rows using min_count=5
+2026-05-07 23:26:34,982 - INFO - Saved yearly trends chart to data\processed\analytics\lab10\yearly_trends.png
+2026-05-07 23:26:35,018 - INFO - Saved aggregation outputs to data\processed\analytics\lab10
+2026-05-07 23:26:35,019 - INFO - Lab 10 Part 4: GroupBy analysis complete
+2026-05-07 23:26:35,019 - INFO - Lab 10 Part 5: Time series analysis started
+2026-05-07 23:26:35,021 - INFO - parse_news_dates: parsed published_date_mysql into analysis_date; valid=10 missing=1308
+2026-05-07 23:26:35,025 - INFO - add_date_components: added components from analysis_date with 10 valid dates
+2026-05-07 23:26:35,034 - INFO - build_monthly_time_series: created monthly table with shape=(1, 5)
+2026-05-07 23:26:35,042 - INFO - resample_yearly: created yearly table with shape=(1, 4)
+2026-05-07 23:26:35,050 - INFO - resample_quarterly: created quarterly table with shape=(1, 4)
+2026-05-07 23:26:35,052 - INFO - add_rolling_averages: added rolling windows=(3, 6, 12) using total_estimated_value
+2026-05-07 23:26:35,287 - INFO - Saved time series chart to data\processed\analytics\lab10\rolling_estimated_value.png
+2026-05-07 23:26:35,305 - INFO - Saved monthly time series to data\processed\analytics\lab10\monthly_time_series.csv
+2026-05-07 23:26:35,305 - INFO - Saved yearly time series to data\processed\analytics\lab10\yearly_time_series.csv
+2026-05-07 23:26:35,305 - INFO - Saved quarterly time series to data\processed\analytics\lab10\quarterly_time_series.csv
+2026-05-07 23:26:35,305 - INFO - Lab 10 Part 5: Time series analysis complete
+2026-05-07 23:26:35,305 - INFO - Lab 10 Part 6: MongoDB aggregation started
+2026-05-07 23:26:35,305 - INFO - Opening MongoDB client: mongodb://localhost:27017/
+2026-05-07 23:26:35,308 - INFO - Using MongoDB collection: news_pipeline.raw_articles
+2026-05-07 23:26:35,326 - INFO - Mongo aggregation returned 14 rows from news_pipeline.raw_articles
+2026-05-07 23:26:35,327 - INFO - MongoDB client closed
+2026-05-07 23:26:35,327 - INFO - Opening MongoDB client: mongodb://localhost:27017/
+2026-05-07 23:26:35,329 - INFO - Using MongoDB collection: news_pipeline.raw_articles
+2026-05-07 23:26:35,340 - INFO - Mongo aggregation returned 13 rows from news_pipeline.raw_articles
+2026-05-07 23:26:35,341 - INFO - MongoDB client closed
+2026-05-07 23:26:35,341 - INFO - Opening MongoDB client: mongodb://localhost:27017/
+2026-05-07 23:26:35,343 - INFO - Using MongoDB collection: news_pipeline.raw_articles
+2026-05-07 23:26:35,355 - INFO - Mongo aggregation returned 22 rows from news_pipeline.raw_articles
+2026-05-07 23:26:35,355 - INFO - MongoDB client closed
+2026-05-07 23:26:35,372 - INFO - Saved Mongo category aggregation to data\processed\analytics\lab10\mongo_category_aggregation.csv
+2026-05-07 23:26:35,372 - INFO - Saved Mongo document type aggregation to data\processed\analytics\lab10\mongo_document_type_aggregation.csv
+2026-05-07 23:26:35,372 - INFO - Saved Mongo source aggregation to data\processed\analytics\lab10\mongo_source_aggregation.csv
+2026-05-07 23:26:35,372 - INFO - Lab 10 MongoDB aggregations complete: category=(14, 6) document=(13, 3) source=(22, 2)
+2026-05-07 23:26:35,372 - INFO - Lab 10 Part 6: MongoDB aggregation complete
+2026-05-07 23:26:35,372 - INFO - Lab 10 Part 7: Analytical insight reporting started
+2026-05-07 23:26:35,375 - INFO - add_primary_category: created/standardized primary_category
+2026-05-07 23:26:35,376 - INFO - add_analysis_year: created analysis_year with 10 non-null values
+2026-05-07 23:26:35,379 - INFO - Prepared insight dataset with shape=(1318, 28)
+2026-05-07 23:26:35,389 - INFO - category_summary: created summary with shape=(19, 13)
+2026-05-07 23:26:35,397 - INFO - document_type_summary: created summary with shape=(15, 8)
+2026-05-07 23:26:35,404 - INFO - yearly_trends: created trends with shape=(1, 8)
+2026-05-07 23:26:35,437 - INFO - top_n_per_group: group=primary_category sort=estimated_value n=1 -> 19 rows
+2026-05-07 23:26:35,440 - INFO - Generated 6 analytical insights
+2026-05-07 23:26:35,448 - INFO - add_primary_category: created/standardized primary_category
+2026-05-07 23:26:35,449 - INFO - add_analysis_year: created analysis_year with 10 non-null values
+2026-05-07 23:26:35,452 - INFO - Prepared insight dataset with shape=(1318, 28)
+2026-05-07 23:26:35,459 - INFO - category_summary: created summary with shape=(19, 13)
+2026-05-07 23:26:35,466 - INFO - document_type_summary: created summary with shape=(15, 8)
+2026-05-07 23:26:35,476 - INFO - yearly_trends: created trends with shape=(1, 8)
+2026-05-07 23:26:35,478 - INFO - add_primary_category: created/standardized primary_category
+2026-05-07 23:26:35,478 - INFO - add_analysis_year: created analysis_year with 10 non-null values
+2026-05-07 23:26:35,481 - INFO - Prepared insight dataset with shape=(1318, 28)
+2026-05-07 23:26:35,487 - INFO - category_summary: created summary with shape=(19, 13)
+2026-05-07 23:26:35,492 - INFO - document_type_summary: created summary with shape=(15, 8)
+2026-05-07 23:26:35,498 - INFO - yearly_trends: created trends with shape=(1, 8)
+2026-05-07 23:26:35,529 - INFO - top_n_per_group: group=primary_category sort=estimated_value n=1 -> 19 rows
+2026-05-07 23:26:35,531 - INFO - Generated 6 analytical insights
+2026-05-07 23:26:35,763 - INFO - Saved top categories chart to data\processed\analytics\lab10\top_categories_estimated_value.png
+2026-05-07 23:26:35,960 - INFO - Saved document type chart to data\processed\analytics\lab10\document_type_counts.png
+2026-05-07 23:26:35,969 - INFO - add_primary_category: created/standardized primary_category
+2026-05-07 23:26:35,975 - INFO - add_analysis_year: created analysis_year with 10 non-null values
+2026-05-07 23:26:35,982 - INFO - Prepared insight dataset with shape=(1318, 28)
+2026-05-07 23:26:36,156 - INFO - Saved rating vs estimated value scatter to data\processed\analytics\lab10\rating_vs_estimated_value.png
+2026-05-07 23:26:36,159 - INFO - add_primary_category: created/standardized primary_category
+2026-05-07 23:26:36,160 - INFO - add_analysis_year: created analysis_year with 10 non-null values
+2026-05-07 23:26:36,163 - INFO - Prepared insight dataset with shape=(1318, 28)
+2026-05-07 23:26:36,289 - INFO - Saved top articles chart to data\processed\analytics\lab10\top_articles_estimated_value.png
+2026-05-07 23:26:36,290 - INFO - Saved all insight outputs to data\processed\analytics\lab10
+2026-05-07 23:26:36,290 - INFO - Lab 10 generated 6 analytical insights
+2026-05-07 23:26:36,290 - INFO - Lab 10 Part 7: Analytical insight reporting complete
+2026-05-07 23:26:36,290 - INFO - === Lab 10 Advanced Analysis Stage Complete ===
