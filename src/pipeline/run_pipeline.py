@@ -157,6 +157,23 @@ from src.analytics.insight_reporter import (
 )
 
 
+from src.embeddings.chroma_store import (
+    get_chroma_client,
+    get_collection,
+    add_news_to_collection,
+)
+
+from src.embeddings.search_engine import (
+    keyword_search,
+    semantic_search,
+    compare_synonym_queries,
+)
+
+from src.embeddings.hybrid_search import (
+    hybrid_search,
+)
+
+
 def save_standard_transcript_outputs(result: dict, base_output_path: str) -> tuple[str, str, str]:
     """
     Save transcript as JSON, TXT, and SRT using a shared base path.
@@ -1081,6 +1098,118 @@ def run_lab10_analysis_stage():
         "insights_shape": insight_df.shape,
     }
 
+def run_lab11_embeddings_stage(reset_collection: bool = False):
+    """
+    Run Lab 11 embeddings and vector search stage.
+
+    This stage:
+    - loads the Lab 9 cleaned news dataset
+    - creates/loads persistent ChromaDB collection named 'data'
+    - adds cleaned news documents to ChromaDB
+    - runs sample keyword, semantic, hybrid, and synonym-overlap searches
+    - saves search demonstration outputs for Lab 11 evidence
+    """
+    logging.info("=== Lab 11 Embeddings and Vector Search Stage Started ===")
+
+    cleaned_csv_path = Path("data/processed/cleaned/cleaned_data.csv")
+    output_dir = Path("data/processed/analytics/lab11")
+    output_dir.mkdir(parents=True, exist_ok=True)
+
+    if not cleaned_csv_path.exists():
+        logging.warning(
+            "Lab 11 cleaned input not found at %s. Running Lab 9 cleaning first.",
+            cleaned_csv_path,
+        )
+        run_lab9_cleaning_stage()
+
+    if not cleaned_csv_path.exists():
+        raise FileNotFoundError(
+            f"Lab 11 input does not exist: {cleaned_csv_path}"
+        )
+
+    df = pd.read_csv(cleaned_csv_path, low_memory=False)
+
+    logging.info(
+        "Lab 11 loaded cleaned dataset: rows=%d columns=%d",
+        df.shape[0],
+        df.shape[1],
+    )
+
+    client = get_chroma_client()
+    collection = get_collection(client, reset=reset_collection)
+
+    total_records = add_news_to_collection(
+        df,
+        collection,
+        batch_size=100,
+    )
+
+    logging.info(
+        "Lab 11 ChromaDB population complete: collection_count=%d",
+        total_records,
+    )
+
+    query = "artificial intelligence technology market"
+
+    keyword_results = keyword_search(
+        query=query,
+        df=df,
+        n_results=10,
+    )
+
+    semantic_results = semantic_search(
+        query=query,
+        n_results=10,
+        collection=collection,
+    )
+
+    hybrid_results = hybrid_search(
+        query=query,
+        df=df,
+        collection=collection,
+        n_results=10,
+    )
+
+    synonym_overlap = compare_synonym_queries(
+        query_a="AI market",
+        query_b="artificial intelligence business",
+        df=df,
+        collection=collection,
+        n_results=10,
+    )
+
+    keyword_results.to_csv(
+        output_dir / "keyword_search_results.csv",
+        index=False,
+    )
+
+    semantic_results.to_csv(
+        output_dir / "semantic_search_results.csv",
+        index=False,
+    )
+
+    hybrid_results.to_csv(
+        output_dir / "hybrid_search_results.csv",
+        index=False,
+    )
+
+    synonym_overlap.to_csv(
+        output_dir / "synonym_query_overlap.csv",
+        index=False,
+    )
+
+    logging.info("Lab 11 sample keyword, semantic, hybrid, and synonym outputs saved")
+
+    logging.info("=== Lab 11 Embeddings and Vector Search Stage Complete ===")
+
+    return {
+        "cleaned_shape": df.shape,
+        "collection_count": collection.count(),
+        "keyword_results_shape": keyword_results.shape,
+        "semantic_results_shape": semantic_results.shape,
+        "hybrid_results_shape": hybrid_results.shape,
+        "synonym_overlap_shape": synonym_overlap.shape,
+    }
 
 def run_pipeline():
     try:
@@ -1339,6 +1468,8 @@ def run_pipeline():
         run_lab9_cleaning_stage()
 
         run_lab10_analysis_stage()
+
+        run_lab11_embeddings_stage()
 
         logging.info("Pipeline finished successfully")
 

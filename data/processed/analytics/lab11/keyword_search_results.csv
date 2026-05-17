@@ -1,0 +1,11 @@
+record_id,title,category,document_type,published_year,language,rating_score,keyword_score,phrase_match,search_type
+17,"Global Market | Nikkei jumps nearly 2% as AI, chip stocks rally",news_api,news_api,,unknown,2.6,2,False,keyword
+9,"Nvidia preparing Groq chips that can be sold in Chinese market, sources say",news_api,news_api,,unknown,2.28,2,False,keyword
+46,Untitled record,pdf,pdf,,unknown,10.0,1,False,keyword
+78,Untitled record,pdf,pdf,,unknown,10.0,1,False,keyword
+110,Untitled record,pdf,pdf,,unknown,10.0,1,False,keyword
+150,Untitled record,pdf,pdf,,unknown,10.0,1,False,keyword
+191,Untitled record,pdf,pdf,,unknown,10.0,1,False,keyword
+447,Untitled record,pdf,pdf,,unknown,10.0,1,False,keyword
+703,Untitled record,pdf,pdf,,unknown,10.0,1,False,keyword
+959,Untitled record,pdf,pdf,,unknown,10.0,1,False,keyword
