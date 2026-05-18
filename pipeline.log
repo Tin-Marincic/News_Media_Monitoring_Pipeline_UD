@@ -3534,3 +3534,291 @@
 2026-05-07 23:26:36,290 - INFO - Lab 10 generated 6 analytical insights
 2026-05-07 23:26:36,290 - INFO - Lab 10 Part 7: Analytical insight reporting complete
 2026-05-07 23:26:36,290 - INFO - === Lab 10 Advanced Analysis Stage Complete ===
+2026-05-07 23:39:02,152 - INFO - Preparing article metrics for MySQL insertion
+2026-05-07 23:39:02,181 - INFO - Prepared 1318 article metric rows for MySQL
+2026-05-07 23:39:02,200 - INFO - Setting up MySQL from cleaned CSV: c:\Users\38760\Desktop\Unstructured_Data\News_Media_Monitoring_Pipeline_UD\data\processed\cleaned\cleaned_data.csv
+2026-05-07 23:39:02,200 - INFO - Opening MySQL connection host=localhost port=3306 database=None
+2026-05-07 23:39:02,251 - INFO - Database ensured: news_analytics
+2026-05-07 23:39:02,271 - INFO - Opening MySQL connection host=localhost port=3306 database=news_analytics
+2026-05-07 23:39:02,413 - INFO - Dropped old MySQL table if it existed: news_article_metrics
+2026-05-07 23:39:02,436 - INFO - MySQL table ensured: news_article_metrics
+2026-05-07 23:39:02,436 - INFO - Preparing article metrics for MySQL insertion
+2026-05-07 23:39:02,447 - INFO - Prepared 1318 article metric rows for MySQL
+2026-05-07 23:39:02,450 - INFO - MySQL table ensured: news_article_metrics
+2026-05-07 23:39:02,451 - INFO - Cleared existing rows from news_article_metrics
+2026-05-07 23:39:02,565 - INFO - Inserted/updated 1318 rows into news_article_metrics
+2026-05-07 23:39:02,566 - INFO - Inserted 1318 cleaned rows into MySQL
+2026-05-07 23:39:02,755 - INFO - Queried 1318 rows from news_article_metrics
+2026-05-07 23:39:02,756 - INFO - MySQL connection closed
+2026-05-07 23:39:09,109 - INFO - Prepared metadata DataFrame with shape=(1318, 13)
+2026-05-07 23:39:09,109 - INFO - Merging MySQL (1318 rows) and metadata/MongoDB (1318 rows) on "record_id" with how="left"
+2026-05-07 23:39:09,121 - INFO - Merged result: 1318 rows, 25 columns
+2026-05-07 23:39:09,121 - INFO - Merging MySQL (1318 rows) and metadata/MongoDB (1318 rows) on "record_id" with how="inner"
+2026-05-07 23:39:09,133 - INFO - Merged result: 1318 rows, 25 columns
+2026-05-07 23:39:09,134 - INFO - Merging MySQL (1318 rows) and metadata/MongoDB (1318 rows) on "record_id" with how="left"
+2026-05-07 23:39:09,143 - INFO - Merged result: 1318 rows, 25 columns
+2026-05-07 23:39:09,143 - INFO - Merging MySQL (1318 rows) and metadata/MongoDB (1318 rows) on "record_id" with how="right"
+2026-05-07 23:39:09,153 - INFO - Merged result: 1318 rows, 25 columns
+2026-05-07 23:39:09,153 - INFO - Merging MySQL (1318 rows) and metadata/MongoDB (1318 rows) on "record_id" with how="outer"
+2026-05-07 23:39:09,161 - INFO - Merged result: 1318 rows, 25 columns
+2026-05-07 23:39:09,162 - INFO - Join type comparison complete
+2026-05-07 23:39:09,325 - INFO - Saved join count chart to c:\Users\38760\Desktop\Unstructured_Data\News_Media_Monitoring_Pipeline_UD\data\processed\analytics\lab10\join_type_row_counts.png
+2026-05-07 23:39:09,355 - INFO - Saved combined DataFrame to c:\Users\38760\Desktop\Unstructured_Data\News_Media_Monitoring_Pipeline_UD\data\processed\analytics\lab10\combined_news_metrics.csv
+2026-05-07 23:39:09,355 - INFO - Saved join counts to c:\Users\38760\Desktop\Unstructured_Data\News_Media_Monitoring_Pipeline_UD\data\processed\analytics\lab10\join_type_row_counts.csv
+2026-05-07 23:39:14,523 - INFO - add_primary_category: created/standardized primary_category
+2026-05-07 23:39:14,525 - INFO - add_analysis_year: created analysis_year with 10 non-null values
+2026-05-07 23:39:14,534 - INFO - Wide->Long: 1318 rows x 26 cols -> 6590 rows x 6 cols
+2026-05-07 23:39:14,534 - INFO - wide_to_long_metrics: used id_vars=['record_id', 'primary_category', 'analysis_year', 'document_type_mysql'] value_vars=['popularity', 'engagement_score', 'estimated_value', 'rating_score', 'content_length']
+2026-05-07 23:39:14,549 - INFO - long_to_wide_metrics: converted long shape (6590, 6) to wide shape (10, 8)
+2026-05-07 23:39:14,583 - INFO - Pivot table shape: (2, 6)
+2026-05-07 23:39:14,584 - INFO - build_category_year_pivot: created pivot with shape=(2, 6)
+2026-05-07 23:39:14,587 - INFO - add_primary_category: created/standardized primary_category
+2026-05-07 23:39:14,613 - INFO - Pivot table shape: (16, 20)
+2026-05-07 23:39:14,614 - INFO - build_document_category_pivot: created pivot with shape=(16, 20)
+2026-05-07 23:39:14,631 - INFO - Crosstab shape: (2, 3)
+2026-05-07 23:39:14,631 - INFO - build_language_decade_crosstab: created crosstab with shape=(2, 3)
+2026-05-07 23:39:14,683 - INFO - Saved long metrics to c:\Users\38760\Desktop\Unstructured_Data\News_Media_Monitoring_Pipeline_UD\data\processed\analytics\lab10\news_metrics_long.csv
+2026-05-07 23:39:14,683 - INFO - Saved category/year pivot to c:\Users\38760\Desktop\Unstructured_Data\News_Media_Monitoring_Pipeline_UD\data\processed\analytics\lab10\pivot_category_year.csv
+2026-05-07 23:39:14,683 - INFO - Saved language/decade crosstab to c:\Users\38760\Desktop\Unstructured_Data\News_Media_Monitoring_Pipeline_UD\data\processed\analytics\lab10\language_decade_crosstab.csv
+2026-05-07 23:39:21,249 - INFO - category_summary: created summary with shape=(19, 13)
+2026-05-07 23:39:21,261 - INFO - document_type_summary: created summary with shape=(15, 8)
+2026-05-07 23:39:21,278 - INFO - yearly_trends: created trends with shape=(1, 8)
+2026-05-07 23:39:21,312 - INFO - top_n_per_group: group=primary_category sort=estimated_value n=3 -> 52 rows
+2026-05-07 23:39:21,315 - INFO - add_group_average_columns: added transformed group averages
+2026-05-07 23:39:21,320 - INFO - filter_large_categories: kept 1308/1318 rows using min_count=5
+2026-05-07 23:39:21,536 - INFO - Saved yearly trends chart to c:\Users\38760\Desktop\Unstructured_Data\News_Media_Monitoring_Pipeline_UD\data\processed\analytics\lab10\yearly_trends.png
+2026-05-07 23:39:21,566 - INFO - Saved aggregation outputs to c:\Users\38760\Desktop\Unstructured_Data\News_Media_Monitoring_Pipeline_UD\data\processed\analytics\lab10
+2026-05-07 23:39:28,596 - INFO - parse_news_dates: parsed published_date_mysql into analysis_date; valid=10 missing=1308
+2026-05-07 23:39:28,607 - INFO - add_date_components: added components from analysis_date with 10 valid dates
+2026-05-07 23:39:28,627 - INFO - build_monthly_time_series: created monthly table with shape=(1, 5)
+2026-05-07 23:39:28,646 - INFO - resample_yearly: created yearly table with shape=(1, 4)
+2026-05-07 23:39:28,660 - INFO - resample_quarterly: created quarterly table with shape=(1, 4)
+2026-05-07 23:39:28,662 - INFO - add_rolling_averages: added rolling windows=(3, 6, 12) using total_estimated_value
+2026-05-07 23:39:28,945 - INFO - Saved time series chart to c:\Users\38760\Desktop\Unstructured_Data\News_Media_Monitoring_Pipeline_UD\data\processed\analytics\lab10\rolling_estimated_value.png
+2026-05-07 23:39:28,961 - INFO - Saved monthly time series to c:\Users\38760\Desktop\Unstructured_Data\News_Media_Monitoring_Pipeline_UD\data\processed\analytics\lab10\monthly_time_series.csv
+2026-05-07 23:39:28,961 - INFO - Saved yearly time series to c:\Users\38760\Desktop\Unstructured_Data\News_Media_Monitoring_Pipeline_UD\data\processed\analytics\lab10\yearly_time_series.csv
+2026-05-07 23:39:28,961 - INFO - Saved quarterly time series to c:\Users\38760\Desktop\Unstructured_Data\News_Media_Monitoring_Pipeline_UD\data\processed\analytics\lab10\quarterly_time_series.csv
+2026-05-07 23:39:34,189 - INFO - Opening MongoDB client: mongodb://localhost:27017/
+2026-05-07 23:39:34,220 - INFO - Using MongoDB collection: news_pipeline.raw_articles
+2026-05-07 23:39:34,247 - INFO - Mongo aggregation returned 14 rows from news_pipeline.raw_articles
+2026-05-07 23:39:34,248 - INFO - MongoDB client closed
+2026-05-07 23:39:34,248 - INFO - Opening MongoDB client: mongodb://localhost:27017/
+2026-05-07 23:39:34,252 - INFO - Using MongoDB collection: news_pipeline.raw_articles
+2026-05-07 23:39:34,265 - INFO - Mongo aggregation returned 13 rows from news_pipeline.raw_articles
+2026-05-07 23:39:34,266 - INFO - MongoDB client closed
+2026-05-07 23:39:34,266 - INFO - Opening MongoDB client: mongodb://localhost:27017/
+2026-05-07 23:39:34,269 - INFO - Using MongoDB collection: news_pipeline.raw_articles
+2026-05-07 23:39:34,282 - INFO - Mongo aggregation returned 22 rows from news_pipeline.raw_articles
+2026-05-07 23:39:34,283 - INFO - MongoDB client closed
+2026-05-07 23:39:34,299 - INFO - Saved Mongo category aggregation to c:\Users\38760\Desktop\Unstructured_Data\News_Media_Monitoring_Pipeline_UD\data\processed\analytics\lab10\mongo_category_aggregation.csv
+2026-05-07 23:39:34,299 - INFO - Saved Mongo document type aggregation to c:\Users\38760\Desktop\Unstructured_Data\News_Media_Monitoring_Pipeline_UD\data\processed\analytics\lab10\mongo_document_type_aggregation.csv
+2026-05-07 23:39:34,299 - INFO - Saved Mongo source aggregation to c:\Users\38760\Desktop\Unstructured_Data\News_Media_Monitoring_Pipeline_UD\data\processed\analytics\lab10\mongo_source_aggregation.csv
+2026-05-07 23:39:38,119 - INFO - add_primary_category: created/standardized primary_category
+2026-05-07 23:39:38,121 - INFO - add_analysis_year: created analysis_year with 10 non-null values
+2026-05-07 23:39:38,124 - INFO - Prepared insight dataset with shape=(1318, 28)
+2026-05-07 23:39:38,137 - INFO - category_summary: created summary with shape=(19, 13)
+2026-05-07 23:39:38,149 - INFO - document_type_summary: created summary with shape=(15, 8)
+2026-05-07 23:39:38,165 - INFO - yearly_trends: created trends with shape=(1, 8)
+2026-05-07 23:39:38,202 - INFO - top_n_per_group: group=primary_category sort=estimated_value n=1 -> 19 rows
+2026-05-07 23:39:38,205 - INFO - Generated 6 analytical insights
+2026-05-07 23:39:38,208 - INFO - add_primary_category: created/standardized primary_category
+2026-05-07 23:39:38,209 - INFO - add_analysis_year: created analysis_year with 10 non-null values
+2026-05-07 23:39:38,213 - INFO - Prepared insight dataset with shape=(1318, 28)
+2026-05-07 23:39:38,222 - INFO - category_summary: created summary with shape=(19, 13)
+2026-05-07 23:39:38,229 - INFO - document_type_summary: created summary with shape=(15, 8)
+2026-05-07 23:39:38,240 - INFO - yearly_trends: created trends with shape=(1, 8)
+2026-05-07 23:39:38,243 - INFO - add_primary_category: created/standardized primary_category
+2026-05-07 23:39:38,244 - INFO - add_analysis_year: created analysis_year with 10 non-null values
+2026-05-07 23:39:38,248 - INFO - Prepared insight dataset with shape=(1318, 28)
+2026-05-07 23:39:38,258 - INFO - category_summary: created summary with shape=(19, 13)
+2026-05-07 23:39:38,263 - INFO - document_type_summary: created summary with shape=(15, 8)
+2026-05-07 23:39:38,272 - INFO - yearly_trends: created trends with shape=(1, 8)
+2026-05-07 23:39:38,308 - INFO - top_n_per_group: group=primary_category sort=estimated_value n=1 -> 19 rows
+2026-05-07 23:39:38,311 - INFO - Generated 6 analytical insights
+2026-05-07 23:39:38,521 - INFO - Saved top categories chart to c:\Users\38760\Desktop\Unstructured_Data\News_Media_Monitoring_Pipeline_UD\data\processed\analytics\lab10\top_categories_estimated_value.png
+2026-05-07 23:39:38,782 - INFO - Saved document type chart to c:\Users\38760\Desktop\Unstructured_Data\News_Media_Monitoring_Pipeline_UD\data\processed\analytics\lab10\document_type_counts.png
+2026-05-07 23:39:38,787 - INFO - add_primary_category: created/standardized primary_category
+2026-05-07 23:39:38,789 - INFO - add_analysis_year: created analysis_year with 10 non-null values
+2026-05-07 23:39:38,794 - INFO - Prepared insight dataset with shape=(1318, 28)
+2026-05-07 23:39:38,996 - INFO - Saved rating vs estimated value scatter to c:\Users\38760\Desktop\Unstructured_Data\News_Media_Monitoring_Pipeline_UD\data\processed\analytics\lab10\rating_vs_estimated_value.png
+2026-05-07 23:39:39,000 - INFO - add_primary_category: created/standardized primary_category
+2026-05-07 23:39:39,001 - INFO - add_analysis_year: created analysis_year with 10 non-null values
+2026-05-07 23:39:39,007 - INFO - Prepared insight dataset with shape=(1318, 28)
+2026-05-07 23:39:39,183 - INFO - Saved top articles chart to c:\Users\38760\Desktop\Unstructured_Data\News_Media_Monitoring_Pipeline_UD\data\processed\analytics\lab10\top_articles_estimated_value.png
+2026-05-07 23:39:39,183 - INFO - Saved all insight outputs to c:\Users\38760\Desktop\Unstructured_Data\News_Media_Monitoring_Pipeline_UD\data\processed\analytics\lab10
+2026-05-07 23:39:51,082 - INFO - === Lab 10 Advanced Analysis Stage Started ===
+2026-05-07 23:39:51,084 - INFO - Lab 10 Part 1: MySQL setup started
+2026-05-07 23:39:51,105 - INFO - Setting up MySQL from cleaned CSV: data\processed\cleaned\cleaned_data.csv
+2026-05-07 23:39:51,106 - INFO - Opening MySQL connection host=localhost port=3306 database=None
+2026-05-07 23:39:51,112 - INFO - Database ensured: news_analytics
+2026-05-07 23:39:51,138 - INFO - Opening MySQL connection host=localhost port=3306 database=news_analytics
+2026-05-07 23:39:51,166 - INFO - Dropped old MySQL table if it existed: news_article_metrics
+2026-05-07 23:39:51,193 - INFO - MySQL table ensured: news_article_metrics
+2026-05-07 23:39:51,194 - INFO - Preparing article metrics for MySQL insertion
+2026-05-07 23:39:51,205 - INFO - Prepared 1318 article metric rows for MySQL
+2026-05-07 23:39:51,209 - INFO - MySQL table ensured: news_article_metrics
+2026-05-07 23:39:51,211 - INFO - Cleared existing rows from news_article_metrics
+2026-05-07 23:39:51,347 - INFO - Inserted/updated 1318 rows into news_article_metrics
+2026-05-07 23:39:51,347 - INFO - Inserted 1318 cleaned rows into MySQL
+2026-05-07 23:39:51,369 - INFO - Queried 1318 rows from news_article_metrics
+2026-05-07 23:39:51,369 - INFO - MySQL connection closed
+2026-05-07 23:39:51,382 - INFO - Lab 10 MySQL metrics shape: rows=1318 columns=13
+2026-05-07 23:39:51,383 - INFO - Lab 10 Part 1: MySQL setup complete
+2026-05-07 23:39:51,383 - INFO - Lab 10 Part 2: Combining data sources started
+2026-05-07 23:39:51,385 - INFO - Prepared metadata DataFrame with shape=(1318, 13)
+2026-05-07 23:39:51,386 - INFO - Merging MySQL (1318 rows) and metadata/MongoDB (1318 rows) on "record_id" with how="left"
+2026-05-07 23:39:51,391 - INFO - Merged result: 1318 rows, 25 columns
+2026-05-07 23:39:51,392 - INFO - Merging MySQL (1318 rows) and metadata/MongoDB (1318 rows) on "record_id" with how="inner"
+2026-05-07 23:39:51,396 - INFO - Merged result: 1318 rows, 25 columns
+2026-05-07 23:39:51,396 - INFO - Merging MySQL (1318 rows) and metadata/MongoDB (1318 rows) on "record_id" with how="left"
+2026-05-07 23:39:51,401 - INFO - Merged result: 1318 rows, 25 columns
+2026-05-07 23:39:51,401 - INFO - Merging MySQL (1318 rows) and metadata/MongoDB (1318 rows) on "record_id" with how="right"
+2026-05-07 23:39:51,405 - INFO - Merged result: 1318 rows, 25 columns
+2026-05-07 23:39:51,406 - INFO - Merging MySQL (1318 rows) and metadata/MongoDB (1318 rows) on "record_id" with how="outer"
+2026-05-07 23:39:51,411 - INFO - Merged result: 1318 rows, 25 columns
+2026-05-07 23:39:51,411 - INFO - Join type comparison complete
+2026-05-07 23:39:51,540 - INFO - Saved join count chart to data\processed\analytics\lab10\join_type_row_counts.png
+2026-05-07 23:39:51,570 - INFO - Saved combined DataFrame to data\processed\analytics\lab10\combined_news_metrics.csv
+2026-05-07 23:39:51,570 - INFO - Saved join counts to data\processed\analytics\lab10\join_type_row_counts.csv
+2026-05-07 23:39:51,570 - INFO - Lab 10 combined dataset shape: rows=1318 columns=25
+2026-05-07 23:39:51,570 - INFO - Lab 10 Part 2: Combining data sources complete
+2026-05-07 23:39:51,570 - INFO - Lab 10 Part 3: Reshaping and pivot tables started
+2026-05-07 23:39:51,573 - INFO - add_primary_category: created/standardized primary_category
+2026-05-07 23:39:51,574 - INFO - add_analysis_year: created analysis_year with 10 non-null values
+2026-05-07 23:39:51,579 - INFO - Wide->Long: 1318 rows x 26 cols -> 6590 rows x 6 cols
+2026-05-07 23:39:51,579 - INFO - wide_to_long_metrics: used id_vars=['record_id', 'primary_category', 'analysis_year', 'document_type_mysql'] value_vars=['popularity', 'engagement_score', 'estimated_value', 'rating_score', 'content_length']
+2026-05-07 23:39:51,588 - INFO - long_to_wide_metrics: converted long shape (6590, 6) to wide shape (10, 8)
+2026-05-07 23:39:51,613 - INFO - Pivot table shape: (2, 6)
+2026-05-07 23:39:51,613 - INFO - build_category_year_pivot: created pivot with shape=(2, 6)
+2026-05-07 23:39:51,643 - INFO - Crosstab shape: (2, 3)
+2026-05-07 23:39:51,643 - INFO - build_language_decade_crosstab: created crosstab with shape=(2, 3)
+2026-05-07 23:39:51,694 - INFO - Saved long metrics to data\processed\analytics\lab10\news_metrics_long.csv
+2026-05-07 23:39:51,694 - INFO - Saved category/year pivot to data\processed\analytics\lab10\pivot_category_year.csv
+2026-05-07 23:39:51,694 - INFO - Saved language/decade crosstab to data\processed\analytics\lab10\language_decade_crosstab.csv
+2026-05-07 23:39:51,694 - INFO - Lab 10 reshaping complete: long=(6590, 6) wide=(10, 8) pivot=(2, 6)
+2026-05-07 23:39:51,694 - INFO - Lab 10 Part 3: Reshaping and pivot tables complete
+2026-05-07 23:39:51,694 - INFO - Lab 10 Part 4: GroupBy analysis started
+2026-05-07 23:39:51,707 - INFO - category_summary: created summary with shape=(19, 13)
+2026-05-07 23:39:51,721 - INFO - document_type_summary: created summary with shape=(15, 8)
+2026-05-07 23:39:51,737 - INFO - yearly_trends: created trends with shape=(1, 8)
+2026-05-07 23:39:51,782 - INFO - top_n_per_group: group=primary_category sort=estimated_value n=3 -> 52 rows
+2026-05-07 23:39:51,788 - INFO - add_group_average_columns: added transformed group averages
+2026-05-07 23:39:51,792 - INFO - filter_large_categories: kept 1308/1318 rows using min_count=5
+2026-05-07 23:39:52,040 - INFO - Saved yearly trends chart to data\processed\analytics\lab10\yearly_trends.png
+2026-05-07 23:39:52,079 - INFO - Saved aggregation outputs to data\processed\analytics\lab10
+2026-05-07 23:39:52,079 - INFO - Lab 10 Part 4: GroupBy analysis complete
+2026-05-07 23:39:52,079 - INFO - Lab 10 Part 5: Time series analysis started
+2026-05-07 23:39:52,081 - INFO - parse_news_dates: parsed published_date_mysql into analysis_date; valid=10 missing=1308
+2026-05-07 23:39:52,090 - INFO - add_date_components: added components from analysis_date with 10 valid dates
+2026-05-07 23:39:52,102 - INFO - build_monthly_time_series: created monthly table with shape=(1, 5)
+2026-05-07 23:39:52,116 - INFO - resample_yearly: created yearly table with shape=(1, 4)
+2026-05-07 23:39:52,132 - INFO - resample_quarterly: created quarterly table with shape=(1, 4)
+2026-05-07 23:39:52,135 - INFO - add_rolling_averages: added rolling windows=(3, 6, 12) using total_estimated_value
+2026-05-07 23:39:52,428 - INFO - Saved time series chart to data\processed\analytics\lab10\rolling_estimated_value.png
+2026-05-07 23:39:52,452 - INFO - Saved monthly time series to data\processed\analytics\lab10\monthly_time_series.csv
+2026-05-07 23:39:52,452 - INFO - Saved yearly time series to data\processed\analytics\lab10\yearly_time_series.csv
+2026-05-07 23:39:52,452 - INFO - Saved quarterly time series to data\processed\analytics\lab10\quarterly_time_series.csv
+2026-05-07 23:39:52,452 - INFO - Lab 10 Part 5: Time series analysis complete
+2026-05-07 23:39:52,452 - INFO - Lab 10 Part 6: MongoDB aggregation started
+2026-05-07 23:39:52,452 - INFO - Opening MongoDB client: mongodb://localhost:27017/
+2026-05-07 23:39:52,456 - INFO - Using MongoDB collection: news_pipeline.raw_articles
+2026-05-07 23:39:52,488 - INFO - Mongo aggregation returned 14 rows from news_pipeline.raw_articles
+2026-05-07 23:39:52,489 - INFO - MongoDB client closed
+2026-05-07 23:39:52,490 - INFO - Opening MongoDB client: mongodb://localhost:27017/
+2026-05-07 23:39:52,495 - INFO - Using MongoDB collection: news_pipeline.raw_articles
+2026-05-07 23:39:52,510 - INFO - Mongo aggregation returned 13 rows from news_pipeline.raw_articles
+2026-05-07 23:39:52,512 - INFO - MongoDB client closed
+2026-05-07 23:39:52,512 - INFO - Opening MongoDB client: mongodb://localhost:27017/
+2026-05-07 23:39:52,515 - INFO - Using MongoDB collection: news_pipeline.raw_articles
+2026-05-07 23:39:52,529 - INFO - Mongo aggregation returned 22 rows from news_pipeline.raw_articles
+2026-05-07 23:39:52,530 - INFO - MongoDB client closed
+2026-05-07 23:39:52,548 - INFO - Saved Mongo category aggregation to data\processed\analytics\lab10\mongo_category_aggregation.csv
+2026-05-07 23:39:52,548 - INFO - Saved Mongo document type aggregation to data\processed\analytics\lab10\mongo_document_type_aggregation.csv
+2026-05-07 23:39:52,548 - INFO - Saved Mongo source aggregation to data\processed\analytics\lab10\mongo_source_aggregation.csv
+2026-05-07 23:39:52,548 - INFO - Lab 10 MongoDB aggregations complete: category=(14, 6) document=(13, 3) source=(22, 2)
+2026-05-07 23:39:52,548 - INFO - Lab 10 Part 6: MongoDB aggregation complete
+2026-05-07 23:39:52,548 - INFO - Lab 10 Part 7: Analytical insight reporting started
+2026-05-07 23:39:52,551 - INFO - add_primary_category: created/standardized primary_category
+2026-05-07 23:39:52,552 - INFO - add_analysis_year: created analysis_year with 10 non-null values
+2026-05-07 23:39:52,555 - INFO - Prepared insight dataset with shape=(1318, 28)
+2026-05-07 23:39:52,565 - INFO - category_summary: created summary with shape=(19, 13)
+2026-05-07 23:39:52,574 - INFO - document_type_summary: created summary with shape=(15, 8)
+2026-05-07 23:39:52,585 - INFO - yearly_trends: created trends with shape=(1, 8)
+2026-05-07 23:39:52,619 - INFO - top_n_per_group: group=primary_category sort=estimated_value n=1 -> 19 rows
+2026-05-07 23:39:52,622 - INFO - Generated 6 analytical insights
+2026-05-07 23:39:52,630 - INFO - add_primary_category: created/standardized primary_category
+2026-05-07 23:39:52,631 - INFO - add_analysis_year: created analysis_year with 10 non-null values
+2026-05-07 23:39:52,635 - INFO - Prepared insight dataset with shape=(1318, 28)
+2026-05-07 23:39:52,643 - INFO - category_summary: created summary with shape=(19, 13)
+2026-05-07 23:39:52,653 - INFO - document_type_summary: created summary with shape=(15, 8)
+2026-05-07 23:39:52,663 - INFO - yearly_trends: created trends with shape=(1, 8)
+2026-05-07 23:39:52,667 - INFO - add_primary_category: created/standardized primary_category
+2026-05-07 23:39:52,668 - INFO - add_analysis_year: created analysis_year with 10 non-null values
+2026-05-07 23:39:52,671 - INFO - Prepared insight dataset with shape=(1318, 28)
+2026-05-07 23:39:52,681 - INFO - category_summary: created summary with shape=(19, 13)
+2026-05-07 23:39:52,691 - INFO - document_type_summary: created summary with shape=(15, 8)
+2026-05-07 23:39:52,701 - INFO - yearly_trends: created trends with shape=(1, 8)
+2026-05-07 23:39:52,734 - INFO - top_n_per_group: group=primary_category sort=estimated_value n=1 -> 19 rows
+2026-05-07 23:39:52,736 - INFO - Generated 6 analytical insights
+2026-05-07 23:39:52,932 - INFO - Saved top categories chart to data\processed\analytics\lab10\top_categories_estimated_value.png
+2026-05-07 23:39:53,160 - INFO - Saved document type chart to data\processed\analytics\lab10\document_type_counts.png
+2026-05-07 23:39:53,163 - INFO - add_primary_category: created/standardized primary_category
+2026-05-07 23:39:53,164 - INFO - add_analysis_year: created analysis_year with 10 non-null values
+2026-05-07 23:39:53,168 - INFO - Prepared insight dataset with shape=(1318, 28)
+2026-05-07 23:39:53,332 - INFO - Saved rating vs estimated value scatter to data\processed\analytics\lab10\rating_vs_estimated_value.png
+2026-05-07 23:39:53,336 - INFO - add_primary_category: created/standardized primary_category
+2026-05-07 23:39:53,337 - INFO - add_analysis_year: created analysis_year with 10 non-null values
+2026-05-07 23:39:53,341 - INFO - Prepared insight dataset with shape=(1318, 28)
+2026-05-07 23:39:53,477 - INFO - Saved top articles chart to data\processed\analytics\lab10\top_articles_estimated_value.png
+2026-05-07 23:39:53,477 - INFO - Saved all insight outputs to data\processed\analytics\lab10
+2026-05-07 23:39:53,477 - INFO - Lab 10 generated 6 analytical insights
+2026-05-07 23:39:53,478 - INFO - Lab 10 Part 7: Analytical insight reporting complete
+2026-05-07 23:39:53,478 - INFO - === Lab 10 Advanced Analysis Stage Complete ===
+2026-05-17 19:02:11,986 - INFO - === Lab 11 Embeddings and Vector Search Stage Started ===
+2026-05-17 19:02:12,011 - INFO - Lab 11 loaded cleaned dataset: rows=1318 columns=35
+2026-05-17 19:02:12,011 - INFO - Opening persistent ChromaDB client at data\embeddings\chroma_db
+2026-05-17 19:02:13,137 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-05-17 19:02:13,139 - WARNING - Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-05-17 19:02:13,239 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json "HTTP/1.1 200 OK"
+2026-05-17 19:02:13,443 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-05-17 19:02:13,663 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-05-17 19:02:13,666 - INFO - Loading SentenceTransformer model from sentence-transformers/all-MiniLM-L6-v2.
+2026-05-17 19:02:13,854 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-05-17 19:02:13,957 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-05-17 19:02:14,159 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-05-17 19:02:14,263 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/README.md "HTTP/1.1 200 OK"
+2026-05-17 19:02:14,474 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-05-17 19:02:14,570 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json "HTTP/1.1 200 OK"
+2026-05-17 19:02:14,775 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-05-17 19:02:14,878 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/sentence_bert_config.json "HTTP/1.1 200 OK"
+2026-05-17 19:02:15,082 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-05-17 19:02:15,283 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-05-17 19:02:15,391 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json "HTTP/1.1 200 OK"
+2026-05-17 19:02:15,795 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+2026-05-17 19:02:16,003 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-05-17 19:02:16,305 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/video_preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-05-17 19:02:16,516 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-05-17 19:02:16,720 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-05-17 19:02:16,824 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-05-17 19:02:17,031 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-05-17 19:02:17,130 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json "HTTP/1.1 200 OK"
+2026-05-17 19:02:17,434 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-05-17 19:02:17,542 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json "HTTP/1.1 200 OK"
+2026-05-17 19:02:17,779 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-05-17 19:02:17,846 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-05-17 19:02:18,051 - INFO - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-05-17 19:02:18,251 - INFO - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-05-17 19:02:18,473 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-05-17 19:02:18,562 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+2026-05-17 19:02:18,764 - INFO - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+2026-05-17 19:02:18,776 - INFO - Loaded ChromaDB collection 'data'
+2026-05-17 19:02:18,895 - INFO - Collection already has 1318 records
+2026-05-17 19:02:18,938 - INFO - add_news_to_collection complete: added=0 skipped=1318 total=1318
+2026-05-17 19:02:18,938 - INFO - Lab 11 ChromaDB population complete: collection_count=1318
+2026-05-17 19:02:19,000 - INFO - Querying ChromaDB: query='artificial intelligence technology market' n_results=10 where=None
+2026-05-17 19:02:19,286 - INFO - Querying ChromaDB: query='artificial intelligence technology market' n_results=30 where=None
+2026-05-17 19:02:19,322 - INFO - reciprocal_rank_fusion complete: keyword=30 semantic=30 combined=55
+2026-05-17 19:02:19,423 - INFO - Querying ChromaDB: query='AI market' n_results=10 where=None
+2026-05-17 19:02:19,450 - INFO - Querying ChromaDB: query='artificial intelligence business' n_results=10 where=None
+2026-05-17 19:02:19,540 - INFO - Lab 11 sample keyword, semantic, hybrid, and synonym outputs saved
+2026-05-17 19:02:19,540 - INFO - === Lab 11 Embeddings and Vector Search Stage Complete ===
