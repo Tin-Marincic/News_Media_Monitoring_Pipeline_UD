@@ -172,7 +172,7 @@ from src.embeddings.search_engine import (
 from src.embeddings.hybrid_search import (
     hybrid_search,
 )
-
+from src.visualization.chart_generator import generate_visualizations
 
 def save_standard_transcript_outputs(result: dict, base_output_path: str) -> tuple[str, str, str]:
     """
@@ -1211,6 +1211,51 @@ def run_lab11_embeddings_stage(reset_collection: bool = False):
         "synonym_overlap_shape": synonym_overlap.shape,
     }
 
+def run_visualizations_pipeline():
+    """
+    Run Lab 12 visualization pipeline.
+
+    This stage:
+    - loads the Lab 9 cleaned news dataset
+    - generates 8 static charts as PNG + PDF
+    - generates 5 interactive Plotly HTML charts
+    - saves outputs under outputs/visualizations/
+    """
+    logging.info("=== Lab 12 Visualization Pipeline Started ===")
+
+    cleaned_csv_path = Path("data/processed/cleaned/cleaned_data.csv")
+
+    if not cleaned_csv_path.exists():
+        logging.warning(
+            "Lab 12 cleaned input not found at %s. Running Lab 9 cleaning first.",
+            cleaned_csv_path,
+        )
+        run_lab9_cleaning_stage()
+
+    if not cleaned_csv_path.exists():
+        raise FileNotFoundError(
+            f"Lab 12 input does not exist: {cleaned_csv_path}"
+        )
+
+    result = generate_visualizations(
+        data_path=cleaned_csv_path,
+        static_dir="outputs/visualizations/static",
+        interactive_dir="outputs/visualizations/interactive",
+    )
+
+    logging.info(
+        "Lab 12 visualization pipeline complete: dataset_shape=%s, "
+        "static_charts=%s, static_files=%s, interactive_charts=%s",
+        result["dataset_shape"],
+        result["static_chart_count"],
+        result["static_file_count"],
+        result["interactive_chart_count"],
+    )
+
+    logging.info("=== Lab 12 Visualization Pipeline Complete ===")
+
+    return result
+
 def run_pipeline():
     try:
         logging.info("Pipeline started")
@@ -1471,8 +1516,9 @@ def run_pipeline():
 
         run_lab11_embeddings_stage()
 
-        logging.info("Pipeline finished successfully")
+        run_visualizations_pipeline()
 
+        logging.info("Pipeline finished successfully")
     except Exception as e:
         logging.error(f"Pipeline failed: {e}")
 
