@@ -1256,6 +1256,46 @@ def run_visualizations_pipeline():
 
     return result
 
+def run_lab13_dashboard_stage():
+    logging.info("=== Lab 13 Dashboard Stage Ready ===")
+
+    message = """
+Lab 13 dashboard is ready.
+
+Local run:
+  python scripts/seed_mongo.py
+  python app.py
+  Open http://127.0.0.1:8050
+
+Docker run:
+  docker compose up -d
+  python scripts/seed_mongo.py
+  Open http://localhost:8050
+
+Docker verification:
+  docker compose ps
+  docker compose logs web --tail 50
+  docker exec news-dashboard-mongo mongosh news_dashboard --quiet --eval "db.news_records.countDocuments()"
+  docker exec news-dashboard-app python -c "from src.dashboard.data_access import load_dashboard_data; df=load_dashboard_data(); print(df.shape)"
+
+Stop Docker:
+  docker compose down
+"""
+
+    print(message)
+    logging.info(message)
+
+    return {
+        "app_entrypoint": "app.py",
+        "local_url": "http://127.0.0.1:8050",
+        "docker_url": "http://localhost:8050",
+        "seed_command": "python scripts/seed_mongo.py",
+        "docker_start_command": "docker compose up -d",
+        "docker_stop_command": "docker compose down",
+        "mongo_database": "news_dashboard",
+        "mongo_collection": "news_records",
+    }
+
 def run_pipeline():
     try:
         logging.info("Pipeline started")
@@ -1517,6 +1557,8 @@ def run_pipeline():
         run_lab11_embeddings_stage()
 
         run_visualizations_pipeline()
+
+        run_lab13_dashboard_stage()
 
         logging.info("Pipeline finished successfully")
     except Exception as e:

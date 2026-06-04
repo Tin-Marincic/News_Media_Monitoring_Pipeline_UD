@@ -1,0 +1,40 @@
+
+
+services:
+  web:
+    build: .
+    container_name: news-dashboard-app
+    ports:
+      - "8050:8050"
+    environment:
+      MONGO_URI: mongodb://db:27017
+      MONGO_DB_NAME: news_dashboard
+      MONGO_DB: news_dashboard
+      MONGO_COLLECTION_NAME: news_records
+      DASH_DEBUG: "false"
+      PORT: "8050"
+    depends_on:
+      db:
+        condition: service_healthy
+    restart: unless-stopped
+    volumes:
+      - ./data:/app/data:ro
+
+  db:
+    image: mongo:7
+    container_name: news-dashboard-mongo
+    ports:
+      - "27017:27017"
+    environment:
+      MONGO_INITDB_DATABASE: news_dashboard
+    volumes:
+      - news-mongo-data:/data/db
+    healthcheck:
+      test: ["CMD", "mongosh", "--eval", "db.adminCommand('ping')"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    restart: unless-stopped
+
+volumes:
+  news-mongo-data:
