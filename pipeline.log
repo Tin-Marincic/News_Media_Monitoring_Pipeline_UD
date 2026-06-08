@@ -3842,3 +3842,26 @@
 2026-05-21 02:22:04,656 - INFO - === Lab 12 Visualization Generation Complete ===
 2026-05-21 02:22:04,656 - INFO - Lab 12 visualization pipeline complete: dataset_shape=(1318, 35), static_charts=8, static_files=16, interactive_charts=5
 2026-05-21 02:22:04,657 - INFO - === Lab 12 Visualization Pipeline Complete ===
+2026-06-04 19:32:57,334 - INFO - === Lab 13 Dashboard Stage Ready ===
+2026-06-04 19:32:57,336 - INFO - 
+Lab 13 dashboard is ready.
+
+Local run:
+  python scripts/seed_mongo.py
+  python app.py
+  Open http://127.0.0.1:8050
+
+Docker run:
+  docker compose up -d
+  python scripts/seed_mongo.py
+  Open http://localhost:8050
+
+Docker verification:
+  docker compose ps
+  docker compose logs web --tail 50
+  docker exec news-dashboard-mongo mongosh news_dashboard --quiet --eval "db.news_records.countDocuments()"
+  docker exec news-dashboard-app python -c "from src.dashboard.data_access import load_dashboard_data; df=load_dashboard_data(); print(df.shape)"
+
+Stop Docker:
+  docker compose down
+
